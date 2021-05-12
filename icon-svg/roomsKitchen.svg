@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>roomsKitchen</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#101010">
+            <path d="M23.5,7 C24.328,7 25,7.672 25,8.5 C25,9.328 24.328,10 23.5,10 L8.5,10 C7.672,10 7,9.328 7,8.5 C7,7.672 7.672,7 8.5,7 L14.277,7 C14.105,6.705 14,6.366 14,6 C14,4.896 14.896,4 16,4 C17.104,4 18,4.896 18,6 C18,6.366 17.895,6.705 17.723,7 L23.5,7 Z M26,12 C27.104,12 28,12.896 28,14 C28,15.104 27.104,16 26,16 L25,16 L25,25.879 C25,27.051 24.05,28 22.879,28 L9.121,28 C7.95,28 7,27.051 7,25.879 L7,16 L6,16 C4.896,16 4,15.104 4,14 C4,12.896 4.896,12 6,12 L9.121,12 L22.879,12 L26,12 Z"></path>
+        </g>
+    </g>
+</svg>

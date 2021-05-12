@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>roomsGym</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#101010">
+            <path d="M23,9 C23.55,9 24,9.45 24,10 L24,22 C24,22.55 23.55,23 23,23 L19,23 C18.45,23 18,22.55 18,22 L18,19 L14,19 L14,22 C14,22.55 13.55,23 13,23 L9,23 C8.45,23 8,22.55 8,22 L8,10 C8,9.45 8.45,9 9,9 L13,9 C13.55,9 14,9.45 14,10 L14,13 L18,13 L18,10 C18,9.45 18.45,9 19,9 L23,9 Z M4,12 C4,11.447 4.447,11 5,11 L6,11 L6,21 L5,21 C4.447,21 4,20.553 4,20 L4,18 C2.896,18 2,17.104 2,16 C2,14.896 2.896,14 4,14 L4,12 Z M28,14 C29.104,14 30,14.896 30,16 C30,17.104 29.104,18 28,18 L28,20 C28,20.553 27.553,21 27,21 L26,21 L26,11 L27,11 C27.553,11 28,11.447 28,12 L28,14 Z"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>roomsFrontdoor</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#101010">
+            <path d="M21,20 C21,20.553 20.553,21 20,21 L12,21 C11.447,21 11,20.553 11,20 C11,19.447 11.447,19 12,19 L20,19 C20.553,19 21,19.447 21,20 Z M11,6 C11,5.447 11.447,5 12,5 L14,5 C14.553,5 15,5.447 15,6 L15,12 C15,12.553 14.553,13 14,13 L12,13 C11.447,13 11,12.553 11,12 L11,6 Z M10,17 C9.447,17 9,16.553 9,16 C9,15.447 9.447,15 10,15 C10.553,15 11,15.447 11,16 C11,16.553 10.553,17 10,17 Z M17,6 C17,5.447 17.447,5 18,5 L20,5 C20.553,5 21,5.447 21,6 L21,12 C21,12.553 20.553,13 20,13 L18,13 C17.447,13 17,12.553 17,12 L17,6 Z M24,1 L8,1 C7.447,1 7,1.447 7,2 L7,30 C7,30.553 7.447,31 8,31 L24,31 C24.553,31 25,30.553 25,30 L25,2 C25,1.447 24.553,1 24,1 Z"></path>
+        </g>
+    </g>
+</svg>

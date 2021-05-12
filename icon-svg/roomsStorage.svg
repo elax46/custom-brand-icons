@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>roomsStorage</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#101010">
+            <path d="M5,26 L5,11 L27,11 L27,26 C27,26.553 26.553,27 26,27 L6,27 C5.447,27 5,26.553 5,26 Z M12,15 C11.447,15 11,15.447 11,16 C11,16.553 11.447,17 12,17 L20,17 C20.553,17 21,16.553 21,16 C21,15.447 20.553,15 20,15 L12,15 Z M26,5 C26.553,5 27,5.447 27,6 L27,9 L5,9 L5,6 C5,5.447 5.447,5 6,5 L26,5 Z"></path>
+        </g>
+    </g>
+</svg>

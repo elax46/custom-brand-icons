@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>devicesPlug</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#101010">
+            <path d="M25,9 L21,9 L21,5 C21,4.447 20.553,4 20,4 C19.447,4 19,4.447 19,5 L19,9 L13,9 L13,5 C13,4.447 12.553,4 12,4 C11.447,4 11,4.447 11,5 L11,9 L7,9 C6.447,9 6,9.447 6,10 C6,10.553 6.447,11 7,11 L8,11 L8,15 C8,18.727 10.552,21.849 14,22.738 L14,26 C14,27.104 14.896,28 16,28 C17.104,28 18,27.104 18,26 L18,22.738 C21.448,21.849 24,18.727 24,15 L24,11 L25,11 C25.553,11 26,10.553 26,10 C26,9.447 25.553,9 25,9"></path>
+        </g>
+    </g>
+</svg>
