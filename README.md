@@ -6,7 +6,7 @@ Custom brand icons for Home Assistant
 
 ![2FA](https://res.cloudinary.com/dcongin7u/image/upload/v1620853194/example_pwvozi.jpg)
 
-# Brands
+# BrandsRecessedFloor
 At the moment I have integrated only the main icons of Philips Hue products!
  
 ## Philips Hue
@@ -25,7 +25,6 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/FloorSpot.svg) | FloorSpot |
 | ![Preview](./icon-svg/PendantLong.svg) | PendantLong |
 | ![Preview](./icon-svg/PendantRound.svg) | PendantRound |
-| ![Preview](./icon-svg/RecessedFloor.svg) | RecessedFloor |
 | ![Preview](./icon-svg/SingleSpot.svg) | SingleSpot|
 | ![Preview](./icon-svg/TableShade.svg) | TableShade | 
 | ![Preview](./icon-svg/WallLantern.svg) | WallLantern |
