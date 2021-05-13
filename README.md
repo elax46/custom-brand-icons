@@ -82,9 +82,6 @@ These are the official icons from the [philips developer channel](https://develo
 
 # Install
 
-### HACS
-You can add this repository via [HACS install guide](./HACS_INSTALL.md).
-
 ### Manual
 Copy the `custom-brand-icons.js` file into `<config>/www/` the directory where your `configuration.yaml` resides.
 
