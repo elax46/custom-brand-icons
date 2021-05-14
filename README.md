@@ -1,14 +1,16 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs) [![hacs_badge](https://img.shields.io/badge/Buy-Me%20a%20Coffee-critical)](https://www.buymeacoffee.com/elax46)
 
+
 # Custom brand icons
 
 Custom brand icons for Home Assistant
 
 ![2FA](https://res.cloudinary.com/dcongin7u/image/upload/v1620853194/example_pwvozi.jpg)
 
-# BrandsRecessedFloor
+
 At the moment I have integrated only the main icons of Philips Hue products!
- 
+
+ ---
 ## Philips Hue
 
 These are the official icons from the [philips developer channel](https://developers.meethue.com/develop/application-design-guidance/icon-pack/)
@@ -81,10 +83,17 @@ These are the official icons from the [philips developer channel](https://develo
 
 # Install
 
-### Manual
-Copy the `custom-brand-icons.js` file into `<config>/www/` the directory where your `configuration.yaml` resides.
+### HACS
 
-Add the folowing to the `frontend` section of your `configuration.yaml`
+We recommend installing Custom brand icons card via [Home Assistant Community Store](https://hacs.xyz)
+
+###  Manual Installation
+
+To add custom repositories please follow [this guide](https://hacs.xyz/docs/faq/custom_repositories/). Set URL to `https://github.com/elax46/custom-brand-icons` and category to `Lovelace`.
+1. Download `custom-brand-icons.js` file from the [latest release](https://github.com/elax46/custom-brand-icons/releases/latest).
+2. Copy the `custom-brand-icons.js` file into `<config>/www/` the directory where your `configuration.yaml` resides.
+
+3. Add the folowing to the `frontend` section of your `configuration.yaml`
 
 ```yaml
 frontend:
