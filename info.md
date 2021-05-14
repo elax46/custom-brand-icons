@@ -43,14 +43,4 @@ title: Custom brand icons
 type: entities
 ```
 
-### Make icons available in all home assistant (Optional)
-
-The icons will only be added to the Lovelace user interface. If you want them to be available in all Home Assistant add this code to the `frontend` section of your` configuration.yaml`
-
-```yaml
-frontend:
-  extra_module_url:
-    - /hacsfiles/custom-brand-icons/custom-brand-icons.js
-```
-
 A system restart is required after this step
