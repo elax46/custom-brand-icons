@@ -1,4 +1,6 @@
+[![GitHub Release][releases-shield]][releases]
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs) [![hacs_badge](https://img.shields.io/badge/Buy-Me%20a%20Coffee-critical)](https://www.buymeacoffee.com/elax46)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=377L3FU33TLSL)
 
 
 # Custom brand icons
@@ -83,11 +85,26 @@ These are the official icons from the [philips developer channel](https://develo
 
 # Install
 
-### HACS
+## HACS
 
 We recommend installing Custom brand icons card via [Home Assistant Community Store](https://hacs.xyz)
+ 
+ 1. Add the folowing to the `frontend` section of your `configuration.yaml`
 
-###  Manual Installation
+  ```yaml
+frontend:
+  extra_module_url:
+    - /local/community/custom-brand-icons/custom-brand-icons.js.js
+```
+2. (optional) Or add the following to your lovelace configuration using the Raw Config editor under Configure UI or ui-lovelace.yaml if using YAML mode.
+
+```yaml
+resources:
+  - type: js
+    url:  /local/community/custom-brand-icons/custom-brand-icons.js.js
+```
+
+ ##  Manual Installation
 
 To add custom repositories please follow [this guide](https://hacs.xyz/docs/faq/custom_repositories/). Set URL to `https://github.com/elax46/custom-brand-icons` and category to `Lovelace`.
 1. Download `custom-brand-icons.js` file from the [latest release](https://github.com/elax46/custom-brand-icons/releases/latest).
