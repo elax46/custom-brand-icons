@@ -93,14 +93,14 @@ We recommend installing Custom brand icons card via [Home Assistant Community St
   ```yaml
 frontend:
   extra_module_url:
-    - /local/community/custom-brand-icons/custom-brand-icons.js.js
+    - /local/community/custom-brand-icons/custom-brand-icons.js
 ```
 2. (optional) Or add the following to your lovelace configuration using the Raw Config editor under Configure UI or ui-lovelace.yaml if using YAML mode.
 
 ```yaml
 resources:
   - type: js
-    url:  /local/community/custom-brand-icons/custom-brand-icons.js.js
+    url:  /local/community/custom-brand-icons/custom-brand-icons.js
 ```
 
  ##  Manual Installation
