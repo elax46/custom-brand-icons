@@ -54,6 +54,7 @@ These are the official icons from the [philips developer channel](https://develo
 |  ![Preview](./icon-svg/play.svg) |  play| 
 |  ![Preview](./icon-svg/Iris.svg) |  Iris | 
 |  ![Preview](./icon-svg/Lightstrip.svg) |  Lightstrip | 
+| ![Preview](./icon-svg/RecessedFloor.svg) | RecessedFloor |
 |  ![Preview](./icon-svg/roomsAttic.svg) |  roomsAttic | 
 |  ![Preview](./icon-svg/roomsBalcony.svg) |  roomsBalcony | 
 |  ![Preview](./icon-svg/roomsBathroom.svg) |  roomsBathroom | 
@@ -78,6 +79,7 @@ These are the official icons from the [philips developer channel](https://develo
 |![Preview](./icon-svg/roomsRecreation.svg) | roomsRecreation |
 | ![Preview](./icon-svg/roomsStaircase.svg)| roomsStaircase| 
 | ![Preview](./icon-svg/roomsStorage.svg) | roomsStorage |
+| ![Preview](./icon-svg/roomsOutdoor.svg) | roomsOutdoor |
 | ![Preview](./icon-svg/roomsStudio.svg) | roomsStudio |
 | ![Preview](./icon-svg/roomsTerrace.svg) | roomsTerrace |
 | ![Preview](./icon-svg/roomsToilet.svg) | roomsToilet |
