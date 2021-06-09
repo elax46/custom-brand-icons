@@ -18,72 +18,84 @@ These are the official icons from the [philips developer channel](https://develo
 
 | Icon | Name |
 |------|:--------------:|
-| ![Preview](./icon-svg/Bollard.svg) | Bollard |
-| ![Preview](./icon-svg/CeilingRound.svg) | CeilingRound |
-| ![Preview](./icon-svg/CeilingSquare.svg) | CeilingSquare |
-| ![Preview](./icon-svg/DeskLamp.svg) | DeskLamp |
-| ![Preview](./icon-svg/DoubleSpot.svg) | DoubleSpot |
-| ![Preview](./icon-svg/FloorLantern.svg) | FloorLantern |
-| ![Preview](./icon-svg/FloorShade.svg) | FloorShade |
-| ![Preview](./icon-svg/FloorSpot.svg) | FloorSpot |
-| ![Preview](./icon-svg/PendantLong.svg) | PendantLong |
-| ![Preview](./icon-svg/PendantRound.svg) | PendantRound |
-| ![Preview](./icon-svg/SingleSpot.svg) | SingleSpot|
-| ![Preview](./icon-svg/TableShade.svg) | TableShade | 
-| ![Preview](./icon-svg/WallLantern.svg) | WallLantern |
-| ![Preview](./icon-svg/WallShade.svg) | WallShade |
-| ![Preview](./icon-svg/WallSpot.svg) | WallSpot |
-| ![Preview](./icon-svg/bulbCandle.svg) | bulbCandle |
-| ![Preview](./icon-svg/bulbFlood.svg) | bulbFlood |
-| ![Preview](./icon-svg/bulbFoh.svg) | bulbFoh |
-| ![Preview](./icon-svg/bulbGeneralGroup.svg) | bulbGeneralGroup |
-| ![Preview](./icon-svg/bulbGroup.svg) | bulbGroup |
-| ![Preview](./icon-svg/bulbsClassic.svg) | bulbsClassic |
-| ![Preview](./icon-svg/bulbsFilament.svg) | bulbsFilament |
-| ![Preview](./icon-svg/bulbsSpot.svg) | bulbsSpot |
-| ![Preview](./icon-svg/bulbsSultan.svg) | bulbsSultan |
-| ![Preview](./icon-svg/BridgesV1.svg) | BridgesV1 |
-| ![Preview](./icon-svg/BridgesV2.svg) | BridgesV2 |
-| ![Preview](./icon-svg/Dimmerswitch.svg) | Dimmerswitch |
-| ![Preview](./icon-svg/Friendsofhue.svg) | Friendsofhue |
-| ![Preview](./icon-svg/MotionSensor.svg) | MotionSensor|
-|  ![Preview](./icon-svg/devicesPlug.svg) |  devicesPlug | 
-|  ![Preview](./icon-svg/devicesTap.svg) |  devicesTap | 
-|  ![Preview](./icon-svg/Bloom.svg) |  Bloom |
+| ![Preview](./icon-svg/Bollard.svg) | bollard |
+| ![Preview](./icon-svg/CeilingRound.svg) | beiling-round |
+| ![Preview](./icon-svg/CeilingSquare.svg) | ceiling-square |
+| ![Preview](./icon-svg/DeskLamp.svg) | desk-lamp |
+| ![Preview](./icon-svg/DoubleSpot.svg) | double-spot |
+| ![Preview](./icon-svg/FloorLantern.svg) | floor-lantern |
+| ![Preview](./icon-svg/FloorShade.svg) | floor-shade |
+| ![Preview](./icon-svg/FloorSpot.svg) | floor-spot |
+| ![Preview](./icon-svg/PendantLong.svg) | pendant-long |
+| ![Preview](./icon-svg/PendantRound.svg) | pendant-round |
+| ![Preview](./icon-svg/SingleSpot.svg) | single-spot|
+| ![Preview](./icon-svg/TableShade.svg) | table-shade | 
+| ![Preview](./icon-svg/WallLantern.svg) | wall-lantern |
+| ![Preview](./icon-svg/WallShade.svg) | wall-shade |
+| ![Preview](./icon-svg/WallSpot.svg) | wall-spot |
+| ![Preview](./icon-svg/bulbCandle.svg) | bulb-candle |
+| ![Preview](./icon-svg/bulbFlood.svg) | bulb-flood |
+| ![Preview](./icon-svg/bulbFoh.svg) | bulb-foh |
+| ![Preview](./icon-svg/bulbGeneralGroup.svg) | bulb-general-group |
+| ![Preview](./icon-svg/bulbGroup.svg) | bulb-group |
+| ![Preview](./icon-svg/bulbsClassic.svg) | bulbs-classic |
+| ![Preview](./icon-svg/bulbsFilament.svg) | bulbs-filament |
+| ![Preview](./icon-svg/bulbsSpot.svg) | bulbs-spot |
+| ![Preview](./icon-svg/bulbsSultan.svg) | bulbs-sultan |
+| ![Preview](./icon-svg/BridgesV1.svg) | bridges-v1 |
+| ![Preview](./icon-svg/BridgesV2.svg) | bridges-v2 |
+| ![Preview](./icon-svg/Dimmerswitch.svg) | dimmer-switch |
+| ![Preview](./icon-svg/Friendsofhue.svg) | friends-of-hue |
+| ![Preview](./icon-svg/MotionSensor.svg) | motion-sensor|
+|  ![Preview](./icon-svg/devicesPlug.svg) |  devices-plug | 
+|  ![Preview](./icon-svg/devicesTap.svg) |  devices-tap | 
+|  ![Preview](./icon-svg/Bloom.svg) |  bloom |
 |  ![Preview](./icon-svg/go.svg) |  go | 
 |  ![Preview](./icon-svg/play.svg) |  play| 
-|  ![Preview](./icon-svg/Iris.svg) |  Iris | 
-|  ![Preview](./icon-svg/Lightstrip.svg) |  Lightstrip | 
-| ![Preview](./icon-svg/RecessedFloor.svg) | RecessedFloor |
-|  ![Preview](./icon-svg/roomsAttic.svg) |  roomsAttic | 
-|  ![Preview](./icon-svg/roomsBalcony.svg) |  roomsBalcony | 
-|  ![Preview](./icon-svg/roomsBathroom.svg) |  roomsBathroom | 
-|  ![Preview](./icon-svg/roomsBedroom.svg) |  roomsBedroom | 
-|  ![Preview](./icon-svg/roomsCarport.svg) |  roomsCarport | 
-|  ![Preview](./icon-svg/roomsCloset.svg) |  roomsCloset | 
-|  ![Preview](./icon-svg/roomsComputer.svg) |  roomsComputer | 
-|  ![Preview](./icon-svg/roomsDining.svg) |  roomsDining| 
-|  ![Preview](./icon-svg/roomsDriveway.svg) |  roomsDriveway | 
-| ![Preview](./icon-svg/roomsGym.svg) |  roomsGym | 
-|  ![Preview](./icon-svg/roomsHallway.svg) |  roomsHallway | 
-|  ![Preview](./icon-svg/roomsKitchen.svg) |  roomsKitchen | 
-|  ![Preview](./icon-svg/roomsLiving.svg) |  roomsLiving |
-|  ![Preview](./icon-svg/roomsMancave.svg) |  roomsMancave | 
-|  ![Preview](./icon-svg/roomsNursery.svg) |  roomsNursery | 
-|  ![Preview](./icon-svg/roomsKidsbedroom.svg) |  roomsKidsbedroom |
-|  ![Preview](./icon-svg/roomsOffice.svg) |  roomsOffice | 
-|  ![Preview](./icon-svg/roomsOther.svg) |  roomsOther | 
-| ![Preview](./icon-svg/roomsOutdoorSocialtime.svg) | roomsOutdoorSocialtime |
-| ![Preview](./icon-svg/roomsPool.svg) | roomsPool |
-| ![Preview](./icon-svg/roomsPorch.svg) | roomsPorch |
-|![Preview](./icon-svg/roomsRecreation.svg) | roomsRecreation |
-| ![Preview](./icon-svg/roomsStaircase.svg)| roomsStaircase| 
-| ![Preview](./icon-svg/roomsStorage.svg) | roomsStorage |
-| ![Preview](./icon-svg/roomsOutdoor.svg) | roomsOutdoor |
-| ![Preview](./icon-svg/roomsStudio.svg) | roomsStudio |
-| ![Preview](./icon-svg/roomsTerrace.svg) | roomsTerrace |
-| ![Preview](./icon-svg/roomsToilet.svg) | roomsToilet |
+|  ![Preview](./icon-svg/Iris.svg) |  iris | 
+|  ![Preview](./icon-svg/Lightstrip.svg) |  light-strip | 
+| ![Preview](./icon-svg/RecessedFloor.svg) | recessed-floor |
+|  ![Preview](./icon-svg/roomsAttic.svg) |  rooms-attic | 
+|  ![Preview](./icon-svg/roomsBalcony.svg) |  rooms-balcony | 
+|  ![Preview](./icon-svg/roomsBathroom.svg) |  rooms-bathroom | 
+|  ![Preview](./icon-svg/roomsBedroom.svg) |  rooms-bedroom | 
+|  ![Preview](./icon-svg/roomsCarport.svg) |  rooms-carport | 
+|  ![Preview](./icon-svg/roomsCloset.svg) |  rooms-closet | 
+|  ![Preview](./icon-svg/roomsComputer.svg) |  rooms-computer | 
+|  ![Preview](./icon-svg/roomsDining.svg) |  rooms-dining| 
+|  ![Preview](./icon-svg/roomsDriveway.svg) |  rooms-driveway | 
+| ![Preview](./icon-svg/roomsGym.svg) |  rooms-gym | 
+|  ![Preview](./icon-svg/roomsHallway.svg) |  rooms-hallway | 
+|  ![Preview](./icon-svg/roomsKitchen.svg) |  rooms-kitchen | 
+|  ![Preview](./icon-svg/roomsLiving.svg) |  rooms-living |
+|  ![Preview](./icon-svg/roomsMancave.svg) |  rooms-mancave | 
+|  ![Preview](./icon-svg/roomsNursery.svg) |  rooms-nursery | 
+|  ![Preview](./icon-svg/roomsKidsbedroom.svg) |  rooms-kids-bedroom |
+|  ![Preview](./icon-svg/roomsOffice.svg) |  rooms-office | 
+|  ![Preview](./icon-svg/roomsOther.svg) |  rooms-other | 
+| ![Preview](./icon-svg/roomsOutdoorSocialtime.svg) | rooms-outdoor-social-time |
+| ![Preview](./icon-svg/roomsPool.svg) | rooms-pool |
+| ![Preview](./icon-svg/roomsPorch.svg) | rooms-porch |
+|![Preview](./icon-svg/roomsRecreation.svg) | rooms-recreation |
+| ![Preview](./icon-svg/roomsStaircase.svg)| rooms-staircase| 
+| ![Preview](./icon-svg/roomsStorage.svg) | rooms-storage |
+| ![Preview](./icon-svg/roomsOutdoor.svg) | rooms-outdoor |
+| ![Preview](./icon-svg/roomsStudio.svg) | rooms-studio |
+| ![Preview](./icon-svg/roomsTerrace.svg) | rooms-terrace |
+| ![Preview](./icon-svg/roomsToilet.svg) | rooms-toilet |
+---
 
+## Miscellany of icons
+
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/google-home.svg) | google-home |
+|![Preview](./icon-svg/home-max.svg) | home-max |
+|![Preview](./icon-svg/home-mini.svg) | home-mini |
+|![Preview](./icon-svg/google-nest-hub.svg) | google-nest-hub |
+|![Preview](./icon-svg/sky-q.svg) | sky-q |
+|![Preview](./icon-svg/roborock.svg) | roborock |
+|![Preview](./icon-svg/apple-tv.svg) | apple-tv |
 # Install
 
 ## HACS
