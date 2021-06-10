@@ -92,10 +92,12 @@ These are the official icons from the [philips developer channel](https://develo
 |![Preview](./icon-svg/google-home.svg) | google-home |
 |![Preview](./icon-svg/home-max.svg) | home-max |
 |![Preview](./icon-svg/home-mini.svg) | home-mini |
-|![Preview](./icon-svg/google-nest-hub.svg) | google-nest-hub |
-|![Preview](./icon-svg/sky-q.svg) | sky-q |
 |![Preview](./icon-svg/roborock.svg) | roborock |
 |![Preview](./icon-svg/apple-tv.svg) | apple-tv |
+|![Preview](./icon-svg/smoke-detector.svg) | smoke-detector |
+|![Preview](./icon-svg/nas.svg) | nas |
+|![Preview](./icon-svg/spot-bulb-top.svg) | spot-bulb-top |
+|![Preview](./icon-svg/light-string.svg) | light-string |
 # Install
 
 ## HACS
