@@ -19,7 +19,7 @@ These are the official icons from the [philips developer channel](https://develo
 | Icon | Name |
 |------|:--------------:|
 | ![Preview](./icon-svg/Bollard.svg) | bollard |
-| ![Preview](./icon-svg/CeilingRound.svg) | beiling-round |
+| ![Preview](./icon-svg/CeilingRound.svg) | ceiling-round |
 | ![Preview](./icon-svg/CeilingSquare.svg) | ceiling-square |
 | ![Preview](./icon-svg/DeskLamp.svg) | desk-lamp |
 | ![Preview](./icon-svg/DoubleSpot.svg) | double-spot |
