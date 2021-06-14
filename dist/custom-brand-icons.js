@@ -93,12 +93,18 @@
 
 
 async function getIcon(name) {
-    var svgDef = icons[name];
-    var primaryPath = svgDef[4];
+  if (!(name in icons)) {
+    console.log(`Icon "${name}" not available`);
+    return '';
+  }
+  
+  var svgDef = icons[name];
+  var primaryPath = svgDef[4];
   return {
     path: primaryPath,
-        viewBox:  svgDef[0] +" " + svgDef[1] + " " + svgDef[2] + " " + svgDef[3]
+    viewBox: svgDef[0] + " " + svgDef[1] + " " + svgDef[2] + " " + svgDef[3]
   };
 }
+
 window.customIconsets = window.customIconsets || {};
 window.customIconsets["phu"] = getIcon;
