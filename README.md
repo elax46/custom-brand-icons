@@ -98,6 +98,15 @@ These are the official icons from the [philips developer channel](https://develo
 |![Preview](./icon-svg/nas.svg) | nas |
 |![Preview](./icon-svg/spot-bulb-top.svg) | spot-bulb-top |
 |![Preview](./icon-svg/light-string.svg) | light-string |
+|![Preview](./icon-svg/ceiling-fan.svg) | ceiling-fan |
+|![Preview](./icon-svg/ceiling-fan-light.svg) | ceiling-fan-light |
+|![Preview](./icon-svg/floor-lamp-dual.svg) | floor-lamp-dual |
+|![Preview](./icon-svg/floor-lamp.svg) | floor-lamp |
+|![Preview](./icon-svg/ceiling-lamp.svg) | ceiling-lamp |
+|![Preview](./icon-svg/ceiling-lamp-plafond.svg) | ceiling-lamp-plafond |
+|![Preview](./icon-svg/ceiling-lamp-round.svg) | ceiling-lamp-round |
+|![Preview](./icon-svg/chandelier.svg) | chandelier |
+|![Preview](./icon-svg/ceiling-spot-lamp.svg) | ceiling-spot-lamp |
 # Install
 
 ## HACS
