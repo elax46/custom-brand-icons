@@ -107,7 +107,6 @@ These are the official icons from the [philips developer channel](https://develo
 |![Preview](./icon-svg/ceiling-lamp-round.svg) | ceiling-lamp-round |
 |![Preview](./icon-svg/chandelier.svg) | chandelier |
 |![Preview](./icon-svg/ceiling-spot-lamp.svg) | ceiling-spot-lamp |
-|![Preview](./icon-svg/bollard-groupe.svg) | bollard-groupe |
 
 # Install
 
