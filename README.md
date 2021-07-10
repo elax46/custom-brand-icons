@@ -107,7 +107,40 @@ These are the official icons from the [philips developer channel](https://develo
 |![Preview](./icon-svg/ceiling-lamp-round.svg) | ceiling-lamp-round |
 |![Preview](./icon-svg/chandelier.svg) | chandelier |
 |![Preview](./icon-svg/ceiling-spot-lamp.svg) | ceiling-spot-lamp |
+|![Preview](./icon-svg/fronius-inverter-gen24.svg) | fronius-inverter-gen24 |
 
+---
+## Meross device
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/smart-plug-schuko.svg) | smart-plug-schuko |
+|![Preview](./icon-svg/double-smart-plug.svg) | double-smart-plug |
+|![Preview](./icon-svg/smart-power-strip.svg) | smart-power-strip |
+|![Preview](./icon-svg/desk-lamp.svg) | desk-lamp |
+|![Preview](./icon-svg/smart-plug-it.svg) | smart-plug-it |
+|![Preview](./icon-svg/temp-sensor.svg) | temp-sensor |
+|![Preview](./icon-svg/triple-wall-switch.svg) | triple-wall-switch |
+|![Preview](./icon-svg/double-wall-switch.svg) | double-wall-switch |
+|![Preview](./icon-svg/single-wall-switch.svg) | single-wall-switch |
+|![Preview](./icon-svg/smart-switch.svg) | smart-switch |
+|![Preview](./icon-svg/lamp-bedside-table.svg) | lamp-bedside-table |
+|![Preview](./icon-svg/lamp-bedside-table-2.svg) | lamp-bedside-table-2 |
+|![Preview](./icon-svg/wall-switch.svg) | wall-switch |
+|![Preview](./icon-svg/essential-oil-diffuser.svg) | essential-oil-diffuser |
+|![Preview](./icon-svg/roller-shutter-switch.svg) | roller-shutter-switch |
+---
+## Netgear device
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/arlo-essential-indoor.svg) | arlo-essential-indoor |
+|![Preview](./icon-svg/arlo-cam.svg) | arlo-cam |
+|![Preview](./icon-svg/arlo-q.svg) | arlo-q |
+|![Preview](./icon-svg/arlo-audio-doorbell.svg) | arlo-audio-doorbell |
+|![Preview](./icon-svg/arlo-base-station.svg) | arlo-base-station |
+|![Preview](./icon-svg/arlo-baby.svg) | arlo-baby |
+|![Preview](./icon-svg/orbi.svg) | orbi |
+![Preview](./icon-svg/wifi-extender.svg) | wifi-extender |
+![Preview](./icon-svg/nighthawk.svg) | nighthawk |
 # Install
 
 ## HACS
