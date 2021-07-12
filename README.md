@@ -110,6 +110,17 @@ These are the official icons from the [philips developer channel](https://develo
 |![Preview](./icon-svg/fronius-inverter-gen24.svg) | fronius-inverter-gen24 |
 
 ---
+## Sonoff device
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/mini.svg) | mini |
+|![Preview](./icon-svg/window-sensor.svg) | window-sensor |
+|![Preview](./icon-svg/bridge.svg) | bridge |
+|![Preview](./icon-svg/usb-smart-adaptor.svg) | usb-smart-adaptor |
+|![Preview](./icon-svg/smart-plug-sonoff.svg) | smart-plug-sonoff |
+|![Preview](./icon-svg/smart-camera.svg) | smart-camera |
+
+---
 ## Meross device
 | Icon | Name |
 |------|:--------------:|
@@ -129,13 +140,28 @@ These are the official icons from the [philips developer channel](https://develo
 |![Preview](./icon-svg/essential-oil-diffuser.svg) | essential-oil-diffuser |
 |![Preview](./icon-svg/roller-shutter-switch.svg) | roller-shutter-switch |
 ---
+## Battery status
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/battery-charged.svg) | battery-charged |
+|![Preview](./icon-svg/battery-full.svg) | battery-full |
+|![Preview](./icon-svg/battery-good.svg) | battery-good |
+|![Preview](./icon-svg/battery-half.svg) | battery-half |
+|![Preview](./icon-svg/battery-low.svg) | battery-low |
+|![Preview](./icon-svg/battery-critical.svg) | battery-critical |
+---
 ## Netgear device
 | Icon | Name |
 |------|:--------------:|
 |![Preview](./icon-svg/arlo-essential-indoor.svg) | arlo-essential-indoor |
 |![Preview](./icon-svg/arlo-cam.svg) | arlo-cam |
+|![Preview](./icon-svg/arlo-pro-3.svg) | arlo-pro-3 |
+|![Preview](./icon-svg/arlo-ultra-2.svg) | arlo-ultra-2 |
 |![Preview](./icon-svg/arlo-q.svg) | arlo-q |
+|![Preview](./icon-svg/arlo-floodlight.svg) | arlo-floodlight |
 |![Preview](./icon-svg/arlo-audio-doorbell.svg) | arlo-audio-doorbell |
+|![Preview](./icon-svg/arlo-video-doorbell.svg) | arlo-video-doorbell |
+|![Preview](./icon-svg/arlo-security-light.svg) | arlo-security-light |
 |![Preview](./icon-svg/arlo-base-station.svg) | arlo-base-station |
 |![Preview](./icon-svg/arlo-baby.svg) | arlo-baby |
 |![Preview](./icon-svg/orbi.svg) | orbi |
