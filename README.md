@@ -127,7 +127,7 @@ These are the official icons from the [philips developer channel](https://develo
 |![Preview](./icon-svg/smart-plug-schuko.svg) | smart-plug-schuko |
 |![Preview](./icon-svg/double-smart-plug.svg) | double-smart-plug |
 |![Preview](./icon-svg/smart-power-strip.svg) | smart-power-strip |
-|![Preview](./icon-svg/desk-lamp.svg) | desk-lamp |
+|![Preview](./icon-svg/smart-desk-lamp.svg) | smart-desk-lamp |
 |![Preview](./icon-svg/smart-plug-it.svg) | smart-plug-it |
 |![Preview](./icon-svg/temp-sensor.svg) | temp-sensor |
 |![Preview](./icon-svg/triple-wall-switch.svg) | triple-wall-switch |
