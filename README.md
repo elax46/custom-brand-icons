@@ -21,6 +21,8 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/Bollard.svg) | bollard |
 | ![Preview](./icon-svg/CeilingRound.svg) | ceiling-round |
 | ![Preview](./icon-svg/CeilingSquare.svg) | ceiling-square |
+| ![Preview](./icon-svg/ceiling-fair.svg) | ceiling-fair |
+| ![Preview](./icon-svg/ceiling-still.svg) | ceiling-still |
 | ![Preview](./icon-svg/DeskLamp.svg) | desk-lamp |
 | ![Preview](./icon-svg/DoubleSpot.svg) | double-spot |
 | ![Preview](./icon-svg/FloorLantern.svg) | floor-lantern |
@@ -83,6 +85,48 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/roomsStudio.svg) | rooms-studio |
 | ![Preview](./icon-svg/roomsTerrace.svg) | rooms-terrace |
 | ![Preview](./icon-svg/roomsToilet.svg) | rooms-toilet |
+| ![Preview](./icon-svg/amarant.svg) | amarant |
+| ![Preview](./icon-svg/amaze.svg) | amaze |
+| ![Preview](./icon-svg/beyond.svg) | beyond |
+| ![Preview](./icon-svg/beyond-down.svg) | beyond-down |
+| ![Preview](./icon-svg/beyond-solid.svg) | beyond-solid |
+| ![Preview](./icon-svg/beyond-up.svg) | beyond-up |
+| ![Preview](./icon-svg/button.svg) | button |
+| ![Preview](./icon-svg/centris.svg) | centris |
+| ![Preview](./icon-svg/centris-two.svg) | centris-two |
+| ![Preview](./icon-svg/centris-three.svg) | centris-three |
+| ![Preview](./icon-svg/daylo-wall.svg) | daylo-wall |
+| ![Preview](./icon-svg/lily-xl.svg) | lily-xl |
+| ![Preview](./icon-svg/pedestal.svg) | pedestal |
+| ![Preview](./icon-svg/pillar-nyro.svg) | pillar-nyro |
+| ![Preview](./icon-svg/pillar-tuar.svg) | pillar-tuar |
+| ![Preview](./icon-svg/plug-eu.svg) | plug-eu |
+| ![Preview](./icon-svg/plug-uk.svg) | plug-uk |
+| ![Preview](./icon-svg/signe.svg) | signe |
+| ![Preview](./icon-svg/socket-uk.svg) | socket-uk |
+| ![Preview](./icon-svg/socket-eu.svg) | socket-eu |
+| ![Preview](./icon-svg/socket-us.svg) | socket-us |
+| ![Preview](./icon-svg/wall-appear.svg) | wall-appear |
+| ![Preview](./icon-svg/wall-econic.svg) | wall-econic |
+| ![Preview](./icon-svg/wall-econic-lantern.svg) | wall-econic-lantern |
+| ![Preview](./icon-svg/wall-econic-lantern-base.svg) | wall-econic-lantern-base |
+| ![Preview](./icon-svg/wall-econic-lantern-top.svg) | wall-econic-lantern-top |
+| ![Preview](./icon-svg/wall-flood.svg) | wall-flood |
+| ![Preview](./icon-svg/wall-fuzo.svg) | wall-fuzo |
+| ![Preview](./icon-svg/wall-fuzo-h.svg) | wall-fuzo-h |
+| ![Preview](./icon-svg/wall-impress.svg) | wall-impress |
+| ![Preview](./icon-svg/wall-impress-narrow.svg) | wall-impress-narrow |
+| ![Preview](./icon-svg/wall-lucca.svg) | wall-lucca |
+| ![Preview](./icon-svg/wall-nyro.svg) | wall-nyro |
+| ![Preview](./icon-svg/wall-resonate.svg) | wall-resonate |
+| ![Preview](./icon-svg/wall-tuar.svg) | wall-tuar |
+| ![Preview](./icon-svg/wall-turaco.svg) | wall-turaco |
+| ![Preview](./icon-svg/wellner.svg) | wellner |
+| ![Preview](./icon-svg/wellner-solid.svg) | wellner-solid |
+| ![Preview](./icon-svg/wellness.svg) | wellness |
+
+
+
 ---
 
 ## Miscellany of icons
@@ -120,6 +164,12 @@ These are the official icons from the [philips developer channel](https://develo
 |![Preview](./icon-svg/smart-plug-sonoff.svg) | smart-plug-sonoff |
 |![Preview](./icon-svg/smart-camera.svg) | smart-camera |
 
+---
+## Modem/Router ISP
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/nexxt.svg) | nexxt |
+|![Preview](./icon-svg/fastgate.svg) | fastgate |
 ---
 ## Meross device
 | Icon | Name |
@@ -232,6 +282,10 @@ show_header_toggle: false
 title: Custom brand icons
 type: entities
 ```
+# Icon Requests?
+
+The icon is not there? open a [custom icon request](https://github.com/elax46/custom-brand-icons/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request)
+
 # Customize the prefix
 
 In case you want to create your own perfix you can edit the last line of the `custom-brand-icons.js`
