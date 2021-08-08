@@ -1,12 +1,20 @@
 ---
-name: Insertion of new icons
-about: Suggest new icons to insert
-title: ''
-labels: enhancement
+name: Custom Icon request
+about: Request a custom icon for custom-brand-icons
+title: Custom Icon request
+labels: icon-request
 assignees: elax46
 
 ---
 
-What icons would you like to see in Custom brand icons?
+_If there is a specific hue fixture or bulb that you want an icon for, let me know and I will try to create it for you and add it to this pack._
 
-If you have any icons you want to integrate I ask you to indicate the svg package. I mainly prefer icon packs from the developer channels of the various brands.
+**What is the specific model of hue fixture/bulb that you want an icon for**
+
+**Provide a URL that points to an image of this fixture/bulb**
+
+Preferably icon photography, as they use a consistent angle.
+
+**Additional context**
+
+Add any other context for your icon request here.
