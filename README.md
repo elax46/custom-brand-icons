@@ -29,6 +29,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/FloorShade.svg) | floor-shade |
 | ![Preview](./icon-svg/FloorSpot.svg) | floor-spot |
 | ![Preview](./icon-svg/PendantLong.svg) | pendant-long |
+| ![Preview](./icon-svg/pendant-long-up.svg) | pendant-long-up |
 | ![Preview](./icon-svg/PendantRound.svg) | pendant-round |
 | ![Preview](./icon-svg/SingleSpot.svg) | single-spot|
 | ![Preview](./icon-svg/TableShade.svg) | table-shade | 
@@ -57,6 +58,7 @@ These are the official icons from the [philips developer channel](https://develo
 |  ![Preview](./icon-svg/Iris.svg) |  iris | 
 |  ![Preview](./icon-svg/Lightstrip.svg) |  light-strip | 
 | ![Preview](./icon-svg/RecessedFloor.svg) | recessed-floor |
+| ![Preview](./icon-svg/recessed-ceiling.svg) | recessed-ceiling |
 |  ![Preview](./icon-svg/roomsAttic.svg) |  rooms-attic | 
 |  ![Preview](./icon-svg/roomsBalcony.svg) |  rooms-balcony | 
 |  ![Preview](./icon-svg/roomsBathroom.svg) |  rooms-bathroom | 
