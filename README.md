@@ -43,6 +43,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/bulbGroup.svg) | bulb-group |
 | ![Preview](./icon-svg/bulbsClassic.svg) | bulbs-classic |
 | ![Preview](./icon-svg/bulbsFilament.svg) | bulbs-filament |
+| ![Preview](./icon-svg/bulb-filament-alt.svg) | bulb-filament-alt |
 | ![Preview](./icon-svg/bulbsSpot.svg) | bulbs-spot |
 | ![Preview](./icon-svg/bulbsSultan.svg) | bulbs-sultan |
 | ![Preview](./icon-svg/BridgesV1.svg) | bridges-v1 |
@@ -139,6 +140,7 @@ These are the official icons from the [philips developer channel](https://develo
 |![Preview](./icon-svg/home-max.svg) | home-max |
 |![Preview](./icon-svg/home-mini.svg) | home-mini |
 |![Preview](./icon-svg/roborock.svg) | roborock |
+|![Preview](./icon-svg/dome-light.svg) | dome-light |
 |![Preview](./icon-svg/apple-tv.svg) | apple-tv |
 |![Preview](./icon-svg/smoke-detector.svg) | smoke-detector |
 |![Preview](./icon-svg/nas.svg) | nas |
