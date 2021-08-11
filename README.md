@@ -41,6 +41,10 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/bulbFoh.svg) | bulb-foh |
 | ![Preview](./icon-svg/bulbGeneralGroup.svg) | bulb-general-group |
 | ![Preview](./icon-svg/bulbGroup.svg) | bulb-group |
+| ![Preview](./icon-svg/bulb-group-filament-candle.svg) | bulb-group-filament-candle |
+| ![Preview](./icon-svg/bulb-group-filament-alt.svg) | bulb-group-filament-alt |
+| ![Preview](./icon-svg/bulb-group-filament-spot.svg) | bulb-group-filament-spot |
+| ![Preview](./icon-svg/bulb-group-filament-sultan.svg) | bulb-group-filament-sultan |
 | ![Preview](./icon-svg/bulbsClassic.svg) | bulbs-classic |
 | ![Preview](./icon-svg/bulbsFilament.svg) | bulbs-filament |
 | ![Preview](./icon-svg/bulb-filament-alt.svg) | bulb-filament-alt |
