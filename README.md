@@ -131,8 +131,9 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/wellner.svg) | wellner |
 | ![Preview](./icon-svg/wellner-solid.svg) | wellner-solid |
 | ![Preview](./icon-svg/wellness.svg) | wellness |
-
-
+| ![Preview](./icon-svg/lightstrip-tv-alt.svg) | lightstrip-tv-alt |
+| ![Preview](./icon-svg/lightstrip-tv.svg) | lightstrip-tv |
+| ![Preview](./icon-svg/lightstrip-wrap.svg) | lightstrip-wrap |
 
 ---
 
