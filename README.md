@@ -134,6 +134,8 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/lightstrip-tv-alt.svg) | lightstrip-tv-alt |
 | ![Preview](./icon-svg/lightstrip-tv.svg) | lightstrip-tv |
 | ![Preview](./icon-svg/lightstrip-wrap.svg) | lightstrip-wrap |
+| ![Preview](./icon-svg/pillar-spot.svg) | pillar-spot |
+| ![Preview](./icon-svg/pillar-spot-double.svg) | pillar-spot-double |
 
 ---
 
@@ -173,6 +175,13 @@ These are the official icons from the [philips developer channel](https://develo
 |![Preview](./icon-svg/smart-plug-sonoff.svg) | smart-plug-sonoff |
 |![Preview](./icon-svg/smart-camera.svg) | smart-camera |
 
+---
+## Moes device
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/moes-switch-single.svg) | moes-switch-single |
+|![Preview](./icon-svg/moes-switch-dual.svg) | moes-switch-dual |
+|![Preview](./icon-svg/moes-switch-triple.svg) | moes-switch-triple |
 ---
 ## Modem/Router ISP
 | Icon | Name |
