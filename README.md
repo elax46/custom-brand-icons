@@ -136,7 +136,13 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/lightstrip-wrap.svg) | lightstrip-wrap |
 | ![Preview](./icon-svg/pillar-spot.svg) | pillar-spot |
 | ![Preview](./icon-svg/pillar-spot-double.svg) | pillar-spot-double |
-
+| ![Preview](./icon-svg/adore.svg) | adore |
+| ![Preview](./icon-svg/adore-alt.svg) | adore-alt |
+| ![Preview](./icon-svg/centura.svg) | centura |
+| ![Preview](./icon-svg/centura-round.svg) | centura-round |
+| ![Preview](./icon-svg/bulb-group-lightstrip.svg) | bulb-group-lightstrip |
+| ![Preview](./icon-svg/bulb-group-lightstrip-v.svg) | bulb-group-lightstrip-v |
+| ![Preview](./icon-svg/liane.svg) | liane |
 ---
 
 ## Miscellany of icons
