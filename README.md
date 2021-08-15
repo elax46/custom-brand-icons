@@ -45,6 +45,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/bulb-group-filament-alt.svg) | bulb-group-filament-alt |
 | ![Preview](./icon-svg/bulb-group-filament-spot.svg) | bulb-group-filament-spot |
 | ![Preview](./icon-svg/bulb-group-filament-sultan.svg) | bulb-group-filament-sultan |
+| ![Preview](./icon-svg/bulb-group-sultan-lightstrip.svg) | bulb-group-sultan-lightstrip |
 | ![Preview](./icon-svg/bulbsClassic.svg) | bulbs-classic |
 | ![Preview](./icon-svg/bulbsFilament.svg) | bulbs-filament |
 | ![Preview](./icon-svg/bulb-filament-alt.svg) | bulb-filament-alt |
@@ -143,6 +144,9 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/bulb-group-lightstrip.svg) | bulb-group-lightstrip |
 | ![Preview](./icon-svg/bulb-group-lightstrip-v.svg) | bulb-group-lightstrip-v |
 | ![Preview](./icon-svg/liane.svg) | liane |
+| ![Preview](./icon-svg/ceiling-explore.svg) | ceiling-explore |
+| ![Preview](./icon-svg/sync-box-alt.svg) | sync-box-alt |
+| ![Preview](./icon-svg/sync-box.svg) | sync-box |
 ---
 
 ## Miscellany of icons
