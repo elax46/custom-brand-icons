@@ -19,7 +19,7 @@ At the moment I have integrated only the main icons of Philips Hue products!
 ## Philips Hue
 
 - These are the official icons from the [philips developer channel](https://developers.meethue.com/develop/application-design-guidance/icon-pack/)
-- I thank @arallsopp for her valuable contribution of her [custom icons](https://github.com/arallsopp/hass-hue-icons)
+- I thank [@arallsopp](https://github.com/arallsopp) for her valuable contribution of her
 
 
 | Icon | Name |
