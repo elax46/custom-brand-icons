@@ -147,6 +147,12 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/ceiling-explore.svg) | ceiling-explore |
 | ![Preview](./icon-svg/sync-box-alt.svg) | sync-box-alt |
 | ![Preview](./icon-svg/sync-box.svg) | sync-box |
+| ![Preview](./icon-svg/ceiling-fugato-two.svg) | ceiling-fugato-two |
+| ![Preview](./icon-svg/ceiling-fugato-three.svg) | ceiling-fugato-three |
+| ![Preview](./icon-svg/ceiling-fugato-four.svg) | ceiling-fugato-four |
+| ![Preview](./icon-svg/ceiling-fugato-two-alt.svg) | ceiling-fugato-two-alt |
+| ![Preview](./icon-svg/ceiling-fugato-three-alt.svg) | ceiling-fugato-three-alt |
+| ![Preview](./icon-svg/ceiling-fugato-four-alt.svg) | ceiling-fugato-four-alt |
 ---
 
 ## Miscellany of icons
