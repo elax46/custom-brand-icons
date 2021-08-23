@@ -185,7 +185,7 @@ At the moment I have integrated only the main icons of Philips Hue products!
 |![Preview](./icon-svg/chandelier.svg) | chandelier |
 |![Preview](./icon-svg/ceiling-spot-lamp.svg) | ceiling-spot-lamp |
 |![Preview](./icon-svg/fronius-inverter-gen24.svg) | fronius-inverter-gen24 |
-
+|![Preview](./icon-svg/sprinkler.svg) | sprinkler |
 ---
 ## Sonoff device
 | Icon | Name |
