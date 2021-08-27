@@ -27,6 +27,9 @@ At the moment I have integrated only the main icons of Philips Hue products!
 | ![Preview](./icon-svg/Bollard.svg) | bollard |
 | ![Preview](./icon-svg/CeilingRound.svg) | ceiling-round |
 | ![Preview](./icon-svg/CeilingSquare.svg) | ceiling-square |
+| ![Preview](./icon-svg/bulb-group-ceiling-square.svg) | bulb-group-ceiling-square |
+| ![Preview](./icon-svg/bulb-group-sultan-lightstrip-off.svg) | bulb-group-sultan-lightstrip-off |
+| ![Preview](./icon-svg/bulb-group-ceiling-round.svg) | bulb-group-ceiling-round |
 | ![Preview](./icon-svg/ceiling-fair.svg) | ceiling-fair |
 | ![Preview](./icon-svg/ceiling-still.svg) | ceiling-still |
 | ![Preview](./icon-svg/DeskLamp.svg) | desk-lamp |
@@ -67,6 +70,10 @@ At the moment I have integrated only the main icons of Philips Hue products!
 |  ![Preview](./icon-svg/Bloom.svg) |  bloom |
 |  ![Preview](./icon-svg/go.svg) |  go | 
 |  ![Preview](./icon-svg/play.svg) |  play| 
+|  ![Preview](./icon-svg/play-bar-three.svg) |  play-bar-three| 
+|  ![Preview](./icon-svg/play-bar-v-alt.svg) |  play-bar-v-alt| 
+|  ![Preview](./icon-svg/play-bar-v.svg) |  play-bar-v| 
+|  ![Preview](./icon-svg/play-bar-two.svg) |  play-bar-two| 
 |  ![Preview](./icon-svg/Iris.svg) |  iris | 
 |  ![Preview](./icon-svg/Lightstrip.svg) |  light-strip | 
 | ![Preview](./icon-svg/RecessedFloor.svg) | recessed-floor |
@@ -147,6 +154,9 @@ At the moment I have integrated only the main icons of Philips Hue products!
 | ![Preview](./icon-svg/adore-alt.svg) | adore-alt |
 | ![Preview](./icon-svg/centura.svg) | centura |
 | ![Preview](./icon-svg/centura-round.svg) | centura-round |
+| ![Preview](./icon-svg/centura-two.svg) | centura-two |
+| ![Preview](./icon-svg/bulb-group-centura.svg) | bulb-group-centura |
+| ![Preview](./icon-svg/bulb-group-centura-round.svg) | bulb-group-centura-round |
 | ![Preview](./icon-svg/bulb-group-lightstrip.svg) | bulb-group-lightstrip |
 | ![Preview](./icon-svg/bulb-group-lightstrip-v.svg) | bulb-group-lightstrip-v |
 | ![Preview](./icon-svg/liane.svg) | liane |
@@ -159,6 +169,10 @@ At the moment I have integrated only the main icons of Philips Hue products!
 | ![Preview](./icon-svg/ceiling-fugato-two-alt.svg) | ceiling-fugato-two-alt |
 | ![Preview](./icon-svg/ceiling-fugato-three-alt.svg) | ceiling-fugato-three-alt |
 | ![Preview](./icon-svg/ceiling-fugato-four-alt.svg) | ceiling-fugato-four-alt |
+| ![Preview](./icon-svg/ceiling-buratto.svg) | ceiling-buratto |
+| ![Preview](./icon-svg/ceiling-buratto-two.svg) | ceiling-buratto-two |
+| ![Preview](./icon-svg/ceiling-buratto-three.svg) | ceiling-buratto-three |
+| ![Preview](./icon-svg/ceiling-buratto-four.svg) | ceiling-buratto-four |
 ---
 
 ## Miscellany of icons
