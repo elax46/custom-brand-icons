@@ -271,6 +271,20 @@ At the moment I have integrated only the main icons of Philips Hue products!
 |![Preview](./icon-svg/orbi.svg) | orbi |
 ![Preview](./icon-svg/wifi-extender.svg) | wifi-extender |
 ![Preview](./icon-svg/nighthawk.svg) | nighthawk |
+---
+## Alexa device
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/echo-plus.svg) | echo-plus |
+|![Preview](./icon-svg/echo-gen-2.svg) | echo-gen-2 |
+|![Preview](./icon-svg/echo-dot-gen-3.svg) | echo-dot-gen-3 |
+|![Preview](./icon-svg/echo-dot-gen-4.svg) | echo-dot-gen-4 |
+|![Preview](./icon-svg/echo-spot.svg) | echo-spot |
+
+
+
+
+
 # Install
 
 ## HACS
