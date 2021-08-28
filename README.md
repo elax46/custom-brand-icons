@@ -47,6 +47,7 @@ At the moment I have integrated only the main icons of Philips Hue products!
 | ![Preview](./icon-svg/WallSpot.svg) | wall-spot |
 | ![Preview](./icon-svg/bulbCandle.svg) | bulb-candle |
 | ![Preview](./icon-svg/bulbFlood.svg) | bulb-flood |
+| ![Preview](./icon-svg/bulb-filament-candle.svg) | bulb-filament-candle |
 | ![Preview](./icon-svg/bulbFoh.svg) | bulb-foh |
 | ![Preview](./icon-svg/bulbGeneralGroup.svg) | bulb-general-group |
 | ![Preview](./icon-svg/bulbGroup.svg) | bulb-group |
@@ -64,6 +65,10 @@ At the moment I have integrated only the main icons of Philips Hue products!
 | ![Preview](./icon-svg/BridgesV2.svg) | bridges-v2 |
 | ![Preview](./icon-svg/Dimmerswitch.svg) | dimmer-switch |
 | ![Preview](./icon-svg/Friendsofhue.svg) | friends-of-hue |
+| ![Preview](./icon-svg/friends-of-hue-eikon.svg) | friends-of-hue-eikon |
+| ![Preview](./icon-svg/friends-of-hue-arke.svg) | friends-of-hue-arke |
+| ![Preview](./icon-svg/friends-of-hue-senic.svg) | friends-of-hue-senic |
+| ![Preview](./icon-svg/friends-of-hue-arke-round.svg) | friends-of-hue-arke-round |
 | ![Preview](./icon-svg/MotionSensor.svg) | motion-sensor|
 |  ![Preview](./icon-svg/devicesPlug.svg) |  devices-plug | 
 |  ![Preview](./icon-svg/devicesTap.svg) |  devices-tap | 
@@ -173,6 +178,9 @@ At the moment I have integrated only the main icons of Philips Hue products!
 | ![Preview](./icon-svg/ceiling-buratto-two.svg) | ceiling-buratto-two |
 | ![Preview](./icon-svg/ceiling-buratto-three.svg) | ceiling-buratto-three |
 | ![Preview](./icon-svg/ceiling-buratto-four.svg) | ceiling-buratto-four |
+| ![Preview](./icon-svg/ensis.svg) | ensis |
+| ![Preview](./icon-svg/ensis-up.svg) | ensis-up |
+
 ---
 
 ## Miscellany of icons
