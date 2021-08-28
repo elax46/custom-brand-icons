@@ -358,6 +358,27 @@ show_header_toggle: false
 title: Custom brand icons
 type: entities
 ```
+# Help me insert more icons!
+
+***Attention I remind you that the icons must be in svg format***
+
+If you want, you can help me expand the number of icons available. Just add the following string to the `var icons` variable of the` custom-brand-icons.js` file
+
+let's take the first string for example:
+
+```js
+"Bollard": [0, 0, 32.0, 32.0, "string"]
+```
+* `Bollard` = icon name
+
+* `0, 0, 32.0, 32.0` = this data can be recovered from the svg file `viewBox="0 0 32 32"` ***If this data is not present in the file you can leave the one indicated by me***
+
+* `String` = this data can be recovered from the svg file  `<path d="M21,12.5 C21,13.33 18.76,...."` In particular you will have to enter only the part of the vector code `"M21,12.5 C21,13.33 18.76"` For an example take a look at the [icons already inserted](dist/custom-brand-icons.js)
+
+# Don't see the icon?
+
+It probably depends on the cache. Open Home assistant from an incognito window and check that the icon loads if yes then it depends on the cache, otherwise double check the installation
+
 # Icon Requests?
 
 The icon is not there? open a [custom icon request](https://github.com/elax46/custom-brand-icons/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request)
@@ -369,26 +390,7 @@ In case you want to create your own perfix you can edit the last line of the `cu
 ```js
   window.customIconsets["yourprefix"] = getIcon;
 ```
-# Don't see the icon?
 
-It probably depends on the cache. Open Home assistant from an incognito window and check that the icon loads if yes then it depends on the cache, otherwise double check the installation
-
-# Help me insert more icons!
-
-***Attention I remind you that the icons must be in svg format***
-
-If you like, you can help me expand the number of icons available. Just add to the variable  `var icons`
-
-let's take the first string for example:
-
-```js
-"Bollard": [0, 0, 32.0, 32.0, "string"]
-```
-* `Bollard` = icon name
-
-* `0, 0, 32.0, 32.0` = this data can be recovered from the svg file `transform="scale(0, 0, 32.0, 32.0)` ***If this data is not present in the file you can leave the one indicated by me***
-
-* `String` = this data can be recovered from the svg file  `<path d="M21,12.5 C21,13.33 18.76,...."`
 
 # Thanks
 thanks to for @mutzl your contribution
