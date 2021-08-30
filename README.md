@@ -32,6 +32,7 @@ At the moment I have integrated only the main icons of Philips Hue products!
 | ![Preview](./icon-svg/bulb-group-ceiling-round.svg) | bulb-group-ceiling-round |
 | ![Preview](./icon-svg/ceiling-fair.svg) | ceiling-fair |
 | ![Preview](./icon-svg/ceiling-still.svg) | ceiling-still |
+| ![Preview](./icon-svg/ceiling-flourish.svg) | ceiling-flourish |
 | ![Preview](./icon-svg/DeskLamp.svg) | desk-lamp |
 | ![Preview](./icon-svg/DoubleSpot.svg) | double-spot |
 | ![Preview](./icon-svg/FloorLantern.svg) | floor-lantern |
@@ -180,7 +181,9 @@ At the moment I have integrated only the main icons of Philips Hue products!
 | ![Preview](./icon-svg/ceiling-buratto-four.svg) | ceiling-buratto-four |
 | ![Preview](./icon-svg/ensis.svg) | ensis |
 | ![Preview](./icon-svg/ensis-up.svg) | ensis-up |
-
+| ![Preview](./icon-svg/flourish.svg) | flourish |
+| ![Preview](./icon-svg/flourish-alt.svg) | flourish-alt |
+| ![Preview](./icon-svg/aura.svg) | aura |
 ---
 
 ## Miscellany of icons
@@ -288,8 +291,8 @@ At the moment I have integrated only the main icons of Philips Hue products!
 |![Preview](./icon-svg/echo-dot-gen-3.svg) | echo-dot-gen-3 |
 |![Preview](./icon-svg/echo-dot-gen-4.svg) | echo-dot-gen-4 |
 |![Preview](./icon-svg/echo-spot.svg) | echo-spot |
-
-
+|![Preview](./icon-svg/echo-show-5-gen-2.svg) | echo-show-5-gen-2 |
+|![Preview](./icon-svg/echo-show-8-gen-2.svg) | echo-show-8-gen-2 |
 
 
 
