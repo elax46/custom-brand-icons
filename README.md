@@ -211,6 +211,10 @@ At the moment I have integrated only the main icons of Philips Hue products!
 |![Preview](./icon-svg/ceiling-spot-lamp.svg) | ceiling-spot-lamp |
 |![Preview](./icon-svg/fronius-inverter-gen24.svg) | fronius-inverter-gen24 |
 |![Preview](./icon-svg/sprinkler.svg) | sprinkler |
+|![Preview](./icon-svg/garden-irrigation.svg) | garden-irrigation |
+|![Preview](./icon-svg/charging-station.svg) | charging-station |
+|![Preview](./icon-svg/thermostat.svg) | thermostat |
+|![Preview](./icon-svg/air-conditioner.svg) | air-conditioner |
 ---
 ## Sonoff device
 | Icon | Name |
@@ -293,8 +297,13 @@ At the moment I have integrated only the main icons of Philips Hue products!
 |![Preview](./icon-svg/echo-spot.svg) | echo-spot |
 |![Preview](./icon-svg/echo-show-5-gen-2.svg) | echo-show-5-gen-2 |
 |![Preview](./icon-svg/echo-show-8-gen-2.svg) | echo-show-8-gen-2 |
-
-
+---
+## Sonos device
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/sonos-beam.svg) | sonos-beam |
+|![Preview](./icon-svg/sonos-sub.svg) | sonos-sub |
+|![Preview](./icon-svg/sonos-playbar.svg) | sonos-playbar |
 
 # Install
 
