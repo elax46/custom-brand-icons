@@ -12,25 +12,38 @@ Custom brand icons for Home Assistant
 
 ![2FA](https://res.cloudinary.com/dcongin7u/image/upload/v1620853194/example_pwvozi.jpg)
 
-
-At the moment I have integrated only the main icons of Philips Hue products!
-
+### Brands Available
+- [Philips Hue](https://github.com/elax46/custom-brand-icons#philips-hue)
+- [Sonoff](https://github.com/elax46/custom-brand-icons#sonoff-device)
+- [Moes](https://github.com/elax46/custom-brand-icons#moes-device)
+- [Meross](https://github.com/elax46/custom-brand-icons#meross-device)
+- [Netgear](https://github.com/elax46/custom-brand-icons#netgear-device)
+- [Amazon echo](https://github.com/elax46/custom-brand-icons#alexa-device)
+- [Sonos](https://github.com/elax46/custom-brand-icons#sonos-device)
+- [Miscellany of icons](https://github.com/elax46/custom-brand-icons#miscellany-of-icons)
+- [Modem/Router ISP](https://github.com/elax46/custom-brand-icons#modemrouter-isp)
+- [Battery](https://github.com/elax46/custom-brand-icons#battery-status)
+- [Apple](https://github.com/elax46/custom-brand-icons#apple-device)
  ---
 ## Philips Hue
 
 - These are the official icons from the [philips developer channel](https://developers.meethue.com/develop/application-design-guidance/icon-pack/)
-- I thank [@arallsopp](https://github.com/arallsopp) for her valuable contribution of her
+- I thank @arallsopp for her valuable contribution of her
 
 
 | Icon | Name |
 |------|:--------------:|
+| ![Preview](./icon-svg/adore-mirror.svg) | adore-mirror |
 | ![Preview](./icon-svg/Bollard.svg) | bollard |
 | ![Preview](./icon-svg/CeilingRound.svg) | ceiling-round |
+| ![Preview](./icon-svg/ceiling-fair.svg) | ceiling-fair |
+| ![Preview](./icon-svg/ceiling-fair-semiflush.svg) | ceiling-fair-semiflush |
+| ![Preview](./icon-svg/ceiling-muscari.svg) | ceiling-muscari |
+| ![Preview](./icon-svg/ceiling-cher-semiflush.svg) | ceiling-cher-semiflush |
 | ![Preview](./icon-svg/CeilingSquare.svg) | ceiling-square |
 | ![Preview](./icon-svg/bulb-group-ceiling-square.svg) | bulb-group-ceiling-square |
 | ![Preview](./icon-svg/bulb-group-sultan-lightstrip-off.svg) | bulb-group-sultan-lightstrip-off |
 | ![Preview](./icon-svg/bulb-group-ceiling-round.svg) | bulb-group-ceiling-round |
-| ![Preview](./icon-svg/ceiling-fair.svg) | ceiling-fair |
 | ![Preview](./icon-svg/ceiling-still.svg) | ceiling-still |
 | ![Preview](./icon-svg/ceiling-flourish.svg) | ceiling-flourish |
 | ![Preview](./icon-svg/DeskLamp.svg) | desk-lamp |
@@ -41,6 +54,9 @@ At the moment I have integrated only the main icons of Philips Hue products!
 | ![Preview](./icon-svg/PendantLong.svg) | pendant-long |
 | ![Preview](./icon-svg/pendant-long-up.svg) | pendant-long-up |
 | ![Preview](./icon-svg/PendantRound.svg) | pendant-round |
+| ![Preview](./icon-svg/pendant-being.svg) | pendant-being |
+| ![Preview](./icon-svg/pendant-cher.svg) | pendant-cher |
+| ![Preview](./icon-svg/pendant-muscari.svg) | pendant-muscari |
 | ![Preview](./icon-svg/SingleSpot.svg) | single-spot|
 | ![Preview](./icon-svg/TableShade.svg) | table-shade | 
 | ![Preview](./icon-svg/WallLantern.svg) | wall-lantern |
@@ -114,6 +130,7 @@ At the moment I have integrated only the main icons of Philips Hue products!
 | ![Preview](./icon-svg/roomsToilet.svg) | rooms-toilet |
 | ![Preview](./icon-svg/amarant.svg) | amarant |
 | ![Preview](./icon-svg/amaze.svg) | amaze |
+| ![Preview](./icon-svg/amaze-alt.svg) | amaze-alt |
 | ![Preview](./icon-svg/beyond.svg) | beyond |
 | ![Preview](./icon-svg/beyond-down.svg) | beyond-down |
 | ![Preview](./icon-svg/beyond-solid.svg) | beyond-solid |
@@ -130,6 +147,8 @@ At the moment I have integrated only the main icons of Philips Hue products!
 | ![Preview](./icon-svg/plug-eu.svg) | plug-eu |
 | ![Preview](./icon-svg/plug-uk.svg) | plug-uk |
 | ![Preview](./icon-svg/signe.svg) | signe |
+| ![Preview](./icon-svg/signe-gradient-table.svg) | signe-gradient-table |
+| ![Preview](./icon-svg/signe-gradient-floor.svg) | signe-gradient-floor |
 | ![Preview](./icon-svg/socket-uk.svg) | socket-uk |
 | ![Preview](./icon-svg/socket-eu.svg) | socket-eu |
 | ![Preview](./icon-svg/socket-us.svg) | socket-us |
@@ -184,6 +203,8 @@ At the moment I have integrated only the main icons of Philips Hue products!
 | ![Preview](./icon-svg/flourish.svg) | flourish |
 | ![Preview](./icon-svg/flourish-alt.svg) | flourish-alt |
 | ![Preview](./icon-svg/aura.svg) | aura |
+| ![Preview](./icon-svg/gradient-tube-short.svg) | gradient-tube-short |
+| ![Preview](./icon-svg/gradient-tube-long.svg) | gradient-tube-long |
 ---
 
 ## Miscellany of icons
@@ -304,6 +325,15 @@ At the moment I have integrated only the main icons of Philips Hue products!
 |![Preview](./icon-svg/sonos-beam.svg) | sonos-beam |
 |![Preview](./icon-svg/sonos-sub.svg) | sonos-sub |
 |![Preview](./icon-svg/sonos-playbar.svg) | sonos-playbar |
+
+---
+## Apple device
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/apple-airpods-pro.svg) | apple-airpods-pro |
+|![Preview](./icon-svg/apple-airpods.svg) | apple-airpods |
+|![Preview](./icon-svg/apple-iphone.svg) | apple-iphone |
+|![Preview](./icon-svg/apple-ipad-pro.svg) | apple-ipad-pro |
 
 # Install
 
