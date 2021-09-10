@@ -205,6 +205,7 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/aura.svg) | aura |
 | ![Preview](./icon-svg/gradient-tube-short.svg) | gradient-tube-short |
 | ![Preview](./icon-svg/gradient-tube-long.svg) | gradient-tube-long |
+| ![Preview](./icon-svg/bulb-par-38.svg) | bulb-par-38 |
 ---
 
 ## Miscellany of icons
@@ -236,6 +237,7 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/charging-station.svg) | charging-station |
 |![Preview](./icon-svg/thermostat.svg) | thermostat |
 |![Preview](./icon-svg/air-conditioner.svg) | air-conditioner |
+|![Preview](./icon-svg/nextcloud.svg) | nextcloud |
 ---
 ## Sonoff device
 | Icon | Name |
@@ -440,3 +442,6 @@ thanks to for @mutzl your contribution
 Do you like these icons? Support the project with a pizza 🍕🍕
 
 [![coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/elax46)
+
+### Stargazers
+[![Stargazers repo roster for @elax46/custom-brand-icons](https://reporoster.com/stars/elax46/custom-brand-icons)](https://github.com/elax46/custom-brand-icons/stargazers)
