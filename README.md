@@ -24,6 +24,7 @@ Custom brand icons for Home Assistant
 - [Modem/Router ISP](https://github.com/elax46/custom-brand-icons#modemrouter-isp)
 - [Battery](https://github.com/elax46/custom-brand-icons#battery-status)
 - [Apple](https://github.com/elax46/custom-brand-icons#apple-device)
+- [Blink](https://github.com/elax46/custom-brand-icons#blink-camera)
  ---
 ## Philips Hue
 
@@ -221,6 +222,8 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/smoke-detector.svg) | smoke-detector |
 |![Preview](./icon-svg/nas.svg) | nas |
 |![Preview](./icon-svg/spot-bulb-top.svg) | spot-bulb-top |
+|![Preview](./icon-svg/bulb-group-sultan-spot.svg) | bulb-group-sultan-spot |
+|![Preview](./icon-svg/bulb-group-sultan-spot-off.svg) | bulb-group-sultan-spot-off |
 |![Preview](./icon-svg/light-string.svg) | light-string |
 |![Preview](./icon-svg/ceiling-fan.svg) | ceiling-fan |
 |![Preview](./icon-svg/ceiling-fan-light.svg) | ceiling-fan-light |
@@ -337,6 +340,14 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/apple-airpods.svg) | apple-airpods |
 |![Preview](./icon-svg/apple-iphone.svg) | apple-iphone |
 |![Preview](./icon-svg/apple-ipad-pro.svg) | apple-ipad-pro |
+
+---
+## Blink Cameras
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/xt2-camera.svg) | xt2-camera |
+|![Preview](./icon-svg/sync-module.svg) | sync-module |
+
 
 # Install
 
