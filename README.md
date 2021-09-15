@@ -242,6 +242,7 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/air-conditioner.svg) | air-conditioner |
 |![Preview](./icon-svg/nextcloud.svg) | nextcloud |
 |![Preview](./icon-svg/shelly-logo.svg) | shelly-logo |
+|![Preview](./icon-svg/phoscon.svg) | phoscon |
 ---
 ## Sonoff device
 | Icon | Name |
