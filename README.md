@@ -97,6 +97,10 @@ Custom brand icons for Home Assistant
 |  ![Preview](./icon-svg/play-bar-v-alt.svg) |  play-bar-v-alt| 
 |  ![Preview](./icon-svg/play-bar-v.svg) |  play-bar-v| 
 |  ![Preview](./icon-svg/play-bar-two.svg) |  play-bar-two| 
+|  ![Preview](./icon-svg/play-bar-v.svg) |  play-bar-v| 
+|  ![Preview](./icon-svg/play-bar-v-two-in.svg) |  play-bar-v-two-in| 
+|  ![Preview](./icon-svg/play-bar-v-two-out.svg) |  play-bar-v-two-out| 
+|  ![Preview](./icon-svg/play-bar-v-two.svg) |  play-bar-v-two| 
 |  ![Preview](./icon-svg/Iris.svg) |  iris | 
 |  ![Preview](./icon-svg/Lightstrip.svg) |  light-strip | 
 | ![Preview](./icon-svg/RecessedFloor.svg) | recessed-floor |
@@ -199,6 +203,9 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/ceiling-buratto-two.svg) | ceiling-buratto-two |
 | ![Preview](./icon-svg/ceiling-buratto-three.svg) | ceiling-buratto-three |
 | ![Preview](./icon-svg/ceiling-buratto-four.svg) | ceiling-buratto-four |
+| ![Preview](./icon-svg/ceiling-surimu.svg) | ceiling-surimu |
+| ![Preview](./icon-svg/ceiling-aurelle.svg) | ceiling-aurelle |
+| ![Preview](./icon-svg/ceiling-infuse.svg) | ceiling-infuse |
 | ![Preview](./icon-svg/ensis.svg) | ensis |
 | ![Preview](./icon-svg/ensis-up.svg) | ensis-up |
 | ![Preview](./icon-svg/flourish.svg) | flourish |
@@ -207,6 +214,8 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/gradient-tube-short.svg) | gradient-tube-short |
 | ![Preview](./icon-svg/gradient-tube-long.svg) | gradient-tube-long |
 | ![Preview](./icon-svg/bulb-par-38.svg) | bulb-par-38 |
+| ![Preview](./icon-svg/pillar-impress.svg) | pillar-impress |
+| ![Preview](./icon-svg/pillar-impress-short.svg) | pillar-impress-short |
 ---
 
 ## Miscellany of icons
