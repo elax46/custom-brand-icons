@@ -44,6 +44,8 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/CeilingSquare.svg) | ceiling-square |
 | ![Preview](./icon-svg/bulb-group-ceiling-square.svg) | bulb-group-ceiling-square |
 | ![Preview](./icon-svg/bulb-group-sultan-lightstrip-off.svg) | bulb-group-sultan-lightstrip-off |
+|![Preview](./icon-svg/bulb-group-sultan-spot.svg) | bulb-group-sultan-spot |
+|![Preview](./icon-svg/bulb-group-sultan-spot-off.svg) | bulb-group-sultan-spot-off |
 | ![Preview](./icon-svg/bulb-group-ceiling-round.svg) | bulb-group-ceiling-round |
 | ![Preview](./icon-svg/ceiling-still.svg) | ceiling-still |
 | ![Preview](./icon-svg/ceiling-flourish.svg) | ceiling-flourish |
@@ -146,6 +148,8 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/centris-three.svg) | centris-three |
 | ![Preview](./icon-svg/daylo-wall.svg) | daylo-wall |
 | ![Preview](./icon-svg/lily-xl.svg) | lily-xl |
+| ![Preview](./icon-svg/lily.svg) | lily |
+| ![Preview](./icon-svg/lily-two.svg) | lily-two |
 | ![Preview](./icon-svg/pedestal.svg) | pedestal |
 | ![Preview](./icon-svg/pillar-nyro.svg) | pillar-nyro |
 | ![Preview](./icon-svg/pillar-tuar.svg) | pillar-tuar |
@@ -172,6 +176,8 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/wall-resonate.svg) | wall-resonate |
 | ![Preview](./icon-svg/wall-tuar.svg) | wall-tuar |
 | ![Preview](./icon-svg/wall-turaco.svg) | wall-turaco |
+| ![Preview](./icon-svg/wall-lucca-alt-below.svg) | wall-lucca-alt-below |
+| ![Preview](./icon-svg/wall-lucca-alt.svg) | wall-lucca-alt |
 | ![Preview](./icon-svg/wellner.svg) | wellner |
 | ![Preview](./icon-svg/wellner-solid.svg) | wellner-solid |
 | ![Preview](./icon-svg/wellness.svg) | wellness |
@@ -216,6 +222,13 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/bulb-par-38.svg) | bulb-par-38 |
 | ![Preview](./icon-svg/pillar-impress.svg) | pillar-impress |
 | ![Preview](./icon-svg/pillar-impress-short.svg) | pillar-impress-short |
+| ![Preview](./icon-svg/sana.svg) | sana |
+| ![Preview](./icon-svg/sana-alt.svg) | sana-alt |
+|![Preview](./icon-svg/bulb-golfball-e14.svg) | bulb-golfball-e14 |
+|![Preview](./icon-svg/bulb-group-golfball-e14.svg) | bulb-group-golfball-e14 |
+|![Preview](./icon-svg/ceiling-buckram.svg) | ceiling-buckram |
+|![Preview](./icon-svg/ceiling-buckram-two.svg) | ceiling-buckram-two |
+|![Preview](./icon-svg/ceiling-buckram-three.svg) | ceiling-buckram-three |
 ---
 
 ## Miscellany of icons
@@ -231,8 +244,6 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/smoke-detector.svg) | smoke-detector |
 |![Preview](./icon-svg/nas.svg) | nas |
 |![Preview](./icon-svg/spot-bulb-top.svg) | spot-bulb-top |
-|![Preview](./icon-svg/bulb-group-sultan-spot.svg) | bulb-group-sultan-spot |
-|![Preview](./icon-svg/bulb-group-sultan-spot-off.svg) | bulb-group-sultan-spot-off |
 |![Preview](./icon-svg/light-string.svg) | light-string |
 |![Preview](./icon-svg/ceiling-fan.svg) | ceiling-fan |
 |![Preview](./icon-svg/ceiling-fan-light.svg) | ceiling-fan-light |
@@ -253,6 +264,7 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/shelly-logo.svg) | shelly-logo |
 |![Preview](./icon-svg/phoscon.svg) | phoscon |
 |![Preview](./icon-svg/thermostat-v2.svg) | thermostat-v2 |
+
 ---
 ## Sonoff device
 | Icon | Name |
