@@ -243,6 +243,7 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/apple-tv.svg) | apple-tv |
 |![Preview](./icon-svg/smoke-detector.svg) | smoke-detector |
 |![Preview](./icon-svg/nas.svg) | nas |
+|![Preview](./icon-svg/nas-v2.svg) | nas-v2 |
 |![Preview](./icon-svg/spot-bulb-top.svg) | spot-bulb-top |
 |![Preview](./icon-svg/light-string.svg) | light-string |
 |![Preview](./icon-svg/ceiling-fan.svg) | ceiling-fan |
