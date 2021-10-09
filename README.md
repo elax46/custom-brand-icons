@@ -37,7 +37,9 @@ Custom brand icons for Home Assistant
 |------|:--------------:|
 | ![Preview](./icon-svg/adore-mirror.svg) | adore-mirror |
 | ![Preview](./icon-svg/Bollard.svg) | bollard |
+| ![Preview](./icon-svg/ceiling-aurelle-circle.svg) | ceiling-aurelle-circle |
 | ![Preview](./icon-svg/CeilingRound.svg) | ceiling-round |
+| ![Preview](./icon-svg/ceiling-flush-circular.svg) | ceiling-flush-circular |
 | ![Preview](./icon-svg/ceiling-fair.svg) | ceiling-fair |
 | ![Preview](./icon-svg/ceiling-fair-semiflush.svg) | ceiling-fair-semiflush |
 | ![Preview](./icon-svg/ceiling-muscari.svg) | ceiling-muscari |
@@ -230,6 +232,10 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/ceiling-buckram.svg) | ceiling-buckram |
 |![Preview](./icon-svg/ceiling-buckram-two.svg) | ceiling-buckram-two |
 |![Preview](./icon-svg/ceiling-buckram-three.svg) | ceiling-buckram-three |
+|![Preview](./icon-svg/phoenix-semiflush.svg) | phoenix-semiflush |
+|![Preview](./icon-svg/phoenix-plafond.svg) | phoenix-plafond |
+|![Preview](./icon-svg/phoenix-table.svg) | phoenix-table |
+|![Preview](./icon-svg/phoenix-pendant.svg) | phoenix-pendant |
 ---
 
 ## Miscellany of icons
@@ -373,6 +379,7 @@ Custom brand icons for Home Assistant
 |------|:--------------:|
 |![Preview](./icon-svg/xt2-camera.svg) | xt2-camera |
 |![Preview](./icon-svg/sync-module.svg) | sync-module |
+|![Preview](./icon-svg/mini-camera.svg) | mini-camera |
 
 ---
 ## Elgato
