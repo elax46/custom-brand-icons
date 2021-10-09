@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="33px" height="32px" viewBox="0 0 33 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
-    <style>path{fill:#000}@media (prefers-color-scheme:dark){path{fill:#fff}}</style>
+<svg width="33px" height="32px" viewBox="0 0 33 32" version="1.1" fill="#44739e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <path d="M22.4,5.4H1.6C1.3,5.4,1.1,5.7,1.1,6v1.5c0,0,0,0,0,0c0,0,0,0.1,0,0.1l2.1,11.9c0,0.3,0.3,0.4,0.5,0.4h16.8 c0.3,0,0.5-0.2,0.5-0.4l1.9-11.9c0,0,0-0.1,0-0.1c0,0,0,0,0,0V6C22.9,5.7,22.7,5.4,22.4,5.4z M20,18.9H4.1L2.2,8h19.6L20,18.9z M12.2,17.9c3.8,0,6.7-1.8,6.7-4.1s-3-4.1-6.7-4.1c-3.8,0-6.7,1.8-6.7,4.1S8.4,17.9,12.2,17.9z M8.5,11.5 c0.2-0.5,0.9-0.7,1.8-0.8c0,0,0.1,0,0.1,0c1,0,2.1,0.3,3.3,0.9c1.2,0.6,2.1,1.4,2.7,2.2c0.5,0.7,0.7,1.4,0.5,1.9 c-0.2,0.5-0.9,0.7-1.8,0.8c-1,0-2.2-0.3-3.4-0.9c-1.2-0.6-2.1-1.4-2.7-2.2C8.4,12.7,8.2,12,8.5,11.5z"/>
 
 </svg>

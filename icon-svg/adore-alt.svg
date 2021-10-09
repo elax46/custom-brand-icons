@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="33px" height="32px" viewBox="0 0 33 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
-    <style>path{fill:#000}@media (prefers-color-scheme:dark){path{fill:#fff}}</style>
+<svg width="33px" fill="#44739e" height="32px" viewBox="0 0 33 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <path d="M21.6,9.1H2.4C1.6,9.1,1,9.8,1,10.6v2.1c0,0.8,0.6,1.5,1.4,1.5h6.9c0,0,0,0,0,0.1c0,0.6,0.5,1.1,1.1,1.1h3.3 c0.6,0,1.1-0.5,1.1-1.1c0,0,0,0,0-0.1h6.9c0.8,0,1.4-0.7,1.4-1.5v-2.1C23,9.8,22.4,9.1,21.6,9.1z M21.6,13.2H2.4 C2.2,13.2,2,13,2,12.8c0-0.3,0.2-0.5,0.4-0.5h19.1c0.2,0,0.4,0.2,0.4,0.5C22,13,21.8,13.2,21.6,13.2z"/>
 
 </svg>

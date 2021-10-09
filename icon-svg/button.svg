@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="33px" height="32px" viewBox="0 0 33 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
-    <title>button</title>
-    <style>path{fill:#000}@media (prefers-color-scheme:dark){path{fill:#fff}}</style>
+<svg width="33px" height="32px" viewBox="0 0 33 32" version="1.1" fill="#44739e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <path d="M22.25861.80566H1.82745a1,1,0,0,0-1,1V22.23688a1,1,0,0,0,1,1H22.25861a1,1,0,0,0,1-1V1.80566A1,1,0,0,0,22.25861.80566Zm0,21.43122H1.82745V1.80566H22.25861Z M12.043,18.0838A6.0838,6.0838,0,1,0,5.95923,12,6.0907,6.0907,0,0,0,12.043,18.0838Zm0-11.1676A5.0838,5.0838,0,1,1,6.95923,12,5.08383,5.08383,0,0,1,12.043,6.9162Z"></path>
 
 </svg>

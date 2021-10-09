@@ -24,7 +24,8 @@ Custom brand icons for Home Assistant
 - [Modem/Router ISP](https://github.com/elax46/custom-brand-icons#modemrouter-isp)
 - [Battery](https://github.com/elax46/custom-brand-icons#battery-status)
 - [Apple](https://github.com/elax46/custom-brand-icons#apple-device)
-- [Blink](https://github.com/elax46/custom-brand-icons#blink-camera)
+- [Blink](https://github.com/elax46/custom-brand-icons#blink-cameras)
+- [Elgato](https://github.com/elax46/custom-brand-icons#elgato)
  ---
 ## Philips Hue
 
@@ -265,6 +266,7 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/shelly-logo.svg) | shelly-logo |
 |![Preview](./icon-svg/phoscon.svg) | phoscon |
 |![Preview](./icon-svg/thermostat-v2.svg) | thermostat-v2 |
+|![Preview](./icon-svg/octoprint.svg) | octoprint |
 
 ---
 ## Sonoff device
@@ -372,6 +374,13 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/xt2-camera.svg) | xt2-camera |
 |![Preview](./icon-svg/sync-module.svg) | sync-module |
 
+---
+## Elgato
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/elgato-key-light-air.svg) | elgato-key-light-air |
+|![Preview](./icon-svg/elgato-ring-light.svg) | elgato-ring-light |
+|![Preview](./icon-svg/elgato-key-light.svg) | elgato-key-light |
 
 # Install
 
