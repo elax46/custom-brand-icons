@@ -248,6 +248,8 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/roborock.svg) | roborock |
 |![Preview](./icon-svg/dome-light.svg) | dome-light |
 |![Preview](./icon-svg/apple-tv.svg) | apple-tv |
+|![Preview](./icon-svg/firetv.svg) | firetv |
+|![Preview](./icon-svg/amazon-logo.svg) | amazon-logo |
 |![Preview](./icon-svg/smoke-detector.svg) | smoke-detector |
 |![Preview](./icon-svg/nas.svg) | nas |
 |![Preview](./icon-svg/nas-v2.svg) | nas-v2 |
