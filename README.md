@@ -285,8 +285,6 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/phoscon.svg) | phoscon |
 |![Preview](./icon-svg/thermostat-v2.svg) | thermostat-v2 |
 |![Preview](./icon-svg/octoprint.svg) | octoprint |
-|![Preview](./icon-svg/homepod.svg) | homepod |
-|![Preview](./icon-svg/homepod-mini.svg) | homepod-mini |
 
 ---
 ## Sonoff device
@@ -386,6 +384,8 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/apple-airpods.svg) | apple-airpods |
 |![Preview](./icon-svg/apple-iphone.svg) | apple-iphone |
 |![Preview](./icon-svg/apple-ipad-pro.svg) | apple-ipad-pro |
+|![Preview](./icon-svg/homepod.svg) | homepod |
+|![Preview](./icon-svg/homepod-mini.svg) | homepod-mini |
 
 ---
 ## Blink Cameras
