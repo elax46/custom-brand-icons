@@ -236,6 +236,16 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/phoenix-plafond.svg) | phoenix-plafond |
 |![Preview](./icon-svg/phoenix-table.svg) | phoenix-table |
 |![Preview](./icon-svg/phoenix-pendant.svg) | phoenix-pendant |
+|![Preview](./icon-svg/ceiling-being.svg) | ceiling-being |
+|![Preview](./icon-svg/friends-of-hue-flat-p.svg) | friends-of-hue-flat-p |
+|![Preview](./icon-svg/friends-of-hue-flat-p-alt.svg) | friends-of-hue-flat-p-alt |
+|![Preview](./icon-svg/friends-of-hue-iq-flush.svg) | friends-of-hue-iq-flush |
+|![Preview](./icon-svg/friends-of-hue-iq-pendant.svg) | friends-of-hue-iq-pendant |
+|![Preview](./icon-svg/friends-of-hue-retrotouch-black-chrome.svg) | friends-of-hue-retrotouch-black-chrome |
+|![Preview](./icon-svg/friends-of-hue-retrotouch-black-plain.svg) | friends-of-hue-retrotouch-black-plain |
+|![Preview](./icon-svg/friends-of-hue-retrotouch-white-chrome.svg) | friends-of-hue-retrotouch-white-chrome |
+|![Preview](./icon-svg/friends-of-hue-retrotouch-white-plain.svg) | friends-of-hue-retrotouch-white-plain |
+
 ---
 
 ## Miscellany of icons
@@ -275,6 +285,8 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/phoscon.svg) | phoscon |
 |![Preview](./icon-svg/thermostat-v2.svg) | thermostat-v2 |
 |![Preview](./icon-svg/octoprint.svg) | octoprint |
+|![Preview](./icon-svg/homepod.svg) | homepod |
+|![Preview](./icon-svg/homepod-mini.svg) | homepod-mini |
 
 ---
 ## Sonoff device
