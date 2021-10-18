@@ -387,6 +387,7 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/homepod.svg) | homepod |
 |![Preview](./icon-svg/homepod-mini.svg) | homepod-mini |
 |![Preview](./icon-svg/apple-tv-box.svg) | apple-tv-box |
+|![Preview](./icon-svg/apple-watch.svg) | apple-watch |
 
 ---
 ## Blink Cameras
