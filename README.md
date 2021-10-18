@@ -257,7 +257,6 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/home-mini.svg) | home-mini |
 |![Preview](./icon-svg/roborock.svg) | roborock |
 |![Preview](./icon-svg/dome-light.svg) | dome-light |
-|![Preview](./icon-svg/apple-tv.svg) | apple-tv |
 |![Preview](./icon-svg/firetv.svg) | firetv |
 |![Preview](./icon-svg/amazon-logo.svg) | amazon-logo |
 |![Preview](./icon-svg/smoke-detector.svg) | smoke-detector |
@@ -380,12 +379,14 @@ Custom brand icons for Home Assistant
 ## Apple device
 | Icon | Name |
 |------|:--------------:|
+|![Preview](./icon-svg/apple-tv.svg) | apple-tv |
 |![Preview](./icon-svg/apple-airpods-pro.svg) | apple-airpods-pro |
 |![Preview](./icon-svg/apple-airpods.svg) | apple-airpods |
 |![Preview](./icon-svg/apple-iphone.svg) | apple-iphone |
 |![Preview](./icon-svg/apple-ipad-pro.svg) | apple-ipad-pro |
 |![Preview](./icon-svg/homepod.svg) | homepod |
 |![Preview](./icon-svg/homepod-mini.svg) | homepod-mini |
+|![Preview](./icon-svg/apple-tv-logo.svg) | apple-tv-logo |
 
 ---
 ## Blink Cameras
