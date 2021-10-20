@@ -284,7 +284,8 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/phoscon.svg) | phoscon |
 |![Preview](./icon-svg/thermostat-v2.svg) | thermostat-v2 |
 |![Preview](./icon-svg/octoprint.svg) | octoprint |
-
+|![Preview](./icon-svg/google-home-icon.svg) | google-home-icon |
+|![Preview](./icon-svg/linktap.svg) | linktap |
 ---
 ## Sonoff device
 | Icon | Name |
