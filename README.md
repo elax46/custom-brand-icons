@@ -286,6 +286,10 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/octoprint.svg) | octoprint |
 |![Preview](./icon-svg/google-home-icon.svg) | google-home-icon |
 |![Preview](./icon-svg/linktap.svg) | linktap |
+|![Preview](./icon-svg/tim-logo.svg) | tim-logo |
+|![Preview](./icon-svg/ubiquiti.svg) | ubiquiti |
+|![Preview](./icon-svg/ubiquiti-logo.svg) | ubiquiti-logo |
+
 ---
 ## Sonoff device
 | Icon | Name |
