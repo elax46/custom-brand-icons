@@ -290,6 +290,7 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/ubiquiti.svg) | ubiquiti |
 |![Preview](./icon-svg/ubiquiti-logo.svg) | ubiquiti-logo |
 |![Preview](./icon-svg/salt-lamp.svg) | salt-lamp |
+|![Preview](./icon-svg/yamaha-rx-v773.svg) | yamaha-rx-v773 |
 ---
 ## Sonoff device
 | Icon | Name |
