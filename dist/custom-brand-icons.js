@@ -335,16 +335,19 @@ async function getIcon(name) {
     return '';
   }
 
-  async function getIconList() {
-    return Object.keys(icons).map(icon => ({name: icon}));
-  }
-  
   var svgDef = icons[name];
   var primaryPath = svgDef[4];
   return {
     path: primaryPath,
     viewBox: svgDef[0] + " " + svgDef[1] + " " + svgDef[2] + " " + svgDef[3]
-  };
+  }
+  
+}
+
+async function getIconList() {
+  return Object.entries(icons).map(([icon]) => ({
+    name: icon
+  }));
 }
 
 window.customIconsets = window.customIconsets || {};
