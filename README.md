@@ -30,7 +30,6 @@ Custom brand icons for Home Assistant
 ## Philips Hue
 
 - These are the official icons from the [philips developer channel](https://developers.meethue.com/develop/application-design-guidance/icon-pack/)
-- I thank @arallsopp for her valuable contribution of her
 
 
 | Icon | Name |
