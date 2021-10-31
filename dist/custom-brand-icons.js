@@ -334,6 +334,10 @@ async function getIcon(name) {
     console.log(`Icon "${name}" not available`);
     return '';
   }
+
+  async function getIconList() {
+    return Object.keys(icons).map(icon => ({name: icon}));
+  }
   
   var svgDef = icons[name];
   var primaryPath = svgDef[4];
@@ -344,4 +348,4 @@ async function getIcon(name) {
 }
 
 window.customIconsets = window.customIconsets || {};
-window.customIconsets["phu"] = getIcon;
+window.customIconsets["phu"] = { getIcon, getIconList };
