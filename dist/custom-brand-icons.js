@@ -351,4 +351,8 @@ async function getIconList() {
 }
 
 window.customIconsets = window.customIconsets || {};
-window.customIconsets["phu"] = { getIcon, getIconList };
+window.customIconsets["phu"] = getIcon;
+
+window.customIcons = window.customIcons || {};
+window.customIcons["phu"] = { getIcon, getIconList };
+
