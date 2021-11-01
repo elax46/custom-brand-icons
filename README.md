@@ -26,6 +26,7 @@ Custom brand icons for Home Assistant
 - [Apple](https://github.com/elax46/custom-brand-icons#apple-device)
 - [Blink](https://github.com/elax46/custom-brand-icons#blink-cameras)
 - [Elgato](https://github.com/elax46/custom-brand-icons#elgato)
+- [Google](https://github.com/elax46/custom-brand-icons#google)
  ---
 ## Philips Hue
 
