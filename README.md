@@ -251,9 +251,6 @@ Custom brand icons for Home Assistant
 
 | Icon | Name |
 |------|:--------------:|
-|![Preview](./icon-svg/google-home.svg) | google-home |
-|![Preview](./icon-svg/home-max.svg) | home-max |
-|![Preview](./icon-svg/home-mini.svg) | home-mini |
 |![Preview](./icon-svg/roborock.svg) | roborock |
 |![Preview](./icon-svg/dome-light.svg) | dome-light |
 |![Preview](./icon-svg/firetv.svg) | firetv |
@@ -410,6 +407,18 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/elgato-ring-light.svg) | elgato-ring-light |
 |![Preview](./icon-svg/elgato-key-light.svg) | elgato-key-light |
 
+---
+## Google
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/google-home.svg) | google-home |
+|![Preview](./icon-svg/home-max.svg) | home-max |
+|![Preview](./icon-svg/home-mini.svg) | home-mini |
+|![Preview](./icon-svg/nest-wifi-router.svg) | nest-wifi-router |
+|![Preview](./icon-svg/nest-wifi-repeater.svg) | nest-wifi-repeater |
+|![Preview](./icon-svg/google-wifi-router.svg) | google-wifi-router |
+
+
 # Install
 
 ## HACS
@@ -495,6 +504,9 @@ let's take the first string for example:
 # Don't see the icon?
 
 It probably depends on the cache. Open Home assistant from an incognito window and check that the icon loads if yes then it depends on the cache, otherwise double check the installation
+
+# Make icon
+To make an icon in svg format you can use different programs starting from illustrator or inkview. The size of the icons must be 24x24 and the svg code must not contain transform, translate, scale but only viewbox
 
 # Icon Requests?
 
