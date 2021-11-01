@@ -508,7 +508,6 @@ In case you want to create your own perfix you can edit the last line of the `cu
   window.customIconsets["yourprefix"] = getIcon;
 ```
 
-
 # Thanks
 thanks to for @mutzl your contribution
 # Support the project
