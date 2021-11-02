@@ -378,7 +378,8 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/sonos-beam.svg) | sonos-beam |
 |![Preview](./icon-svg/sonos-sub.svg) | sonos-sub |
 |![Preview](./icon-svg/sonos-playbar.svg) | sonos-playbar |
-
+|![Preview](./icon-svg/sonos-bookshelf-vertical.svg) | sonos-bookshelf-vertical |
+|![Preview](./icon-svg/sonos-bookshelf-horizontal.svg) | sonos-bookshelf-horizontal |
 ---
 ## Apple device
 | Icon | Name |
