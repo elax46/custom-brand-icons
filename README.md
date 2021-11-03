@@ -26,6 +26,7 @@ Custom brand icons for Home Assistant
 - [Apple](https://github.com/elax46/custom-brand-icons#apple-device)
 - [Blink](https://github.com/elax46/custom-brand-icons#blink-cameras)
 - [Elgato](https://github.com/elax46/custom-brand-icons#elgato)
+- [Google](https://github.com/elax46/custom-brand-icons#google)
  ---
 ## Philips Hue
 
@@ -251,9 +252,6 @@ Custom brand icons for Home Assistant
 
 | Icon | Name |
 |------|:--------------:|
-|![Preview](./icon-svg/google-home.svg) | google-home |
-|![Preview](./icon-svg/home-max.svg) | home-max |
-|![Preview](./icon-svg/home-mini.svg) | home-mini |
 |![Preview](./icon-svg/roborock.svg) | roborock |
 |![Preview](./icon-svg/dome-light.svg) | dome-light |
 |![Preview](./icon-svg/firetv.svg) | firetv |
@@ -290,6 +288,7 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/ubiquiti-logo.svg) | ubiquiti-logo |
 |![Preview](./icon-svg/salt-lamp.svg) | salt-lamp |
 |![Preview](./icon-svg/yamaha-rx-v773.svg) | yamaha-rx-v773 |
+|![Preview](./icon-svg/dune-hd.svg) | dune-hd |
 ---
 ## Sonoff device
 | Icon | Name |
@@ -379,7 +378,8 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/sonos-beam.svg) | sonos-beam |
 |![Preview](./icon-svg/sonos-sub.svg) | sonos-sub |
 |![Preview](./icon-svg/sonos-playbar.svg) | sonos-playbar |
-
+|![Preview](./icon-svg/sonos-bookshelf-vertical.svg) | sonos-bookshelf-vertical |
+|![Preview](./icon-svg/sonos-bookshelf-horizontal.svg) | sonos-bookshelf-horizontal |
 ---
 ## Apple device
 | Icon | Name |
@@ -409,6 +409,18 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/elgato-key-light-air.svg) | elgato-key-light-air |
 |![Preview](./icon-svg/elgato-ring-light.svg) | elgato-ring-light |
 |![Preview](./icon-svg/elgato-key-light.svg) | elgato-key-light |
+
+---
+## Google
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/google-home.svg) | google-home |
+|![Preview](./icon-svg/home-max.svg) | home-max |
+|![Preview](./icon-svg/home-mini.svg) | home-mini |
+|![Preview](./icon-svg/nest-wifi-router.svg) | nest-wifi-router |
+|![Preview](./icon-svg/nest-wifi-repeater.svg) | nest-wifi-repeater |
+|![Preview](./icon-svg/google-wifi-router.svg) | google-wifi-router |
+
 
 # Install
 
@@ -496,6 +508,9 @@ let's take the first string for example:
 
 It probably depends on the cache. Open Home assistant from an incognito window and check that the icon loads if yes then it depends on the cache, otherwise double check the installation
 
+# Make icon
+To make an icon in svg format you can use different programs starting from illustrator or inkview. The size of the icons must be 24x24 and the svg code must not contain transform, translate, scale but only viewbox
+
 # Icon Requests?
 
 The icon is not there? open a [custom icon request](https://github.com/elax46/custom-brand-icons/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request)  _The icons to integrate must be in svg format_
@@ -507,7 +522,6 @@ In case you want to create your own perfix you can edit the last line of the `cu
 ```js
   window.customIconsets["yourprefix"] = getIcon;
 ```
-
 
 # Thanks
 thanks to for @mutzl your contribution
