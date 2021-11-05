@@ -431,7 +431,8 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/tilt-window-opened.svg) | tilt-window-opened |
 |![Preview](./icon-svg/blind-tilt-open.svg) | blind-tilt-open |
 |![Preview](./icon-svg/blind-tilt-closed.svg) | blind-tilt-closed |
-
+|![Preview](./icon-svg/double-window-open.svg) | double-window-open |
+|![Preview](./icon-svg/double-window-closed.svg) | double-window-closed |
 
 # Install
 
