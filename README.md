@@ -98,6 +98,7 @@ Custom brand icons for Home Assistant
 |  ![Preview](./icon-svg/devicesTap.svg) |  devices-tap | 
 |  ![Preview](./icon-svg/Bloom.svg) |  bloom |
 |  ![Preview](./icon-svg/go.svg) |  go | 
+|  ![Preview](./icon-svg/go-group.svg) |  go-group | 
 |  ![Preview](./icon-svg/play.svg) |  play| 
 |  ![Preview](./icon-svg/play-bar-three.svg) |  play-bar-three| 
 |  ![Preview](./icon-svg/play-bar-v-alt.svg) |  play-bar-v-alt| 
@@ -166,6 +167,7 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/socket-eu.svg) | socket-eu |
 | ![Preview](./icon-svg/socket-us.svg) | socket-us |
 | ![Preview](./icon-svg/wall-appear.svg) | wall-appear |
+| ![Preview](./icon-svg/wall-appear-group.svg) | wall-appear-group |
 | ![Preview](./icon-svg/wall-econic.svg) | wall-econic |
 | ![Preview](./icon-svg/wall-econic-lantern.svg) | wall-econic-lantern |
 | ![Preview](./icon-svg/wall-econic-lantern-base.svg) | wall-econic-lantern-base |
