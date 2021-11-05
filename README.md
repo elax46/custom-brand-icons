@@ -27,6 +27,7 @@ Custom brand icons for Home Assistant
 - [Blink](https://github.com/elax46/custom-brand-icons#blink-cameras)
 - [Elgato](https://github.com/elax46/custom-brand-icons#elgato)
 - [Google](https://github.com/elax46/custom-brand-icons#google)
+- [Window and Roller Shutter](https://github.com/elax46/custom-brand-icons#window-and-roller-shutter)
  ---
 ## Philips Hue
 
@@ -420,6 +421,16 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/nest-wifi-router.svg) | nest-wifi-router |
 |![Preview](./icon-svg/nest-wifi-repeater.svg) | nest-wifi-repeater |
 |![Preview](./icon-svg/google-wifi-router.svg) | google-wifi-router |
+
+ ---
+## Window and Roller Shutter
+
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/tilt-window-closed.svg) | tilt-window-closed |
+|![Preview](./icon-svg/tilt-window-opened.svg) | tilt-window-opened |
+|![Preview](./icon-svg/blind-tilt-open.svg) | blind-tilt-open |
+|![Preview](./icon-svg/blind-tilt-closed.svg) | blind-tilt-closed |
 
 
 # Install
