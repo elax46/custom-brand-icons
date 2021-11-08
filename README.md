@@ -453,6 +453,7 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/christmas-lights.svg) | christmas-lights |
 |![Preview](./icon-svg/christmas-wreath.svg) | christmas-wreath |
 |![Preview](./icon-svg/christmas-tree.svg) | christmas-tree |
+|![Preview](./icon-svg/christmas-tree-v2.svg) | christmas-tree-v2 |
 
 # Install
 
