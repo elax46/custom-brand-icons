@@ -28,6 +28,7 @@ Custom brand icons for Home Assistant
 - [Elgato](https://github.com/elax46/custom-brand-icons#elgato)
 - [Google](https://github.com/elax46/custom-brand-icons#google)
 - [Window and Roller Shutter](https://github.com/elax46/custom-brand-icons#window-and-roller-shutter)
+- [Ring](https://github.com/elax46/custom-brand-icons#ring)
  ---
 ## Philips Hue
 
@@ -435,6 +436,14 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/blind-tilt-closed.svg) | blind-tilt-closed |
 |![Preview](./icon-svg/double-window-open.svg) | double-window-open |
 |![Preview](./icon-svg/double-window-closed.svg) | double-window-closed |
+|![Preview](./icon-svg/lift-out-window-close.svg) | lift-out-window-close |
+|![Preview](./icon-svg/lift-out-window-open.svg) | lift-out-window-open |
+
+---
+## Ring
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/ring-doorbell.svg) | ring-doorbell |
 
 # Install
 
