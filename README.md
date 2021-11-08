@@ -29,6 +29,7 @@ Custom brand icons for Home Assistant
 - [Google](https://github.com/elax46/custom-brand-icons#google)
 - [Window and Roller Shutter](https://github.com/elax46/custom-brand-icons#window-and-roller-shutter)
 - [Ring](https://github.com/elax46/custom-brand-icons#ring)
+- [Christmas decorations](https://github.com/elax46/custom-brand-icons#christmas-decorations)
  ---
 ## Philips Hue
 
@@ -444,6 +445,13 @@ Custom brand icons for Home Assistant
 | Icon | Name |
 |------|:--------------:|
 |![Preview](./icon-svg/ring-doorbell.svg) | ring-doorbell |
+
+---
+## Christmas decorations
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/christmas-lights.svg) | christmas-lights |
+|![Preview](./icon-svg/christmas-wreath.svg) | christmas-wreath |
 
 # Install
 
