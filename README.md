@@ -294,6 +294,7 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/salt-lamp.svg) | salt-lamp |
 |![Preview](./icon-svg/yamaha-rx-v773.svg) | yamaha-rx-v773 |
 |![Preview](./icon-svg/dune-hd.svg) | dune-hd |
+|![Preview](./icon-svg/nvidia-shield.svg) | nvidia-shield |
 ---
 ## Sonoff device
 | Icon | Name |
