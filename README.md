@@ -294,6 +294,8 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/salt-lamp.svg) | salt-lamp |
 |![Preview](./icon-svg/yamaha-rx-v773.svg) | yamaha-rx-v773 |
 |![Preview](./icon-svg/dune-hd.svg) | dune-hd |
+|![Preview](./icon-svg/nvidia-shield.svg) | nvidia-shield |
+![Preview](./icon-svg/herman-miller-aeron.svg) | herman-miller-aeron |
 ---
 ## Sonoff device
 | Icon | Name |
@@ -445,6 +447,13 @@ Custom brand icons for Home Assistant
 | Icon | Name |
 |------|:--------------:|
 |![Preview](./icon-svg/ring-doorbell.svg) | ring-doorbell |
+|![Preview](./icon-svg/ring-alarm-panel.svg) | ring-alarm-panel |
+|![Preview](./icon-svg/ring-alarm.svg) | ring-alarm |
+|![Preview](./icon-svg/ring-doorbell-pro.svg) | ring-doorbell-pro |
+|![Preview](./icon-svg/ring-floodlight.svg) | ring-floodlight |
+|![Preview](./icon-svg/ring-spotlight-cam.svg) | ring-spotlight-cam |
+|![Preview](./icon-svg/ring-stick-up-cam.svg) | ring-stick-up-cam |
+
 
 ---
 ## Christmas decorations
