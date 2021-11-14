@@ -296,6 +296,8 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/dune-hd.svg) | dune-hd |
 |![Preview](./icon-svg/nvidia-shield.svg) | nvidia-shield |
 ![Preview](./icon-svg/herman-miller-aeron.svg) | herman-miller-aeron |
+![Preview](./icon-svg/discovery-plus.svg) | discovery-plus |
+![Preview](./icon-svg/disney-plus.svg) | disney-plus |
 ---
 ## Sonoff device
 | Icon | Name |
