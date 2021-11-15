@@ -50,14 +50,19 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/CeilingSquare.svg) | ceiling-square |
 | ![Preview](./icon-svg/bulb-group-ceiling-square.svg) | bulb-group-ceiling-square |
 | ![Preview](./icon-svg/bulb-group-sultan-lightstrip-off.svg) | bulb-group-sultan-lightstrip-off |
+| ![Preview](./icon-svg/lightstrip-off.svg) | lightstrip-off |
 |![Preview](./icon-svg/bulb-group-sultan-spot.svg) | bulb-group-sultan-spot |
 |![Preview](./icon-svg/bulb-group-sultan-spot-off.svg) | bulb-group-sultan-spot-off |
+|![Preview](./icon-svg/bulb-classic-off.svg) | bulb-classic-off |
+|![Preview](./icon-svg/bulb-spot-off.svg) | bulb-spot-off |
+|![Preview](./icon-svg/bulb-sultan-off.svg) | bulb-sultan-off |
 | ![Preview](./icon-svg/bulb-group-ceiling-round.svg) | bulb-group-ceiling-round |
 | ![Preview](./icon-svg/ceiling-still.svg) | ceiling-still |
 | ![Preview](./icon-svg/ceiling-flourish.svg) | ceiling-flourish |
 | ![Preview](./icon-svg/DeskLamp.svg) | desk-lamp |
 | ![Preview](./icon-svg/DoubleSpot.svg) | double-spot |
 | ![Preview](./icon-svg/FloorLantern.svg) | floor-lantern |
+| ![Preview](./icon-svg/floor-lantern-off.svg) | floor-lantern-off |
 | ![Preview](./icon-svg/FloorShade.svg) | floor-shade |
 | ![Preview](./icon-svg/FloorSpot.svg) | floor-spot |
 | ![Preview](./icon-svg/PendantLong.svg) | pendant-long |
@@ -100,6 +105,7 @@ Custom brand icons for Home Assistant
 |  ![Preview](./icon-svg/devicesTap.svg) |  devices-tap | 
 |  ![Preview](./icon-svg/Bloom.svg) |  bloom |
 |  ![Preview](./icon-svg/go.svg) |  go | 
+|  ![Preview](./icon-svg/go-off.svg) |  go-off | 
 |  ![Preview](./icon-svg/go-group.svg) |  go-group | 
 |  ![Preview](./icon-svg/play.svg) |  play| 
 |  ![Preview](./icon-svg/play-bar-three.svg) |  play-bar-three| 
@@ -191,6 +197,7 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/wellness.svg) | wellness |
 | ![Preview](./icon-svg/lightstrip-tv-alt.svg) | lightstrip-tv-alt |
 | ![Preview](./icon-svg/lightstrip-tv.svg) | lightstrip-tv |
+| ![Preview](./icon-svg/lightstrip-tv-off.svg) | lightstrip-tv-off |
 | ![Preview](./icon-svg/lightstrip-wrap.svg) | lightstrip-wrap |
 | ![Preview](./icon-svg/pillar-spot.svg) | pillar-spot |
 | ![Preview](./icon-svg/pillar-spot-double.svg) | pillar-spot-double |
@@ -432,7 +439,7 @@ Custom brand icons for Home Assistant
 
  ---
 ## Window and Roller Shutter
-
+Icons made by @rchiileea
 | Icon | Name |
 |------|:--------------:|
 |![Preview](./icon-svg/tilt-window-closed.svg) | tilt-window-closed |
@@ -443,9 +450,35 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/double-window-closed.svg) | double-window-closed |
 |![Preview](./icon-svg/lift-out-window-close.svg) | lift-out-window-close |
 |![Preview](./icon-svg/lift-out-window-open.svg) | lift-out-window-open |
+|![Preview](./icon-svg/sliding-window-door-close.svg) | sliding-window-door-close |
+|![Preview](./icon-svg/sliding-window-door-open.svg) | sliding-window-door-open |
+|![Preview](./icon-svg/top-window-closed.svg) | top-window-closed |
+|![Preview](./icon-svg/top-window-open.svg) | top-window-open |
+|![Preview](./icon-svg/vert-blind-close.svg) | vert-blind-close |
+|![Preview](./icon-svg/vert-blind-open.svg) | vert-blind-open |
 
 ---
+## Doors
+Icons made by @rchiileea
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/panel-glass-door-close.svg) | panel-glass-door-close |
+|![Preview](./icon-svg/panel-glass-door-open.svg) | panel-glass-door-open |
+|![Preview](./icon-svg/panel-glass-door2-close.svg) | panel-glass-door2-close |
+|![Preview](./icon-svg/panel-glass-door2-open.svg) | panel-glass-door2-open |
+|![Preview](./icon-svg/panel-glass-door2-open.svg) | panel-glass-door3-close |
+|![Preview](./icon-svg/panel-glass-door3-open.svg) | panel-glass-door3-open |
+|![Preview](./icon-svg/side-glassdoor-close.svg) | side-glassdoor-close |
+|![Preview](./icon-svg/side-glassdoor-open.svg) | side-glassdoor-open |
+|![Preview](./icon-svg/panel-frontdoor-close.svg) | panel-frontdoor-open |
+|![Preview](./icon-svg/panel-frontdoor-close.svg) | panel-frontdoor-close |
+|![Preview](./icon-svg/panel-glassdoor-close.svg) | panel-glassdoor-close |
+|![Preview](./icon-svg/panel-glassdoor-open.svg) | panel-glassdoor-open |
+|![Preview](./icon-svg/panel-door-open.svg) | panel-door-open |
+|![Preview](./icon-svg/panel-door-close.svg) | panel-door-close |
+---
 ## Ring
+Icons made by @rchiileea
 | Icon | Name |
 |------|:--------------:|
 |![Preview](./icon-svg/ring-doorbell.svg) | ring-doorbell |
@@ -455,7 +488,7 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/ring-floodlight.svg) | ring-floodlight |
 |![Preview](./icon-svg/ring-spotlight-cam.svg) | ring-spotlight-cam |
 |![Preview](./icon-svg/ring-stick-up-cam.svg) | ring-stick-up-cam |
-
+|![Preview](./icon-svg/ring-smart-lighting.svg) | ring-smart-lighting |
 
 ---
 ## Christmas decorations
