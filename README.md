@@ -30,6 +30,8 @@ Custom brand icons for Home Assistant
 - [Window and Roller Shutter](https://github.com/elax46/custom-brand-icons#window-and-roller-shutter)
 - [Ring](https://github.com/elax46/custom-brand-icons#ring)
 - [Christmas decorations](https://github.com/elax46/custom-brand-icons#christmas-decorations)
+- [Doors](https://github.com/elax46/custom-brand-icons#doors)
+- [Ikea](https://github.com/elax46/custom-brand-icons#ikea)
  ---
 ## Philips Hue
 
@@ -305,6 +307,9 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/herman-miller-aeron.svg) | herman-miller-aeron |
 ![Preview](./icon-svg/discovery-plus.svg) | discovery-plus |
 ![Preview](./icon-svg/disney-plus.svg) | disney-plus |
+![Preview](./icon-svg/shade-rchiileea-v1.svg) | shade-rchiileea-v1 |
+![Preview](./icon-svg/shed-closed.svg) | shed-closed |
+![Preview](./icon-svg/shed-open.svg) | shed-open |
 ---
 ## Sonoff device
 | Icon | Name |
@@ -387,8 +392,10 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/echo-spot.svg) | echo-spot |
 |![Preview](./icon-svg/echo-show-5-gen-2.svg) | echo-show-5-gen-2 |
 |![Preview](./icon-svg/echo-show-8-gen-2.svg) | echo-show-8-gen-2 |
+|![Preview](./icon-svg/echo-dot-gen-4-clock.svg) | echo-dot-gen-4-clock |
 ---
 ## Sonos device
+Icons made by @rchiileea
 | Icon | Name |
 |------|:--------------:|
 |![Preview](./icon-svg/sonos-beam.svg) | sonos-beam |
@@ -498,6 +505,15 @@ Icons made by @rchiileea
 |![Preview](./icon-svg/christmas-wreath.svg) | christmas-wreath |
 |![Preview](./icon-svg/christmas-tree.svg) | christmas-tree |
 |![Preview](./icon-svg/christmas-tree-v2.svg) | christmas-tree-v2 |
+
+---
+## Ikea
+Icons made by @rchiileea
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/ikea-blind-open.svg) | ikea-blind-open |
+|![Preview](./icon-svg/ikea-blind-closed.svg) | ikea-blind-closed |
+|![Preview](./icon-svg/ikea-5-spot.svg) | ikea-5-spot |
 
 # Install
 
