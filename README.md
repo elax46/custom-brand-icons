@@ -12,7 +12,7 @@ Custom brand icons for Home Assistant
 
 ![2FA](https://res.cloudinary.com/dcongin7u/image/upload/v1620853194/example_pwvozi.jpg)
 
-### Brands Available
+### Icons/Brands Available
 - [Philips Hue](https://github.com/elax46/custom-brand-icons#philips-hue)
 - [Sonoff](https://github.com/elax46/custom-brand-icons#sonoff-device)
 - [Moes](https://github.com/elax46/custom-brand-icons#moes-device)
@@ -310,6 +310,11 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/shade-rchiileea-v1.svg) | shade-rchiileea-v1 |
 ![Preview](./icon-svg/shed-closed.svg) | shed-closed |
 ![Preview](./icon-svg/shed-open.svg) | shed-open |
+![Preview](./icon-svg/desktop-computer.svg) | desktop-computer |
+![Preview](./icon-svg/ha-blue.svg) | ha-blue |
+![Preview](./icon-svg/intel-nuc.svg) | intel-nuc |
+![Preview](./icon-svg/proxmox.svg) | proxmox |
+![Preview](./icon-svg/raspberry-pi.svg) | raspberry-pi |
 ---
 ## Sonoff device
 | Icon | Name |
