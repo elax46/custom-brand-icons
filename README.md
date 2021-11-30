@@ -32,6 +32,7 @@ Custom brand icons for Home Assistant
 - [Christmas decorations](https://github.com/elax46/custom-brand-icons#christmas-decorations)
 - [Doors](https://github.com/elax46/custom-brand-icons#doors)
 - [Ikea](https://github.com/elax46/custom-brand-icons#ikea)
+- [Schneider Electric](https://github.com/elax46/custom-brand-icons#schneider-electric)
  ---
 ## Philips Hue
 
@@ -520,6 +521,17 @@ Icons made by @rchiileea
 |![Preview](./icon-svg/ikea-blind-closed.svg) | ikea-blind-closed |
 |![Preview](./icon-svg/ikea-5-spot.svg) | ikea-5-spot |
 
+---
+## Schneider Electric
+Icons made by @rchiileea
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/apc-ups-basic.svg) | apc-ups-basic |
+|![Preview](./icon-svg/apc-ups-upright.svg) | apc-ups-upright |
+|![Preview](./icon-svg/wiser-heating-ctl-off.svg) | wiser-heating-ctl-off |
+|![Preview](./icon-svg/wiser-heating-ctl-on.svg) | wiser-heating-ctl-on |
+|![Preview](./icon-svg/wiser-thermostat-off.svg) | wiser-thermostat-off |
+|![Preview](./icon-svg/wiser-thermostat-on.svg) | wiser-thermostat-on |
 # Install
 
 ## HACS
