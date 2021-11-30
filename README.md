@@ -530,7 +530,7 @@ Icons made by @rchiileea
 |![Preview](./icon-svg/apc-ups-upright.svg) | apc-ups-upright |
 |![Preview](./icon-svg/wiser-heating-ctl-off.svg) | wiser-heating-ctl-off |
 |![Preview](./icon-svg/wiser-heating-ctl-on.svg) | wiser-heating-ctl-on |
-|![Preview](./icon-svg/wiser-thermostat-off.svg) | wiser-heating-ctl-off |
+|![Preview](./icon-svg/wiser-thermostat-off.svg) | wiser-thermostat-off |
 |![Preview](./icon-svg/wiser-thermostat-on.svg) | wiser-thermostat-on |
 # Install
 
