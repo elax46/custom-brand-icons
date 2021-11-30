@@ -32,6 +32,7 @@ Custom brand icons for Home Assistant
 - [Christmas decorations](https://github.com/elax46/custom-brand-icons#christmas-decorations)
 - [Doors](https://github.com/elax46/custom-brand-icons#doors)
 - [Ikea](https://github.com/elax46/custom-brand-icons#ikea)
+- [Schneider Electric](https://github.com/elax46/custom-brand-icons#Schneider Electric)
  ---
 ## Philips Hue
 
