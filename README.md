@@ -33,6 +33,7 @@ Custom brand icons for Home Assistant
 - [Doors](https://github.com/elax46/custom-brand-icons#doors)
 - [Ikea](https://github.com/elax46/custom-brand-icons#ikea)
 - [Schneider Electric](https://github.com/elax46/custom-brand-icons#schneider-electric)
+- [Reolink](https://github.com/elax46/custom-brand-icons#reolink)
  ---
 ## Philips Hue
 
@@ -532,6 +533,18 @@ Icons made by @rchiileea
 |![Preview](./icon-svg/wiser-heating-ctl-on.svg) | wiser-heating-ctl-on |
 |![Preview](./icon-svg/wiser-thermostat-off.svg) | wiser-thermostat-off |
 |![Preview](./icon-svg/wiser-thermostat-on.svg) | wiser-thermostat-on |
+
+---
+## Reolink
+Icons made by @rchiileea
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/reolink-510.svg) | reolink-510 |
+|![Preview](./icon-svg/reolink-811.svg) | reolink-811 |
+|![Preview](./icon-svg/reolink-820.svg) | reolink-820 |
+|![Preview](./icon-svg/reolink-842.svg) | reolink-842 |
+|![Preview](./icon-svg/reolink-argus.svg) | reolink-argus |
+|![Preview](./icon-svg/reolink-go.svg) | reolink-go |
 # Install
 
 ## HACS
