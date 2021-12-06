@@ -317,6 +317,7 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/intel-nuc.svg) | intel-nuc |
 ![Preview](./icon-svg/proxmox.svg) | proxmox |
 ![Preview](./icon-svg/raspberry-pi.svg) | raspberry-pi |
+![Preview](./icon-svg/power-panel-logo.svg) | power-panel-logo |
 ---
 ## Sonoff device
 | Icon | Name |
