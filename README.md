@@ -34,6 +34,7 @@ Custom brand icons for Home Assistant
 - [Ikea](https://github.com/elax46/custom-brand-icons#ikea)
 - [Schneider Electric](https://github.com/elax46/custom-brand-icons#schneider-electric)
 - [Reolink](https://github.com/elax46/custom-brand-icons#reolink)
+- [Tesla](https://github.com/elax46/custom-brand-icons#tesla)
  ---
 ## Philips Hue
 
@@ -264,6 +265,19 @@ Custom brand icons for Home Assistant
 
 ---
 
+## Hue made by @rchiileea
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/bulb-sultan-group-v2.svg) | bulb-sultan-group-v2 |
+|![Preview](./icon-svg/bulb-sultan-v2.svg) | bulb-sultan-v2 |
+|![Preview](./icon-svg/hue-spot-group-v2.svg) | hue-spot-group-v2 |
+|![Preview](./icon-svg/hue-spot-v2.svg) | hue-spot-v2 |
+|![Preview](./icon-svg/ls-spot-iris-group-v2.svg) | ls-spot-iris-group-v2 |
+|![Preview](./icon-svg/ls-sultan-iris-group-v2.svg) | ls-sultan-iris-group-v2 |
+
+
+---
+
 ## Miscellany of icons
 
 | Icon | Name |
@@ -317,6 +331,7 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/intel-nuc.svg) | intel-nuc |
 ![Preview](./icon-svg/proxmox.svg) | proxmox |
 ![Preview](./icon-svg/raspberry-pi.svg) | raspberry-pi |
+![Preview](./icon-svg/power-panel-logo.svg) | power-panel-logo |
 ---
 ## Sonoff device
 | Icon | Name |
@@ -545,6 +560,20 @@ Icons made by @rchiileea
 |![Preview](./icon-svg/reolink-842.svg) | reolink-842 |
 |![Preview](./icon-svg/reolink-argus.svg) | reolink-argus |
 |![Preview](./icon-svg/reolink-go.svg) | reolink-go |
+
+---
+## Tesla
+Icons made by @rchiileea
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/tesla-icon.svg) | tesla-icon |
+|![Preview](./icon-svg/model-x-charge.svg) | model-x-charge |
+|![Preview](./icon-svg/model-x-open.svg) | model-x-open |
+|![Preview](./icon-svg/model-s-charge.svg) | model-s-charge |
+|![Preview](./icon-svg/model-s-charge-side.svg) | model-s-charge-side |
+|![Preview](./icon-svg/model-s.svg) | model-s |
+|![Preview](./icon-svg/model-s-side.svg) | model-s-side |
+
 # Install
 
 ## HACS
