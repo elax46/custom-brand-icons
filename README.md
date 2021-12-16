@@ -334,7 +334,7 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/proxmox.svg) | proxmox |
 ![Preview](./icon-svg/raspberry-pi.svg) | raspberry-pi |
 ![Preview](./icon-svg/power-panel-logo.svg) | power-panel-logo |
-![Preview](./icon-svg/ipxtv.svg) | ipxtv |
+![Preview](./icon-svg/iptvx.svg) | iptvx |
 ![Preview](./icon-svg/netflix.svg) | netflix |
 ![Preview](./icon-svg/streamz.svg) | streamz |
 ![Preview](./icon-svg/videoland.svg) | videoland |
