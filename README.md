@@ -285,6 +285,7 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/roborock.svg) | roborock |
 |![Preview](./icon-svg/dome-light.svg) | dome-light |
 |![Preview](./icon-svg/firetv.svg) | firetv |
+|![Preview](./icon-svg/prime-video.svg) | prime-video |
 |![Preview](./icon-svg/amazon-logo.svg) | amazon-logo |
 |![Preview](./icon-svg/smoke-detector.svg) | smoke-detector |
 |![Preview](./icon-svg/nas.svg) | nas |
@@ -323,6 +324,7 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/herman-miller-aeron.svg) | herman-miller-aeron |
 ![Preview](./icon-svg/discovery-plus.svg) | discovery-plus |
 ![Preview](./icon-svg/disney-plus.svg) | disney-plus |
+![Preview](./icon-svg/disney-plus-alt.svg) | disney-plus-alt|
 ![Preview](./icon-svg/shade-rchiileea-v1.svg) | shade-rchiileea-v1 |
 ![Preview](./icon-svg/shed-closed.svg) | shed-closed |
 ![Preview](./icon-svg/shed-open.svg) | shed-open |
@@ -332,6 +334,11 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/proxmox.svg) | proxmox |
 ![Preview](./icon-svg/raspberry-pi.svg) | raspberry-pi |
 ![Preview](./icon-svg/power-panel-logo.svg) | power-panel-logo |
+![Preview](./icon-svg/iptvx.svg) | iptvx |
+![Preview](./icon-svg/netflix.svg) | netflix |
+![Preview](./icon-svg/streamz.svg) | streamz |
+![Preview](./icon-svg/videoland.svg) | videoland |
+
 ---
 ## Sonoff device
 | Icon | Name |
