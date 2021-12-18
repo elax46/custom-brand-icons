@@ -339,6 +339,7 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/streamz.svg) | streamz |
 ![Preview](./icon-svg/videoland.svg) | videoland |
 ![Preview](./icon-svg/alexa-logo.svg) | alexa-logo |
+
 ---
 ## Sonoff device
 | Icon | Name |
