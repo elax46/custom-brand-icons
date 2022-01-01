@@ -262,6 +262,8 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/friends-of-hue-retrotouch-black-plain.svg) | friends-of-hue-retrotouch-black-plain |
 |![Preview](./icon-svg/friends-of-hue-retrotouch-white-chrome.svg) | friends-of-hue-retrotouch-white-chrome |
 |![Preview](./icon-svg/friends-of-hue-retrotouch-white-plain.svg) | friends-of-hue-retrotouch-white-plain |
+|![Preview](./icon-svg/wall-switch-module.svg) | wall-switch-module |
+|![Preview](./icon-svg/friends-of-hue-rigel.svg) | friends-of-hue-rigel |
 
 ---
 
@@ -338,6 +340,20 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/netflix.svg) | netflix |
 ![Preview](./icon-svg/streamz.svg) | streamz |
 ![Preview](./icon-svg/videoland.svg) | videoland |
+![Preview](./icon-svg/alexa-logo.svg) | alexa-logo |
+![Preview](./icon-svg/zigbee-dongle.svg) | zigbee-dongle |
+![Preview](./icon-svg/wifi-dongle.svg) | wifi-dongle |
+![Preview](./icon-svg/seagate-ssd-m2.svg) | seagate-ssd-m2 |
+![Preview](./icon-svg/seagate-ssd.svg) | seagate-ssd |
+![Preview](./icon-svg/ram-memory.svg) | ram-memory |
+![Preview](./icon-svg/intel-cpu.svg) | intel-cpu |
+![Preview](./icon-svg/jellyfin.svg) | jellyfin |
+![Preview](./icon-svg/riturals.svg) | riturals |
+![Preview](./icon-svg/telnet-box.svg) | telnet-box |
+![Preview](./icon-svg/sky-q-logo.svg) | sky-q-logo |
+![Preview](./icon-svg/tablet.svg) | tablet |
+![Preview](./icon-svg/laptop.svg) | laptop |
+![Preview](./icon-svg/laptop-windows.svg) | laptop-windows |
 
 ---
 ## Sonoff device
@@ -445,6 +461,8 @@ Icons made by @rchiileea
 |![Preview](./icon-svg/homepod-mini.svg) | homepod-mini |
 |![Preview](./icon-svg/apple-tv-box.svg) | apple-tv-box |
 |![Preview](./icon-svg/apple-watch.svg) | apple-watch |
+|![Preview](./icon-svg/apple-watch-alt.svg) | apple-watch-alt |
+|![Preview](./icon-svg/imac.svg) | imac |
 
 ---
 ## Blink Cameras
@@ -580,6 +598,13 @@ Icons made by @rchiileea
 |![Preview](./icon-svg/model-s-charge-side.svg) | model-s-charge-side |
 |![Preview](./icon-svg/model-s.svg) | model-s |
 |![Preview](./icon-svg/model-s-side.svg) | model-s-side |
+
+--- 
+## Tp-Link
+Icons made by @rchiileea
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/tp-link-tapo.svg) | tp-link-tapo |
 
 # Install
 
