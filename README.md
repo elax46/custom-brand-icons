@@ -35,6 +35,7 @@ Custom brand icons for Home Assistant
 - [Schneider Electric](https://github.com/elax46/custom-brand-icons#schneider-electric)
 - [Reolink](https://github.com/elax46/custom-brand-icons#reolink)
 - [Tesla](https://github.com/elax46/custom-brand-icons#tesla)
+- [Tp-link](https://github.com/elax46/custom-brand-icons#tp-link)
  ---
 ## Philips Hue
 
@@ -354,6 +355,9 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/tablet.svg) | tablet |
 ![Preview](./icon-svg/laptop.svg) | laptop |
 ![Preview](./icon-svg/laptop-windows.svg) | laptop-windows |
+![Preview](./icon-svg/catflap-open.svg) | catflap-open |
+![Preview](./icon-svg/catflap-closed.svg) | catflap-closed |
+![Preview](./icon-svg/litterbox.svg) | litterbox|
 
 ---
 ## Sonoff device
@@ -680,11 +684,11 @@ If you want, you can help me expand the number of icons available. Just add the 
 let's take the first string for example:
 
 ```js
-"Bollard": [0, 0, 32.0, 32.0, "string"]
+"Bollard": [0, 0, 24.0, 24.0, "string"]
 ```
 * `Bollard` = icon name
 
-* `0, 0, 32.0, 32.0` = this data can be recovered from the svg file `viewBox="0 0 32 32"` ***If this data is not present in the file you can leave the one indicated by me***
+* `0, 0, 24.0, 24.0` = this data can be recovered from the svg file `viewBox="0 0 24 24"` ***If this data is not present in the file you can leave the one indicated by me***
 
 * `String` = this data can be recovered from the svg file  `<path d="M21,12.5 C21,13.33 18.76,...."` In particular you will have to enter only the part of the vector code `"M21,12.5 C21,13.33 18.76"` For an example take a look at the [icons already inserted](dist/custom-brand-icons.js)
 
