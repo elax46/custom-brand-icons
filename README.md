@@ -349,7 +349,7 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/ram-memory.svg) | ram-memory |
 ![Preview](./icon-svg/intel-cpu.svg) | intel-cpu |
 ![Preview](./icon-svg/jellyfin.svg) | jellyfin |
-![Preview](./icon-svg/riturals.svg) | riturals |
+![Preview](./icon-svg/rituals.svg) | rituals |
 ![Preview](./icon-svg/telnet-box.svg) | telnet-box |
 ![Preview](./icon-svg/sky-q-logo.svg) | sky-q-logo |
 ![Preview](./icon-svg/tablet.svg) | tablet |
