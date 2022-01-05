@@ -36,6 +36,7 @@ Custom brand icons for Home Assistant
 - [Reolink](https://github.com/elax46/custom-brand-icons#reolink)
 - [Tesla](https://github.com/elax46/custom-brand-icons#tesla)
 - [Tp-link](https://github.com/elax46/custom-brand-icons#tp-link)
+- [Ubiquiti](https://github.com/elax46/custom-brand-icons#ubiquiti)
  ---
 ## Philips Hue
 
@@ -318,8 +319,6 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/google-home-icon.svg) | google-home-icon |
 |![Preview](./icon-svg/linktap.svg) | linktap |
 |![Preview](./icon-svg/tim-logo.svg) | tim-logo |
-|![Preview](./icon-svg/ubiquiti.svg) | ubiquiti |
-|![Preview](./icon-svg/ubiquiti-logo.svg) | ubiquiti-logo |
 |![Preview](./icon-svg/salt-lamp.svg) | salt-lamp |
 |![Preview](./icon-svg/yamaha-rx-v773.svg) | yamaha-rx-v773 |
 |![Preview](./icon-svg/dune-hd.svg) | dune-hd |
@@ -343,6 +342,7 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/videoland.svg) | videoland |
 ![Preview](./icon-svg/alexa-logo.svg) | alexa-logo |
 ![Preview](./icon-svg/zigbee-dongle.svg) | zigbee-dongle |
+[Preview](./icon-svg/zwave-dongle.svg) | zwave-dongle|
 ![Preview](./icon-svg/wifi-dongle.svg) | wifi-dongle |
 ![Preview](./icon-svg/seagate-ssd-m2.svg) | seagate-ssd-m2 |
 ![Preview](./icon-svg/seagate-ssd.svg) | seagate-ssd |
@@ -355,9 +355,10 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/tablet.svg) | tablet |
 ![Preview](./icon-svg/laptop.svg) | laptop |
 ![Preview](./icon-svg/laptop-windows.svg) | laptop-windows |
-![Preview](./icon-svg/catflap-open.svg) | catflap-open |
-![Preview](./icon-svg/catflap-closed.svg) | catflap-closed |
 ![Preview](./icon-svg/litterbox.svg) | litterbox|
+![Preview](./icon-svg/outside-temp.svg) | outside-temp|
+![Preview](./icon-svg/underfloor-heating.svg) | underfloor-heating|
+![Preview](./icon-svg/asus-rp-68u.svg) | asus-rp-68u|
 
 ---
 ## Sonoff device
@@ -534,6 +535,8 @@ Icons made by @rchiileea
 |![Preview](./icon-svg/panel-glassdoor-open.svg) | panel-glassdoor-open |
 |![Preview](./icon-svg/panel-door-open.svg) | panel-door-open |
 |![Preview](./icon-svg/panel-door-close.svg) | panel-door-close |
+![Preview](./icon-svg/petflap-open.svg) | petflap-open |
+![Preview](./icon-svg/petflap-closed.svg) | petflap-closed |
 ---
 ## Ring
 Icons made by @rchiileea
@@ -609,6 +612,24 @@ Icons made by @rchiileea
 | Icon | Name |
 |------|:--------------:|
 |![Preview](./icon-svg/tp-link-tapo.svg) | tp-link-tapo |
+
+---
+## Ubiquiti
+Icons made by @rchiileea
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/ubiquiti.svg) | ubiquiti |
+|![Preview](./icon-svg/ubiquiti-logo.svg) | ubiquiti-logo |
+|![Preview](./icon-svg/ubiquiti-ap.svg) | ubiquiti-ap |
+|![Preview](./icon-svg/ubiquiti-usg-p3.svg) | ubiquiti-usg-p3 |
+
+---
+## Fritz
+Icons made by @rchiileea
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/fritzbox-7530.svg) | fritzbox-7530 |
+|![Preview](./icon-svg/fritz-repeater.svg) | fritz-repeater |
 
 # Install
 
