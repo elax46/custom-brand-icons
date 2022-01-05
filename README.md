@@ -35,6 +35,8 @@ Custom brand icons for Home Assistant
 - [Schneider Electric](https://github.com/elax46/custom-brand-icons#schneider-electric)
 - [Reolink](https://github.com/elax46/custom-brand-icons#reolink)
 - [Tesla](https://github.com/elax46/custom-brand-icons#tesla)
+- [Tp-link](https://github.com/elax46/custom-brand-icons#tp-link)
+- [Ubiquiti](https://github.com/elax46/custom-brand-icons#ubiquiti)
  ---
 ## Philips Hue
 
@@ -317,8 +319,6 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/google-home-icon.svg) | google-home-icon |
 |![Preview](./icon-svg/linktap.svg) | linktap |
 |![Preview](./icon-svg/tim-logo.svg) | tim-logo |
-|![Preview](./icon-svg/ubiquiti.svg) | ubiquiti |
-|![Preview](./icon-svg/ubiquiti-logo.svg) | ubiquiti-logo |
 |![Preview](./icon-svg/salt-lamp.svg) | salt-lamp |
 |![Preview](./icon-svg/yamaha-rx-v773.svg) | yamaha-rx-v773 |
 |![Preview](./icon-svg/dune-hd.svg) | dune-hd |
@@ -342,18 +342,23 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/videoland.svg) | videoland |
 ![Preview](./icon-svg/alexa-logo.svg) | alexa-logo |
 ![Preview](./icon-svg/zigbee-dongle.svg) | zigbee-dongle |
+[Preview](./icon-svg/zwave-dongle.svg) | zwave-dongle|
 ![Preview](./icon-svg/wifi-dongle.svg) | wifi-dongle |
 ![Preview](./icon-svg/seagate-ssd-m2.svg) | seagate-ssd-m2 |
 ![Preview](./icon-svg/seagate-ssd.svg) | seagate-ssd |
 ![Preview](./icon-svg/ram-memory.svg) | ram-memory |
 ![Preview](./icon-svg/intel-cpu.svg) | intel-cpu |
 ![Preview](./icon-svg/jellyfin.svg) | jellyfin |
-![Preview](./icon-svg/riturals.svg) | riturals |
+![Preview](./icon-svg/rituals.svg) | rituals |
 ![Preview](./icon-svg/telnet-box.svg) | telnet-box |
 ![Preview](./icon-svg/sky-q-logo.svg) | sky-q-logo |
 ![Preview](./icon-svg/tablet.svg) | tablet |
 ![Preview](./icon-svg/laptop.svg) | laptop |
 ![Preview](./icon-svg/laptop-windows.svg) | laptop-windows |
+![Preview](./icon-svg/litterbox.svg) | litterbox|
+![Preview](./icon-svg/outside-temp.svg) | outside-temp|
+![Preview](./icon-svg/underfloor-heating.svg) | underfloor-heating|
+![Preview](./icon-svg/asus-rp-68u.svg) | asus-rp-68u|
 
 ---
 ## Sonoff device
@@ -530,6 +535,8 @@ Icons made by @rchiileea
 |![Preview](./icon-svg/panel-glassdoor-open.svg) | panel-glassdoor-open |
 |![Preview](./icon-svg/panel-door-open.svg) | panel-door-open |
 |![Preview](./icon-svg/panel-door-close.svg) | panel-door-close |
+![Preview](./icon-svg/petflap-open.svg) | petflap-open |
+![Preview](./icon-svg/petflap-closed.svg) | petflap-closed |
 ---
 ## Ring
 Icons made by @rchiileea
@@ -606,6 +613,24 @@ Icons made by @rchiileea
 |------|:--------------:|
 |![Preview](./icon-svg/tp-link-tapo.svg) | tp-link-tapo |
 
+---
+## Ubiquiti
+Icons made by @rchiileea
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/ubiquiti.svg) | ubiquiti |
+|![Preview](./icon-svg/ubiquiti-logo.svg) | ubiquiti-logo |
+|![Preview](./icon-svg/ubiquiti-ap.svg) | ubiquiti-ap |
+|![Preview](./icon-svg/ubiquiti-usg-p3.svg) | ubiquiti-usg-p3 |
+
+---
+## Fritz
+Icons made by @rchiileea
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/fritzbox-7530.svg) | fritzbox-7530 |
+|![Preview](./icon-svg/fritz-repeater.svg) | fritz-repeater |
+
 # Install
 
 ## HACS
@@ -680,11 +705,11 @@ If you want, you can help me expand the number of icons available. Just add the 
 let's take the first string for example:
 
 ```js
-"Bollard": [0, 0, 32.0, 32.0, "string"]
+"Bollard": [0, 0, 24.0, 24.0, "string"]
 ```
 * `Bollard` = icon name
 
-* `0, 0, 32.0, 32.0` = this data can be recovered from the svg file `viewBox="0 0 32 32"` ***If this data is not present in the file you can leave the one indicated by me***
+* `0, 0, 24.0, 24.0` = this data can be recovered from the svg file `viewBox="0 0 24 24"` ***If this data is not present in the file you can leave the one indicated by me***
 
 * `String` = this data can be recovered from the svg file  `<path d="M21,12.5 C21,13.33 18.76,...."` In particular you will have to enter only the part of the vector code `"M21,12.5 C21,13.33 18.76"` For an example take a look at the [icons already inserted](dist/custom-brand-icons.js)
 
