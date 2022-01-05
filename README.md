@@ -37,6 +37,7 @@ Custom brand icons for Home Assistant
 - [Tesla](https://github.com/elax46/custom-brand-icons#tesla)
 - [Tp-link](https://github.com/elax46/custom-brand-icons#tp-link)
 - [Ubiquiti](https://github.com/elax46/custom-brand-icons#ubiquiti)
+- [Fritz](https://github.com/elax46/custom-brand-icons#fritz)
  ---
 ## Philips Hue
 
