@@ -454,6 +454,7 @@ Icons made by @rchiileea
 |![Preview](./icon-svg/sonos-playbar.svg) | sonos-playbar |
 |![Preview](./icon-svg/sonos-bookshelf-vertical.svg) | sonos-bookshelf-vertical |
 |![Preview](./icon-svg/sonos-bookshelf-horizontal.svg) | sonos-bookshelf-horizontal |
+|![Preview](./icon-svg/sonos-one.svg) | sonos-one |
 ---
 ## Apple device
 | Icon | Name |
