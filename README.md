@@ -38,6 +38,7 @@ Custom brand icons for Home Assistant
 - [Tp-link](https://github.com/elax46/custom-brand-icons#tp-link)
 - [Ubiquiti](https://github.com/elax46/custom-brand-icons#ubiquiti)
 - [Fritz](https://github.com/elax46/custom-brand-icons#fritz)
+- [LG](https://github.com/elax46/custom-brand-icons#lg)
  ---
 ## Philips Hue
 
@@ -343,7 +344,7 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/videoland.svg) | videoland |
 ![Preview](./icon-svg/alexa-logo.svg) | alexa-logo |
 ![Preview](./icon-svg/zigbee-dongle.svg) | zigbee-dongle |
-[Preview](./icon-svg/zwave-dongle.svg) | zwave-dongle|
+![Preview](./icon-svg/zwave-dongle.svg) | zwave-dongle|
 ![Preview](./icon-svg/wifi-dongle.svg) | wifi-dongle |
 ![Preview](./icon-svg/seagate-ssd-m2.svg) | seagate-ssd-m2 |
 ![Preview](./icon-svg/seagate-ssd.svg) | seagate-ssd |
@@ -455,6 +456,7 @@ Icons made by @rchiileea
 |![Preview](./icon-svg/sonos-bookshelf-vertical.svg) | sonos-bookshelf-vertical |
 |![Preview](./icon-svg/sonos-bookshelf-horizontal.svg) | sonos-bookshelf-horizontal |
 |![Preview](./icon-svg/sonos-one.svg) | sonos-one |
+|![Preview](./icon-svg/sonos-arc.svg) | sonos-arc |
 ---
 ## Apple device
 | Icon | Name |
@@ -632,6 +634,18 @@ Icons made by @rchiileea
 |------|:--------------:|
 |![Preview](./icon-svg/fritzbox-7530.svg) | fritzbox-7530 |
 |![Preview](./icon-svg/fritz-repeater.svg) | fritz-repeater |
+
+---
+## LG
+Icons made by @rchiileea
+| Icon | Name |
+|------|:--------------:|
+|![Preview](./icon-svg/lg-signiture.svg) | lg-signiture |
+|![Preview](./icon-svg/lg-oled55.svg) | lg-oled55 |
+|![Preview](./icon-svg/lg-fridge.svg) | lg-fridge |
+|![Preview](./icon-svg/lg-cooker.svg) | lg-cooker |
+|![Preview](./icon-svg/lg-aircon.svg) | lg-aircon |
+|![Preview](./icon-svg/lg-air-purifier.svg) | lg-air-purifier |
 
 # Install
 
