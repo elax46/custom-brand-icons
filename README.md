@@ -361,6 +361,7 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/outside-temp.svg) | outside-temp|
 ![Preview](./icon-svg/underfloor-heating.svg) | underfloor-heating|
 ![Preview](./icon-svg/asus-rp-68u.svg) | asus-rp-68u|
+![Preview](./icon-svg/vrt-logo.svg) | vrt-logo|
 
 ---
 ## Sonoff device
