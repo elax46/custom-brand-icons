@@ -321,6 +321,7 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/google-home-icon.svg) | google-home-icon |
 |![Preview](./icon-svg/linktap.svg) | linktap |
 |![Preview](./icon-svg/tim-logo.svg) | tim-logo |
+|![Preview](./icon-svg/tim-logo-alt.svg) | tim-logo-alt |
 |![Preview](./icon-svg/salt-lamp.svg) | salt-lamp |
 |![Preview](./icon-svg/yamaha-rx-v773.svg) | yamaha-rx-v773 |
 |![Preview](./icon-svg/dune-hd.svg) | dune-hd |
@@ -357,10 +358,13 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/tablet.svg) | tablet |
 ![Preview](./icon-svg/laptop.svg) | laptop |
 ![Preview](./icon-svg/laptop-windows.svg) | laptop-windows |
+![Preview](./icon-svg/laptop-windows-alt.svg) | laptop-windows-alt |
 ![Preview](./icon-svg/litterbox.svg) | litterbox|
 ![Preview](./icon-svg/outside-temp.svg) | outside-temp|
 ![Preview](./icon-svg/underfloor-heating.svg) | underfloor-heating|
 ![Preview](./icon-svg/asus-rp-68u.svg) | asus-rp-68u|
+![Preview](./icon-svg/vrt-logo.svg) | vrt-logo|
+![Preview](./icon-svg/npo.svg) | npo|
 
 ---
 ## Sonoff device
