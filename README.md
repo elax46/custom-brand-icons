@@ -372,6 +372,10 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/asus-rp-68u.svg) | asus-rp-68u|
 ![Preview](./icon-svg/vrt-logo.svg) | vrt-logo|
 ![Preview](./icon-svg/npo.svg) | npo|
+![Preview](./icon-svg/garage-3-prong.svg) | garage-3-prong|
+![Preview](./icon-svg/garage-4-prong.svg) | garage-4-prong|
+![Preview](./icon-svg/garage-5-prong.svg) | garage-5-prong|
+![Preview](./icon-svg/netgear-switch.svg) | netgear-switch|
 
 ---
 ## Sonoff device
