@@ -268,6 +268,13 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/friends-of-hue-retrotouch-white-plain.svg) | friends-of-hue-retrotouch-white-plain |
 |![Preview](./icon-svg/wall-switch-module.svg) | wall-switch-module |
 |![Preview](./icon-svg/friends-of-hue-rigel.svg) | friends-of-hue-rigel |
+|![Preview](./icon-svg/rooms-front-door.svg) | rooms-front-door |
+|![Preview](./icon-svg/other-reading.svg) | other-reading |
+|![Preview](./icon-svg/other-watching-movie.svg) | other-watching-movie |
+|![Preview](./icon-svg/zones-areas-first-floor.svg) | zones-areas-first-floor |
+|![Preview](./icon-svg/tabbar-home.svg) | tabbar-home |
+|![Preview](./icon-svg/zones-areas-second-floor.svg) | zones-areas-second-floor |
+|![Preview](./icon-svg/zones-areas-ground-floor.svg) | zones-areas-ground-floor |
 
 ---
 
@@ -365,6 +372,10 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/asus-rp-68u.svg) | asus-rp-68u|
 ![Preview](./icon-svg/vrt-logo.svg) | vrt-logo|
 ![Preview](./icon-svg/npo.svg) | npo|
+![Preview](./icon-svg/garage-3-prong.svg) | garage-3-prong|
+![Preview](./icon-svg/garage-4-prong.svg) | garage-4-prong|
+![Preview](./icon-svg/garage-5-prong.svg) | garage-5-prong|
+![Preview](./icon-svg/netgear-switch.svg) | netgear-switch|
 
 ---
 ## Sonoff device
