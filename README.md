@@ -268,6 +268,13 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/friends-of-hue-retrotouch-white-plain.svg) | friends-of-hue-retrotouch-white-plain |
 |![Preview](./icon-svg/wall-switch-module.svg) | wall-switch-module |
 |![Preview](./icon-svg/friends-of-hue-rigel.svg) | friends-of-hue-rigel |
+|![Preview](./icon-svg/rooms-front-door.svg) | rooms-front-door |
+|![Preview](./icon-svg/other-reading.svg) | other-reading |
+|![Preview](./icon-svg/other-watching-movie.svg) | other-watching-movie |
+|![Preview](./icon-svg/zones-areas-first-floor.svg) | zones-areas-first-floor |
+|![Preview](./icon-svg/tabbar-home.svg) | tabbar-home |
+|![Preview](./icon-svg/zones-areas-second-floor.svg) | zones-areas-second-floor |
+|![Preview](./icon-svg/zones-areas-ground-floor.svg) | zones-areas-ground-floor |
 
 ---
 
