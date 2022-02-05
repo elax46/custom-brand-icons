@@ -275,6 +275,27 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/tabbar-home.svg) | tabbar-home |
 |![Preview](./icon-svg/zones-areas-second-floor.svg) | zones-areas-second-floor |
 |![Preview](./icon-svg/zones-areas-ground-floor.svg) | zones-areas-ground-floor |
+|![Preview](./icon-svg/ceiling-xamento.svg) | ceiling-xamento |
+|![Preview](./icon-svg/outdoor-motion-sensor-temperature.svg) | outdoor-motion-sensor-temperature |
+|![Preview](./icon-svg/motion-sensor-temperature.svg) | motion-sensor-temperature |
+|![Preview](./icon-svg/pillar-turaco-short.svg) | pillar-turaco-short |
+|![Preview](./icon-svg/pillar-turaco-tall.svg) | pillar-turaco-tall |
+|![Preview](./icon-svg/bulb-group-pillar-turaco-short-tall.svg) | bulb-group-pillar-turaco-short-tall |
+|![Preview](./icon-svg/pendant-devote-solid.svg) | pendant-devote-solid |
+|![Preview](./icon-svg/pendant-devote-two-solid.svg) | pendant-devote-two-solid |
+|![Preview](./icon-svg/pendant-devote-three-solid.svg) | pendant-devote-three-solid |
+|![Preview](./icon-svg/bulb-group-bollard-wall-appear.svg) | bulb-group-bollard-wall-appear |
+|![Preview](./icon-svg/pillar-spot-2.svg) | pillar-spot-2 |
+|![Preview](./icon-svg/pillar-spot-3.svg) | pillar-spot-3 |
+|![Preview](./icon-svg/bulb-group-par-38.svg) | bulb-group-par-38 |
+|![Preview](./icon-svg/bulb-group-classic-3.svg) | bulb-group-classic-3 |
+|![Preview](./icon-svg/bulb-group-classic-hung-3.svg) | bulb-group-classic-hung-3 |
+|![Preview](./icon-svg/bulb-group-classic-3-alt.svg) | bulb-group-classic-3-alt |
+|![Preview](./icon-svg/bulb-group-classic-hung-3-alt.svg) | bulb-group-classic-hung-3-alt |
+|![Preview](./icon-svg/bulb-group-classic-4.svg) | bulb-group-classic-4 |
+|![Preview](./icon-svg/bulb-group-classic-hung-4.svg) | bulb-group-classic-hung-4 |
+|![Preview](./icon-svg/bulb-group-classic-4-alt.svg) | bulb-group-classic-4-alt |
+|![Preview](./icon-svg/bulb-group-classic-4-alt.svg) | bulb-group-classic-4-alt |
 
 ---
 
