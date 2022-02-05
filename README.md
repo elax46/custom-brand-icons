@@ -375,6 +375,10 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/garage-3-prong.svg) | garage-3-prong|
 ![Preview](./icon-svg/garage-4-prong.svg) | garage-4-prong|
 ![Preview](./icon-svg/garage-5-prong.svg) | garage-5-prong|
+![Preview](./icon-svg/neon-closed.svg) | neon-closed|
+![Preview](./icon-svg/neon-open.svg) | neon-open|
+![Preview](./icon-svg/cooker-extract-off.svg) | cooker-extract-off|
+![Preview](./icon-svg/cooker-extract-on.svg) | cooker-extract-on|
 
 ---
 ## Sonoff device
@@ -762,9 +766,12 @@ In case you want to create your own perfix you can edit the last line of the `cu
 ```js
   window.customIconsets["yourprefix"] = getIcon;
 ```
+# Pulls requests
+If you want to integrate icons or change errors in the documentation do not hesitate to open a pull request remember to open it on the dev branch
 
 # Thanks
 thanks to for @mutzl your contribution
+
 # Support the project
 Do you like these icons? Support the project with a pizza 🍕🍕
 
