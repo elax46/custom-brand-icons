@@ -375,7 +375,6 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/garage-3-prong.svg) | garage-3-prong|
 ![Preview](./icon-svg/garage-4-prong.svg) | garage-4-prong|
 ![Preview](./icon-svg/garage-5-prong.svg) | garage-5-prong|
-![Preview](./icon-svg/netgear-switch.svg) | netgear-switch|
 
 ---
 ## Sonoff device
@@ -448,6 +447,7 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/orbi.svg) | orbi |
 ![Preview](./icon-svg/wifi-extender.svg) | wifi-extender |
 ![Preview](./icon-svg/nighthawk.svg) | nighthawk |
+![Preview](./icon-svg/netgear-switch.svg) | netgear-switch|
 ---
 ## Alexa device
 | Icon | Name |
