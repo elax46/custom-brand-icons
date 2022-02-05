@@ -3,7 +3,7 @@ name: Custom Icon request
 about: Request a custom icon
 title: Custom Icon request [name icon]
 labels: icon-request
-assignees: elax46
+assignees: elax46, rchiileea
 
 ---
 
