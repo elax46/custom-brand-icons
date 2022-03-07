@@ -266,6 +266,8 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/friends-of-hue-retrotouch-black-plain.svg) | friends-of-hue-retrotouch-black-plain |
 |![Preview](./icon-svg/friends-of-hue-retrotouch-white-chrome.svg) | friends-of-hue-retrotouch-white-chrome |
 |![Preview](./icon-svg/friends-of-hue-retrotouch-white-plain.svg) | friends-of-hue-retrotouch-white-plain |
+|![Preview](./icon-svg/friends-of-hue-aurora-dimmer-switch.svg) | friends-of-hue-aurora-dimmer-switch |
+|![Preview](./icon-svg/friends-of-hue-aurora-dimmer-switch-alt.svg) | friends-of-hue-aurora-dimmer-switch-alt |
 |![Preview](./icon-svg/wall-switch-module.svg) | wall-switch-module |
 |![Preview](./icon-svg/friends-of-hue-rigel.svg) | friends-of-hue-rigel |
 |![Preview](./icon-svg/rooms-front-door.svg) | rooms-front-door |
