@@ -266,6 +266,8 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/friends-of-hue-retrotouch-black-plain.svg) | friends-of-hue-retrotouch-black-plain |
 |![Preview](./icon-svg/friends-of-hue-retrotouch-white-chrome.svg) | friends-of-hue-retrotouch-white-chrome |
 |![Preview](./icon-svg/friends-of-hue-retrotouch-white-plain.svg) | friends-of-hue-retrotouch-white-plain |
+|![Preview](./icon-svg/friends-of-hue-aurora-dimmer-switch.svg) | friends-of-hue-aurora-dimmer-switch |
+|![Preview](./icon-svg/friends-of-hue-aurora-dimmer-switch-alt.svg) | friends-of-hue-aurora-dimmer-switch-alt |
 |![Preview](./icon-svg/wall-switch-module.svg) | wall-switch-module |
 |![Preview](./icon-svg/friends-of-hue-rigel.svg) | friends-of-hue-rigel |
 |![Preview](./icon-svg/rooms-front-door.svg) | rooms-front-door |
@@ -275,6 +277,27 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/tabbar-home.svg) | tabbar-home |
 |![Preview](./icon-svg/zones-areas-second-floor.svg) | zones-areas-second-floor |
 |![Preview](./icon-svg/zones-areas-ground-floor.svg) | zones-areas-ground-floor |
+|![Preview](./icon-svg/ceiling-xamento.svg) | ceiling-xamento |
+|![Preview](./icon-svg/outdoor-motion-sensor-temperature.svg) | outdoor-motion-sensor-temperature |
+|![Preview](./icon-svg/motion-sensor-temperature.svg) | motion-sensor-temperature |
+|![Preview](./icon-svg/pillar-turaco-short.svg) | pillar-turaco-short |
+|![Preview](./icon-svg/pillar-turaco-tall.svg) | pillar-turaco-tall |
+|![Preview](./icon-svg/bulb-group-pillar-turaco-short-tall.svg) | bulb-group-pillar-turaco-short-tall |
+|![Preview](./icon-svg/pendant-devote-solid.svg) | pendant-devote-solid |
+|![Preview](./icon-svg/pendant-devote-two-solid.svg) | pendant-devote-two-solid |
+|![Preview](./icon-svg/pendant-devote-three-solid.svg) | pendant-devote-three-solid |
+|![Preview](./icon-svg/bulb-group-bollard-wall-appear.svg) | bulb-group-bollard-wall-appear |
+|![Preview](./icon-svg/pillar-spot-2.svg) | pillar-spot-2 |
+|![Preview](./icon-svg/pillar-spot-3.svg) | pillar-spot-3 |
+|![Preview](./icon-svg/bulb-group-par-38.svg) | bulb-group-par-38 |
+|![Preview](./icon-svg/bulb-group-classic-3.svg) | bulb-group-classic-3 |
+|![Preview](./icon-svg/bulb-group-classic-hung-3.svg) | bulb-group-classic-hung-3 |
+|![Preview](./icon-svg/bulb-group-classic-3-alt.svg) | bulb-group-classic-3-alt |
+|![Preview](./icon-svg/bulb-group-classic-hung-3-alt.svg) | bulb-group-classic-hung-3-alt |
+|![Preview](./icon-svg/bulb-group-classic-4.svg) | bulb-group-classic-4 |
+|![Preview](./icon-svg/bulb-group-classic-hung-4.svg) | bulb-group-classic-hung-4 |
+|![Preview](./icon-svg/bulb-group-classic-4-alt.svg) | bulb-group-classic-4-alt |
+|![Preview](./icon-svg/bulb-group-classic-4-alt.svg) | bulb-group-classic-4-alt |
 
 ---
 
@@ -538,6 +561,9 @@ Icons made by @rchiileea
 |![Preview](./icon-svg/top-window-open.svg) | top-window-open |
 |![Preview](./icon-svg/vert-blind-close.svg) | vert-blind-close |
 |![Preview](./icon-svg/vert-blind-open.svg) | vert-blind-open |
+|![Preview](./icon-svg/lift-in-window-closed.svg) | lift-in-window-closed |
+|![Preview](./icon-svg/lift-in-window-open1.svg) | lift-in-window-open1 |
+|![Preview](./icon-svg/lift-in-window-open2.svg) | lift-in-window-open2 |
 
 ---
 ## Doors
