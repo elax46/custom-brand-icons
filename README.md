@@ -561,6 +561,9 @@ Icons made by @rchiileea
 |![Preview](./icon-svg/top-window-open.svg) | top-window-open |
 |![Preview](./icon-svg/vert-blind-close.svg) | vert-blind-close |
 |![Preview](./icon-svg/vert-blind-open.svg) | vert-blind-open |
+|![Preview](./icon-svg/lift-in-window-closed.svg) | lift-in-window-closed |
+|![Preview](./icon-svg/lift-in-window-open1.svg) | lift-in-window-open1 |
+|![Preview](./icon-svg/lift-in-window-open2.svg) | lift-in-window-open2 |
 
 ---
 ## Doors
