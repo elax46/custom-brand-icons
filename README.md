@@ -403,6 +403,7 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/cooker-extract-off.svg) | cooker-extract-off|
 ![Preview](./icon-svg/cooker-extract-on.svg) | cooker-extract-on|
 ![Preview](./icon-svg/bitwarden.svg) | bitwarden|
+![Preview](./icon-svg/netapp.svg) | netapp|
 
 ---
 ## Sonoff device
