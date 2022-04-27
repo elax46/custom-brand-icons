@@ -402,6 +402,11 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/neon-open.svg) | neon-open|
 ![Preview](./icon-svg/cooker-extract-off.svg) | cooker-extract-off|
 ![Preview](./icon-svg/cooker-extract-on.svg) | cooker-extract-on|
+![Preview](./icon-svg/bitwarden.svg) | bitwarden|
+![Preview](./icon-svg/netapp.svg) | netapp|
+![Preview](./icon-svg/moviestar-plus.svg) | moviestar-plus|
+![Preview](./icon-svg/telnet.svg) | telnet|
+![Preview](./icon-svg/vtm.svg) | vtm|
 
 ---
 ## Sonoff device
