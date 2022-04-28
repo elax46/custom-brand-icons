@@ -407,6 +407,9 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/moviestar-plus.svg) | moviestar-plus|
 ![Preview](./icon-svg/telnet.svg) | telnet|
 ![Preview](./icon-svg/vtm.svg) | vtm|
+![Preview](./icon-svg/hbo.svg) | hbo|
+![Preview](./icon-svg/hbo-max.svg) | hbo-max|
+
 
 ---
 ## Sonoff device
