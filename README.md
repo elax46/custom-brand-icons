@@ -298,6 +298,24 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/bulb-group-classic-hung-4.svg) | bulb-group-classic-hung-4 |
 |![Preview](./icon-svg/bulb-group-classic-4-alt.svg) | bulb-group-classic-4-alt |
 |![Preview](./icon-svg/bulb-group-classic-4-alt.svg) | bulb-group-classic-4-alt |
+|![Preview](./icon-svg/ceiling-adore.svg) | ceiling-adore |
+|![Preview](./icon-svg/ceiling-adore-alt.svg) | ceiling-adore-alt |
+|![Preview](./icon-svg/ceiling-adore-flush.svg) | ceiling-adore-flush |
+|![Preview](./icon-svg/ceiling-adore-alt-flush.svg) | ceiling-adore-alt-flush |
+|![Preview](./icon-svg/wall-runner.svg) | wall-runner |
+|![Preview](./icon-svg/ceiling-runner.svg) | ceiling-runner |
+|![Preview](./icon-svg/ceiling-runner-two.svg) | ceiling-runner-two |
+|![Preview](./icon-svg/ceiling-runner-three.svg) | ceiling-runner-three |
+|![Preview](./icon-svg/wall-inara.svg) | wall-inara |
+|![Preview](./icon-svg/wall-inara-alt.svg) | wall-inara-alt |
+|![Preview](./icon-svg/wall-impress-narrow-two.svg) | wall-impress-narrow-two |
+|![Preview](./icon-svg/wall-impress-narrow-three.svg) | wall-impress-narrow-three |
+|![Preview](./icon-svg/iris-group.svg) | iris-group |
+|![Preview](./icon-svg/bulb-group-wall-nyro-flood.svg) | bulb-group-wall-nyro-flood |
+|![Preview](./icon-svg/ceiling-buratto-two-off.svg) | ceiling-buratto-two-off |
+|![Preview](./icon-svg/bulb-group-bollard-3-off.svg) | bulb-group-bollard-3-off |
+|![Preview](./icon-svg/bulb-group-ceiling-flush-circular.svg) | bulb-group-ceiling-flush-circular |
+|![Preview](./icon-svg/friends-of-hue-marbul-suspended.svg) | friends-of-hue-marbul-suspended |
 
 ---
 
@@ -409,6 +427,9 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/vtm.svg) | vtm|
 ![Preview](./icon-svg/hbo.svg) | hbo|
 ![Preview](./icon-svg/hbo-max.svg) | hbo-max|
+![Preview](./icon-svg/2-way-uplighter.svg) | 2-way-uplighter|
+![Preview](./icon-svg/uplighter.svg) | uplighter|
+![Preview](./icon-svg/table-cylinder-lamp.svg) | table-cylinder-lamp|
 
 
 ---
