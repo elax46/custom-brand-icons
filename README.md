@@ -430,6 +430,7 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/2-way-uplighter.svg) | 2-way-uplighter|
 ![Preview](./icon-svg/uplighter.svg) | uplighter|
 ![Preview](./icon-svg/table-cylinder-lamp.svg) | table-cylinder-lamp|
+![Preview](./icon-svg/viaplay.svg) | viaplay|
 
 
 ---
