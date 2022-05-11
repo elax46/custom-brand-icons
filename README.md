@@ -431,6 +431,10 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/uplighter.svg) | uplighter|
 ![Preview](./icon-svg/table-cylinder-lamp.svg) | table-cylinder-lamp|
 ![Preview](./icon-svg/viaplay.svg) | viaplay|
+![Preview](./icon-svg/paramount.svg) | paramount|
+![Preview](./icon-svg/deezer-logo.svg) | deezer-logo|
+![Preview](./icon-svg/justwatch.svg) | justwatch|
+![Preview](./icon-svg/moonlight.svg) | moonlight|
 
 
 ---
