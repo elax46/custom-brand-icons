@@ -244,7 +244,7 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/hbo.svg) | hbo| ![Preview](./icon-svg/hbo-max.svg) | hbo-max|
 ![Preview](./icon-svg/2-way-uplighter.svg) | 2-way-uplighter| ![Preview](./icon-svg/uplighter.svg) | uplighter| ![Preview](./icon-svg/table-cylinder-lamp.svg) | table-cylinder-lamp|
 ![Preview](./icon-svg/viaplay.svg) | viaplay| ![Preview](./icon-svg/paramount.svg) | paramount| ![Preview](./icon-svg/deezer-logo.svg) | deezer-logo| ![Preview](./icon-svg/justwatch.svg) | justwatch| ![Preview](./icon-svg/moonlight.svg) | moonlight|
-| ![Preview](./icon-svg/infuse-pro.svg) | infuse-pro | ![Preview](./icon-svg/menergie.svg) | moonlight|
+| ![Preview](./icon-svg/infuse-pro.svg) | infuse-pro | ![Preview](./icon-svg/menergie.svg) | menergie|
 
 ---
 ## Sonoff device
@@ -292,8 +292,7 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/arlo-audio-doorbell.svg) | arlo-audio-doorbell |![Preview](./icon-svg/arlo-video-doorbell.svg) | arlo-video-doorbell |
 |![Preview](./icon-svg/arlo-security-light.svg) | arlo-security-light | ![Preview](./icon-svg/arlo-base-station.svg) | arlo-base-station |
 |![Preview](./icon-svg/arlo-baby.svg) | arlo-baby | ![Preview](./icon-svg/orbi.svg) | orbi | ![Preview](./icon-svg/wifi-extender.svg) | wifi-extender |
-![Preview](./icon-svg/nighthawk.svg) | nighthawk |
-![Preview](./icon-svg/netgear-switch.svg) | netgear-switch|
+![Preview](./icon-svg/nighthawk.svg) | nighthawk |![Preview](./icon-svg/netgear-switch.svg) | netgear-switch|
 ---
 ## Alexa device
 | Icon | Name | Icon | Name 
@@ -371,8 +370,7 @@ Icons made by @rchiileea
 |![Preview](./icon-svg/panel-frontdoor-close.svg) | panel-frontdoor-open | ![Preview](./icon-svg/panel-frontdoor-close.svg) | panel-frontdoor-close |
 |![Preview](./icon-svg/panel-glassdoor-close.svg) | panel-glassdoor-close | ![Preview](./icon-svg/panel-glassdoor-open.svg) | panel-glassdoor-open |
 |![Preview](./icon-svg/panel-door-open.svg) | panel-door-open | ![Preview](./icon-svg/panel-door-close.svg) | panel-door-close |
-![Preview](./icon-svg/petflap-open.svg) | petflap-open |
-![Preview](./icon-svg/petflap-closed.svg) | petflap-closed |
+![Preview](./icon-svg/petflap-open.svg) | petflap-open | ![Preview](./icon-svg/petflap-closed.svg) | petflap-closed |
 ---
 ## Ring
 Icons made by @rchiileea
