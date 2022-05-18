@@ -244,7 +244,7 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/hbo.svg) | hbo| ![Preview](./icon-svg/hbo-max.svg) | hbo-max|
 ![Preview](./icon-svg/2-way-uplighter.svg) | 2-way-uplighter| ![Preview](./icon-svg/uplighter.svg) | uplighter| ![Preview](./icon-svg/table-cylinder-lamp.svg) | table-cylinder-lamp|
 ![Preview](./icon-svg/viaplay.svg) | viaplay| ![Preview](./icon-svg/paramount.svg) | paramount| ![Preview](./icon-svg/deezer-logo.svg) | deezer-logo| ![Preview](./icon-svg/justwatch.svg) | justwatch| ![Preview](./icon-svg/moonlight.svg) | moonlight|
-| ![Preview](./icon-svg/infuse-pro.svg) | infuse-pro | ![Preview](./icon-svg/menergie.svg) | menergie|
+| ![Preview](./icon-svg/infuse-pro.svg) | infuse-pro | ![Preview](./icon-svg/menergie.svg) | myenergi|
 
 ---
 ## Sonoff device
