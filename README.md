@@ -239,7 +239,7 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/garage-5-prong.svg) | garage-5-prong| ![Preview](./icon-svg/neon-closed.svg) | neon-closed|
 ![Preview](./icon-svg/neon-open.svg) | neon-open| ![Preview](./icon-svg/cooker-extract-off.svg) | cooker-extract-off|
 ![Preview](./icon-svg/cooker-extract-on.svg) | cooker-extract-on| ![Preview](./icon-svg/bitwarden.svg) | bitwarden|
-![Preview](./icon-svg/netapp.svg) | netapp| ![Preview](./icon-svg/moviestar-plus.svg) | moviestar-plus|
+![Preview](./icon-svg/netapp.svg) | netapp| ![Preview](./icon-svg/movistar-plus.svg) | movistar-plus|
 ![Preview](./icon-svg/telnet.svg) | telnet| ![Preview](./icon-svg/vtm.svg) | vtm|
 ![Preview](./icon-svg/hbo.svg) | hbo| ![Preview](./icon-svg/hbo-max.svg) | hbo-max|
 ![Preview](./icon-svg/2-way-uplighter.svg) | 2-way-uplighter| ![Preview](./icon-svg/uplighter.svg) | uplighter| ![Preview](./icon-svg/table-cylinder-lamp.svg) | table-cylinder-lamp|
