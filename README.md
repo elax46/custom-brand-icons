@@ -1,6 +1,9 @@
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs) 
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/elax46/custom-brand-icons)](https://github.com/elax46/custom-brand-icons/releases)
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+![GitHub file size in bytes](https://img.shields.io/github/size/elax46/custom-brand-icons/dist/custom-brand-icons.js?label=plugin%20size)
+![Man Hours](https://img.shields.io/endpoint?url=https%3A%2F%2Fmh.jessemillar.com%2Fhours%3Frepo%3Dhttps%3A%2F%2Fgithub.com%2Felax46%2Fcustom-brand-icons.git)
+![GitHub last commit](https://img.shields.io/github/last-commit/elax46/custom-brand-icons)
 
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
@@ -239,12 +242,15 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/garage-5-prong.svg) | garage-5-prong| ![Preview](./icon-svg/neon-closed.svg) | neon-closed|
 ![Preview](./icon-svg/neon-open.svg) | neon-open| ![Preview](./icon-svg/cooker-extract-off.svg) | cooker-extract-off|
 ![Preview](./icon-svg/cooker-extract-on.svg) | cooker-extract-on| ![Preview](./icon-svg/bitwarden.svg) | bitwarden|
-![Preview](./icon-svg/netapp.svg) | netapp| ![Preview](./icon-svg/moviestar-plus.svg) | moviestar-plus|
+![Preview](./icon-svg/netapp.svg) | netapp| ![Preview](./icon-svg/movistar-plus.svg) | movistar-plus|
 ![Preview](./icon-svg/telnet.svg) | telnet| ![Preview](./icon-svg/vtm.svg) | vtm|
 ![Preview](./icon-svg/hbo.svg) | hbo| ![Preview](./icon-svg/hbo-max.svg) | hbo-max|
 ![Preview](./icon-svg/2-way-uplighter.svg) | 2-way-uplighter| ![Preview](./icon-svg/uplighter.svg) | uplighter| ![Preview](./icon-svg/table-cylinder-lamp.svg) | table-cylinder-lamp|
 ![Preview](./icon-svg/viaplay.svg) | viaplay| ![Preview](./icon-svg/paramount.svg) | paramount| ![Preview](./icon-svg/deezer-logo.svg) | deezer-logo| ![Preview](./icon-svg/justwatch.svg) | justwatch| ![Preview](./icon-svg/moonlight.svg) | moonlight|
-| ![Preview](./icon-svg/infuse-pro.svg) | infuse-pro | ![Preview](./icon-svg/menergie.svg) | menergie|
+| ![Preview](./icon-svg/infuse-pro.svg) | infuse-pro | ![Preview](./icon-svg/menergie.svg) | myenergi|
+![Preview](./icon-svg/emby.svg) | emby| ![Preview](./icon-svg/espn.svg) | espn|
+![Preview](./icon-svg/peacock.svg) | peacock| ![Preview](./icon-svg/tivo.svg) | tivo|
+![Preview](./icon-svg/vudu.svg) | vudu| ![Preview](./icon-svg/youtube-tv.svg) | youtube-tv|
 
 ---
 ## Sonoff device
