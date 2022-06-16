@@ -250,7 +250,8 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/infuse-pro.svg) | infuse-pro | ![Preview](./icon-svg/menergie.svg) | myenergi|
 ![Preview](./icon-svg/emby.svg) | emby| ![Preview](./icon-svg/espn.svg) | espn|
 ![Preview](./icon-svg/peacock.svg) | peacock| ![Preview](./icon-svg/tivo.svg) | tivo|
-![Preview](./icon-svg/vudu.svg) | vudu| ![Preview](./icon-svg/youtube-tv.svg) | youtube-tv|
+![Preview](./icon-svg/vudu.svg) | vudu| ![Preview](./icon-svg/youtube-tv.svg) | youtube-tv| vudu| ![Preview](./icon-svg/youtube-tv.svg) | youtube-tv| 
+![Preview](./icon-svg/nuki.svg) | nuki |
 
 ---
 ## Sonoff device
@@ -325,7 +326,7 @@ Icons made by @rchiileea
 |![Preview](./icon-svg/apple-ipad-pro.svg) | apple-ipad-pro | ![Preview](./icon-svg/homepod.svg) | homepod |
 |![Preview](./icon-svg/homepod-mini.svg) | homepod-mini | ![Preview](./icon-svg/apple-tv-box.svg) | apple-tv-box |
 |![Preview](./icon-svg/apple-watch.svg) | apple-watch | ![Preview](./icon-svg/apple-watch-alt.svg) | apple-watch-alt |
-|![Preview](./icon-svg/imac.svg) | imac |
+|![Preview](./icon-svg/imac.svg) | imac | ![Preview](./icon-svg/appletv-gen2-remote.svg) | apple-tv-gen2-remote |
 
 ---
 ## Blink Cameras
@@ -460,6 +461,20 @@ Icons made by @rchiileea
 |![Preview](./icon-svg/lg-signiture.svg) | lg-signiture | ![Preview](./icon-svg/lg-oled55.svg) | lg-oled55 |
 |![Preview](./icon-svg/lg-fridge.svg) | lg-fridge | ![Preview](./icon-svg/lg-cooker.svg) | lg-cooker |
 |![Preview](./icon-svg/lg-aircon.svg) | lg-aircon | ![Preview](./icon-svg/lg-air-purifier.svg) | lg-air-purifier |
+
+---
+## Car manufacturer icon
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name 
+| :--- | :--- | :--- | :--- |
+|![Preview](./icon-svg/dodge.svg) | dodge | ![Preview](./icon-svg/ds.svg) | ds |
+![Preview](./icon-svg/fiat.svg) | fiat | ![Preview](./icon-svg/abarth.svg) | abarth |
+![Preview](./icon-svg/alfa-romeo.svg) | alfa-romeo | ![Preview](./icon-svg/chrysler.svg) | chrysler |
+| ![Preview](./icon-svg/citroen.svg) | citroen | ![Preview](./icon-svg/lancia.svg) | lancia |
+| ![Preview](./icon-svg/opel.svg) | opel | ![Preview](./icon-svg/peugeot.svg) | peugeot |
+| ![Preview](./icon-svg/ram.svg) | ram | ![Preview](./icon-svg/vauxhall.svg) | vauxhall |
+| ![Preview](./icon-svg/jeep.svg) | jeep |
 
 # Install
 
