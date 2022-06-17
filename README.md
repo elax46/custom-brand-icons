@@ -184,7 +184,11 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/ceiling-buratto-two-off.svg) | ceiling-buratto-two-off | ![Preview](./icon-svg/bulb-group-bollard-3-off.svg) | bulb-group-bollard-3-off |
 |![Preview](./icon-svg/bulb-group-ceiling-flush-circular.svg) | bulb-group-ceiling-flush-circular | ![Preview](./icon-svg/friends-of-hue-marbul-suspended.svg) | friends-of-hue-marbul-suspended | 
 ![Preview](./icon-svg/motion-sensor-luminance.svg) | motion-sensor-luminance | ![Preview](./icon-svg/motion-sensor-luminance-alt.svg) | motion-sensor-luminance-alt |
- ![Preview](./icon-svg/go-group-off.svg) | go-group-off | ![Preview](./icon-svg/bulb-candle-hung.svg) | bulb-candle-hung | ![Preview](./icon-svg/ceiling-devere.svg) | ceiling-devere |
+ ![Preview](./icon-svg/go-group-off.svg) | go-group-off | ![Preview](./icon-svg/bulb-candle-hung.svg) | bulb-candle-hung | ![Preview](./icon-svg/ceiling-devere.svg) | ceiling-devere | 
+ | ![Preview](./icon-svg/sultan-group-hung.svg) | sultan-group-hung | ![Preview](./icon-svg/sultan-group.svg) | sultan-group | 
+ | ![Preview](./icon-svg/scene-energize.svg) | scene-energize | ![Preview](./icon-svg/scene-relax.svg) | scene-relax |
+ | ![Preview](./icon-svg/scene-nightlight.svg) | scene-nightlight | ![Preview](./icon-svg/scene-concentrate.svg) | scene-concentrate |
+ | ![Preview](./icon-svg/scene-read.svg) | scene-read |
 ---
 
 ## Hue made by @rchiileea
