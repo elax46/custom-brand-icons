@@ -255,7 +255,10 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/emby.svg) | emby| ![Preview](./icon-svg/espn.svg) | espn|
 ![Preview](./icon-svg/peacock.svg) | peacock| ![Preview](./icon-svg/tivo.svg) | tivo|
 ![Preview](./icon-svg/vudu.svg) | vudu| ![Preview](./icon-svg/youtube-tv.svg) | youtube-tv| vudu| ![Preview](./icon-svg/youtube-tv.svg) | youtube-tv| 
-![Preview](./icon-svg/nuki.svg) | nuki |
+![Preview](./icon-svg/nuki.svg) | nuki | ![Preview](./icon-svg/ev-charging.svg) | ev-charging |
+| ![Preview](./icon-svg/ev-notcharging.svg) | ev-notcharging | ![Preview](./icon-svg/neon.svg) | neon |
+| ![Preview](./icon-svg/odometer.svg) | odometer | ![Preview](./icon-svg/shudder.svg) | shudder |
+| ![Preview](./icon-svg/tvnz.svg) | tvnz |
 
 ---
 ## Sonoff device
