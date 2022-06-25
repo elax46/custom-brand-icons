@@ -481,7 +481,8 @@ Icons made by @rchiileea
 | ![Preview](./icon-svg/citroen.svg) | citroen | ![Preview](./icon-svg/lancia.svg) | lancia |
 | ![Preview](./icon-svg/opel.svg) | opel | ![Preview](./icon-svg/peugeot.svg) | peugeot |
 | ![Preview](./icon-svg/ram.svg) | ram | ![Preview](./icon-svg/vauxhall.svg) | vauxhall |
-| ![Preview](./icon-svg/jeep.svg) | jeep |
+| ![Preview](./icon-svg/jeep.svg) | jeep | ![Preview](./icon-svg/plutotv.svg) | plutotv |
+| ![Preview](./icon-svg/peugeot-alt.svg) | peugeot-alt |
 
 # Install
 
