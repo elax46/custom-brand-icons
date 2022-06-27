@@ -197,6 +197,7 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/bulb-sultan-group-v2.svg) | bulb-sultan-group-v2 | ![Preview](./icon-svg/bulb-sultan-v2.svg) | bulb-sultan-v2 |
 |![Preview](./icon-svg/hue-spot-group-v2.svg) | hue-spot-group-v2 | ![Preview](./icon-svg/hue-spot-v2.svg) | hue-spot-v2 |
 |![Preview](./icon-svg/ls-spot-iris-group-v2.svg) | ls-spot-iris-group-v2 | ![Preview](./icon-svg/ls-sultan-iris-group-v2.svg) | ls-sultan-iris-group-v2 | 
+| ![Preview](./icon-svg/outdoor-motion.svg) | outdoor-motion | 
 
 
 ---
