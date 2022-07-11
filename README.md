@@ -261,6 +261,8 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/odometer.svg) | odometer | ![Preview](./icon-svg/shudder.svg) | shudder |
 | ![Preview](./icon-svg/tvnz.svg) | tvnz | ![Preview](./icon-svg/crunchyrol.svg) | crunchyrol |
 | ![Preview](./icon-svg/sonnen.svg) | sonnen | ![Preview](./icon-svg/marquee-shutter.svg) | marquee-shutter |
+| ![Preview](./icon-svg/rocketleague.svg) | rocketleague | ![Preview](./icon-svg/wyzecam.svg) | wyzecam |
+| ![Preview](./icon-svg/nanoleaf.svg) | nanoleaf |
 
 ---
 ## Sonoff device
