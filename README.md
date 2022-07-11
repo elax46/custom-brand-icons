@@ -490,7 +490,7 @@ Icons made by @rchiileea
 |  ![Preview](./icon-svg/toyota.svg) | toyota | ![Preview](./icon-svg/hyundai.svg) | hyundai | 
 | ![Preview](./icon-svg/porsche.svg) | porsche | ![Preview](./icon-svg/kia.svg) | kia | 
 | ![Preview](./icon-svg/ford.svg) | ford | ![Preview](./icon-svg/audi.svg) | audi | 
-| ![Preview](./icon-svg/volkswagen.svg) | volkswagen | 
+| ![Preview](./icon-svg/volkswagen.svg) | volkswagen |  ![Preview](./icon-svg/honda.svg) | honda | 
 
 
 # Install
