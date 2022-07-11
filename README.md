@@ -259,7 +259,8 @@ Custom brand icons for Home Assistant
 ![Preview](./icon-svg/nuki.svg) | nuki | ![Preview](./icon-svg/ev-charging.svg) | ev-charging |
 | ![Preview](./icon-svg/ev-notcharging.svg) | ev-notcharging | ![Preview](./icon-svg/neon.svg) | neon |
 | ![Preview](./icon-svg/odometer.svg) | odometer | ![Preview](./icon-svg/shudder.svg) | shudder |
-| ![Preview](./icon-svg/tvnz.svg) | tvnz |
+| ![Preview](./icon-svg/tvnz.svg) | tvnz | ![Preview](./icon-svg/crunchyrol.svg) | crunchyrol |
+| ![Preview](./icon-svg/sonnen.svg) | sonnen | ![Preview](./icon-svg/marquee-shutter.svg) | marquee-shutter |
 
 ---
 ## Sonoff device
@@ -324,7 +325,7 @@ Icons made by @rchiileea
 |![Preview](./icon-svg/sonos-beam.svg) | sonos-beam | ![Preview](./icon-svg/sonos-sub.svg) | sonos-sub |
 |![Preview](./icon-svg/sonos-playbar.svg) | sonos-playbar | ![Preview](./icon-svg/sonos-bookshelf-vertical.svg) | sonos-bookshelf-vertical |
 |![Preview](./icon-svg/sonos-bookshelf-horizontal.svg) | sonos-bookshelf-horizontal | ![Preview](./icon-svg/sonos-one.svg) | sonos-one |
-|![Preview](./icon-svg/sonos-arc.svg) | sonos-arc |
+|![Preview](./icon-svg/sonos-arc.svg) | sonos-arc | ![Preview](./icon-svg/sonos-move.svg) | sonos-move |
 ---
 ## Apple device
 | Icon | Name | Icon | Name 
@@ -483,7 +484,12 @@ Icons made by @rchiileea
 | ![Preview](./icon-svg/opel.svg) | opel | ![Preview](./icon-svg/peugeot.svg) | peugeot |
 | ![Preview](./icon-svg/ram.svg) | ram | ![Preview](./icon-svg/vauxhall.svg) | vauxhall |
 | ![Preview](./icon-svg/jeep.svg) | jeep | ![Preview](./icon-svg/plutotv.svg) | plutotv |
-| ![Preview](./icon-svg/peugeot-alt.svg) | peugeot-alt |
+| ![Preview](./icon-svg/peugeot-alt.svg) | peugeot-alt |  ![Preview](./icon-svg/nissan.svg) | nissan | 
+|  ![Preview](./icon-svg/toyota.svg) | toyota | ![Preview](./icon-svg/hyundai.svg) | hyundai | 
+| ![Preview](./icon-svg/porsche.svg) | porsche | ![Preview](./icon-svg/kia.svg) | kia | 
+| ![Preview](./icon-svg/ford.svg) | ford | ![Preview](./icon-svg/audi.svg) | audi | 
+| ![Preview](./icon-svg/volkswagen.svg) | volkswagen | 
+
 
 # Install
 
