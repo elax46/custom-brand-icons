@@ -404,15 +404,17 @@ Icons made by @rchiileea
 | Icon | Name | Icon | Name 
 | :--- | :--- | :--- | :--- |
 |![Preview](./icon-svg/christmas-lights.svg) | christmas-lights | ![Preview](./icon-svg/christmas-wreath.svg) | christmas-wreath |
-|![Preview](./icon-svg/christmas-tree.svg) | christmas-tree | ![Preview](./icon-svg/christmas-tree-v2.svg) | christmas-tree-v2 |
+|![Preview](./icon-svg/christmas-tree.svg) | christmas-tree | ![Preview](./icon-svg/christmas-tree-v2.svg) | christmas-tree-v2 | 
 
 ---
 ## Ikea
-Icons made by @rchiileea
+Icons made by @rchiileea and @Gtt1229
 | Icon | Name | Icon | Name 
 | :--- | :--- | :--- | :--- |
 |![Preview](./icon-svg/ikea-blind-open.svg) | ikea-blind-open | ![Preview](./icon-svg/ikea-blind-closed.svg) | ikea-blind-closed |
-|![Preview](./icon-svg/ikea-5-spot.svg) | ikea-5-spot |
+|![Preview](./icon-svg/ikea-5-spot.svg) | ikea-5-spot | ![Preview](./icon-svg/desk-sit.svg) | desk-sit |
+| ![Preview](./icon-svg/desk-stand.svg) | desk-stand | ![Preview](./icon-svg/desk-sit-alt.svg) | desk-sit-alt |
+| ![Preview](./icon-svg/desk-stand-alt.svg) | desk-stand-alt |
 
 ---
 ## Schneider Electric
