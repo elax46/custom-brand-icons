@@ -263,7 +263,8 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/tvnz.svg) | tvnz | ![Preview](./icon-svg/crunchyrol.svg) | crunchyrol |
 | ![Preview](./icon-svg/sonnen.svg) | sonnen | ![Preview](./icon-svg/marquee-shutter.svg) | marquee-shutter |
 | ![Preview](./icon-svg/rocketleague.svg) | rocketleague | ![Preview](./icon-svg/wyzecam.svg) | wyzecam |
-| ![Preview](./icon-svg/nanoleaf.svg) | nanoleaf |
+| ![Preview](./icon-svg/nanoleaf.svg) | nanoleaf | ![Preview](./icon-svg/garage-alt-open.svg) | garage-alt-open |
+| ![Preview](./icon-svg/garage-alt-shut.svg) | garage-alt-shut |
 
 ---
 ## Sonoff device
@@ -320,6 +321,8 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/echo-dot-gen-3.svg) | echo-dot-gen-3 | ![Preview](./icon-svg/echo-dot-gen-4.svg) | echo-dot-gen-4 |
 |![Preview](./icon-svg/echo-spot.svg) | echo-spot | ![Preview](./icon-svg/echo-show-5-gen-2.svg) | echo-show-5-gen-2 |
 |![Preview](./icon-svg/echo-show-8-gen-2.svg) | echo-show-8-gen-2 | ![Preview](./icon-svg/echo-dot-gen-4-clock.svg) | echo-dot-gen-4-clock |
+| ![Preview](./icon-svg/echo-dot-4-group.svg) | echo-dot-4-group | ![Preview](./icon-svg/echo-show-5-group.svg) | echo-show-5-group |
+| ![Preview](./icon-svg/echo-show-8-group.svg) | echo-show-8-group |
 ---
 ## Sonos device
 Icons made by @rchiileea
