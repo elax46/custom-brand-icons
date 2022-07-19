@@ -264,7 +264,8 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/sonnen.svg) | sonnen | ![Preview](./icon-svg/marquee-shutter.svg) | marquee-shutter |
 | ![Preview](./icon-svg/rocketleague.svg) | rocketleague | ![Preview](./icon-svg/wyzecam.svg) | wyzecam |
 | ![Preview](./icon-svg/nanoleaf.svg) | nanoleaf | ![Preview](./icon-svg/garage-alt-open.svg) | garage-alt-open |
-| ![Preview](./icon-svg/garage-alt-shut.svg) | garage-alt-shut |
+| ![Preview](./icon-svg/garage-alt-shut.svg) | garage-alt-shut | ![Preview](./icon-svg/driveway.svg) | driveway |
+| ![Preview](./icon-svg/garden.svg) | garden | ![Preview](./icon-svg/outside.svg) | outside |
 
 ---
 ## Sonoff device
