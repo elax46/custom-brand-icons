@@ -266,6 +266,7 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/nanoleaf.svg) | nanoleaf | ![Preview](./icon-svg/garage-alt-open.svg) | garage-alt-open |
 | ![Preview](./icon-svg/garage-alt-shut.svg) | garage-alt-shut | ![Preview](./icon-svg/driveway.svg) | driveway |
 | ![Preview](./icon-svg/garden.svg) | garden | ![Preview](./icon-svg/outside.svg) | outside |
+| ![Preview](./icon-svg/frigate.svg) | frigate |
 
 ---
 ## Sonoff device
