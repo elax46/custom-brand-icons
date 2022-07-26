@@ -266,7 +266,7 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/nanoleaf.svg) | nanoleaf | ![Preview](./icon-svg/garage-alt-open.svg) | garage-alt-open |
 | ![Preview](./icon-svg/garage-alt-shut.svg) | garage-alt-shut | ![Preview](./icon-svg/driveway.svg) | driveway |
 | ![Preview](./icon-svg/garden.svg) | garden | ![Preview](./icon-svg/outside.svg) | outside |
-| ![Preview](./icon-svg/frigate.svg) | frigate |
+| ![Preview](./icon-svg/frigate.svg) | frigate | ![Preview](./icon-svg/chicken-coup.svg) | chicken-coup |
 
 ---
 ## Sonoff device
@@ -395,6 +395,10 @@ Icons made by @rchiileea
 |![Preview](./icon-svg/panel-glassdoor-close.svg) | panel-glassdoor-close | ![Preview](./icon-svg/panel-glassdoor-open.svg) | panel-glassdoor-open |
 |![Preview](./icon-svg/panel-door-open.svg) | panel-door-open | ![Preview](./icon-svg/panel-door-close.svg) | panel-door-close |
 ![Preview](./icon-svg/petflap-open.svg) | petflap-open | ![Preview](./icon-svg/petflap-closed.svg) | petflap-closed |
+| ![Preview](./icon-svg/panel-door-locked.svg) | panel-door-locked | ![Preview](./icon-svg/panel-front-door-locked.svg) | panel-front-door-locked |
+| ![Preview](./icon-svg/panel-glass-door-locked.svg) | panel-glass-door-locked | ![Preview](./icon-svg/panel-glass-door-2-locked.svg) | panel-glass-door-2-locked |
+| ![Preview](./icon-svg/panel-glass-door-3-locked.svg) | panel-glass-door-3-locked |  ![Preview](./icon-svg/panel-glass-door-4-locked.svg) | panel-glass-door-4-locked |
+|  ![Preview](./icon-svg/panel-glass-side-door-locked.svg) | panel-glass-side-door-locked |
 ---
 ## Ring
 Icons made by @rchiileea
