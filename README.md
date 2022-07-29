@@ -42,6 +42,9 @@ Custom brand icons for Home Assistant
 - [Ubiquiti](https://github.com/elax46/custom-brand-icons#ubiquiti)
 - [Fritz](https://github.com/elax46/custom-brand-icons#fritz)
 - [LG](https://github.com/elax46/custom-brand-icons#lg)
+- [Car manufacturer](https://github.com/elax46/custom-brand-icons#car-manufacturer-icon)
+- [Aqara](https://github.com/elax46/custom-brand-icons#aqara-icon)
+- [Stage DMX Lights](https://github.com/elax46/custom-brand-icons#stage-dmx-lights)
  ---
 ## Philips Hue
 
@@ -267,6 +270,10 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/garage-alt-shut.svg) | garage-alt-shut | ![Preview](./icon-svg/driveway.svg) | driveway |
 | ![Preview](./icon-svg/garden.svg) | garden | ![Preview](./icon-svg/outside.svg) | outside |
 | ![Preview](./icon-svg/frigate.svg) | frigate | ![Preview](./icon-svg/chicken-coup.svg) | chicken-coup |
+| ![Preview](./icon-svg/chicken.svg) | chicken | ![Preview](./icon-svg/eggs.svg) | eggs |
+| ![Preview](./icon-svg/chicken-coup-door-shut.svg) | chicken-coup-door-shut | ![Preview](./icon-svg/bitfocus.svg) | bitfocus |
+| ![Preview](./icon-svg/duplicati.svg) | duplicati | ![Preview](./icon-svg/portainer.svg) | portainer |
+
 
 ---
 ## Sonoff device
@@ -504,6 +511,27 @@ Icons made by @rchiileea
 | ![Preview](./icon-svg/ford.svg) | ford | ![Preview](./icon-svg/audi.svg) | audi | 
 | ![Preview](./icon-svg/volkswagen.svg) | volkswagen |  ![Preview](./icon-svg/honda.svg) | honda | 
 
+---
+## Aqara icon
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name 
+| :--- | :--- | :--- | :--- |
+| ![Preview](./icon-svg/aqara-gas-detector.svg) | aqara-gas-detector | ![Preview](./icon-svg/aqara-air-quality.svg) | aqara-air-quality |
+| ![Preview](./icon-svg/aqara-h1-switch.svg) | aqara-h1-switch | ![Preview](./icon-svg/aqara-cube.svg) | aqara-cube |
+| ![Preview](./icon-svg/aqara-hub-n15-g2.svg) | aqara-hub-n15-g2 | ![Preview](./icon-svg/aqara-fp1.svg) | aqara-fp1 |
+| ![Preview](./icon-svg/aqara-opple.svg) | aqara-opple | ![Preview](./icon-svg/aqara-g2-pro.svg) | aqara-g2-pro |
+| ![Preview](./icon-svg/aqara-pet-feeder-c1.svg) | aqara-pet-feeder-c1 | ![Preview](./icon-svg/aqara-g3.svg) | aqara-g3 |
+| ![Preview](./icon-svg/aqara-smoke-detector.svg) | aqara-smoke-detector |
+
+---
+## Stage DMX Lights
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name 
+| :--- | :--- | :--- | :--- |
+| ![Preview](./icon-svg/stage-backlight.svg) | stage-backlight | ![Preview](./icon-svg/stage-light.svg) | stage-light |
+| ![Preview](./icon-svg/stage-spot-light.svg) | stage-spot-light | ![Preview](./icon-svg/stage-uplight.svg) | stage-uplight |
 
 # Install
 
