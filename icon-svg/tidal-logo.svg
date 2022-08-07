@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 32 32"
+   version="1.1"
+   preserveAspectRatio="xMidYMid"
+   id="svg8"
+   sodipodi:docname="tidal-seeklogo.com.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="7.1701645"
+     inkscape:cx="84.656357"
+     inkscape:cy="23.151491"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g6" />
+  <title
+     id="title2">Tidal</title>
+  <g
+     id="g6">
+    <path
+       d="m 16.139571,16.524719 5.332993,5.333669 -5.332993,5.333218 -5.333443,-5.333218 z M 5.4726847,5.857832 10.806128,11.191276 5.4726847,16.524945 0.13946681,11.191276 Z m 21.3328713,0 5.333218,5.333444 -5.333218,5.333669 -5.333217,-5.333669 -5.332768,5.333443 -5.333443,-5.333669 5.333443,-5.3334438 5.332768,5.3329918 z"
+       fill="#0a0b09"
+       id="path4"
+       style="stroke-width:0.999998" />
+  </g>
+  <metadata
+     id="metadata1521">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Tidal</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
