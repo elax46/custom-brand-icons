@@ -615,6 +615,10 @@ let's take the first string for example:
 
 * `String` = this data can be recovered from the svg file  `<path d="M21,12.5 C21,13.33 18.76,...."` In particular you will have to enter only the part of the vector code `"M21,12.5 C21,13.33 18.76"` For an example take a look at the [icons already inserted](dist/custom-brand-icons.js)
 
+* **When you open a pull request do it on the dev branch**
+
+* In addition to inserting the icon in the `icon-svg` folder and updating the `custom-brand-icons.js` file, remember to also update the `README.md` file by inserting the new icon
+
 # Don't see the icon?
 
 It probably depends on the cache. Open Home assistant from an incognito window and check that the icon loads if yes then it depends on the cache, otherwise double check the installation
