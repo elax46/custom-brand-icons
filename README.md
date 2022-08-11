@@ -273,7 +273,8 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/chicken.svg) | chicken | ![Preview](./icon-svg/eggs.svg) | eggs |
 | ![Preview](./icon-svg/chicken-coup-door-shut.svg) | chicken-coup-door-shut | ![Preview](./icon-svg/bitfocus.svg) | bitfocus |
 | ![Preview](./icon-svg/duplicati.svg) | duplicati | ![Preview](./icon-svg/portainer.svg) | portainer |
-| ![Preview](./icon-svg/essential-oil-diffuser-alt.svg) | essential-oil-diffuser-alt | ![Preview](./icon-svg/tidal-logo.svg) | tidal-logo |
+| ![Preview](./icon-svg/essential-oil-diffuser-alt.svg) | essential-oil-diffuser-alt | ![Preview](./icon-svg/tidal-logo.svg) | tidal-logo | 
+| ![Preview](./icon-svg/stage-light-group.svg) | stage-light-group |
 
 
 ---
