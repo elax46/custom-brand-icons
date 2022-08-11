@@ -273,6 +273,8 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/chicken.svg) | chicken | ![Preview](./icon-svg/eggs.svg) | eggs |
 | ![Preview](./icon-svg/chicken-coup-door-shut.svg) | chicken-coup-door-shut | ![Preview](./icon-svg/bitfocus.svg) | bitfocus |
 | ![Preview](./icon-svg/duplicati.svg) | duplicati | ![Preview](./icon-svg/portainer.svg) | portainer |
+| ![Preview](./icon-svg/essential-oil-diffuser-alt.svg) | essential-oil-diffuser-alt | ![Preview](./icon-svg/tidal-logo.svg) | tidal-logo | 
+| ![Preview](./icon-svg/stage-light-group.svg) | stage-light-group |
 
 
 ---
@@ -532,6 +534,7 @@ Icons made by @rchiileea
 | :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/stage-backlight.svg) | stage-backlight | ![Preview](./icon-svg/stage-light.svg) | stage-light |
 | ![Preview](./icon-svg/stage-spot-light.svg) | stage-spot-light | ![Preview](./icon-svg/stage-uplight.svg) | stage-uplight |
+| ![Preview](./icon-svg/stagel-light-2.svg) | stagel-light-2| ![Preview](./icon-svg/stagel-light-2-group.svg) | stagel-light-2-group |
 
 # Install
 
@@ -614,6 +617,10 @@ let's take the first string for example:
 * `0, 0, 24.0, 24.0` = this data can be recovered from the svg file `viewBox="0 0 24 24"` ***If this data is not present in the file you can leave the one indicated by me***
 
 * `String` = this data can be recovered from the svg file  `<path d="M21,12.5 C21,13.33 18.76,...."` In particular you will have to enter only the part of the vector code `"M21,12.5 C21,13.33 18.76"` For an example take a look at the [icons already inserted](dist/custom-brand-icons.js)
+
+* **When you open a pull request do it on the dev branch**
+
+* In addition to inserting the icon in the `icon-svg` folder and updating the `custom-brand-icons.js` file, remember to also update the `README.md` file by inserting the new icon
 
 # Don't see the icon?
 
