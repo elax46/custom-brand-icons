@@ -273,8 +273,7 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/chicken.svg) | chicken | ![Preview](./icon-svg/eggs.svg) | eggs |
 | ![Preview](./icon-svg/chicken-coup-door-shut.svg) | chicken-coup-door-shut | ![Preview](./icon-svg/bitfocus.svg) | bitfocus |
 | ![Preview](./icon-svg/duplicati.svg) | duplicati | ![Preview](./icon-svg/portainer.svg) | portainer |
-| ![Preview](./icon-svg/essential-oil-diffuser-alt.svg) | essential-oil-diffuser-alt | ![Preview](./icon-svg/tidal-logo.svg) | tidal-logo | 
-| ![Preview](./icon-svg/stage-light-group.svg) | stage-light-group |
+| ![Preview](./icon-svg/essential-oil-diffuser-alt.svg) | essential-oil-diffuser-alt | ![Preview](./icon-svg/tidal-logo.svg) | tidal-logo |
 
 
 ---
@@ -535,6 +534,8 @@ Icons made by @rchiileea
 | ![Preview](./icon-svg/stage-backlight.svg) | stage-backlight | ![Preview](./icon-svg/stage-light.svg) | stage-light |
 | ![Preview](./icon-svg/stage-spot-light.svg) | stage-spot-light | ![Preview](./icon-svg/stage-uplight.svg) | stage-uplight |
 | ![Preview](./icon-svg/stagel-light-2.svg) | stagel-light-2| ![Preview](./icon-svg/stagel-light-2-group.svg) | stagel-light-2-group |
+| ![Preview](./icon-svg/stage-light-group.svg) | stage-light-group |
+
 
 # Install
 
