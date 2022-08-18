@@ -532,7 +532,7 @@ Icons made by @rchiileea
 | ![Preview](./icon-svg/stage-backlight.svg) | stage-backlight | ![Preview](./icon-svg/stage-light.svg) | stage-light |
 | ![Preview](./icon-svg/stage-spot-light.svg) | stage-spot-light | ![Preview](./icon-svg/stage-uplight.svg) | stage-uplight |
 | ![Preview](./icon-svg/stagel-light-2.svg) | stagel-light-2| ![Preview](./icon-svg/stagel-light-2-group.svg) | stagel-light-2-group |
-| ![Preview](./icon-svg/stage-light-group.svg) | stage-light-group |
+| ![Preview](./icon-svg/stage-light-group.svg) | stage-light-group | 
 
 ---
 ## House Rooms
@@ -543,7 +543,9 @@ Icons made by @rchiileea
 | :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/garage-alt-open.svg) | garage-alt-open | ![Preview](./icon-svg/garage-alt-shut.svg) | garage-alt-shut |
 | ![Preview](./icon-svg/driveway.svg) |driveway | ![Preview](./icon-svg/garden.svg) | garden |
-| ![Preview](./icon-svg/outside.svg) |outside |
+| ![Preview](./icon-svg/outside.svg) |outside | ![Preview](./icon-svg/bedroom.svg) |bedroom |
+| ![Preview](./icon-svg/kids-room.svg) |kids-room | ![Preview](./icon-svg/kitchen.svg) |kitchen |
+| ![Preview](./icon-svg/living-room.svg) |living-room |
 
 
 # Install
