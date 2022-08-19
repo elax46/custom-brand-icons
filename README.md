@@ -45,6 +45,7 @@ Custom brand icons for Home Assistant
 - [Car manufacturer](https://github.com/elax46/custom-brand-icons#car-manufacturer-icon)
 - [Aqara](https://github.com/elax46/custom-brand-icons#aqara-icon)
 - [Stage DMX Lights](https://github.com/elax46/custom-brand-icons#stage-dmx-lights)
+- [House Rooms](https://github.com/elax46/custom-brand-icons#house-rooms)
  ---
 ## Philips Hue
 
@@ -266,10 +267,7 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/tvnz.svg) | tvnz | ![Preview](./icon-svg/crunchyrol.svg) | crunchyrol |
 | ![Preview](./icon-svg/sonnen.svg) | sonnen | ![Preview](./icon-svg/marquee-shutter.svg) | marquee-shutter |
 | ![Preview](./icon-svg/rocketleague.svg) | rocketleague | ![Preview](./icon-svg/wyzecam.svg) | wyzecam |
-| ![Preview](./icon-svg/nanoleaf.svg) | nanoleaf | ![Preview](./icon-svg/garage-alt-open.svg) | garage-alt-open |
-| ![Preview](./icon-svg/garage-alt-shut.svg) | garage-alt-shut | ![Preview](./icon-svg/driveway.svg) | driveway |
-| ![Preview](./icon-svg/garden.svg) | garden | ![Preview](./icon-svg/outside.svg) | outside |
-| ![Preview](./icon-svg/frigate.svg) | frigate | ![Preview](./icon-svg/chicken-coup.svg) | chicken-coup |
+| ![Preview](./icon-svg/nanoleaf.svg) | nanoleaf | ![Preview](./icon-svg/frigate.svg) | frigate | ![Preview](./icon-svg/chicken-coup.svg) | chicken-coup |
 | ![Preview](./icon-svg/chicken.svg) | chicken | ![Preview](./icon-svg/eggs.svg) | eggs |
 | ![Preview](./icon-svg/chicken-coup-door-shut.svg) | chicken-coup-door-shut | ![Preview](./icon-svg/bitfocus.svg) | bitfocus |
 | ![Preview](./icon-svg/duplicati.svg) | duplicati | ![Preview](./icon-svg/portainer.svg) | portainer |
@@ -534,7 +532,21 @@ Icons made by @rchiileea
 | ![Preview](./icon-svg/stage-backlight.svg) | stage-backlight | ![Preview](./icon-svg/stage-light.svg) | stage-light |
 | ![Preview](./icon-svg/stage-spot-light.svg) | stage-spot-light | ![Preview](./icon-svg/stage-uplight.svg) | stage-uplight |
 | ![Preview](./icon-svg/stagel-light-2.svg) | stagel-light-2| ![Preview](./icon-svg/stagel-light-2-group.svg) | stagel-light-2-group |
-| ![Preview](./icon-svg/stage-light-group.svg) | stage-light-group |
+| ![Preview](./icon-svg/stage-light-group.svg) | stage-light-group | 
+
+---
+## House Rooms
+
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name 
+| :--- | :--- | :--- | :--- |
+| ![Preview](./icon-svg/garage-alt-open.svg) | garage-alt-open | ![Preview](./icon-svg/garage-alt-shut.svg) | garage-alt-shut |
+| ![Preview](./icon-svg/driveway.svg) |driveway | ![Preview](./icon-svg/garden.svg) | garden |
+| ![Preview](./icon-svg/outside.svg) |outside | ![Preview](./icon-svg/bedroom.svg) |bedroom |
+| ![Preview](./icon-svg/kids-room.svg) |kids-room | ![Preview](./icon-svg/kitchen.svg) |kitchen |
+| ![Preview](./icon-svg/living-room.svg) |living-room | ![Preview](./icon-svg/office.svg) |office |
+| ![Preview](./icon-svg/bathroom.svg) |bathroom |
 
 
 # Install
