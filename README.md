@@ -545,7 +545,8 @@ Icons made by @rchiileea
 | ![Preview](./icon-svg/driveway.svg) |driveway | ![Preview](./icon-svg/garden.svg) | garden |
 | ![Preview](./icon-svg/outside.svg) |outside | ![Preview](./icon-svg/bedroom.svg) |bedroom |
 | ![Preview](./icon-svg/kids-room.svg) |kids-room | ![Preview](./icon-svg/kitchen.svg) |kitchen |
-| ![Preview](./icon-svg/living-room.svg) |living-room |
+| ![Preview](./icon-svg/living-room.svg) |living-room | ![Preview](./icon-svg/office.svg) |office |
+| ![Preview](./icon-svg/bathroom.svg) |bathroom |
 
 
 # Install
