@@ -192,7 +192,8 @@ Custom brand icons for Home Assistant
  | ![Preview](./icon-svg/sultan-group-hung.svg) | sultan-group-hung | ![Preview](./icon-svg/sultan-group.svg) | sultan-group | 
  | ![Preview](./icon-svg/scene-energize.svg) | scene-energize | ![Preview](./icon-svg/scene-relax.svg) | scene-relax |
  | ![Preview](./icon-svg/scene-nightlight.svg) | scene-nightlight | ![Preview](./icon-svg/scene-concentrate.svg) | scene-concentrate |
- | ![Preview](./icon-svg/scene-read.svg) | scene-read |
+ | ![Preview](./icon-svg/scene-read.svg) | scene-read | ![Preview](./icon-svg/bulb-lightguide-round.svg) | bulb-lightguide-round |
+ | ![Preview](./icon-svg/bulb-lightguide-oval.svg) | bulb-lightguide-oval | ![Preview](./icon-svg/bulb-lightguide-flask.svg) | bulb-lightguide-flask |
 ---
 
 ## Hue made by @rchiileea
