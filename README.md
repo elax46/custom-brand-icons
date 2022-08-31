@@ -434,6 +434,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/neon.svg) | neon |
 | ![Preview](./icon-svg/netapp.svg) | netapp |
 | ![Preview](./icon-svg/netflix.svg) | netflix |
+| ![Preview](./icon-svg/netflix-alt.svg) | netflix-alt |
 | ![Preview](./icon-svg/nextcloud.svg) | nextcloud |
 | ![Preview](./icon-svg/npo.svg) | npo |
 | ![Preview](./icon-svg/nuki.svg) | nuki |
