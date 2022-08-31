@@ -232,7 +232,8 @@ Custom brand icons for Home Assistant
 |![Preview](./icon-svg/salt-lamp.svg) | salt-lamp | ![Preview](./icon-svg/yamaha-rx-v773.svg) | yamaha-rx-v773 |
 |![Preview](./icon-svg/dune-hd.svg) | dune-hd | ![Preview](./icon-svg/nvidia-shield.svg) | nvidia-shield | ![Preview](./icon-svg/herman-miller-aeron.svg) | herman-miller-aeron |
 ![Preview](./icon-svg/discovery-plus.svg) | discovery-plus | ![Preview](./icon-svg/disney-plus.svg) | disney-plus |
-![Preview](./icon-svg/disney-plus-alt.svg) | disney-plus-alt| ![Preview](./icon-svg/shade-rchiileea-v1.svg) | shade-rchiileea-v1 | ![Preview](./icon-svg/shed-closed.svg) | shed-closed | ![Preview](./icon-svg/shed-open.svg) | shed-open |
+![Preview](./icon-svg/disney-plus-alt.svg) | disney-plus-alt | ![Preview](./icon-svg/shade-rchiileea-v1.svg) | shade-rchiileea-v1 |
+![Preview](./icon-svg/shed-closed.svg) | shed-closed | ![Preview](./icon-svg/shed-open.svg) | shed-open |
 ![Preview](./icon-svg/desktop-computer.svg) | desktop-computer | ![Preview](./icon-svg/ha-blue.svg) | ha-blue |
 ![Preview](./icon-svg/intel-nuc.svg) | intel-nuc | ![Preview](./icon-svg/proxmox.svg) | proxmox |
 ![Preview](./icon-svg/raspberry-pi.svg) | raspberry-pi | ![Preview](./icon-svg/power-panel-logo.svg) | power-panel-logo |
