@@ -494,6 +494,8 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/vudu.svg) | vudu |
 | ![Preview](./icon-svg/wifi-dongle.svg) | wifi-dongle |
 | ![Preview](./icon-svg/wyzecam.svg) | wyzecam |
+| ![Preview](./icon-svg/xbox-alt.svg) | xbox-alt |
+| ![Preview](./icon-svg/xbox.svg) | xbox |
 | ![Preview](./icon-svg/yamaha-rx-v773.svg) | yamaha-rx-v773 |
 | ![Preview](./icon-svg/youtube-tv.svg) | youtube-tv |
 | ![Preview](./icon-svg/zigbee-dongle.svg) | zigbee-dongle |
