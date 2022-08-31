@@ -406,8 +406,8 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/garden-irrigation.svg) | garden-irrigation |
 | ![Preview](./icon-svg/google-home-icon.svg) | google-home-icon |
 | ![Preview](./icon-svg/ha-blue.svg) | ha-blue |
-| ![Preview](./icon-svg/hbo-max.svg) | hbo-max |
 | ![Preview](./icon-svg/hbo-max-alt.svg) | hbo-max-alt |
+| ![Preview](./icon-svg/hbo-max.svg) | hbo-max |
 | ![Preview](./icon-svg/hbo.svg) | hbo |
 | ![Preview](./icon-svg/herman-miller-aeron.svg) | herman-miller-aeron |
 | ![Preview](./icon-svg/infuse-pro.svg) | infuse-pro |
@@ -433,8 +433,8 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/neon-open.svg) | neon-open |
 | ![Preview](./icon-svg/neon.svg) | neon |
 | ![Preview](./icon-svg/netapp.svg) | netapp |
-| ![Preview](./icon-svg/netflix.svg) | netflix |
 | ![Preview](./icon-svg/netflix-alt.svg) | netflix-alt |
+| ![Preview](./icon-svg/netflix.svg) | netflix |
 | ![Preview](./icon-svg/nextcloud.svg) | nextcloud |
 | ![Preview](./icon-svg/npo.svg) | npo |
 | ![Preview](./icon-svg/nuki.svg) | nuki |
@@ -447,8 +447,8 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/phoscon.svg) | phoscon |
 | ![Preview](./icon-svg/portainer.svg) | portainer |
 | ![Preview](./icon-svg/power-panel-logo.svg) | power-panel-logo |
-| ![Preview](./icon-svg/prime-video.svg) | prime-video |
 | ![Preview](./icon-svg/prime-video-alt.svg) | prime-video-alt |
+| ![Preview](./icon-svg/prime-video.svg) | prime-video |
 | ![Preview](./icon-svg/proxmox.svg) | proxmox |
 | ![Preview](./icon-svg/ram-memory.svg) | ram-memory |
 | ![Preview](./icon-svg/raspberry-pi.svg) | raspberry-pi |
@@ -469,6 +469,8 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/sonnen.svg) | sonnen |
 | ![Preview](./icon-svg/spot-bulb-top.svg) | spot-bulb-top |
 | ![Preview](./icon-svg/sprinkler.svg) | sprinkler |
+| ![Preview](./icon-svg/star-plus-alt.svg) | star-plus-alt |
+| ![Preview](./icon-svg/star-plus.svg) | star-plus |
 | ![Preview](./icon-svg/streamz.svg) | streamz |
 | ![Preview](./icon-svg/table-cylinder-lamp.svg) | table-cylinder-lamp |
 | ![Preview](./icon-svg/tablet.svg) | tablet |
