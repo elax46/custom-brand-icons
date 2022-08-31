@@ -448,6 +448,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/portainer.svg) | portainer |
 | ![Preview](./icon-svg/power-panel-logo.svg) | power-panel-logo |
 | ![Preview](./icon-svg/prime-video.svg) | prime-video |
+| ![Preview](./icon-svg/prime-video-alt.svg) | prime-video-alt |
 | ![Preview](./icon-svg/proxmox.svg) | proxmox |
 | ![Preview](./icon-svg/ram-memory.svg) | ram-memory |
 | ![Preview](./icon-svg/raspberry-pi.svg) | raspberry-pi |
