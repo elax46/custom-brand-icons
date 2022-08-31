@@ -269,12 +269,12 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/friends-of-hue-flat-p-alt.svg) | friends-of-hue-flat-p-alt |
 | ![Preview](./icon-svg/friends-of-hue-iq-flush.svg) | friends-of-hue-iq-flush |
 | ![Preview](./icon-svg/friends-of-hue-iq-pendant.svg) | friends-of-hue-iq-pendant |
-| ![Preview](./icon-svg/friends-of-hue-retrotouch-black-chrome.svg) |  |friends-of-hue-retrotouch-black-chrome
-| ![Preview](./icon-svg/friends-of-hue-retrotouch-black-plain.svg) |  |friends-of-hue-retrotouch-black-plain
-| ![Preview](./icon-svg/friends-of-hue-retrotouch-white-chrome.svg) |  |friends-of-hue-retrotouch-white-chrome
-| ![Preview](./icon-svg/friends-of-hue-retrotouch-white-plain.svg) |  |friends-of-hue-retrotouch-white-plain
+| ![Preview](./icon-svg/friends-of-hue-retrotouch-black-chrome.svg) | friends-of-hue-retrotouch-black-chrome |
+| ![Preview](./icon-svg/friends-of-hue-retrotouch-black-plain.svg) | friends-of-hue-retrotouch-black-plain |
+| ![Preview](./icon-svg/friends-of-hue-retrotouch-white-chrome.svg) | friends-of-hue-retrotouch-white-chrome |
+| ![Preview](./icon-svg/friends-of-hue-retrotouch-white-plain.svg) | friends-of-hue-retrotouch-white-plain |
 | ![Preview](./icon-svg/friends-of-hue-aurora-dimmer-switch.svg) | friends-of-hue-aurora-dimmer-switch |
-| ![Preview](./icon-svg/friends-of-hue-aurora-dimmer-switch-alt.svg) |  |friends-of-hue-aurora-dimmer-switch-alt
+| ![Preview](./icon-svg/friends-of-hue-aurora-dimmer-switch-alt.svg) | friends-of-hue-aurora-dimmer-switch-alt |
 | ![Preview](./icon-svg/wall-switch-module.svg) | wall-switch-module |
 | ![Preview](./icon-svg/friends-of-hue-rigel.svg) | friends-of-hue-rigel |
 | ![Preview](./icon-svg/rooms-front-door.svg) | rooms-front-door |
