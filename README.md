@@ -483,6 +483,8 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/tim-logo.svg) | tim-logo |
 | ![Preview](./icon-svg/tivo.svg) | tivo |
 | ![Preview](./icon-svg/tvnz.svg) | tvnz |
+| ![Preview](./icon-svg/twitch-alt.svg) | twitch-alt |
+| ![Preview](./icon-svg/twitch.svg) | twitch |
 | ![Preview](./icon-svg/underfloor-heating.svg) | underfloor-heating |
 | ![Preview](./icon-svg/uplighter.svg) | uplighter |
 | ![Preview](./icon-svg/viaplay.svg) | viaplay |
