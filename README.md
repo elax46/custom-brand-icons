@@ -407,6 +407,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/google-home-icon.svg) | google-home-icon |
 | ![Preview](./icon-svg/ha-blue.svg) | ha-blue |
 | ![Preview](./icon-svg/hbo-max.svg) | hbo-max |
+| ![Preview](./icon-svg/hbo-max-alt.svg) | hbo-max-alt |
 | ![Preview](./icon-svg/hbo.svg) | hbo |
 | ![Preview](./icon-svg/herman-miller-aeron.svg) | herman-miller-aeron |
 | ![Preview](./icon-svg/infuse-pro.svg) | infuse-pro |
