@@ -381,6 +381,8 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/crunchyrol.svg) | crunchyrol |
 | ![Preview](./icon-svg/deezer-logo.svg) | deezer-logo |
 | ![Preview](./icon-svg/desktop-computer.svg) | desktop-computer |
+| ![Preview](./icon-svg/directv-go-alt.svg) | directv-go-alt |
+| ![Preview](./icon-svg/directv-go.svg) | directv-go |
 | ![Preview](./icon-svg/discovery-plus.svg) | discovery-plus |
 | ![Preview](./icon-svg/disney-plus-alt.svg) | disney-plus-alt |
 | ![Preview](./icon-svg/disney-plus.svg) | disney-plus |
