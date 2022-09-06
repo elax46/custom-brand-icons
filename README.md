@@ -663,7 +663,8 @@ In case you want to create your own perfix you can edit the last line of the `cu
 If you want to integrate icons or change errors in the documentation do not hesitate to open a pull request remember to open it on the dev branch
 
 # Thanks
-thanks to for @mutzl your contribution
+
+Thanks, as always, to the precious contribution to @rchiileea for the creation of the required icons!
 
 # Support the project
 Do you like these icons? Support the project with a pizza 🍕🍕
