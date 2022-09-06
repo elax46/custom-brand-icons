@@ -445,6 +445,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/paramount.svg) | paramount |
 | ![Preview](./icon-svg/peacock.svg) | peacock |
 | ![Preview](./icon-svg/phoscon.svg) | phoscon |
+| ![Preview](./icon-svg/plutotv.svg) | plutotv |
 | ![Preview](./icon-svg/portainer.svg) | portainer |
 | ![Preview](./icon-svg/power-panel-logo.svg) | power-panel-logo |
 | ![Preview](./icon-svg/prime-video-alt.svg) | prime-video-alt |
@@ -864,7 +865,6 @@ Icons made by @rchiileea
 | ![Preview](./icon-svg/opel.svg) | opel |
 | ![Preview](./icon-svg/peugeot-alt.svg) | peugeot-alt |
 | ![Preview](./icon-svg/peugeot.svg) | peugeot |
-| ![Preview](./icon-svg/plutotv.svg) | plutotv |
 | ![Preview](./icon-svg/porsche.svg) | porsche |
 | ![Preview](./icon-svg/ram.svg) | ram |
 | ![Preview](./icon-svg/toyota.svg) | toyota |
