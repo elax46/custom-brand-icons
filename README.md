@@ -503,6 +503,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/youtube.svg) | youtube |
 | ![Preview](./icon-svg/zigbee-dongle.svg) | zigbee-dongle |
 | ![Preview](./icon-svg/zwave-dongle.svg) | zwave-dongle |
+| ![Preview](./icon-svg/zwavejs.svg) | zwavejs |
 
 ---
 ## Sonoff device
@@ -759,6 +760,8 @@ Icons made by @rchiileea and @Gtt1229
 | ![Preview](./icon-svg/ikea-5-spot.svg) | ikea-5-spot |
 | ![Preview](./icon-svg/ikea-blind-closed.svg) | ikea-blind-closed |
 | ![Preview](./icon-svg/ikea-blind-open.svg) | ikea-blind-open |
+| ![Preview](./icon-svg/regolit-arc-lamp.svg) | regolit-arc-lamp |
+| ![Preview](./icon-svg/symfonisk-lampe.svg) | symfonisk-lampe |
 
 ---
 ## Schneider Electric
@@ -784,6 +787,7 @@ Icons made by @rchiileea
 | ![Preview](./icon-svg/reolink-820.svg) | reolink-820 |
 | ![Preview](./icon-svg/reolink-842.svg) | reolink-842 |
 | ![Preview](./icon-svg/reolink-argus.svg) | reolink-argus |
+| ![Preview](./icon-svg/reolink-e1.svg) | reolink-e1 |
 | ![Preview](./icon-svg/reolink-go.svg) | reolink-go |
 
 ---
