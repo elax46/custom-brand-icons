@@ -192,7 +192,8 @@ Custom brand icons for Home Assistant
  | ![Preview](./icon-svg/sultan-group-hung.svg) | sultan-group-hung | ![Preview](./icon-svg/sultan-group.svg) | sultan-group | 
  | ![Preview](./icon-svg/scene-energize.svg) | scene-energize | ![Preview](./icon-svg/scene-relax.svg) | scene-relax |
  | ![Preview](./icon-svg/scene-nightlight.svg) | scene-nightlight | ![Preview](./icon-svg/scene-concentrate.svg) | scene-concentrate |
- | ![Preview](./icon-svg/scene-read.svg) | scene-read |
+ | ![Preview](./icon-svg/scene-read.svg) | scene-read | ![Preview](./icon-svg/bulb-lightguide-round.svg) | bulb-lightguide-round |
+ | ![Preview](./icon-svg/bulb-lightguide-oval.svg) | bulb-lightguide-oval | ![Preview](./icon-svg/bulb-lightguide-flask.svg) | bulb-lightguide-flask |
 ---
 
 ## Hue made by @rchiileea
@@ -272,6 +273,7 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/chicken-coup-door-shut.svg) | chicken-coup-door-shut | ![Preview](./icon-svg/bitfocus.svg) | bitfocus |
 | ![Preview](./icon-svg/duplicati.svg) | duplicati | ![Preview](./icon-svg/portainer.svg) | portainer |
 | ![Preview](./icon-svg/essential-oil-diffuser-alt.svg) | essential-oil-diffuser-alt | ![Preview](./icon-svg/tidal-logo.svg) | tidal-logo |
+| ![Preview](./icon-svg/salto.svg) | salto | ![Preview](./icon-svg/zwavejs.svg) | zwavejs |
 
 
 ---
@@ -430,7 +432,8 @@ Icons made by @rchiileea and @Gtt1229
 |![Preview](./icon-svg/ikea-blind-open.svg) | ikea-blind-open | ![Preview](./icon-svg/ikea-blind-closed.svg) | ikea-blind-closed |
 |![Preview](./icon-svg/ikea-5-spot.svg) | ikea-5-spot | ![Preview](./icon-svg/desk-sit.svg) | desk-sit |
 | ![Preview](./icon-svg/desk-stand.svg) | desk-stand | ![Preview](./icon-svg/desk-sit-alt.svg) | desk-sit-alt |
-| ![Preview](./icon-svg/desk-stand-alt.svg) | desk-stand-alt |
+| ![Preview](./icon-svg/desk-stand-alt.svg) | desk-stand-alt | ![Preview](./icon-svg/regolit-arc-lamp.svg) | regolit-arc-lamp |
+| ![Preview](./icon-svg/symfonisk-lampe.svg) | symfonisk-lampe |
 
 ---
 ## Schneider Electric
@@ -449,6 +452,7 @@ Icons made by @rchiileea
 |![Preview](./icon-svg/reolink-510.svg) | reolink-510 | ![Preview](./icon-svg/reolink-811.svg) | reolink-811 |
 |![Preview](./icon-svg/reolink-820.svg) | reolink-820 | ![Preview](./icon-svg/reolink-842.svg) | reolink-842 |
 |![Preview](./icon-svg/reolink-argus.svg) | reolink-argus | ![Preview](./icon-svg/reolink-go.svg) | reolink-go |
+| ![Preview](./icon-svg/reolink-e1.svg) | reolink-e1 |
 
 ---
 ## Tesla
@@ -552,6 +556,8 @@ Icons made by @rchiileea
 # Install
 
 ## HACS
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=elax46&repository=custom-brand-icons&category=frontend)
 
 We recommend installing Custom brand icons card via [Home Assistant Community Store](https://hacs.xyz)
  
