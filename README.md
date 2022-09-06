@@ -273,7 +273,7 @@ Custom brand icons for Home Assistant
 | ![Preview](./icon-svg/chicken-coup-door-shut.svg) | chicken-coup-door-shut | ![Preview](./icon-svg/bitfocus.svg) | bitfocus |
 | ![Preview](./icon-svg/duplicati.svg) | duplicati | ![Preview](./icon-svg/portainer.svg) | portainer |
 | ![Preview](./icon-svg/essential-oil-diffuser-alt.svg) | essential-oil-diffuser-alt | ![Preview](./icon-svg/tidal-logo.svg) | tidal-logo |
-| ![Preview](./icon-svg/salto.svg) | salto |
+| ![Preview](./icon-svg/salto.svg) | salto | ![Preview](./icon-svg/zwavejs.svg) | zwavejs |
 
 
 ---
@@ -432,7 +432,8 @@ Icons made by @rchiileea and @Gtt1229
 |![Preview](./icon-svg/ikea-blind-open.svg) | ikea-blind-open | ![Preview](./icon-svg/ikea-blind-closed.svg) | ikea-blind-closed |
 |![Preview](./icon-svg/ikea-5-spot.svg) | ikea-5-spot | ![Preview](./icon-svg/desk-sit.svg) | desk-sit |
 | ![Preview](./icon-svg/desk-stand.svg) | desk-stand | ![Preview](./icon-svg/desk-sit-alt.svg) | desk-sit-alt |
-| ![Preview](./icon-svg/desk-stand-alt.svg) | desk-stand-alt |
+| ![Preview](./icon-svg/desk-stand-alt.svg) | desk-stand-alt | ![Preview](./icon-svg/regolit-arc-lamp.svg) | regolit-arc-lamp |
+| ![Preview](./icon-svg/symfonisk-lampe.svg) | symfonisk-lampe |
 
 ---
 ## Schneider Electric
@@ -451,6 +452,7 @@ Icons made by @rchiileea
 |![Preview](./icon-svg/reolink-510.svg) | reolink-510 | ![Preview](./icon-svg/reolink-811.svg) | reolink-811 |
 |![Preview](./icon-svg/reolink-820.svg) | reolink-820 | ![Preview](./icon-svg/reolink-842.svg) | reolink-842 |
 |![Preview](./icon-svg/reolink-argus.svg) | reolink-argus | ![Preview](./icon-svg/reolink-go.svg) | reolink-go |
+| ![Preview](./icon-svg/reolink-e1.svg) | reolink-e1 |
 
 ---
 ## Tesla
