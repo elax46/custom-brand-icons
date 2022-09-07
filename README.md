@@ -51,8 +51,8 @@ Custom brand icons for Home Assistant
 ## Philips Hue
 These are the official icons from the [philips developer channel](https://developers.meethue.com/develop/application-design-guidance/icon-pack/)
 
-| Icon | Name 
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/adore-alt.svg) | adore-alt | ![Preview](./icon-svg/adore-mirror.svg) | adore-mirror |
 | ![Preview](./icon-svg/adore.svg) | adore | ![Preview](./icon-svg/amarant.svg) | amarant |
 | ![Preview](./icon-svg/amaze-alt.svg) | amaze-alt | ![Preview](./icon-svg/amaze.svg) | amaze |
@@ -199,8 +199,8 @@ These are the official icons from the [philips developer channel](https://develo
 ---
 ## Hue made by @rchiileea
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/bulb-sultan-group-v2.svg) | bulb-sultan-group-v2 | ![Preview](./icon-svg/bulb-sultan-v2.svg) | bulb-sultan-v2 |
 | ![Preview](./icon-svg/hue-spot-group-v2.svg) | hue-spot-group-v2 | ![Preview](./icon-svg/hue-spot-v2.svg) | hue-spot-v2 |
 | ![Preview](./icon-svg/kitchen-group.svg) | kitchen-group | ![Preview](./icon-svg/livingroom-group.svg) | livingroom-group |
@@ -210,8 +210,8 @@ These are the official icons from the [philips developer channel](https://develo
 ---
 ## Miscellany of icons
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/2-way-uplighter.svg) | 2-way-uplighter | ![Preview](./icon-svg/air-conditioner.svg) | air-conditioner |
 | ![Preview](./icon-svg/alexa-logo.svg) | alexa-logo | ![Preview](./icon-svg/amazon-logo.svg) | amazon-logo |
 | ![Preview](./icon-svg/asus-rp-68u.svg) | asus-rp-68u | ![Preview](./icon-svg/bitfocus.svg) | bitfocus |
@@ -289,8 +289,8 @@ These are the official icons from the [philips developer channel](https://develo
 ---
 ## Sonoff device
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/bridge.svg) | bridge | ![Preview](./icon-svg/mini.svg) | mini |
 | ![Preview](./icon-svg/smart-camera.svg) | smart-camera | ![Preview](./icon-svg/smart-plug-sonoff.svg) | smart-plug-sonoff |
 | ![Preview](./icon-svg/usb-smart-adaptor.svg) | usb-smart-adaptor | ![Preview](./icon-svg/window-sensor.svg) | window-sensor |
@@ -298,23 +298,23 @@ These are the official icons from the [philips developer channel](https://develo
 ---
 ## Moes device
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/moes-switch-dual.svg) | moes-switch-dual | ![Preview](./icon-svg/moes-switch-single.svg) | moes-switch-single |
 | ![Preview](./icon-svg/moes-switch-triple.svg) | moes-switch-triple |
 
 ---
 ## Modem/Router ISP
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/fastgate.svg) | fastgate | ![Preview](./icon-svg/nexxt.svg) | nexxt |
 
 ---
 ## Meross device
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/double-smart-plug.svg) | double-smart-plug | ![Preview](./icon-svg/double-wall-switch.svg) | double-wall-switch |
 | ![Preview](./icon-svg/essential-oil-diffuser.svg) | essential-oil-diffuser | ![Preview](./icon-svg/lamp-bedside-table-2.svg) | lamp-bedside-table-2 |
 | ![Preview](./icon-svg/lamp-bedside-table.svg) | lamp-bedside-table | ![Preview](./icon-svg/roller-shutter-switch.svg) | roller-shutter-switch |
@@ -327,8 +327,8 @@ These are the official icons from the [philips developer channel](https://develo
 ---
 ## Battery status
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/battery-charged.svg) | battery-charged | ![Preview](./icon-svg/battery-critical.svg) | battery-critical |
 | ![Preview](./icon-svg/battery-full.svg) | battery-full | ![Preview](./icon-svg/battery-good.svg) | battery-good |
 | ![Preview](./icon-svg/battery-half.svg) | battery-half | ![Preview](./icon-svg/battery-low.svg) | battery-low |
@@ -336,8 +336,8 @@ These are the official icons from the [philips developer channel](https://develo
 ---
 ## Netgear device
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/arlo-audio-doorbell.svg) | arlo-audio-doorbell | ![Preview](./icon-svg/arlo-baby.svg) | arlo-baby |
 | ![Preview](./icon-svg/arlo-base-station.svg) | arlo-base-station | ![Preview](./icon-svg/arlo-cam.svg) | arlo-cam |
 | ![Preview](./icon-svg/arlo-essential-indoor.svg) | arlo-essential-indoor | ![Preview](./icon-svg/arlo-floodlight.svg) | arlo-floodlight |
@@ -350,8 +350,8 @@ These are the official icons from the [philips developer channel](https://develo
 ---
 ## Alexa device
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/echo-dot-4-group.svg) | echo-dot-4-group | ![Preview](./icon-svg/echo-dot-gen-3.svg) | echo-dot-gen-3 |
 | ![Preview](./icon-svg/echo-dot-gen-4-clock.svg) | echo-dot-gen-4-clock | ![Preview](./icon-svg/echo-dot-gen-4.svg) | echo-dot-gen-4 |
 | ![Preview](./icon-svg/echo-gen-2.svg) | echo-gen-2 | ![Preview](./icon-svg/echo-plus.svg) | echo-plus |
@@ -363,8 +363,8 @@ These are the official icons from the [philips developer channel](https://develo
 ## Sonos device
 Icons made by @rchiileea
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/sonos-arc.svg) | sonos-arc | ![Preview](./icon-svg/sonos-beam.svg) | sonos-beam |
 | ![Preview](./icon-svg/sonos-bookshelf-horizontal.svg) | sonos-bookshelf-horizontal | ![Preview](./icon-svg/sonos-bookshelf-vertical.svg) | sonos-bookshelf-vertical |
 | ![Preview](./icon-svg/sonos-move.svg) | sonos-move | ![Preview](./icon-svg/sonos-one.svg) | sonos-one |
@@ -373,8 +373,8 @@ Icons made by @rchiileea
 ---
 ## Apple device
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/apple-airpods-pro.svg) | apple-airpods-pro | ![Preview](./icon-svg/apple-airpods.svg) | apple-airpods |
 | ![Preview](./icon-svg/apple-ipad-pro.svg) | apple-ipad-pro | ![Preview](./icon-svg/apple-iphone.svg) | apple-iphone |
 | ![Preview](./icon-svg/apple-tv-box.svg) | apple-tv-box | ![Preview](./icon-svg/apple-tv.svg) | apple-tv |
@@ -385,24 +385,24 @@ Icons made by @rchiileea
 ---
 ## Blink Cameras
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/mini-camera.svg) | mini-camera | ![Preview](./icon-svg/sync-module.svg) | sync-module |
 | ![Preview](./icon-svg/xt2-camera.svg) | xt2-camera |
 
 ---
 ## Elgato
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/elgato-key-light-air.svg) | elgato-key-light-air | ![Preview](./icon-svg/elgato-key-light.svg) | elgato-key-light |
 | ![Preview](./icon-svg/elgato-ring-light.svg) | elgato-ring-light |
 
 ---
 ## Google
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/google-home.svg) | google-home | ![Preview](./icon-svg/google-wifi-router.svg) | google-wifi-router |
 | ![Preview](./icon-svg/home-max.svg) | home-max | ![Preview](./icon-svg/home-mini.svg) | home-mini |
 | ![Preview](./icon-svg/nest-wifi-repeater.svg) | nest-wifi-repeater | ![Preview](./icon-svg/nest-wifi-router.svg) | nest-wifi-router |
@@ -411,8 +411,8 @@ Icons made by @rchiileea
 ## Window and Roller Shutter
 Icons made by @rchiileea
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/blind-tilt-closed.svg) | blind-tilt-closed | ![Preview](./icon-svg/blind-tilt-open.svg) | blind-tilt-open |
 | ![Preview](./icon-svg/double-window-closed.svg) | double-window-closed | ![Preview](./icon-svg/double-window-open.svg) | double-window-open |
 | ![Preview](./icon-svg/lift-in-window-closed.svg) | lift-in-window-closed | ![Preview](./icon-svg/lift-in-window-open1.svg) | lift-in-window-open1 |
@@ -427,8 +427,8 @@ Icons made by @rchiileea
 ## Doors
 Icons made by @rchiileea
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/panel-door-close.svg) | panel-door-close | ![Preview](./icon-svg/panel-door-locked.svg) | panel-door-locked |
 | ![Preview](./icon-svg/panel-door-open.svg) | panel-door-open | ![Preview](./icon-svg/panel-front-door-locked.svg) | panel-front-door-locked |
 | ![Preview](./icon-svg/panel-frontdoor-close.svg) | panel-frontdoor-close | ![Preview](./icon-svg/panel-frontdoor-close.svg) | panel-frontdoor-open |
@@ -446,8 +446,8 @@ Icons made by @rchiileea
 ## Ring
 Icons made by @rchiileea
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/ring-alarm-panel.svg) | ring-alarm-panel | ![Preview](./icon-svg/ring-alarm.svg) | ring-alarm |
 | ![Preview](./icon-svg/ring-doorbell-pro.svg) | ring-doorbell-pro | ![Preview](./icon-svg/ring-doorbell.svg) | ring-doorbell |
 | ![Preview](./icon-svg/ring-floodlight.svg) | ring-floodlight | ![Preview](./icon-svg/ring-smart-lighting.svg) | ring-smart-lighting |
@@ -456,8 +456,8 @@ Icons made by @rchiileea
 ---
 ## Christmas decorations
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/christmas-lights.svg) | christmas-lights | ![Preview](./icon-svg/christmas-tree-v2.svg) | christmas-tree-v2 |
 | ![Preview](./icon-svg/christmas-tree.svg) | christmas-tree | ![Preview](./icon-svg/christmas-wreath.svg) | christmas-wreath |
 
@@ -465,8 +465,8 @@ Icons made by @rchiileea
 ## Ikea
 Icons made by @rchiileea and @Gtt1229
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/desk-sit-alt.svg) | desk-sit-alt | ![Preview](./icon-svg/desk-sit.svg) | desk-sit |
 | ![Preview](./icon-svg/desk-stand-alt.svg) | desk-stand-alt | ![Preview](./icon-svg/desk-stand.svg) | desk-stand |
 | ![Preview](./icon-svg/ikea-5-spot.svg) | ikea-5-spot | ![Preview](./icon-svg/ikea-blind-closed.svg) | ikea-blind-closed |
@@ -477,8 +477,8 @@ Icons made by @rchiileea and @Gtt1229
 ## Schneider Electric
 Icons made by @rchiileea
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/apc-ups-basic.svg) | apc-ups-basic | ![Preview](./icon-svg/apc-ups-upright.svg) | apc-ups-upright |
 | ![Preview](./icon-svg/wiser-heating-ctl-off.svg) | wiser-heating-ctl-off | ![Preview](./icon-svg/wiser-heating-ctl-on.svg) | wiser-heating-ctl-on |
 | ![Preview](./icon-svg/wiser-thermostat-off.svg) | wiser-thermostat-off | ![Preview](./icon-svg/wiser-thermostat-on.svg) | wiser-thermostat-on |
@@ -487,8 +487,8 @@ Icons made by @rchiileea
 ## Reolink
 Icons made by @rchiileea
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/reolink-510.svg) | reolink-510 | ![Preview](./icon-svg/reolink-811.svg) | reolink-811 |
 | ![Preview](./icon-svg/reolink-820.svg) | reolink-820 | ![Preview](./icon-svg/reolink-842.svg) | reolink-842 |
 | ![Preview](./icon-svg/reolink-argus.svg) | reolink-argus | ![Preview](./icon-svg/reolink-e1.svg) | reolink-e1 |
@@ -498,8 +498,8 @@ Icons made by @rchiileea
 ## Tesla
 Icons made by @rchiileea
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/model-s-charge-side.svg) | model-s-charge-side | ![Preview](./icon-svg/model-s-charge.svg) | model-s-charge |
 | ![Preview](./icon-svg/model-s-side.svg) | model-s-side | ![Preview](./icon-svg/model-s.svg) | model-s |
 | ![Preview](./icon-svg/model-x-charge.svg) | model-x-charge | ![Preview](./icon-svg/model-x-open.svg) | model-x-open |
@@ -517,8 +517,8 @@ Icons made by @rchiileea
 ## Ubiquiti
 Icons made by @rchiileea
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/ubiquiti-ap.svg) | ubiquiti-ap | ![Preview](./icon-svg/ubiquiti-logo.svg) | ubiquiti-logo |
 | ![Preview](./icon-svg/ubiquiti-usg-p3.svg) | ubiquiti-usg-p3 | ![Preview](./icon-svg/ubiquiti.svg) | ubiquiti |
 
@@ -526,16 +526,16 @@ Icons made by @rchiileea
 ## Fritz
 Icons made by @rchiileea
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/fritz-repeater.svg) | fritz-repeater | ![Preview](./icon-svg/fritzbox-7530.svg) | fritzbox-7530 |
 
 ---
 ## LG
 Icons made by @rchiileea
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/lg-air-purifier.svg) | lg-air-purifier | ![Preview](./icon-svg/lg-aircon.svg) | lg-aircon |
 | ![Preview](./icon-svg/lg-cooker.svg) | lg-cooker | ![Preview](./icon-svg/lg-fridge.svg) | lg-fridge |
 | ![Preview](./icon-svg/lg-oled55.svg) | lg-oled55 | ![Preview](./icon-svg/lg-signiture.svg) | lg-signiture |
@@ -544,8 +544,8 @@ Icons made by @rchiileea
 ## Car manufacturer icon
 Icons made by @rchiileea
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/abarth.svg) | abarth | ![Preview](./icon-svg/alfa-romeo.svg) | alfa-romeo |
 | ![Preview](./icon-svg/audi.svg) | audi | ![Preview](./icon-svg/chrysler.svg) | chrysler |
 | ![Preview](./icon-svg/citroen.svg) | citroen | ![Preview](./icon-svg/dodge.svg) | dodge |
@@ -563,8 +563,8 @@ Icons made by @rchiileea
 ## Aqara icon
 Icons made by @rchiileea
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/aqara-air-quality.svg) | aqara-air-quality | ![Preview](./icon-svg/aqara-cube.svg) | aqara-cube |
 | ![Preview](./icon-svg/aqara-fp1.svg) | aqara-fp1 | ![Preview](./icon-svg/aqara-g2-pro.svg) | aqara-g2-pro |
 | ![Preview](./icon-svg/aqara-g3.svg) | aqara-g3 | ![Preview](./icon-svg/aqara-gas-detector.svg) | aqara-gas-detector |
@@ -576,8 +576,8 @@ Icons made by @rchiileea
 ## Stage DMX Lights
 Icons made by @rchiileea
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/stage-backlight.svg) | stage-backlight | ![Preview](./icon-svg/stage-light-group.svg) | stage-light-group |
 | ![Preview](./icon-svg/stage-light.svg) | stage-light | ![Preview](./icon-svg/stage-spot-light.svg) | stage-spot-light |
 | ![Preview](./icon-svg/stage-uplight.svg) | stage-uplight | ![Preview](./icon-svg/stagel-light-2-group.svg) | stagel-light-2-group |
@@ -587,8 +587,8 @@ Icons made by @rchiileea
 ## House Rooms
 Icons made by @rchiileea
 
-| Icon | Name |
-| :--- | :--- |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
 | ![Preview](./icon-svg/bathroom.svg) | bathroom | ![Preview](./icon-svg/bedroom.svg) | bedroom |
 | ![Preview](./icon-svg/driveway.svg) | driveway | ![Preview](./icon-svg/garage-alt-open.svg) | garage-alt-open |
 | ![Preview](./icon-svg/garage-alt-shut.svg) | garage-alt-shut | ![Preview](./icon-svg/garden.svg) | garden |
