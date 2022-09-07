@@ -49,3 +49,6 @@ type: entities
 ```
 
 A system restart is required after this step
+
+# Icons/Brands Available
+See the full list on [Github](https://github.com/elax46/custom-brand-icons#iconsbrands-available).
