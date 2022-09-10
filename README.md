@@ -285,6 +285,8 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/youtube-alt.svg) | youtube-alt | ![Preview](./icon-svg/youtube-tv.svg) | youtube-tv |
 | ![Preview](./icon-svg/youtube.svg) | youtube | ![Preview](./icon-svg/zigbee-dongle.svg) | zigbee-dongle |
 | ![Preview](./icon-svg/zwave-dongle.svg) | zwave-dongle | ![Preview](./icon-svg/zwavejs.svg) | zwavejs |
+| ![Preview](./icon-svg/humidity.svg) | humidity | ![Preview](./icon-svg/hubitat.svg) | hubitat |
+| ![Preview](./icon-svg/pm.svg) | pm |
 
 ---
 ## Sonoff device
