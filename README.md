@@ -286,7 +286,8 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](./icon-svg/youtube.svg) | youtube | ![Preview](./icon-svg/zigbee-dongle.svg) | zigbee-dongle |
 | ![Preview](./icon-svg/zwave-dongle.svg) | zwave-dongle | ![Preview](./icon-svg/zwavejs.svg) | zwavejs |
 | ![Preview](./icon-svg/humidity.svg) | humidity | ![Preview](./icon-svg/hubitat.svg) | hubitat |
-| ![Preview](./icon-svg/pm.svg) | pm |
+| ![Preview](./icon-svg/pm.svg) | pm | ![Preview](./icon-svg/starbucks.svg) | starbucks |
+| ![Preview](./icon-svg/playback-button.svg) | playback-button 
 
 ---
 ## Sonoff device
@@ -572,7 +573,10 @@ Icons made by @rchiileea
 | ![Preview](./icon-svg/aqara-g3.svg) | aqara-g3 | ![Preview](./icon-svg/aqara-gas-detector.svg) | aqara-gas-detector |
 | ![Preview](./icon-svg/aqara-h1-switch.svg) | aqara-h1-switch | ![Preview](./icon-svg/aqara-hub-n15-g2.svg) | aqara-hub-n15-g2 |
 | ![Preview](./icon-svg/aqara-opple.svg) | aqara-opple | ![Preview](./icon-svg/aqara-pet-feeder-c1.svg) | aqara-pet-feeder-c1 |
-| ![Preview](./icon-svg/aqara-smoke-detector.svg) | aqara-smoke-detector |
+| ![Preview](./icon-svg/aqara-smoke-detector.svg) | aqara-smoke-detector | ![Preview](./icon-svg/aqara-curtian.svg) | aqara-curtian |
+| ![Preview](./icon-svg/aqara-contact.svg) | aqara-contact | ![Preview](./icon-svg/aqara-inwall.svg) | aqara-inwall |
+| ![Preview](./icon-svg/aqara-motion.svg) | aqara-motion | ![Preview](./icon-svg/aqara-temperature.svg) | aqara-temperature |
+| ![Preview](./icon-svg/aqara-vibration.svg) | aqara-vibration | ![Preview](./icon-svg/aqara-waterleak.svg) | aqara-waterleak |
 
 ---
 ## Stage DMX Lights
