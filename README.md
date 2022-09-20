@@ -473,7 +473,7 @@ Icons made by @rchiileea and @Gtt1229
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/desk-stand-alt.svg) | desk-stand-alt | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/desk-stand.svg) | desk-stand |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ikea-5-spot.svg) | ikea-5-spot | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ikea-blind-closed.svg) | ikea-blind-closed |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ikea-blind-open.svg) | ikea-blind-open | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/regolit-arc-lamp.svg) | regolit-arc-lamp |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/symfonisk-lampe.svg) | symfonisk-lampe |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/symfonisk-lampe.svg) | symfonisk-lampe | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ikea-hektar3.svg) | ikea-hektar3 |
 
 ---
 ## Schneider Electric
@@ -722,3 +722,4 @@ Do you like these icons? Support the project with a pizza 🍕🍕
 
 ### Stargazers
 [![Stargazers repo roster for @elax46/custom-brand-icons](https://reporoster.com/stars/elax46/custom-brand-icons)](https://github.com/elax46/custom-brand-icons/stargazers)
+
