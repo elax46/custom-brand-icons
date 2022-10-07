@@ -286,7 +286,8 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/zwave-dongle.svg) | zwave-dongle | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/zwavejs.svg) | zwavejs |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/humidity.svg) | humidity | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/hubitat.svg) | hubitat |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/pm.svg) | pm | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/starbucks.svg) | starbucks |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/playback-button.svg) | playback-button 
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/playback-button.svg) | playback-button | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/vrt-max.svg) | vrt-max
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/stereo-alt.svg) | stereo-alt
 
 ---
 ## Sonoff device
