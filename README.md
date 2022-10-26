@@ -46,6 +46,7 @@ Custom brand icons for Home Assistant
 - [Tp-link](https://github.com/elax46/custom-brand-icons#tp-link)
 - [Ubiquiti](https://github.com/elax46/custom-brand-icons#ubiquiti)
 - [Window and Roller Shutter](https://github.com/elax46/custom-brand-icons#window-and-roller-shutter)
+- [Dyson](https://github.com/elax46/custom-brand-icons#dyson)
 
 ---
 ## Philips Hue
@@ -287,7 +288,8 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/humidity.svg) | humidity | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/hubitat.svg) | hubitat |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/pm.svg) | pm | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/starbucks.svg) | starbucks |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/playback-button.svg) | playback-button | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/vrt-max.svg) | vrt-max
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/stereo-alt.svg) | stereo-alt
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/stereo-alt.svg) | stereo-alt | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/steam-deck.svg) | steam-deck 
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/steam.svg) | steam | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/zattoo.svg) | zattoo 
 
 ---
 ## Sonoff device
@@ -602,6 +604,12 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/living-room.svg) | living-room | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/office.svg) | office |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/outside.svg) | outside |
 
+## Dyson
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/dyson-desk.svg) | dyson-desk | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/dyson-floor.svg) | dyson-floor |
 
 # Install
 
