@@ -47,6 +47,7 @@ Custom brand icons for Home Assistant
 - [Ubiquiti](https://github.com/elax46/custom-brand-icons#ubiquiti)
 - [Window and Roller Shutter](https://github.com/elax46/custom-brand-icons#window-and-roller-shutter)
 - [Dyson](https://github.com/elax46/custom-brand-icons#dyson)
+- [Duco Ventilation](https://github.com/elax46/custom-brand-icons#duco-ventilation)
 
 ---
 ## Philips Hue
@@ -613,6 +614,15 @@ Icons made by @rchiileea
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/dyson-desk.svg) | dyson-desk | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/dyson-floor.svg) | dyson-floor |
+
+## Duco Ventilation
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/duco-auto.svg) | duco-auto | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/duco-logo.svg) | duco-logo |
+[Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/duco-1.svg) | duco-1 | [Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/duco-2.svg) | duco-2 |
+[Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/duco-3.svg) | duco-3 |
 
 # Install
 
