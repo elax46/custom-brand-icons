@@ -49,6 +49,7 @@ Custom brand icons for Home Assistant
 - [Dyson](https://github.com/elax46/custom-brand-icons#dyson)
 - [Duco Ventilation](https://github.com/elax46/custom-brand-icons#duco-ventilation)
 - [HA Addons](https://github.com/elax46/custom-brand-icons#HA-Addons)
+- [Networking](https://github.com/elax46/custom-brand-icons#Networking)
 
 ---
 ## Philips Hue
@@ -635,6 +636,14 @@ Icons made by @sandrybridge
 ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/nginx.svg) | nginx | ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/duckdns.svg) | duckdns |
 ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/nut.svg) | nut | ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/adguard.svg) | adguard |
 ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/samba.svg) | samba |
+
+## Networking
+Icons made by @sandrybridge
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/pfsense.svg) | pfsense | ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/xiaomi.svg) | xiaomi | 
+![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/openwrt.svg) | openwrt |
 
 # Install
 
