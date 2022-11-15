@@ -642,8 +642,8 @@ Icons made by @sandrybridge
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
-| ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/pfsense.svg) | pfsense | ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/xiaomi.svg) | xiaomi | 
-![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/openwrt.svg) | openwrt |
+| ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/pfsense-logo.svg) | pfsense-logo | ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/xiaomi-logo.svg) | xiaomi-logo | 
+![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/openwrt-logo.svg) | openwrt-logo |
 
 # Install
 
