@@ -48,7 +48,7 @@ Custom brand icons for Home Assistant
 - [Window and Roller Shutter](https://github.com/elax46/custom-brand-icons#window-and-roller-shutter)
 - [Dyson](https://github.com/elax46/custom-brand-icons#dyson)
 - [Duco Ventilation](https://github.com/elax46/custom-brand-icons#duco-ventilation)
-- [HA plugins] (https://github.com/elax46/custom-brand-icons#duco-ventilation)
+- [HA plugins](https://github.com/elax46/custom-brand-icons#duco-ventilation)
 
 ---
 ## Philips Hue
