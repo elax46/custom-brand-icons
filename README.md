@@ -632,6 +632,9 @@ Icons made by @sandrybridge
 | :--- | :--- | :--- | :--- |
 | ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/cloudflare.svg) | cloudflare | ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/gdrive.svg) | gdrive | 
 ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/mosquitto.svg) | mosquitto | ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/esphome.svg) | esphome |
+![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/nginx.svg) | nginx | ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/duckdns.svg) | duckdns |
+![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/nut.svg) | nut | ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/adguard.svg) | adguard |
+![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/samba.svg) | nut |
 
 # Install
 
