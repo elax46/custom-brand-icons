@@ -651,7 +651,7 @@ Icons made by @sandrybridge
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
-| ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/truenas-logo.svg) | Truenas-logo | ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/hdd.svg) | hdd | 
+| ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/truenas-logo.svg) | truenas-logo | ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/hdd.svg) | hdd | 
 ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/ssd.svg) | ssd |
 
 # Install
