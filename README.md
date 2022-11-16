@@ -50,6 +50,7 @@ Custom brand icons for Home Assistant
 - [Duco Ventilation](https://github.com/elax46/custom-brand-icons#duco-ventilation)
 - [HA Addons](https://github.com/elax46/custom-brand-icons#HA-Addons)
 - [Networking](https://github.com/elax46/custom-brand-icons#Networking)
+- [Storage](https://github.com/elax46/custom-brand-icons#Storage)
 
 ---
 ## Philips Hue
@@ -635,7 +636,7 @@ Icons made by @sandrybridge
 ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/mosquitto.svg) | mosquitto | ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/esphome.svg) | esphome |
 ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/nginx.svg) | nginx | ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/duckdns.svg) | duckdns |
 ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/nut.svg) | nut | ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/adguard.svg) | adguard |
-![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/samba.svg) | samba |
+![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/samba.svg) | samba | ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/docker.svg) | docker |
 
 ## Networking
 Icons made by @sandrybridge
@@ -644,6 +645,14 @@ Icons made by @sandrybridge
 | :--- | :--- | :--- | :--- |
 | ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/pfsense-logo.svg) | pfsense-logo | ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/xiaomi-logo.svg) | xiaomi-logo | 
 ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/openwrt-logo.svg) | openwrt-logo |
+
+## Storage
+Icons made by @sandrybridge
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/truenas-logo.svg) | Truenas-logo | ![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/hdd.svg) | hdd | 
+![Preview](https://raw.githubusercontent.com/sandrybridge/custom-brand-icons/dev/icon-svg/ssd.svg) | ssd |
 
 # Install
 
