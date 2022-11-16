@@ -295,6 +295,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/confluence.svg) | confluence | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/grafana.svg) | grafana
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/guacamole.svg) | guacamole | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/jenkins_logo.svg) | jenkins_logo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/prometheusio.svg) | prometheusio | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/truenas-logo.svg) | truenas-logo | 
+![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/xiaomi-logo.svg) | xiaomi-logo | 
 
 ---
 ## Sonoff device
@@ -640,8 +641,7 @@ Icons made by @sandrybridge
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/pfsense-logo.svg) | pfsense-logo | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/xiaomi-logo.svg) | xiaomi-logo | 
-![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/openwrt-logo.svg) | openwrt-logo |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/pfsense-logo.svg) | pfsense-logo | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/openwrt-logo.svg) | openwrt-logo |
 
 
 # Install
