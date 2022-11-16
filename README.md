@@ -47,6 +47,9 @@ Custom brand icons for Home Assistant
 - [Window and Roller Shutter](https://github.com/elax46/custom-brand-icons#window-and-roller-shutter)
 - [Dyson](https://github.com/elax46/custom-brand-icons#dyson)
 - [Duco Ventilation](https://github.com/elax46/custom-brand-icons#duco-ventilation)
+- [HA Addons](https://github.com/elax46/custom-brand-icons#HA-Addons)
+- [Networking](https://github.com/elax46/custom-brand-icons#Networking)
+- [Storage](https://github.com/elax46/custom-brand-icons#Storage)
 
 ---
 ## Philips Hue
@@ -622,6 +625,33 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/duco-auto.svg) | duco-auto | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/duco-logo.svg) | duco-logo |
 ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/duco-1.svg) | duco-1 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/duco-2.svg) | duco-2 |
 ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/duco-3.svg) | duco-3 |
+
+## HA Addons
+Icons made by @sandrybridge
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/cloudflare.svg) | cloudflare | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/gdrive.svg) | gdrive | 
+![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/mosquitto.svg) | mosquitto | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/esphome.svg) | esphome |
+![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/nginx.svg) | nginx | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/duckdns.svg) | duckdns |
+![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/nut.svg) | nut | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/adguard.svg) | adguard |
+![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/samba.svg) | samba | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/docker.svg) | docker |
+
+## Networking
+Icons made by @sandrybridge
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/pfsense-logo.svg) | pfsense-logo | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/xiaomi-logo.svg) | xiaomi-logo | 
+![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/openwrt-logo.svg) | openwrt-logo |
+
+## Storage
+Icons made by @sandrybridge
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/truenas-logo.svg) | truenas-logo | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/hdd.svg) | hdd | 
+![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ssd.svg) | ssd |
 
 # Install
 
