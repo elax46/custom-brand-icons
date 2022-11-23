@@ -568,7 +568,8 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/peugeot-alt.svg) | peugeot-alt | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/peugeot.svg) | peugeot |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/porsche.svg) | porsche | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ram.svg) | ram |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/toyota.svg) | toyota | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/vauxhall.svg) | vauxhall |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/volkswagen.svg) | volkswagen |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/volkswagen.svg) | volkswagen | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/renault.svg) | renault |
+![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/renault-invert.svg) | renault-invert |
 
 ---
 ## Aqara icon
