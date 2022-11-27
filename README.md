@@ -49,6 +49,7 @@ Custom brand icons for Home Assistant
 - [Duco Ventilation](https://github.com/elax46/custom-brand-icons#duco-ventilation)
 - [HA Addons](https://github.com/elax46/custom-brand-icons#HA-Addons)
 - [Networking](https://github.com/elax46/custom-brand-icons#Networking)
+- [Shutter percentage of opening](https://github.com/elax46/custom-brand-icons#shutter-percentage-of-opening)
 
 ---
 ## Philips Hue
@@ -568,7 +569,8 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/peugeot-alt.svg) | peugeot-alt | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/peugeot.svg) | peugeot |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/porsche.svg) | porsche | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ram.svg) | ram |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/toyota.svg) | toyota | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/vauxhall.svg) | vauxhall |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/volkswagen.svg) | volkswagen |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/volkswagen.svg) | volkswagen | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/renault.svg) | renault |
+![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/renault-invert.svg) | renault-invert |
 
 ---
 ## Aqara icon
@@ -631,10 +633,10 @@ Icons made by @sandrybridge
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/cloudflare.svg) | cloudflare | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/mosquitto.svg) | mosquitto | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/esphome.svg) | esphome |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/cloudflare.svg) | cloudflare | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/mosquitto.svg) | mosquitto | 
 ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/nginx.svg) | nginx | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/duckdns.svg) | duckdns |
 ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/nut.svg) | nut | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/adguard.svg) | adguard |
-![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/samba.svg) | samba |
+![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/samba.svg) | samba | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/esphome.svg) | esphome |
 
 ## Networking
 Icons made by @sandrybridge
@@ -642,6 +644,18 @@ Icons made by @sandrybridge
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/pfsense-logo.svg) | pfsense-logo | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/openwrt-logo.svg) | openwrt-logo |
+
+## Shutter percentage of opening
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-0.svg) | shutter-0 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-10.svg) | shutter-10 |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-20.svg) | shutter-20 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-30.svg) | shutter-30 |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-40.svg) | shutter-40 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-50.svg) | shutter-50 |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-60.svg) | shutter-60 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-70.svg) | shutter-70 |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-80.svg) | shutter-80 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-90.svg) | shutter-90 |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-100.svg) | shutter-100 |
 
 
 # Install
