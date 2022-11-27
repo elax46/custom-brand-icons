@@ -49,6 +49,7 @@ Custom brand icons for Home Assistant
 - [Duco Ventilation](https://github.com/elax46/custom-brand-icons#duco-ventilation)
 - [HA Addons](https://github.com/elax46/custom-brand-icons#HA-Addons)
 - [Networking](https://github.com/elax46/custom-brand-icons#Networking)
+- [Shutter percentage of opening](https://github.com/elax46/custom-brand-icons#shutter-percentage-of-opening)
 
 ---
 ## Philips Hue
@@ -643,6 +644,18 @@ Icons made by @sandrybridge
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/pfsense-logo.svg) | pfsense-logo | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/openwrt-logo.svg) | openwrt-logo |
+
+## Shutter percentage of opening
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-0.svg) | shutter-0 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-10.svg) | shutter-10 |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-20.svg) | shutter-20 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-30.svg) | shutter-30 |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-40.svg) | shutter-40 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-50.svg) | shutter-50 |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-60.svg) | shutter-60 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-70.svg) | shutter-70 |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-80.svg) | shutter-80 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-90.svg) | shutter-90 |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-100.svg) | shutter-100 |
 
 
 # Install
