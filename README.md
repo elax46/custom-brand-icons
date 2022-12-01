@@ -209,9 +209,9 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/hue-spot-group-v2.svg) | hue-spot-group-v2 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/hue-spot-v2.svg) | hue-spot-v2 |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/kitchen-group.svg) | kitchen-group | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/livingroom-group.svg) | livingroom-group |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ls-spot-iris-group-v2.svg) | ls-spot-iris-group-v2 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ls-sultan-iris-group-v2.svg) | ls-sultan-iris-group-v2 |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/outdoor-motion.svg) | outdoor-motion |
-
----
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/outdoor-motion.svg) | outdoor-motion | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/tap-dial.svg) | tap-dial |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/go-portable-table.svg) | go-portable-table | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/perifo-spot.svg) | perifo-spot |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/festavia.svg) | festavia |
 ## Miscellany of icons
 
 | Icon | Name | Icon | Name |
