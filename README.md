@@ -570,7 +570,7 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/porsche.svg) | porsche | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ram.svg) | ram |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/toyota.svg) | toyota | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/vauxhall.svg) | vauxhall |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/volkswagen.svg) | volkswagen | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/renault.svg) | renault |
-![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/renault-invert.svg) | renault-invert |
+![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/renault-invert.svg) | renault-invert | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/bmw.svg) | bmw |
 
 ---
 ## Aqara icon
