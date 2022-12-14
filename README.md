@@ -50,6 +50,7 @@ Custom brand icons for Home Assistant
 - [HA Addons](https://github.com/elax46/custom-brand-icons#HA-Addons)
 - [Networking](https://github.com/elax46/custom-brand-icons#Networking)
 - [Shutter percentage of opening](https://github.com/elax46/custom-brand-icons#shutter-percentage-of-opening)
+- [Umage Lamps](https://github.com/elax46/custom-brand-icons#umage-lamps)
 
 ---
 ## Philips Hue
@@ -296,7 +297,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/confluence.svg) | confluence | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/grafana.svg) | grafana
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/guacamole.svg) | guacamole | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/jenkins_logo.svg) | jenkins_logo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/prometheusio.svg) | prometheusio | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/truenas-logo.svg) | truenas-logo | 
-![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/xiaomi-logo.svg) | xiaomi-logo | 
+![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/xiaomi-logo.svg) | xiaomi-logo | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/zidooo.svg) | zidooo | 
 
 ---
 ## Sonoff device
@@ -570,7 +571,8 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/porsche.svg) | porsche | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ram.svg) | ram |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/toyota.svg) | toyota | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/vauxhall.svg) | vauxhall |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/volkswagen.svg) | volkswagen | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/renault.svg) | renault |
-![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/renault-invert.svg) | renault-invert |
+![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/renault-invert.svg) | renault-invert | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/bmw.svg) | bmw |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/bmw-alt.svg) | bmw-alt |
 
 ---
 ## Aqara icon
@@ -656,6 +658,15 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-60.svg) | shutter-60 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-70.svg) | shutter-70 |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-80.svg) | shutter-80 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-90.svg) | shutter-90 |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-100.svg) | shutter-100 |
+
+
+## Umage Lamps
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/umage.svg) | umage | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/umage-carmina.svg) | umage-carmina |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/umage-acorn.svg) | umage-acorn |
 
 
 # Install
