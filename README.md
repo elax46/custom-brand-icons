@@ -51,6 +51,7 @@ Custom brand icons for Home Assistant
 - [Networking](https://github.com/elax46/custom-brand-icons#Networking)
 - [Shutter percentage of opening](https://github.com/elax46/custom-brand-icons#shutter-percentage-of-opening)
 - [Umage Lamps](https://github.com/elax46/custom-brand-icons#umage-lamps)
+- [TV](https://github.com/elax46/custom-brand-icons#television)
 
 ---
 ## Philips Hue
@@ -242,7 +243,8 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/garage-5-prong.svg) | garage-5-prong | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/garden-irrigation.svg) | garden-irrigation |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/google-home-icon.svg) | google-home-icon | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ha-blue.svg) | ha-blue |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/hbo-max-alt.svg) | hbo-max-alt | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/hbo-max.svg) | hbo-max |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/hbo.svg) | hbo | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/herman-miller-aeron.svg) | herman-miller-aeron |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/hbo.svg) | hbo | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/herman-miller-aeron.svg) | herman-miller-aeron | 
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/huawei.svg) | huawei |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/infuse-pro.svg) | infuse-pro | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/intel-cpu.svg) | intel-cpu |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/intel-nuc.svg) | intel-nuc | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/iptvx.svg) | iptvx |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/jellyfin.svg) | jellyfin | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/justwatch.svg) | justwatch |
@@ -667,6 +669,17 @@ Icons made by @rchiileea
 | :--- | :--- | :--- | :--- |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/umage.svg) | umage | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/umage-carmina.svg) | umage-carmina |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/umage-acorn.svg) | umage-acorn |
+
+
+## Television
+Icons made by @simpleicons
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/daserste.svg) | Das Erste | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/rtl.svg) | RTL |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/rtlzwei.svg) | RTL II | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/sat1.svg) | Sat1 |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/vox.svg) | Vox | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/zdf.svg) | ZDF |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/prosieben.svg) | ProSieben |
 
 
 # Install
