@@ -229,10 +229,9 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/chicken-coup.svg) | chicken-coup | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/chicken.svg) | chicken |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/cooker-extract-off.svg) | cooker-extract-off | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/cooker-extract-on.svg) | cooker-extract-on |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/crunchyrol.svg) | crunchyrol | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/deezer-logo.svg) | deezer-logo |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/desktop-computer.svg) | desktop-computer | 
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/dome-light.svg) | dome-light | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/dune-hd.svg) | dune-hd |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/duplicati.svg) | duplicati | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/eggs.svg) | eggs |
-| ![Preview](./icon-svg/emby.svg) | emby |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/desktop-computer.svg) | desktop-computer |  ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/dome-light.svg) | dome-light |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/dune-hd.svg) | dune-hd | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/duplicati.svg) | duplicati |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/eggs.svg) | eggs | ![Preview](./icon-svg/emby.svg) | emby |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/essential-oil-diffuser-alt.svg) | essential-oil-diffuser-alt | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ev-charging.svg) | ev-charging |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ev-notcharging.svg) | ev-notcharging |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/floor-lamp-dual.svg) | floor-lamp-dual | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/floor-lamp.svg) | floor-lamp |
@@ -240,8 +239,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/garage-3-prong.svg) | garage-3-prong | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/garage-4-prong.svg) | garage-4-prong |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/garage-5-prong.svg) | garage-5-prong | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/garden-irrigation.svg) | garden-irrigation |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/google-home-icon.svg) | google-home-icon | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ha-blue.svg) | ha-blue |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/herman-miller-aeron.svg) | herman-miller-aeron | 
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/huawei.svg) | huawei |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/herman-miller-aeron.svg) | herman-miller-aeron | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/huawei.svg) | huawei |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/infuse-pro.svg) | infuse-pro | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/intel-cpu.svg) | intel-cpu |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/intel-nuc.svg) | intel-nuc | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/iptvx.svg) | iptvx |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/jellyfin.svg) | jellyfin | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/justwatch.svg) | justwatch |
@@ -257,8 +255,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/npo.svg) | npo | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/nuki.svg) | nuki |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/nvidia-shield.svg) | nvidia-shield | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/octoprint.svg) | octoprint |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/odometer.svg) | odometer | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/outside-temp.svg) | outside-temp |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/peacock.svg) | peacock |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/phoscon.svg) | phoscon |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/peacock.svg) | peacock | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/phoscon.svg) | phoscon |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/portainer.svg) | portainer | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/power-panel-logo.svg) | power-panel-logo |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/proxmox.svg) | proxmox | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ram-memory.svg) | ram-memory |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/raspberry-pi.svg) | raspberry-pi | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/rituals.svg) | rituals |
