@@ -229,21 +229,18 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/chicken-coup.svg) | chicken-coup | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/chicken.svg) | chicken |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/cooker-extract-off.svg) | cooker-extract-off | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/cooker-extract-on.svg) | cooker-extract-on |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/crunchyrol.svg) | crunchyrol | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/deezer-logo.svg) | deezer-logo |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/desktop-computer.svg) | desktop-computer | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/directv-go-alt.svg) | directv-go-alt |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/directv-go.svg) | directv-go | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/discovery-plus.svg) | discovery-plus |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/disney-plus-alt.svg) | disney-plus-alt | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/disney-plus.svg) | disney-plus |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/desktop-computer.svg) | desktop-computer | 
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/dome-light.svg) | dome-light | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/dune-hd.svg) | dune-hd |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/duplicati.svg) | duplicati | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/eggs.svg) | eggs |
-| ![Preview](./icon-svg/emby.svg) | emby | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/espn.svg) | espn |
+| ![Preview](./icon-svg/emby.svg) | emby |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/essential-oil-diffuser-alt.svg) | essential-oil-diffuser-alt | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ev-charging.svg) | ev-charging |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ev-notcharging.svg) | ev-notcharging | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/firetv.svg) | firetv |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ev-notcharging.svg) | ev-notcharging |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/floor-lamp-dual.svg) | floor-lamp-dual | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/floor-lamp.svg) | floor-lamp |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/frigate.svg) | frigate | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/fronius-inverter-gen24.svg) | fronius-inverter-gen24 |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/garage-3-prong.svg) | garage-3-prong | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/garage-4-prong.svg) | garage-4-prong |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/garage-5-prong.svg) | garage-5-prong | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/garden-irrigation.svg) | garden-irrigation |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/google-home-icon.svg) | google-home-icon | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ha-blue.svg) | ha-blue |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/hbo-max-alt.svg) | hbo-max-alt | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/hbo-max.svg) | hbo-max |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/hbo.svg) | hbo | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/herman-miller-aeron.svg) | herman-miller-aeron | 
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/herman-miller-aeron.svg) | herman-miller-aeron | 
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/huawei.svg) | huawei |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/infuse-pro.svg) | infuse-pro | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/intel-cpu.svg) | intel-cpu |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/intel-nuc.svg) | intel-nuc | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/iptvx.svg) | iptvx |
@@ -252,19 +249,17 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/laptop.svg) | laptop | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/light-string.svg) | light-string |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/linktap.svg) | linktap | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/litterbox.svg) | litterbox |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/marquee-shutter.svg) | marquee-shutter | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/menergie.svg) | myenergi |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/moonlight.svg) | moonlight | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/movistar-plus.svg) | movistar-plus |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/moonlight.svg) | moonlight |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/nanoleaf.svg) | nanoleaf | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/nas-v2.svg) | nas-v2 |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/nas.svg) | nas | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/neon-closed.svg) | neon-closed |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/neon-open.svg) | neon-open | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/neon.svg) | neon |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/netapp.svg) | netapp | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/netflix-alt.svg) | netflix-alt |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/netflix.svg) | netflix | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/nextcloud.svg) | nextcloud |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/netapp.svg) | netapp | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/nextcloud.svg) | nextcloud |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/npo.svg) | npo | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/nuki.svg) | nuki |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/nvidia-shield.svg) | nvidia-shield | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/octoprint.svg) | octoprint |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/odometer.svg) | odometer | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/outside-temp.svg) | outside-temp |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/paramount.svg) | paramount | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/peacock.svg) | peacock |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/phoscon.svg) | phoscon | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/plutotv.svg) | plutotv |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/peacock.svg) | peacock |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/phoscon.svg) | phoscon |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/portainer.svg) | portainer | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/power-panel-logo.svg) | power-panel-logo |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/prime-video-alt.svg) | prime-video-alt | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/prime-video.svg) | prime-video |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/proxmox.svg) | proxmox | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ram-memory.svg) | ram-memory |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/raspberry-pi.svg) | raspberry-pi | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/rituals.svg) | rituals |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/roborock.svg) | roborock | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/rocketleague.svg) | rocketleague |
@@ -280,7 +275,6 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/telnet.svg) | telnet | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/thermostat-v2.svg) | thermostat-v2 |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/thermostat.svg) | thermostat | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/tidal-logo.svg) | tidal-logo |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/tim-logo-alt.svg) | tim-logo-alt | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/tim-logo.svg) | tim-logo |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/tivo.svg) | tivo | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/tvnz.svg) | tvnz |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/twitch-alt.svg) | twitch-alt | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/twitch.svg) | twitch |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/underfloor-heating.svg) | underfloor-heating | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/uplighter.svg) | uplighter |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/viaplay.svg) | viaplay | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/videoland.svg) | videoland |
@@ -676,10 +670,22 @@ Icons made by @simpleicons
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/daserste.svg) | Das Erste | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/rtl.svg) | RTL |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/bbc.svg) | BBC | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/cbs.svg) | CBS |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/cnn.svg) | CNN | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/daserste.svg) | Das Erste |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/directv-go.svg) | directv-go | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/directv-go-alt.svg) | directv-go-alt |
+|  ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/discovery-plus.svg) | discovery-plus | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/disney-plus-alt.svg) | disney-plus-alt |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/disney-plus.svg) | disney-plus | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/espn.svg) | espn |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/firetv.svg) | firetv | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/fox.svg) | Fox |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/hbo.svg) | hbo | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/hbo-max.svg) | hbo-max |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/hbo-max-alt.svg) | hbo-max-alt | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/movistar-plus.svg) | movistar-plus |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/netflix-alt.svg) | netflix-alt | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/netflix.svg) | netflix |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/paramount.svg) | paramount | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/plutotv.svg) | plutotv |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/prime-video-alt.svg) | prime-video-alt | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/prime-video.svg) | prime-video |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/prosieben.svg) | ProSieben | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/rtl.svg) | RTL |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/rtlzwei.svg) | RTL II | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/sat1.svg) | Sat1 |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/tivo.svg) | tivo | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/tvnz.svg) | tvnz |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/vox.svg) | Vox | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/zdf.svg) | ZDF |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/prosieben.svg) | ProSieben |
+
 
 
 # Install
