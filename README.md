@@ -534,6 +534,7 @@ Icons made by @rchiileea
 | :--- | :--- | :--- | :--- |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ubiquiti-ap.svg) | ubiquiti-ap | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ubiquiti-logo.svg) | ubiquiti-logo |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ubiquiti-usg-p3.svg) | ubiquiti-usg-p3 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ubiquiti.svg) | ubiquiti |
+| ![Preview](/icon-svg/unifi.svg) | unifi | ![Preview](/icon-svg/unifi-protect.svg) | unifi-protect |
 
 ---
 ## Fritz
