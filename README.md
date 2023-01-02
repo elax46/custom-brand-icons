@@ -56,7 +56,7 @@ Custom brand icons for Home Assistant
 
 ---
 
-## Alexa
+### Alexa
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -69,7 +69,7 @@ Custom brand icons for Home Assistant
 
 ---
 
-## Apple
+### Apple
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -82,7 +82,7 @@ Custom brand icons for Home Assistant
 
 ---
 
-## Aqara
+### Aqara
 
 Icons made by @rchiileea
 
@@ -100,7 +100,7 @@ Icons made by @rchiileea
 
 ---
 
-## Battery Status
+### Battery Status
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -110,7 +110,7 @@ Icons made by @rchiileea
 
 ---
 
-## Blink Cameras
+### Blink Cameras
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -119,7 +119,7 @@ Icons made by @rchiileea
 
 ---
 
-## Car Manufacturers
+### Car Manufacturers
 
 Icons made by @rchiileea
 
@@ -142,7 +142,7 @@ Icons made by @rchiileea
 
 ---
 
-## Christmas Decorations
+### Christmas Decorations
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -151,7 +151,7 @@ Icons made by @rchiileea
 
 ---
 
-## Doors
+### Doors
 
 Icons made by @rchiileea
 
@@ -172,7 +172,7 @@ Icons made by @rchiileea
 
 ---
 
-## Duco Ventilation
+### Duco Ventilation
 
 Icons made by @rchiileea
 
@@ -182,7 +182,7 @@ Icons made by @rchiileea
 ![Preview](/icon-svg/duco-1.svg) | duco-1 | ![Preview](/icon-svg/duco-2.svg) | duco-2 |
 ![Preview](/icon-svg/duco-3.svg) | duco-3 |
 
-## Dyson
+### Dyson
 
 Icons made by @rchiileea
 
@@ -190,7 +190,7 @@ Icons made by @rchiileea
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/dyson-desk.svg) | dyson-desk | ![Preview](/icon-svg/dyson-floor.svg) | dyson-floor |
 
-## Elgato
+### Elgato
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -199,7 +199,7 @@ Icons made by @rchiileea
 
 ---
 
-## Fritz
+### Fritz
 
 Icons made by @rchiileea
 
@@ -209,7 +209,7 @@ Icons made by @rchiileea
 
 ---
 
-## Google
+### Google
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -219,7 +219,7 @@ Icons made by @rchiileea
 
 ---
 
-## HA Addons
+### HA Addons
 
 Icons made by @sandrybridge
 
@@ -230,7 +230,7 @@ Icons made by @sandrybridge
 ![Preview](/icon-svg/nut.svg) | nut | ![Preview](/icon-svg/adguard.svg) | adguard |
 ![Preview](/icon-svg/samba.svg) | samba | ![Preview](/icon-svg/esphome.svg) | esphome |
 
-## House Rooms
+### House Rooms
 
 Icons made by @rchiileea
 
@@ -243,7 +243,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/living-room.svg) | living-room | ![Preview](/icon-svg/office.svg) | office |
 | ![Preview](/icon-svg/outside.svg) | outside |
 
-## IKEA
+### IKEA
 
 Icons made by @rchiileea and @Gtt1229
 
@@ -257,7 +257,7 @@ Icons made by @rchiileea and @Gtt1229
 
 ---
 
-## LG
+### LG
 
 Icons made by @rchiileea
 
@@ -269,7 +269,7 @@ Icons made by @rchiileea
 
 ---
 
-## Meross
+### Meross
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -284,7 +284,7 @@ Icons made by @rchiileea
 
 ---
 
-## Miscellany of Icons
+### Miscellany of Icons
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -371,7 +371,7 @@ Icons made by @rchiileea
 
 ---
 
-## Modem/Router ISP
+### Modem/Router ISP
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -379,7 +379,7 @@ Icons made by @rchiileea
 
 ---
 
-## Moes
+### Moes
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -388,7 +388,7 @@ Icons made by @rchiileea
 
 ---
 
-## Netgear
+### Netgear
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -403,7 +403,7 @@ Icons made by @rchiileea
 
 ---
 
-## Networking
+### Networking
 
 Icons made by @sandrybridge
 
@@ -411,7 +411,7 @@ Icons made by @sandrybridge
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/pfsense-logo.svg) | pfsense-logo | ![Preview](/icon-svg/openwrt-logo.svg) | openwrt-logo |
 
-## Philips Hue
+### Philips Hue
 
 These are the official icons from the [philips developer channel](https://developers.meethue.com/develop/application-design-guidance/icon-pack/)
 
@@ -562,7 +562,7 @@ These are the official icons from the [philips developer channel](https://develo
 
 ---
 
-## Philips Hue made by @rchiileea
+### Philips Hue made by @rchiileea
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -574,7 +574,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](/icon-svg/go-portable-table.svg) | go-portable-table | ![Preview](/icon-svg/perifo-spot.svg) | perifo-spot |
 | ![Preview](/icon-svg/festavia.svg) | festavia |
 
-## Reolink
+### Reolink
 
 Icons made by @rchiileea
 
@@ -587,7 +587,7 @@ Icons made by @rchiileea
 
 ---
 
-## Ring
+### Ring
 
 Icons made by @rchiileea
 
@@ -600,7 +600,7 @@ Icons made by @rchiileea
 
 ---
 
-## Schneider Electric
+### Schneider Electric
 
 Icons made by @rchiileea
 
@@ -612,7 +612,7 @@ Icons made by @rchiileea
 
 ---
 
-## Shutter Percentage of Opening
+### Shutter Percentage of Opening
 
 Icons made by @rchiileea
 
@@ -625,7 +625,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/shutter-80.svg) | shutter-80 | ![Preview](/icon-svg/shutter-90.svg) | shutter-90 |
 | ![Preview](/icon-svg/shutter-100.svg) | shutter-100 |
 
-## Sonoff
+### Sonoff
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -635,7 +635,7 @@ Icons made by @rchiileea
 
 ---
 
-## Sonos
+### Sonos
 
 Icons made by @rchiileea
 
@@ -648,7 +648,7 @@ Icons made by @rchiileea
 
 ---
 
-## Stage DMX Lights
+### Stage DMX Lights
 
 Icons made by @rchiileea
 
@@ -661,7 +661,7 @@ Icons made by @rchiileea
 
 ---
 
-## Tesla
+### Tesla
 
 Icons made by @rchiileea
 
@@ -674,7 +674,7 @@ Icons made by @rchiileea
 
 ---
 
-## TP-Link
+### TP-Link
 
 Icons made by @rchiileea
 
@@ -684,7 +684,7 @@ Icons made by @rchiileea
 
 ---
 
-## Ubiquiti
+### Ubiquiti
 
 Icons made by @rchiileea
 
@@ -696,7 +696,7 @@ Icons made by @rchiileea
 
 ---
 
-## Umage Lamps
+### Umage Lamps
 
 Icons made by @rchiileea
 
@@ -705,7 +705,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/umage.svg) | umage | ![Preview](/icon-svg/umage-carmina.svg) | umage-carmina |
 | ![Preview](/icon-svg/umage-acorn.svg) | umage-acorn |
 
-## Window and Roller Shutter
+### Window and Roller Shutter
 
 Icons made by @rchiileea
 
