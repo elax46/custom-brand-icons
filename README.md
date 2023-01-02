@@ -47,8 +47,8 @@ Custom brand icons for Home Assistant
 - [Window and Roller Shutter](#window-and-roller-shutter)
 - [Dyson](#dyson)
 - [Duco Ventilation](#duco-ventilation)
-- [HA Addons](#HA-Addons)
-- [Networking](#Networking)
+- [HA Addons](#ha-addons)
+- [Networking](#networking)
 - [Shutter percentage of opening](#shutter-percentage-of-opening)
 - [Umage Lamps](#umage-lamps)
 
