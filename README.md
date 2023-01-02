@@ -14,7 +14,8 @@ Custom brand icons for Home Assistant
 
 ![2FA](https://res.cloudinary.com/dcongin7u/image/upload/v1620853194/example_pwvozi.jpg)
 
-### Icons/Brands Available
+## Icons/Brands Available
+
 - [Amazon echo](#alexa-device)
 - [Apple](#apple-device)
 - [Aqara](#aqara-icon)
@@ -53,7 +54,9 @@ Custom brand icons for Home Assistant
 - [Umage Lamps](#umage-lamps)
 
 ---
+
 ## Philips Hue
+
 These are the official icons from the [philips developer channel](https://developers.meethue.com/develop/application-design-guidance/icon-pack/)
 
 | Icon | Name | Icon | Name |
@@ -202,6 +205,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/zones-areas-ground-floor.svg) | zones-areas-ground-floor | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/zones-areas-second-floor.svg) | zones-areas-second-floor |
 
 ---
+
 ## Hue made by @rchiileea
 
 | Icon | Name | Icon | Name |
@@ -213,6 +217,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/outdoor-motion.svg) | outdoor-motion | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/tap-dial.svg) | tap-dial |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/go-portable-table.svg) | go-portable-table | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/perifo-spot.svg) | perifo-spot |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/festavia.svg) | festavia |
+
 ## Miscellany of icons
 
 | Icon | Name | Icon | Name |
@@ -298,8 +303,8 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/truenas-logo.svg) | truenas-logo | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/xiaomi-logo.svg) | xiaomi-logo |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/zidooo.svg) | zidooo |
 
-
 ---
+
 ## Sonoff device
 
 | Icon | Name | Icon | Name |
@@ -309,6 +314,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/usb-smart-adaptor.svg) | usb-smart-adaptor | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/window-sensor.svg) | window-sensor |
 
 ---
+
 ## Moes device
 
 | Icon | Name | Icon | Name |
@@ -317,6 +323,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/moes-switch-triple.svg) | moes-switch-triple |
 
 ---
+
 ## Modem/Router ISP
 
 | Icon | Name | Icon | Name |
@@ -324,6 +331,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/fastgate.svg) | fastgate | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/nexxt.svg) | nexxt |
 
 ---
+
 ## Meross device
 
 | Icon | Name | Icon | Name |
@@ -338,6 +346,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/wall-switch.svg) | wall-switch |
 
 ---
+
 ## Battery status
 
 | Icon | Name | Icon | Name |
@@ -347,6 +356,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/battery-half.svg) | battery-half | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/battery-low.svg) | battery-low |
 
 ---
+
 ## Netgear device
 
 | Icon | Name | Icon | Name |
@@ -361,6 +371,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/wifi-extender.svg) | wifi-extender |
 
 ---
+
 ## Alexa device
 
 | Icon | Name | Icon | Name |
@@ -373,7 +384,9 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/echo-spot.svg) | echo-spot |
 
 ---
+
 ## Sonos device
+
 Icons made by @rchiileea
 
 | Icon | Name | Icon | Name |
@@ -384,6 +397,7 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/sonos-playbar.svg) | sonos-playbar | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/sonos-sub.svg) | sonos-sub |
 
 ---
+
 ## Apple device
 
 | Icon | Name | Icon | Name |
@@ -396,6 +410,7 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/homepod.svg) | homepod | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/imac.svg) | imac |
 
 ---
+
 ## Blink Cameras
 
 | Icon | Name | Icon | Name |
@@ -404,6 +419,7 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/xt2-camera.svg) | xt2-camera |
 
 ---
+
 ## Elgato
 
 | Icon | Name | Icon | Name |
@@ -412,6 +428,7 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/elgato-ring-light.svg) | elgato-ring-light |
 
 ---
+
 ## Google
 
 | Icon | Name | Icon | Name |
@@ -421,7 +438,9 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/nest-wifi-repeater.svg) | nest-wifi-repeater | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/nest-wifi-router.svg) | nest-wifi-router |
 
 ---
+
 ## Window and Roller Shutter
+
 Icons made by @rchiileea
 
 | Icon | Name | Icon | Name |
@@ -437,7 +456,9 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/vert-blind-open.svg) | vert-blind-open |
 
 ---
+
 ## Doors
+
 Icons made by @rchiileea
 
 | Icon | Name | Icon | Name |
@@ -456,7 +477,9 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/side-glassdoor-open.svg) | side-glassdoor-open |
 
 ---
+
 ## Ring
+
 Icons made by @rchiileea
 
 | Icon | Name | Icon | Name |
@@ -467,6 +490,7 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ring-spotlight-cam.svg) | ring-spotlight-cam | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ring-stick-up-cam.svg) | ring-stick-up-cam |
 
 ---
+
 ## Christmas decorations
 
 | Icon | Name | Icon | Name |
@@ -475,7 +499,9 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/christmas-tree.svg) | christmas-tree | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/christmas-wreath.svg) | christmas-wreath |
 
 ---
+
 ## Ikea
+
 Icons made by @rchiileea and @Gtt1229
 
 | Icon | Name | Icon | Name |
@@ -487,7 +513,9 @@ Icons made by @rchiileea and @Gtt1229
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/symfonisk-lampe.svg) | symfonisk-lampe | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/ikea-hektar3.svg) | ikea-hektar3 |
 
 ---
+
 ## Schneider Electric
+
 Icons made by @rchiileea
 
 | Icon | Name | Icon | Name |
@@ -497,7 +525,9 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/wiser-thermostat-off.svg) | wiser-thermostat-off | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/wiser-thermostat-on.svg) | wiser-thermostat-on |
 
 ---
+
 ## Reolink
+
 Icons made by @rchiileea
 
 | Icon | Name | Icon | Name |
@@ -508,7 +538,9 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/reolink-go.svg) | reolink-go |
 
 ---
+
 ## Tesla
+
 Icons made by @rchiileea
 
 | Icon | Name | Icon | Name |
@@ -518,8 +550,10 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/model-x-charge.svg) | model-x-charge | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/model-x-open.svg) | model-x-open |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/tesla-icon.svg) | tesla-icon |
 
---- 
+---
+
 ## Tp-Link
+
 Icons made by @rchiileea
 
 | Icon | Name |
@@ -527,7 +561,9 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/tp-link-tapo.svg) | tp-link-tapo |
 
 ---
+
 ## Ubiquiti
+
 Icons made by @rchiileea
 
 | Icon | Name | Icon | Name |
@@ -537,7 +573,9 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/unifi.svg) | unifi | ![Preview](/icon-svg/unifi-protect.svg) | unifi-protect |
 
 ---
+
 ## Fritz
+
 Icons made by @rchiileea
 
 | Icon | Name | Icon | Name |
@@ -545,7 +583,9 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/fritz-repeater.svg) | fritz-repeater | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/fritzbox-7530.svg) | fritzbox-7530 |
 
 ---
+
 ## LG
+
 Icons made by @rchiileea
 
 | Icon | Name | Icon | Name |
@@ -555,7 +595,9 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/lg-oled55.svg) | lg-oled55 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/lg-signiture.svg) | lg-signiture |
 
 ---
+
 ## Car manufacturer icon
+
 Icons made by @rchiileea
 
 | Icon | Name | Icon | Name |
@@ -576,7 +618,9 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/bmw-alt.svg) | bmw-alt |
 
 ---
+
 ## Aqara icon
+
 Icons made by @rchiileea
 
 | Icon | Name | Icon | Name |
@@ -592,7 +636,9 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/aqara-vibration.svg) | aqara-vibration | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/aqara-waterleak.svg) | aqara-waterleak |
 
 ---
+
 ## Stage DMX Lights
+
 Icons made by @rchiileea
 
 | Icon | Name | Icon | Name |
@@ -603,7 +649,9 @@ Icons made by @rchiileea
 | ![Preview](./icon-svg/stagel-light-2.svg) | stagel-light-2 |
 
 ---
+
 ## House Rooms
+
 Icons made by @rchiileea
 
 | Icon | Name | Icon | Name |
@@ -616,6 +664,7 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/outside.svg) | outside |
 
 ## Dyson
+
 Icons made by @rchiileea
 
 | Icon | Name | Icon | Name |
@@ -623,6 +672,7 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/dyson-desk.svg) | dyson-desk | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/dyson-floor.svg) | dyson-floor |
 
 ## Duco Ventilation
+
 Icons made by @rchiileea
 
 | Icon | Name | Icon | Name |
@@ -632,16 +682,18 @@ Icons made by @rchiileea
 ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/duco-3.svg) | duco-3 |
 
 ## HA Addons
+
 Icons made by @sandrybridge
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/cloudflare.svg) | cloudflare | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/mosquitto.svg) | mosquitto | 
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/cloudflare.svg) | cloudflare | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/mosquitto.svg) | mosquitto |
 ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/nginx.svg) | nginx | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/duckdns.svg) | duckdns |
 ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/nut.svg) | nut | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/adguard.svg) | adguard |
 ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/samba.svg) | samba | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/esphome.svg) | esphome |
 
 ## Networking
+
 Icons made by @sandrybridge
 
 | Icon | Name | Icon | Name |
@@ -649,6 +701,7 @@ Icons made by @sandrybridge
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/pfsense-logo.svg) | pfsense-logo | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/openwrt-logo.svg) | openwrt-logo |
 
 ## Shutter percentage of opening
+
 Icons made by @rchiileea
 
 | Icon | Name | Icon | Name |
@@ -660,15 +713,14 @@ Icons made by @rchiileea
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-80.svg) | shutter-80 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-90.svg) | shutter-90 |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/shutter-100.svg) | shutter-100 |
 
-
 ## Umage Lamps
+
 Icons made by @rchiileea
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/umage.svg) | umage | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/umage-carmina.svg) | umage-carmina |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/umage-acorn.svg) | umage-acorn |
-
 
 # Install
 
@@ -677,14 +729,15 @@ Icons made by @rchiileea
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=elax46&repository=custom-brand-icons&category=frontend)
 
 We recommend installing Custom brand icons card via [Home Assistant Community Store](https://hacs.xyz)
- 
- 1. Add the folowing to the `frontend` section of your `configuration.yaml`
 
- ```yaml
-frontend:
- extra_module_url:
- - /local/community/custom-brand-icons/custom-brand-icons.js
-```
+1. Add the folowing to the `frontend` section of your `configuration.yaml`
+
+    ```yaml
+    frontend:
+    extra_module_url:
+    - /local/community/custom-brand-icons/custom-brand-icons.js
+    ```
+
 2. (optional) Or add the following to your lovelace configuration using the Raw Config editor under Configure UI or ui-lovelace.yaml if using YAML mode.
 
 ```yaml
@@ -693,9 +746,10 @@ resources:
  url: /local/community/custom-brand-icons/custom-brand-icons.js
 ```
 
- ## Manual Installation
+## Manual Installation
 
 To add custom repositories please follow [this guide](https://hacs.xyz/docs/faq/custom_repositories/). Set URL to `` and category to `Lovelace`.
+
 1. Download `custom-brand-icons.js` file from the [latest release](/releases/latest).
 2. Copy the `custom-brand-icons.js` file into `<config>/www/` the directory where your `configuration.yaml` resides.
 
@@ -718,6 +772,7 @@ resources:
 Restart home-assistant.
 
 ## Use
+
 you can use icons by entering the prefix `phu:`
 
 Example of integration in the card
@@ -737,37 +792,36 @@ show_header_toggle: false
 title: Custom brand icons
 type: entities
 ```
+
 # Help me insert more icons!
 
 ***Attention I remind you that the icons must be in svg format***
 
-If you want, you can help me expand the number of icons available. Just add the following string to the `var icons` variable of the` custom-brand-icons.js` file
+If you want, you can help me expand the number of icons available. Just add the following string to the `var icons` variable of the `custom-brand-icons.js` file
 
 let's take the first string for example:
 
 ```js
 "Bollard": [0, 0, 24.0, 24.0, "string"]
 ```
-* `Bollard` = icon name
 
-* `0, 0, 24.0, 24.0` = this data can be recovered from the svg file `viewBox="0 0 24 24"` ***If this data is not present in the file you can leave the one indicated by me***
-
-* `String` = this data can be recovered from the svg file `<path d="M21,12.5 C21,13.33 18.76,...."` In particular you will have to enter only the part of the vector code `"M21,12.5 C21,13.33 18.76"` For an example take a look at the [icons already inserted](dist/custom-brand-icons.js)
-
-* **When you open a pull request do it on the dev branch**
-
-* In addition to inserting the icon in the `icon-svg` folder and updating the `custom-brand-icons.js` file, remember to also update the `README.md` file by inserting the new icon
+- `Bollard` = icon name
+- `0, 0, 24.0, 24.0` = this data can be recovered from the svg file `viewBox="0 0 24 24"` ***If this data is not present in the file you can leave the one indicated by me***
+- `String` = this data can be recovered from the svg file `<path d="M21,12.5 C21,13.33 18.76,...."` In particular you will have to enter only the part of the vector code `"M21,12.5 C21,13.33 18.76"` For an example take a look at the [icons already inserted](dist/custom-brand-icons.js)
+- **When you open a pull request do it on the dev branch**
+- In addition to inserting the icon in the `icon-svg` folder and updating the `custom-brand-icons.js` file, remember to also update the `README.md` file by inserting the new icon
 
 # Don't see the icon?
 
 It probably depends on the cache. Open Home assistant from an incognito window and check that the icon loads if yes then it depends on the cache, otherwise double check the installation
 
 # Make icon
+
 To make an icon in svg format you can use different programs starting from illustrator or inkview. The size of the icons must be 24x24 and the svg code must not contain transform, translate, scale but only viewbox
 
 # Icon Requests?
 
-The icon is not there? open a [custom icon request](/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) _The icons to integrate must be in svg format_
+The icon is not there? open a [custom icon request](/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) *The icons to integrate must be in svg format*
 
 # Customize the prefix
 
@@ -776,7 +830,9 @@ In case you want to create your own perfix you can edit the last line of the `cu
 ```js
  window.customIconsets["yourprefix"] = getIcon;
 ```
+
 # Pulls requests
+
 If you want to integrate icons or change errors in the documentation do not hesitate to open a pull request remember to open it on the dev branch
 
 # Thanks
@@ -784,10 +840,11 @@ If you want to integrate icons or change errors in the documentation do not hesi
 Thanks, as always, to the precious contribution to @rchiileea for the creation of the required icons!
 
 # Support the project
+
 Do you like these icons? Support the project with a pizza 🍕🍕
 
 [![coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/elax46)
 
-### Stargazers
-[![Stargazers repo roster for @elax46/custom-brand-icons](https://reporoster.com/stars/elax46/custom-brand-icons)](/stargazers)
+## Stargazers
 
+[![Stargazers repo roster for @elax46/custom-brand-icons](https://reporoster.com/stars/elax46/custom-brand-icons)](/stargazers)
