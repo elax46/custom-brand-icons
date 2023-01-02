@@ -1,5 +1,5 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/elax46/custom-brand-icons)](https://github.com/elax46/custom-brand-icons/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/elax46/custom-brand-icons)](/releases)
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 ![GitHub file size in bytes](https://img.shields.io/github/size/elax46/custom-brand-icons/dist/custom-brand-icons.js?label=plugin%20size)
 ![GitHub last commit](https://img.shields.io/github/last-commit/elax46/custom-brand-icons)
@@ -15,42 +15,42 @@ Custom brand icons for Home Assistant
 ![2FA](https://res.cloudinary.com/dcongin7u/image/upload/v1620853194/example_pwvozi.jpg)
 
 ### Icons/Brands Available
-- [Amazon echo](https://github.com/elax46/custom-brand-icons#alexa-device)
-- [Apple](https://github.com/elax46/custom-brand-icons#apple-device)
-- [Aqara](https://github.com/elax46/custom-brand-icons#aqara-icon)
-- [Battery](https://github.com/elax46/custom-brand-icons#battery-status)
-- [Blink](https://github.com/elax46/custom-brand-icons#blink-cameras)
-- [Car manufacturer](https://github.com/elax46/custom-brand-icons#car-manufacturer-icon)
-- [Christmas decorations](https://github.com/elax46/custom-brand-icons#christmas-decorations)
-- [Doors](https://github.com/elax46/custom-brand-icons#doors)
-- [Elgato](https://github.com/elax46/custom-brand-icons#elgato)
-- [Fritz](https://github.com/elax46/custom-brand-icons#fritz)
-- [Google](https://github.com/elax46/custom-brand-icons#google)
-- [House Rooms](https://github.com/elax46/custom-brand-icons#house-rooms)
-- [Ikea](https://github.com/elax46/custom-brand-icons#ikea)
-- [LG](https://github.com/elax46/custom-brand-icons#lg)
-- [Meross](https://github.com/elax46/custom-brand-icons#meross-device)
-- [Miscellany of icons](https://github.com/elax46/custom-brand-icons#miscellany-of-icons)
-- [Modem/Router ISP](https://github.com/elax46/custom-brand-icons#modemrouter-isp)
-- [Moes](https://github.com/elax46/custom-brand-icons#moes-device)
-- [Netgear](https://github.com/elax46/custom-brand-icons#netgear-device)
-- [Philips Hue](https://github.com/elax46/custom-brand-icons#philips-hue)
-- [Reolink](https://github.com/elax46/custom-brand-icons#reolink)
-- [Ring](https://github.com/elax46/custom-brand-icons#ring)
-- [Schneider Electric](https://github.com/elax46/custom-brand-icons#schneider-electric)
-- [Sonoff](https://github.com/elax46/custom-brand-icons#sonoff-device)
-- [Sonos](https://github.com/elax46/custom-brand-icons#sonos-device)
-- [Stage DMX Lights](https://github.com/elax46/custom-brand-icons#stage-dmx-lights)
-- [Tesla](https://github.com/elax46/custom-brand-icons#tesla)
-- [Tp-link](https://github.com/elax46/custom-brand-icons#tp-link)
-- [Ubiquiti](https://github.com/elax46/custom-brand-icons#ubiquiti)
-- [Window and Roller Shutter](https://github.com/elax46/custom-brand-icons#window-and-roller-shutter)
-- [Dyson](https://github.com/elax46/custom-brand-icons#dyson)
-- [Duco Ventilation](https://github.com/elax46/custom-brand-icons#duco-ventilation)
-- [HA Addons](https://github.com/elax46/custom-brand-icons#HA-Addons)
-- [Networking](https://github.com/elax46/custom-brand-icons#Networking)
-- [Shutter percentage of opening](https://github.com/elax46/custom-brand-icons#shutter-percentage-of-opening)
-- [Umage Lamps](https://github.com/elax46/custom-brand-icons#umage-lamps)
+- [Amazon echo](#alexa-device)
+- [Apple](#apple-device)
+- [Aqara](#aqara-icon)
+- [Battery](#battery-status)
+- [Blink](#blink-cameras)
+- [Car manufacturer](#car-manufacturer-icon)
+- [Christmas decorations](#christmas-decorations)
+- [Doors](#doors)
+- [Elgato](#elgato)
+- [Fritz](#fritz)
+- [Google](#google)
+- [House Rooms](#house-rooms)
+- [Ikea](#ikea)
+- [LG](#lg)
+- [Meross](#meross-device)
+- [Miscellany of icons](#miscellany-of-icons)
+- [Modem/Router ISP](#modemrouter-isp)
+- [Moes](#moes-device)
+- [Netgear](#netgear-device)
+- [Philips Hue](#philips-hue)
+- [Reolink](#reolink)
+- [Ring](#ring)
+- [Schneider Electric](#schneider-electric)
+- [Sonoff](#sonoff-device)
+- [Sonos](#sonos-device)
+- [Stage DMX Lights](#stage-dmx-lights)
+- [Tesla](#tesla)
+- [Tp-link](#tp-link)
+- [Ubiquiti](#ubiquiti)
+- [Window and Roller Shutter](#window-and-roller-shutter)
+- [Dyson](#dyson)
+- [Duco Ventilation](#duco-ventilation)
+- [HA Addons](#HA-Addons)
+- [Networking](#Networking)
+- [Shutter percentage of opening](#shutter-percentage-of-opening)
+- [Umage Lamps](#umage-lamps)
 
 ---
 ## Philips Hue
@@ -695,8 +695,8 @@ resources:
 
  ## Manual Installation
 
-To add custom repositories please follow [this guide](https://hacs.xyz/docs/faq/custom_repositories/). Set URL to `https://github.com/elax46/custom-brand-icons` and category to `Lovelace`.
-1. Download `custom-brand-icons.js` file from the [latest release](https://github.com/elax46/custom-brand-icons/releases/latest).
+To add custom repositories please follow [this guide](https://hacs.xyz/docs/faq/custom_repositories/). Set URL to `` and category to `Lovelace`.
+1. Download `custom-brand-icons.js` file from the [latest release](/releases/latest).
 2. Copy the `custom-brand-icons.js` file into `<config>/www/` the directory where your `configuration.yaml` resides.
 
 3. Add the folowing to the `frontend` section of your `configuration.yaml`
@@ -767,7 +767,7 @@ To make an icon in svg format you can use different programs starting from illus
 
 # Icon Requests?
 
-The icon is not there? open a [custom icon request](https://github.com/elax46/custom-brand-icons/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) _The icons to integrate must be in svg format_
+The icon is not there? open a [custom icon request](/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) _The icons to integrate must be in svg format_
 
 # Customize the prefix
 
@@ -789,5 +789,5 @@ Do you like these icons? Support the project with a pizza 🍕🍕
 [![coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/elax46)
 
 ### Stargazers
-[![Stargazers repo roster for @elax46/custom-brand-icons](https://reporoster.com/stars/elax46/custom-brand-icons)](https://github.com/elax46/custom-brand-icons/stargazers)
+[![Stargazers repo roster for @elax46/custom-brand-icons](https://reporoster.com/stars/elax46/custom-brand-icons)](/stargazers)
 
