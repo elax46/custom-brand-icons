@@ -14,48 +14,49 @@ Custom brand icons for Home Assistant
 
 ![2FA](https://res.cloudinary.com/dcongin7u/image/upload/v1620853194/example_pwvozi.jpg)
 
-## Icons/Brands Available
+## Icons Available
 
-- [Amazon echo](#alexa-device)
-- [Apple](#apple-device)
-- [Aqara](#aqara-icon)
-- [Battery](#battery-status)
-- [Blink](#blink-cameras)
-- [Car manufacturer](#car-manufacturer-icon)
-- [Christmas decorations](#christmas-decorations)
+- [Alexa](#alexa)
+- [Apple](#apple)
+- [Aqara](#aqara)
+- [Battery Status](#battery-status)
+- [Blink Cameras](#blink-cameras)
+- [Car Manufacturers](#car-manufacturers)
+- [Christmas Decorations](#christmas-decorations)
 - [Doors](#doors)
+- [Duco Ventilation](#duco-ventilation)
+- [Dyson](#dyson)
 - [Elgato](#elgato)
 - [Fritz](#fritz)
 - [Google](#google)
+- [HA Addons](#ha-addons)
 - [House Rooms](#house-rooms)
-- [Ikea](#ikea)
+- [IKEA](#ikea)
 - [LG](#lg)
-- [Meross](#meross-device)
-- [Miscellany of icons](#miscellany-of-icons)
+- [Meross](#meross)
+- [Miscellany of Icons](#miscellany-of-icons)
 - [Modem/Router ISP](#modemrouter-isp)
-- [Moes](#moes-device)
-- [Netgear](#netgear-device)
+- [Moes](#moes)
+- [Netgear](#netgear)
+- [Networking](#networking)
 - [Philips Hue](#philips-hue)
+- [Philips Hue made by @rchiileea](#philips-hue-made-by-rchiileea)
 - [Reolink](#reolink)
 - [Ring](#ring)
 - [Schneider Electric](#schneider-electric)
-- [Sonoff](#sonoff-device)
-- [Sonos](#sonos-device)
+- [Shutter Percentage of Opening](#shutter-percentage-of-opening)
+- [Sonoff](#sonoff)
+- [Sonos](#sonos)
 - [Stage DMX Lights](#stage-dmx-lights)
 - [Tesla](#tesla)
-- [Tp-link](#tp-link)
+- [TP-Link](#tp-link)
 - [Ubiquiti](#ubiquiti)
-- [Window and Roller Shutter](#window-and-roller-shutter)
-- [Dyson](#dyson)
-- [Duco Ventilation](#duco-ventilation)
-- [HA Addons](#ha-addons)
-- [Networking](#networking)
-- [Shutter percentage of opening](#shutter-percentage-of-opening)
 - [Umage Lamps](#umage-lamps)
+- [Window and Roller Shutter](#window-and-roller-shutter)
 
 ---
 
-## Alexa device
+## Alexa
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -68,7 +69,7 @@ Custom brand icons for Home Assistant
 
 ---
 
-## Apple device
+## Apple
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -81,7 +82,7 @@ Custom brand icons for Home Assistant
 
 ---
 
-## Aqara icon
+## Aqara
 
 Icons made by @rchiileea
 
@@ -99,7 +100,7 @@ Icons made by @rchiileea
 
 ---
 
-## Battery status
+## Battery Status
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -118,7 +119,7 @@ Icons made by @rchiileea
 
 ---
 
-## Car manufacturer icon
+## Car Manufacturers
 
 Icons made by @rchiileea
 
@@ -141,7 +142,7 @@ Icons made by @rchiileea
 
 ---
 
-## Christmas decorations
+## Christmas Decorations
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -268,7 +269,7 @@ Icons made by @rchiileea
 
 ---
 
-## Meross device
+## Meross
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -283,7 +284,7 @@ Icons made by @rchiileea
 
 ---
 
-## Miscellany of icons
+## Miscellany of Icons
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -378,7 +379,7 @@ Icons made by @rchiileea
 
 ---
 
-## Moes device
+## Moes
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -387,7 +388,7 @@ Icons made by @rchiileea
 
 ---
 
-## Netgear device
+## Netgear
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -611,7 +612,7 @@ Icons made by @rchiileea
 
 ---
 
-## Shutter percentage of opening
+## Shutter Percentage of Opening
 
 Icons made by @rchiileea
 
@@ -624,7 +625,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/shutter-80.svg) | shutter-80 | ![Preview](/icon-svg/shutter-90.svg) | shutter-90 |
 | ![Preview](/icon-svg/shutter-100.svg) | shutter-100 |
 
-## Sonoff device
+## Sonoff
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -634,7 +635,7 @@ Icons made by @rchiileea
 
 ---
 
-## Sonos device
+## Sonos
 
 Icons made by @rchiileea
 
