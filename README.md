@@ -55,6 +55,361 @@ Custom brand icons for Home Assistant
 
 ---
 
+## Alexa device
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/echo-dot-4-group.svg) | echo-dot-4-group | ![Preview](/icon-svg/echo-dot-gen-3.svg) | echo-dot-gen-3 |
+| ![Preview](/icon-svg/echo-dot-gen-4-clock.svg) | echo-dot-gen-4-clock | ![Preview](/icon-svg/echo-dot-gen-4.svg) | echo-dot-gen-4 |
+| ![Preview](/icon-svg/echo-gen-2.svg) | echo-gen-2 | ![Preview](/icon-svg/echo-plus.svg) | echo-plus |
+| ![Preview](/icon-svg/echo-show-5-gen-2.svg) | echo-show-5-gen-2 | ![Preview](/icon-svg/echo-show-5-group.svg) | echo-show-5-group |
+| ![Preview](/icon-svg/echo-show-8-gen-2.svg) | echo-show-8-gen-2 | ![Preview](/icon-svg/echo-show-8-group.svg) | echo-show-8-group |
+| ![Preview](/icon-svg/echo-spot.svg) | echo-spot |
+
+---
+
+## Apple device
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/apple-airpods-pro.svg) | apple-airpods-pro | ![Preview](/icon-svg/apple-airpods.svg) | apple-airpods |
+| ![Preview](/icon-svg/apple-ipad-pro.svg) | apple-ipad-pro | ![Preview](/icon-svg/apple-iphone.svg) | apple-iphone |
+| ![Preview](/icon-svg/apple-tv-box.svg) | apple-tv-box | ![Preview](/icon-svg/apple-tv.svg) | apple-tv |
+| ![Preview](/icon-svg/apple-watch-alt.svg) | apple-watch-alt | ![Preview](/icon-svg/apple-watch.svg) | apple-watch |
+| ![Preview](/icon-svg/appletv-gen2-remote.svg) | apple-tv-gen2-remote | ![Preview](/icon-svg/homepod-mini.svg) | homepod-mini |
+| ![Preview](/icon-svg/homepod.svg) | homepod | ![Preview](/icon-svg/imac.svg) | imac |
+
+---
+
+## Aqara icon
+
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/aqara-air-quality.svg) | aqara-air-quality | ![Preview](/icon-svg/aqara-cube.svg) | aqara-cube |
+| ![Preview](/icon-svg/aqara-fp1.svg) | aqara-fp1 | ![Preview](/icon-svg/aqara-g2-pro.svg) | aqara-g2-pro |
+| ![Preview](/icon-svg/aqara-g3.svg) | aqara-g3 | ![Preview](/icon-svg/aqara-gas-detector.svg) | aqara-gas-detector |
+| ![Preview](/icon-svg/aqara-h1-switch.svg) | aqara-h1-switch | ![Preview](/icon-svg/aqara-hub-n15-g2.svg) | aqara-hub-n15-g2 |
+| ![Preview](/icon-svg/aqara-opple.svg) | aqara-opple | ![Preview](/icon-svg/aqara-pet-feeder-c1.svg) | aqara-pet-feeder-c1 |
+| ![Preview](/icon-svg/aqara-smoke-detector.svg) | aqara-smoke-detector | ![Preview](/icon-svg/aqara-curtian.svg) | aqara-curtian |
+| ![Preview](/icon-svg/aqara-contact.svg) | aqara-contact | ![Preview](/icon-svg/aqara-inwall.svg) | aqara-inwall |
+| ![Preview](/icon-svg/aqara-motion.svg) | aqara-motion | ![Preview](/icon-svg/aqara-temperature.svg) | aqara-temperature |
+| ![Preview](/icon-svg/aqara-vibration.svg) | aqara-vibration | ![Preview](/icon-svg/aqara-waterleak.svg) | aqara-waterleak |
+
+---
+
+## Battery status
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/battery-charged.svg) | battery-charged | ![Preview](/icon-svg/battery-critical.svg) | battery-critical |
+| ![Preview](/icon-svg/battery-full.svg) | battery-full | ![Preview](/icon-svg/battery-good.svg) | battery-good |
+| ![Preview](/icon-svg/battery-half.svg) | battery-half | ![Preview](/icon-svg/battery-low.svg) | battery-low |
+
+---
+
+## Blink Cameras
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/mini-camera.svg) | mini-camera | ![Preview](/icon-svg/sync-module.svg) | sync-module |
+| ![Preview](/icon-svg/xt2-camera.svg) | xt2-camera |
+
+---
+
+## Car manufacturer icon
+
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/abarth.svg) | abarth | ![Preview](./icon-svg/alfa-romeo.svg) | alfa-romeo |
+| ![Preview](/icon-svg/audi.svg) | audi | ![Preview](/icon-svg/chrysler.svg) | chrysler |
+| ![Preview](/icon-svg/citroen.svg) | citroen | ![Preview](/icon-svg/dodge.svg) | dodge |
+| ![Preview](/icon-svg/ds.svg) | ds | ![Preview](/icon-svg/fiat.svg) | fiat |
+| ![Preview](/icon-svg/ford.svg) | ford | ![Preview](/icon-svg/honda.svg) | honda |
+| ![Preview](/icon-svg/hyundai.svg) | hyundai | ![Preview](/icon-svg/jeep.svg) | jeep |
+| ![Preview](/icon-svg/kia.svg) | kia | ![Preview](/icon-svg/lancia.svg) | lancia |
+| ![Preview](/icon-svg/nissan.svg) | nissan | ![Preview](/icon-svg/opel.svg) | opel |
+| ![Preview](/icon-svg/peugeot-alt.svg) | peugeot-alt | ![Preview](/icon-svg/peugeot.svg) | peugeot |
+| ![Preview](/icon-svg/porsche.svg) | porsche | ![Preview](/icon-svg/ram.svg) | ram |
+| ![Preview](/icon-svg/toyota.svg) | toyota | ![Preview](/icon-svg/vauxhall.svg) | vauxhall |
+| ![Preview](/icon-svg/volkswagen.svg) | volkswagen | ![Preview](/icon-svg/renault.svg) | renault |
+![Preview](/icon-svg/renault-invert.svg) | renault-invert | ![Preview](/icon-svg/bmw.svg) | bmw |
+| ![Preview](/icon-svg/bmw-alt.svg) | bmw-alt |
+
+---
+
+## Christmas decorations
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/christmas-lights.svg) | christmas-lights | ![Preview](/icon-svg/christmas-tree-v2.svg) | christmas-tree-v2 |
+| ![Preview](/icon-svg/christmas-tree.svg) | christmas-tree | ![Preview](/icon-svg/christmas-wreath.svg) | christmas-wreath |
+
+---
+
+## Doors
+
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/panel-door-close.svg) | panel-door-close | ![Preview](/icon-svg/panel-door-locked.svg) | panel-door-locked |
+| ![Preview](/icon-svg/panel-door-open.svg) | panel-door-open | ![Preview](/icon-svg/panel-front-door-locked.svg) | panel-front-door-locked |
+| ![Preview](/icon-svg/panel-frontdoor-close.svg) | panel-frontdoor-close | ![Preview](/icon-svg/panel-frontdoor-close.svg) | panel-frontdoor-open |
+| ![Preview](/icon-svg/panel-glass-door-2-locked.svg) | panel-glass-door-2-locked | ![Preview](/icon-svg/panel-glass-door-3-locked.svg) | panel-glass-door-3-locked |
+| ![Preview](/icon-svg/panel-glass-door-4-locked.svg) | panel-glass-door-4-locked | ![Preview](/icon-svg/panel-glass-door-close.svg) | panel-glass-door-close |
+| ![Preview](/icon-svg/panel-glass-door-locked.svg) | panel-glass-door-locked | ![Preview](/icon-svg/panel-glass-door-open.svg) | panel-glass-door-open |
+| ![Preview](/icon-svg/panel-glass-door2-close.svg) | panel-glass-door2-close | ![Preview](/icon-svg/panel-glass-door2-open.svg) | panel-glass-door2-open |
+| ![Preview](/icon-svg/panel-glass-door2-open.svg) | panel-glass-door3-close | ![Preview](/icon-svg/panel-glass-door3-open.svg) | panel-glass-door3-open |
+| ![Preview](/icon-svg/panel-glass-side-door-locked.svg) | panel-glass-side-door-locked | ![Preview](/icon-svg/panel-glassdoor-close.svg) | panel-glassdoor-close |
+| ![Preview](/icon-svg/panel-glassdoor-open.svg) | panel-glassdoor-open | ![Preview](/icon-svg/petflap-closed.svg) | petflap-closed |
+| ![Preview](/icon-svg/petflap-open.svg) | petflap-open | ![Preview](/icon-svg/side-glassdoor-close.svg) | side-glassdoor-close |
+| ![Preview](/icon-svg/side-glassdoor-open.svg) | side-glassdoor-open |
+
+---
+
+## Duco Ventilation
+
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/duco-auto.svg) | duco-auto | ![Preview](/icon-svg/duco-logo.svg) | duco-logo |
+![Preview](/icon-svg/duco-1.svg) | duco-1 | ![Preview](/icon-svg/duco-2.svg) | duco-2 |
+![Preview](/icon-svg/duco-3.svg) | duco-3 |
+
+## Dyson
+
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/dyson-desk.svg) | dyson-desk | ![Preview](/icon-svg/dyson-floor.svg) | dyson-floor |
+
+## Elgato
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/elgato-key-light-air.svg) | elgato-key-light-air | ![Preview](/icon-svg/elgato-key-light.svg) | elgato-key-light |
+| ![Preview](/icon-svg/elgato-ring-light.svg) | elgato-ring-light |
+
+---
+
+## Fritz
+
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/fritz-repeater.svg) | fritz-repeater | ![Preview](/icon-svg/fritzbox-7530.svg) | fritzbox-7530 |
+
+---
+
+## Google
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/google-home.svg) | google-home | ![Preview](/icon-svg/google-wifi-router.svg) | google-wifi-router |
+| ![Preview](/icon-svg/home-max.svg) | home-max | ![Preview](/icon-svg/home-mini.svg) | home-mini |
+| ![Preview](/icon-svg/nest-wifi-repeater.svg) | nest-wifi-repeater | ![Preview](/icon-svg/nest-wifi-router.svg) | nest-wifi-router |
+
+---
+
+## HA Addons
+
+Icons made by @sandrybridge
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/cloudflare.svg) | cloudflare | ![Preview](/icon-svg/mosquitto.svg) | mosquitto |
+![Preview](/icon-svg/nginx.svg) | nginx | ![Preview](/icon-svg/duckdns.svg) | duckdns |
+![Preview](/icon-svg/nut.svg) | nut | ![Preview](/icon-svg/adguard.svg) | adguard |
+![Preview](/icon-svg/samba.svg) | samba | ![Preview](/icon-svg/esphome.svg) | esphome |
+
+## House Rooms
+
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/bathroom.svg) | bathroom | ![Preview](/icon-svg/bedroom.svg) | bedroom |
+| ![Preview](/icon-svg/driveway.svg) | driveway | ![Preview](/icon-svg/garage-alt-open.svg) | garage-alt-open |
+| ![Preview](/icon-svg/garage-alt-shut.svg) | garage-alt-shut | ![Preview](/icon-svg/garden.svg) | garden |
+| ![Preview](/icon-svg/kids-room.svg) | kids-room | ![Preview](/icon-svg/kitchen.svg) | kitchen |
+| ![Preview](/icon-svg/living-room.svg) | living-room | ![Preview](/icon-svg/office.svg) | office |
+| ![Preview](/icon-svg/outside.svg) | outside |
+
+## IKEA
+
+Icons made by @rchiileea and @Gtt1229
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/desk-sit-alt.svg) | desk-sit-alt | ![Preview](/icon-svg/desk-sit.svg) | desk-sit |
+| ![Preview](/icon-svg/desk-stand-alt.svg) | desk-stand-alt | ![Preview](/icon-svg/desk-stand.svg) | desk-stand |
+| ![Preview](/icon-svg/ikea-5-spot.svg) | ikea-5-spot | ![Preview](/icon-svg/ikea-blind-closed.svg) | ikea-blind-closed |
+| ![Preview](/icon-svg/ikea-blind-open.svg) | ikea-blind-open | ![Preview](/icon-svg/regolit-arc-lamp.svg) | regolit-arc-lamp |
+| ![Preview](/icon-svg/symfonisk-lampe.svg) | symfonisk-lampe | ![Preview](/icon-svg/ikea-hektar3.svg) | ikea-hektar3 |
+
+---
+
+## LG
+
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/lg-air-purifier.svg) | lg-air-purifier | ![Preview](/icon-svg/lg-aircon.svg) | lg-aircon |
+| ![Preview](/icon-svg/lg-cooker.svg) | lg-cooker | ![Preview](/icon-svg/lg-fridge.svg) | lg-fridge |
+| ![Preview](/icon-svg/lg-oled55.svg) | lg-oled55 | ![Preview](/icon-svg/lg-signiture.svg) | lg-signiture |
+
+---
+
+## Meross device
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/double-smart-plug.svg) | double-smart-plug | ![Preview](/icon-svg/double-wall-switch.svg) | double-wall-switch |
+| ![Preview](/icon-svg/essential-oil-diffuser.svg) | essential-oil-diffuser | ![Preview](/icon-svg/lamp-bedside-table-2.svg) | lamp-bedside-table-2 |
+| ![Preview](/icon-svg/lamp-bedside-table.svg) | lamp-bedside-table | ![Preview](/icon-svg/roller-shutter-switch.svg) | roller-shutter-switch |
+| ![Preview](/icon-svg/single-wall-switch.svg) | single-wall-switch | ![Preview](/icon-svg/smart-desk-lamp.svg) | smart-desk-lamp |
+| ![Preview](/icon-svg/smart-plug-it.svg) | smart-plug-it | ![Preview](/icon-svg/smart-plug-schuko.svg) | smart-plug-schuko |
+| ![Preview](/icon-svg/smart-power-strip.svg) | smart-power-strip | ![Preview](/icon-svg/smart-switch.svg) | smart-switch |
+| ![Preview](/icon-svg/temp-sensor.svg) | temp-sensor | ![Preview](/icon-svg/triple-wall-switch.svg) | triple-wall-switch |
+| ![Preview](/icon-svg/wall-switch.svg) | wall-switch |
+
+---
+
+## Miscellany of icons
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/2-way-uplighter.svg) | 2-way-uplighter | ![Preview](/icon-svg/air-conditioner.svg) | air-conditioner |
+| ![Preview](/icon-svg/alexa-logo.svg) | alexa-logo | ![Preview](/icon-svg/amazon-logo.svg) | amazon-logo |
+| ![Preview](/icon-svg/asus-rp-68u.svg) | asus-rp-68u | ![Preview](/icon-svg/bitfocus.svg) | bitfocus |
+| ![Preview](/icon-svg/bitwarden.svg) | bitwarden | ![Preview](/icon-svg/ceiling-fan-light.svg) | ceiling-fan-light |
+| ![Preview](/icon-svg/ceiling-fan.svg) | ceiling-fan | ![Preview](/icon-svg/ceiling-lamp-plafond.svg) | ceiling-lamp-plafond |
+| ![Preview](/icon-svg/ceiling-lamp-round.svg) | ceiling-lamp-round | ![Preview](/icon-svg/ceiling-lamp.svg) | ceiling-lamp |
+| ![Preview](/icon-svg/ceiling-spot-lamp.svg) | ceiling-spot-lamp | ![Preview](/icon-svg/chandelier.svg) | chandelier |
+| ![Preview](/icon-svg/charging-station.svg) | charging-station | ![Preview](/icon-svg/chicken-coup-door-shut.svg) | chicken-coup-door-shut |
+| ![Preview](/icon-svg/chicken-coup.svg) | chicken-coup | ![Preview](/icon-svg/chicken.svg) | chicken |
+| ![Preview](/icon-svg/cooker-extract-off.svg) | cooker-extract-off | ![Preview](/icon-svg/cooker-extract-on.svg) | cooker-extract-on |
+| ![Preview](/icon-svg/crunchyrol.svg) | crunchyrol | ![Preview](/icon-svg/deezer-logo.svg) | deezer-logo |
+| ![Preview](/icon-svg/desktop-computer.svg) | desktop-computer | ![Preview](/icon-svg/directv-go-alt.svg) | directv-go-alt |
+| ![Preview](/icon-svg/directv-go.svg) | directv-go | ![Preview](/icon-svg/discovery-plus.svg) | discovery-plus |
+| ![Preview](/icon-svg/disney-plus-alt.svg) | disney-plus-alt | ![Preview](/icon-svg/disney-plus.svg) | disney-plus |
+| ![Preview](/icon-svg/dome-light.svg) | dome-light | ![Preview](/icon-svg/dune-hd.svg) | dune-hd |
+| ![Preview](/icon-svg/duplicati.svg) | duplicati | ![Preview](/icon-svg/eggs.svg) | eggs |
+| ![Preview](./icon-svg/emby.svg) | emby | ![Preview](/icon-svg/espn.svg) | espn |
+| ![Preview](/icon-svg/essential-oil-diffuser-alt.svg) | essential-oil-diffuser-alt | ![Preview](/icon-svg/ev-charging.svg) | ev-charging |
+| ![Preview](/icon-svg/ev-notcharging.svg) | ev-notcharging | ![Preview](/icon-svg/firetv.svg) | firetv |
+| ![Preview](/icon-svg/floor-lamp-dual.svg) | floor-lamp-dual | ![Preview](/icon-svg/floor-lamp.svg) | floor-lamp |
+| ![Preview](/icon-svg/frigate.svg) | frigate | ![Preview](/icon-svg/fronius-inverter-gen24.svg) | fronius-inverter-gen24 |
+| ![Preview](/icon-svg/garage-3-prong.svg) | garage-3-prong | ![Preview](/icon-svg/garage-4-prong.svg) | garage-4-prong |
+| ![Preview](/icon-svg/garage-5-prong.svg) | garage-5-prong | ![Preview](/icon-svg/garden-irrigation.svg) | garden-irrigation |
+| ![Preview](/icon-svg/google-home-icon.svg) | google-home-icon | ![Preview](/icon-svg/ha-blue.svg) | ha-blue |
+| ![Preview](/icon-svg/hbo-max-alt.svg) | hbo-max-alt | ![Preview](/icon-svg/hbo-max.svg) | hbo-max |
+| ![Preview](/icon-svg/hbo.svg) | hbo | ![Preview](/icon-svg/herman-miller-aeron.svg) | herman-miller-aeron |
+| ![Preview](/icon-svg/infuse-pro.svg) | infuse-pro | ![Preview](/icon-svg/intel-cpu.svg) | intel-cpu |
+| ![Preview](/icon-svg/intel-nuc.svg) | intel-nuc | ![Preview](/icon-svg/iptvx.svg) | iptvx |
+| ![Preview](/icon-svg/jellyfin.svg) | jellyfin | ![Preview](/icon-svg/justwatch.svg) | justwatch |
+| ![Preview](/icon-svg/laptop-windows-alt.svg) | laptop-windows-alt | ![Preview](/icon-svg/laptop-windows.svg) | laptop-windows |
+| ![Preview](/icon-svg/laptop.svg) | laptop | ![Preview](/icon-svg/light-string.svg) | light-string |
+| ![Preview](/icon-svg/linktap.svg) | linktap | ![Preview](/icon-svg/litterbox.svg) | litterbox |
+| ![Preview](/icon-svg/marquee-shutter.svg) | marquee-shutter | ![Preview](/icon-svg/menergie.svg) | myenergi |
+| ![Preview](/icon-svg/moonlight.svg) | moonlight | ![Preview](/icon-svg/movistar-plus.svg) | movistar-plus |
+| ![Preview](/icon-svg/nanoleaf.svg) | nanoleaf | ![Preview](/icon-svg/nas-v2.svg) | nas-v2 |
+| ![Preview](/icon-svg/nas.svg) | nas | ![Preview](/icon-svg/neon-closed.svg) | neon-closed |
+| ![Preview](/icon-svg/neon-open.svg) | neon-open | ![Preview](/icon-svg/neon.svg) | neon |
+| ![Preview](/icon-svg/netapp.svg) | netapp | ![Preview](/icon-svg/netflix-alt.svg) | netflix-alt |
+| ![Preview](/icon-svg/netflix.svg) | netflix | ![Preview](/icon-svg/nextcloud.svg) | nextcloud |
+| ![Preview](/icon-svg/npo.svg) | npo | ![Preview](/icon-svg/nuki.svg) | nuki |
+| ![Preview](/icon-svg/nvidia-shield.svg) | nvidia-shield | ![Preview](/icon-svg/octoprint.svg) | octoprint |
+| ![Preview](/icon-svg/odometer.svg) | odometer | ![Preview](/icon-svg/outside-temp.svg) | outside-temp |
+| ![Preview](/icon-svg/paramount.svg) | paramount | ![Preview](/icon-svg/peacock.svg) | peacock |
+| ![Preview](/icon-svg/phoscon.svg) | phoscon | ![Preview](/icon-svg/plutotv.svg) | plutotv |
+| ![Preview](/icon-svg/portainer.svg) | portainer | ![Preview](/icon-svg/power-panel-logo.svg) | power-panel-logo |
+| ![Preview](/icon-svg/prime-video-alt.svg) | prime-video-alt | ![Preview](/icon-svg/prime-video.svg) | prime-video |
+| ![Preview](/icon-svg/proxmox.svg) | proxmox | ![Preview](/icon-svg/ram-memory.svg) | ram-memory |
+| ![Preview](/icon-svg/raspberry-pi.svg) | raspberry-pi | ![Preview](/icon-svg/rituals.svg) | rituals |
+| ![Preview](/icon-svg/roborock.svg) | roborock | ![Preview](/icon-svg/rocketleague.svg) | rocketleague |
+| ![Preview](/icon-svg/salt-lamp.svg) | salt-lamp | ![Preview](/icon-svg/salto.svg) | salto |
+| ![Preview](/icon-svg/seagate-ssd-m2.svg) | seagate-ssd-m2 | ![Preview](/icon-svg/seagate-ssd.svg) | seagate-ssd |
+| ![Preview](/icon-svg/shed-open.svg) | shed-open | ![Preview](/icon-svg/shelly-logo.svg) | shelly-logo |
+| ![Preview](/icon-svg/shudder.svg) | shudder | ![Preview](/icon-svg/sky-q-logo.svg) | sky-q-logo |
+| ![Preview](/icon-svg/smoke-detector.svg) | smoke-detector | ![Preview](/icon-svg/sonnen.svg) | sonnen |
+| ![Preview](/icon-svg/spot-bulb-top.svg) | spot-bulb-top | ![Preview](/icon-svg/sprinkler.svg) | sprinkler |
+| ![Preview](/icon-svg/star-plus-alt.svg) | star-plus-alt | ![Preview](/icon-svg/star-plus.svg) | star-plus |
+| ![Preview](/icon-svg/streamz.svg) | streamz | ![Preview](/icon-svg/table-cylinder-lamp.svg) | table-cylinder-lamp |
+| ![Preview](/icon-svg/tablet.svg) | tablet | ![Preview](/icon-svg/telnet-box.svg) | telnet-box |
+| ![Preview](/icon-svg/telnet.svg) | telnet | ![Preview](/icon-svg/thermostat-v2.svg) | thermostat-v2 |
+| ![Preview](/icon-svg/thermostat.svg) | thermostat | ![Preview](/icon-svg/tidal-logo.svg) | tidal-logo |
+| ![Preview](/icon-svg/tim-logo-alt.svg) | tim-logo-alt | ![Preview](/icon-svg/tim-logo.svg) | tim-logo |
+| ![Preview](/icon-svg/tivo.svg) | tivo | ![Preview](/icon-svg/tvnz.svg) | tvnz |
+| ![Preview](/icon-svg/twitch-alt.svg) | twitch-alt | ![Preview](/icon-svg/twitch.svg) | twitch |
+| ![Preview](/icon-svg/underfloor-heating.svg) | underfloor-heating | ![Preview](/icon-svg/uplighter.svg) | uplighter |
+| ![Preview](/icon-svg/viaplay.svg) | viaplay | ![Preview](/icon-svg/videoland.svg) | videoland |
+| ![Preview](/icon-svg/vrt-logo.svg) | vrt-logo | ![Preview](/icon-svg/vtm.svg) | vtm |
+| ![Preview](/icon-svg/vudu.svg) | vudu | ![Preview](/icon-svg/wifi-dongle.svg) | wifi-dongle |
+| ![Preview](/icon-svg/wyzecam.svg) | wyzecam | ![Preview](/icon-svg/xbox-alt.svg) | xbox-alt |
+| ![Preview](/icon-svg/xbox.svg) | xbox | ![Preview](/icon-svg/yamaha-rx-v773.svg) | yamaha-rx-v773 |
+| ![Preview](/icon-svg/youtube-alt.svg) | youtube-alt | ![Preview](/icon-svg/youtube-kids.svg) | youtube-kids |
+| ![Preview](/icon-svg/youtube-music.svg) | youtube-music | ![Preview](/icon-svg/youtube-tv.svg) | youtube-tv |
+| ![Preview](/icon-svg/youtube.svg) | youtube | ![Preview](/icon-svg/zigbee-dongle.svg) | zigbee-dongle |
+| ![Preview](/icon-svg/zwave-dongle.svg) | zwave-dongle | ![Preview](/icon-svg/zwavejs.svg) | zwavejs |
+| ![Preview](/icon-svg/humidity.svg) | humidity | ![Preview](/icon-svg/hubitat.svg) | hubitat |
+| ![Preview](/icon-svg/pm.svg) | pm | ![Preview](/icon-svg/starbucks.svg) | starbucks |
+| ![Preview](/icon-svg/playback-button.svg) | playback-button | ![Preview](/icon-svg/stereo-alt.svg) | stereo-alt |
+| ![Preview](/icon-svg/steam.svg) | steam | ![Preview](/icon-svg/confluence.svg) | confluence |
+| ![Preview](/icon-svg/guacamole.svg) | guacamole | ![Preview](/icon-svg/prometheusio.svg) | prometheusio |
+| ![Preview](/icon-svg/truenas-logo.svg) | truenas-logo | ![Preview](/icon-svg/xiaomi-logo.svg) | xiaomi-logo |
+| ![Preview](/icon-svg/zidooo.svg) | zidooo |
+
+---
+
+## Modem/Router ISP
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/fastgate.svg) | fastgate | ![Preview](/icon-svg/nexxt.svg) | nexxt |
+
+---
+
+## Moes device
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/moes-switch-dual.svg) | moes-switch-dual | ![Preview](/icon-svg/moes-switch-single.svg) | moes-switch-single |
+| ![Preview](/icon-svg/moes-switch-triple.svg) | moes-switch-triple |
+
+---
+
+## Netgear device
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/arlo-audio-doorbell.svg) | arlo-audio-doorbell | ![Preview](/icon-svg/arlo-baby.svg) | arlo-baby |
+| ![Preview](/icon-svg/arlo-base-station.svg) | arlo-base-station | ![Preview](/icon-svg/arlo-cam.svg) | arlo-cam |
+| ![Preview](/icon-svg/arlo-essential-indoor.svg) | arlo-essential-indoor | ![Preview](/icon-svg/arlo-floodlight.svg) | arlo-floodlight |
+| ![Preview](/icon-svg/arlo-pro-3.svg) | arlo-pro-3 | ![Preview](/icon-svg/arlo-q.svg) | arlo-q |
+| ![Preview](/icon-svg/arlo-security-light.svg) | arlo-security-light | ![Preview](/icon-svg/arlo-ultra-2.svg) | arlo-ultra-2 |
+| ![Preview](/icon-svg/arlo-video-doorbell.svg) | arlo-video-doorbell | ![Preview](/icon-svg/netgear-switch.svg) | netgear-switch |
+| ![Preview](/icon-svg/nighthawk.svg) | nighthawk | ![Preview](/icon-svg/orbi.svg) | orbi |
+| ![Preview](/icon-svg/wifi-extender.svg) | wifi-extender |
+
+---
+
+## Networking
+
+Icons made by @sandrybridge
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/pfsense-logo.svg) | pfsense-logo | ![Preview](/icon-svg/openwrt-logo.svg) | openwrt-logo |
+
 ## Philips Hue
 
 These are the official icons from the [philips developer channel](https://developers.meethue.com/develop/application-design-guidance/icon-pack/)
@@ -206,7 +561,7 @@ These are the official icons from the [philips developer channel](https://develo
 
 ---
 
-## Hue made by @rchiileea
+## Philips Hue made by @rchiileea
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -218,263 +573,16 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](/icon-svg/go-portable-table.svg) | go-portable-table | ![Preview](/icon-svg/perifo-spot.svg) | perifo-spot |
 | ![Preview](/icon-svg/festavia.svg) | festavia |
 
-## Miscellany of icons
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/2-way-uplighter.svg) | 2-way-uplighter | ![Preview](/icon-svg/air-conditioner.svg) | air-conditioner |
-| ![Preview](/icon-svg/alexa-logo.svg) | alexa-logo | ![Preview](/icon-svg/amazon-logo.svg) | amazon-logo |
-| ![Preview](/icon-svg/asus-rp-68u.svg) | asus-rp-68u | ![Preview](/icon-svg/bitfocus.svg) | bitfocus |
-| ![Preview](/icon-svg/bitwarden.svg) | bitwarden | ![Preview](/icon-svg/ceiling-fan-light.svg) | ceiling-fan-light |
-| ![Preview](/icon-svg/ceiling-fan.svg) | ceiling-fan | ![Preview](/icon-svg/ceiling-lamp-plafond.svg) | ceiling-lamp-plafond |
-| ![Preview](/icon-svg/ceiling-lamp-round.svg) | ceiling-lamp-round | ![Preview](/icon-svg/ceiling-lamp.svg) | ceiling-lamp |
-| ![Preview](/icon-svg/ceiling-spot-lamp.svg) | ceiling-spot-lamp | ![Preview](/icon-svg/chandelier.svg) | chandelier |
-| ![Preview](/icon-svg/charging-station.svg) | charging-station | ![Preview](/icon-svg/chicken-coup-door-shut.svg) | chicken-coup-door-shut |
-| ![Preview](/icon-svg/chicken-coup.svg) | chicken-coup | ![Preview](/icon-svg/chicken.svg) | chicken |
-| ![Preview](/icon-svg/cooker-extract-off.svg) | cooker-extract-off | ![Preview](/icon-svg/cooker-extract-on.svg) | cooker-extract-on |
-| ![Preview](/icon-svg/crunchyrol.svg) | crunchyrol | ![Preview](/icon-svg/deezer-logo.svg) | deezer-logo |
-| ![Preview](/icon-svg/desktop-computer.svg) | desktop-computer | ![Preview](/icon-svg/directv-go-alt.svg) | directv-go-alt |
-| ![Preview](/icon-svg/directv-go.svg) | directv-go | ![Preview](/icon-svg/discovery-plus.svg) | discovery-plus |
-| ![Preview](/icon-svg/disney-plus-alt.svg) | disney-plus-alt | ![Preview](/icon-svg/disney-plus.svg) | disney-plus |
-| ![Preview](/icon-svg/dome-light.svg) | dome-light | ![Preview](/icon-svg/dune-hd.svg) | dune-hd |
-| ![Preview](/icon-svg/duplicati.svg) | duplicati | ![Preview](/icon-svg/eggs.svg) | eggs |
-| ![Preview](./icon-svg/emby.svg) | emby | ![Preview](/icon-svg/espn.svg) | espn |
-| ![Preview](/icon-svg/essential-oil-diffuser-alt.svg) | essential-oil-diffuser-alt | ![Preview](/icon-svg/ev-charging.svg) | ev-charging |
-| ![Preview](/icon-svg/ev-notcharging.svg) | ev-notcharging | ![Preview](/icon-svg/firetv.svg) | firetv |
-| ![Preview](/icon-svg/floor-lamp-dual.svg) | floor-lamp-dual | ![Preview](/icon-svg/floor-lamp.svg) | floor-lamp |
-| ![Preview](/icon-svg/frigate.svg) | frigate | ![Preview](/icon-svg/fronius-inverter-gen24.svg) | fronius-inverter-gen24 |
-| ![Preview](/icon-svg/garage-3-prong.svg) | garage-3-prong | ![Preview](/icon-svg/garage-4-prong.svg) | garage-4-prong |
-| ![Preview](/icon-svg/garage-5-prong.svg) | garage-5-prong | ![Preview](/icon-svg/garden-irrigation.svg) | garden-irrigation |
-| ![Preview](/icon-svg/google-home-icon.svg) | google-home-icon | ![Preview](/icon-svg/ha-blue.svg) | ha-blue |
-| ![Preview](/icon-svg/hbo-max-alt.svg) | hbo-max-alt | ![Preview](/icon-svg/hbo-max.svg) | hbo-max |
-| ![Preview](/icon-svg/hbo.svg) | hbo | ![Preview](/icon-svg/herman-miller-aeron.svg) | herman-miller-aeron |
-| ![Preview](/icon-svg/infuse-pro.svg) | infuse-pro | ![Preview](/icon-svg/intel-cpu.svg) | intel-cpu |
-| ![Preview](/icon-svg/intel-nuc.svg) | intel-nuc | ![Preview](/icon-svg/iptvx.svg) | iptvx |
-| ![Preview](/icon-svg/jellyfin.svg) | jellyfin | ![Preview](/icon-svg/justwatch.svg) | justwatch |
-| ![Preview](/icon-svg/laptop-windows-alt.svg) | laptop-windows-alt | ![Preview](/icon-svg/laptop-windows.svg) | laptop-windows |
-| ![Preview](/icon-svg/laptop.svg) | laptop | ![Preview](/icon-svg/light-string.svg) | light-string |
-| ![Preview](/icon-svg/linktap.svg) | linktap | ![Preview](/icon-svg/litterbox.svg) | litterbox |
-| ![Preview](/icon-svg/marquee-shutter.svg) | marquee-shutter | ![Preview](/icon-svg/menergie.svg) | myenergi |
-| ![Preview](/icon-svg/moonlight.svg) | moonlight | ![Preview](/icon-svg/movistar-plus.svg) | movistar-plus |
-| ![Preview](/icon-svg/nanoleaf.svg) | nanoleaf | ![Preview](/icon-svg/nas-v2.svg) | nas-v2 |
-| ![Preview](/icon-svg/nas.svg) | nas | ![Preview](/icon-svg/neon-closed.svg) | neon-closed |
-| ![Preview](/icon-svg/neon-open.svg) | neon-open | ![Preview](/icon-svg/neon.svg) | neon |
-| ![Preview](/icon-svg/netapp.svg) | netapp | ![Preview](/icon-svg/netflix-alt.svg) | netflix-alt |
-| ![Preview](/icon-svg/netflix.svg) | netflix | ![Preview](/icon-svg/nextcloud.svg) | nextcloud |
-| ![Preview](/icon-svg/npo.svg) | npo | ![Preview](/icon-svg/nuki.svg) | nuki |
-| ![Preview](/icon-svg/nvidia-shield.svg) | nvidia-shield | ![Preview](/icon-svg/octoprint.svg) | octoprint |
-| ![Preview](/icon-svg/odometer.svg) | odometer | ![Preview](/icon-svg/outside-temp.svg) | outside-temp |
-| ![Preview](/icon-svg/paramount.svg) | paramount | ![Preview](/icon-svg/peacock.svg) | peacock |
-| ![Preview](/icon-svg/phoscon.svg) | phoscon | ![Preview](/icon-svg/plutotv.svg) | plutotv |
-| ![Preview](/icon-svg/portainer.svg) | portainer | ![Preview](/icon-svg/power-panel-logo.svg) | power-panel-logo |
-| ![Preview](/icon-svg/prime-video-alt.svg) | prime-video-alt | ![Preview](/icon-svg/prime-video.svg) | prime-video |
-| ![Preview](/icon-svg/proxmox.svg) | proxmox | ![Preview](/icon-svg/ram-memory.svg) | ram-memory |
-| ![Preview](/icon-svg/raspberry-pi.svg) | raspberry-pi | ![Preview](/icon-svg/rituals.svg) | rituals |
-| ![Preview](/icon-svg/roborock.svg) | roborock | ![Preview](/icon-svg/rocketleague.svg) | rocketleague |
-| ![Preview](/icon-svg/salt-lamp.svg) | salt-lamp | ![Preview](/icon-svg/salto.svg) | salto |
-| ![Preview](/icon-svg/seagate-ssd-m2.svg) | seagate-ssd-m2 | ![Preview](/icon-svg/seagate-ssd.svg) | seagate-ssd |
-| ![Preview](/icon-svg/shed-open.svg) | shed-open | ![Preview](/icon-svg/shelly-logo.svg) | shelly-logo |
-| ![Preview](/icon-svg/shudder.svg) | shudder | ![Preview](/icon-svg/sky-q-logo.svg) | sky-q-logo |
-| ![Preview](/icon-svg/smoke-detector.svg) | smoke-detector | ![Preview](/icon-svg/sonnen.svg) | sonnen |
-| ![Preview](/icon-svg/spot-bulb-top.svg) | spot-bulb-top | ![Preview](/icon-svg/sprinkler.svg) | sprinkler |
-| ![Preview](/icon-svg/star-plus-alt.svg) | star-plus-alt | ![Preview](/icon-svg/star-plus.svg) | star-plus |
-| ![Preview](/icon-svg/streamz.svg) | streamz | ![Preview](/icon-svg/table-cylinder-lamp.svg) | table-cylinder-lamp |
-| ![Preview](/icon-svg/tablet.svg) | tablet | ![Preview](/icon-svg/telnet-box.svg) | telnet-box |
-| ![Preview](/icon-svg/telnet.svg) | telnet | ![Preview](/icon-svg/thermostat-v2.svg) | thermostat-v2 |
-| ![Preview](/icon-svg/thermostat.svg) | thermostat | ![Preview](/icon-svg/tidal-logo.svg) | tidal-logo |
-| ![Preview](/icon-svg/tim-logo-alt.svg) | tim-logo-alt | ![Preview](/icon-svg/tim-logo.svg) | tim-logo |
-| ![Preview](/icon-svg/tivo.svg) | tivo | ![Preview](/icon-svg/tvnz.svg) | tvnz |
-| ![Preview](/icon-svg/twitch-alt.svg) | twitch-alt | ![Preview](/icon-svg/twitch.svg) | twitch |
-| ![Preview](/icon-svg/underfloor-heating.svg) | underfloor-heating | ![Preview](/icon-svg/uplighter.svg) | uplighter |
-| ![Preview](/icon-svg/viaplay.svg) | viaplay | ![Preview](/icon-svg/videoland.svg) | videoland |
-| ![Preview](/icon-svg/vrt-logo.svg) | vrt-logo | ![Preview](/icon-svg/vtm.svg) | vtm |
-| ![Preview](/icon-svg/vudu.svg) | vudu | ![Preview](/icon-svg/wifi-dongle.svg) | wifi-dongle |
-| ![Preview](/icon-svg/wyzecam.svg) | wyzecam | ![Preview](/icon-svg/xbox-alt.svg) | xbox-alt |
-| ![Preview](/icon-svg/xbox.svg) | xbox | ![Preview](/icon-svg/yamaha-rx-v773.svg) | yamaha-rx-v773 |
-| ![Preview](/icon-svg/youtube-alt.svg) | youtube-alt | ![Preview](/icon-svg/youtube-kids.svg) | youtube-kids |
-| ![Preview](/icon-svg/youtube-music.svg) | youtube-music | ![Preview](/icon-svg/youtube-tv.svg) | youtube-tv |
-| ![Preview](/icon-svg/youtube.svg) | youtube | ![Preview](/icon-svg/zigbee-dongle.svg) | zigbee-dongle |
-| ![Preview](/icon-svg/zwave-dongle.svg) | zwave-dongle | ![Preview](/icon-svg/zwavejs.svg) | zwavejs |
-| ![Preview](/icon-svg/humidity.svg) | humidity | ![Preview](/icon-svg/hubitat.svg) | hubitat |
-| ![Preview](/icon-svg/pm.svg) | pm | ![Preview](/icon-svg/starbucks.svg) | starbucks |
-| ![Preview](/icon-svg/playback-button.svg) | playback-button | ![Preview](/icon-svg/stereo-alt.svg) | stereo-alt |
-| ![Preview](/icon-svg/steam.svg) | steam | ![Preview](/icon-svg/confluence.svg) | confluence |
-| ![Preview](/icon-svg/guacamole.svg) | guacamole | ![Preview](/icon-svg/prometheusio.svg) | prometheusio |
-| ![Preview](/icon-svg/truenas-logo.svg) | truenas-logo | ![Preview](/icon-svg/xiaomi-logo.svg) | xiaomi-logo |
-| ![Preview](/icon-svg/zidooo.svg) | zidooo |
-
----
-
-## Sonoff device
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/bridge.svg) | bridge | ![Preview](/icon-svg/mini.svg) | mini |
-| ![Preview](/icon-svg/smart-camera.svg) | smart-camera | ![Preview](/icon-svg/smart-plug-sonoff.svg) | smart-plug-sonoff |
-| ![Preview](/icon-svg/usb-smart-adaptor.svg) | usb-smart-adaptor | ![Preview](/icon-svg/window-sensor.svg) | window-sensor |
-
----
-
-## Moes device
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/moes-switch-dual.svg) | moes-switch-dual | ![Preview](/icon-svg/moes-switch-single.svg) | moes-switch-single |
-| ![Preview](/icon-svg/moes-switch-triple.svg) | moes-switch-triple |
-
----
-
-## Modem/Router ISP
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/fastgate.svg) | fastgate | ![Preview](/icon-svg/nexxt.svg) | nexxt |
-
----
-
-## Meross device
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/double-smart-plug.svg) | double-smart-plug | ![Preview](/icon-svg/double-wall-switch.svg) | double-wall-switch |
-| ![Preview](/icon-svg/essential-oil-diffuser.svg) | essential-oil-diffuser | ![Preview](/icon-svg/lamp-bedside-table-2.svg) | lamp-bedside-table-2 |
-| ![Preview](/icon-svg/lamp-bedside-table.svg) | lamp-bedside-table | ![Preview](/icon-svg/roller-shutter-switch.svg) | roller-shutter-switch |
-| ![Preview](/icon-svg/single-wall-switch.svg) | single-wall-switch | ![Preview](/icon-svg/smart-desk-lamp.svg) | smart-desk-lamp |
-| ![Preview](/icon-svg/smart-plug-it.svg) | smart-plug-it | ![Preview](/icon-svg/smart-plug-schuko.svg) | smart-plug-schuko |
-| ![Preview](/icon-svg/smart-power-strip.svg) | smart-power-strip | ![Preview](/icon-svg/smart-switch.svg) | smart-switch |
-| ![Preview](/icon-svg/temp-sensor.svg) | temp-sensor | ![Preview](/icon-svg/triple-wall-switch.svg) | triple-wall-switch |
-| ![Preview](/icon-svg/wall-switch.svg) | wall-switch |
-
----
-
-## Battery status
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/battery-charged.svg) | battery-charged | ![Preview](/icon-svg/battery-critical.svg) | battery-critical |
-| ![Preview](/icon-svg/battery-full.svg) | battery-full | ![Preview](/icon-svg/battery-good.svg) | battery-good |
-| ![Preview](/icon-svg/battery-half.svg) | battery-half | ![Preview](/icon-svg/battery-low.svg) | battery-low |
-
----
-
-## Netgear device
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/arlo-audio-doorbell.svg) | arlo-audio-doorbell | ![Preview](/icon-svg/arlo-baby.svg) | arlo-baby |
-| ![Preview](/icon-svg/arlo-base-station.svg) | arlo-base-station | ![Preview](/icon-svg/arlo-cam.svg) | arlo-cam |
-| ![Preview](/icon-svg/arlo-essential-indoor.svg) | arlo-essential-indoor | ![Preview](/icon-svg/arlo-floodlight.svg) | arlo-floodlight |
-| ![Preview](/icon-svg/arlo-pro-3.svg) | arlo-pro-3 | ![Preview](/icon-svg/arlo-q.svg) | arlo-q |
-| ![Preview](/icon-svg/arlo-security-light.svg) | arlo-security-light | ![Preview](/icon-svg/arlo-ultra-2.svg) | arlo-ultra-2 |
-| ![Preview](/icon-svg/arlo-video-doorbell.svg) | arlo-video-doorbell | ![Preview](/icon-svg/netgear-switch.svg) | netgear-switch |
-| ![Preview](/icon-svg/nighthawk.svg) | nighthawk | ![Preview](/icon-svg/orbi.svg) | orbi |
-| ![Preview](/icon-svg/wifi-extender.svg) | wifi-extender |
-
----
-
-## Alexa device
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/echo-dot-4-group.svg) | echo-dot-4-group | ![Preview](/icon-svg/echo-dot-gen-3.svg) | echo-dot-gen-3 |
-| ![Preview](/icon-svg/echo-dot-gen-4-clock.svg) | echo-dot-gen-4-clock | ![Preview](/icon-svg/echo-dot-gen-4.svg) | echo-dot-gen-4 |
-| ![Preview](/icon-svg/echo-gen-2.svg) | echo-gen-2 | ![Preview](/icon-svg/echo-plus.svg) | echo-plus |
-| ![Preview](/icon-svg/echo-show-5-gen-2.svg) | echo-show-5-gen-2 | ![Preview](/icon-svg/echo-show-5-group.svg) | echo-show-5-group |
-| ![Preview](/icon-svg/echo-show-8-gen-2.svg) | echo-show-8-gen-2 | ![Preview](/icon-svg/echo-show-8-group.svg) | echo-show-8-group |
-| ![Preview](/icon-svg/echo-spot.svg) | echo-spot |
-
----
-
-## Sonos device
+## Reolink
 
 Icons made by @rchiileea
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/sonos-arc.svg) | sonos-arc | ![Preview](/icon-svg/sonos-beam.svg) | sonos-beam |
-| ![Preview](/icon-svg/sonos-bookshelf-horizontal.svg) | sonos-bookshelf-horizontal | ![Preview](/icon-svg/sonos-bookshelf-vertical.svg) | sonos-bookshelf-vertical |
-| ![Preview](/icon-svg/sonos-move.svg) | sonos-move | ![Preview](/icon-svg/sonos-one.svg) | sonos-one |
-| ![Preview](/icon-svg/sonos-playbar.svg) | sonos-playbar | ![Preview](/icon-svg/sonos-sub.svg) | sonos-sub |
-
----
-
-## Apple device
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/apple-airpods-pro.svg) | apple-airpods-pro | ![Preview](/icon-svg/apple-airpods.svg) | apple-airpods |
-| ![Preview](/icon-svg/apple-ipad-pro.svg) | apple-ipad-pro | ![Preview](/icon-svg/apple-iphone.svg) | apple-iphone |
-| ![Preview](/icon-svg/apple-tv-box.svg) | apple-tv-box | ![Preview](/icon-svg/apple-tv.svg) | apple-tv |
-| ![Preview](/icon-svg/apple-watch-alt.svg) | apple-watch-alt | ![Preview](/icon-svg/apple-watch.svg) | apple-watch |
-| ![Preview](/icon-svg/appletv-gen2-remote.svg) | apple-tv-gen2-remote | ![Preview](/icon-svg/homepod-mini.svg) | homepod-mini |
-| ![Preview](/icon-svg/homepod.svg) | homepod | ![Preview](/icon-svg/imac.svg) | imac |
-
----
-
-## Blink Cameras
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/mini-camera.svg) | mini-camera | ![Preview](/icon-svg/sync-module.svg) | sync-module |
-| ![Preview](/icon-svg/xt2-camera.svg) | xt2-camera |
-
----
-
-## Elgato
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/elgato-key-light-air.svg) | elgato-key-light-air | ![Preview](/icon-svg/elgato-key-light.svg) | elgato-key-light |
-| ![Preview](/icon-svg/elgato-ring-light.svg) | elgato-ring-light |
-
----
-
-## Google
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/google-home.svg) | google-home | ![Preview](/icon-svg/google-wifi-router.svg) | google-wifi-router |
-| ![Preview](/icon-svg/home-max.svg) | home-max | ![Preview](/icon-svg/home-mini.svg) | home-mini |
-| ![Preview](/icon-svg/nest-wifi-repeater.svg) | nest-wifi-repeater | ![Preview](/icon-svg/nest-wifi-router.svg) | nest-wifi-router |
-
----
-
-## Window and Roller Shutter
-
-Icons made by @rchiileea
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/blind-tilt-closed.svg) | blind-tilt-closed | ![Preview](/icon-svg/blind-tilt-open.svg) | blind-tilt-open |
-| ![Preview](/icon-svg/double-window-closed.svg) | double-window-closed | ![Preview](/icon-svg/double-window-open.svg) | double-window-open |
-| ![Preview](/icon-svg/lift-in-window-closed.svg) | lift-in-window-closed | ![Preview](/icon-svg/lift-in-window-open1.svg) | lift-in-window-open1 |
-| ![Preview](/icon-svg/lift-in-window-open2.svg) | lift-in-window-open2 | ![Preview](/icon-svg/lift-out-window-close.svg) | lift-out-window-close |
-| ![Preview](/icon-svg/lift-out-window-open.svg) | lift-out-window-open | ![Preview](/icon-svg/sliding-window-door-close.svg) | sliding-window-door-close |
-| ![Preview](/icon-svg/sliding-window-door-open.svg) | sliding-window-door-open | ![Preview](/icon-svg/tilt-window-closed.svg) | tilt-window-closed |
-| ![Preview](/icon-svg/tilt-window-opened.svg) | tilt-window-opened | ![Preview](/icon-svg/top-window-closed.svg) | top-window-closed |
-| ![Preview](/icon-svg/top-window-open.svg) | top-window-open | ![Preview](/icon-svg/vert-blind-close.svg) | vert-blind-close |
-| ![Preview](/icon-svg/vert-blind-open.svg) | vert-blind-open |
-
----
-
-## Doors
-
-Icons made by @rchiileea
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/panel-door-close.svg) | panel-door-close | ![Preview](/icon-svg/panel-door-locked.svg) | panel-door-locked |
-| ![Preview](/icon-svg/panel-door-open.svg) | panel-door-open | ![Preview](/icon-svg/panel-front-door-locked.svg) | panel-front-door-locked |
-| ![Preview](/icon-svg/panel-frontdoor-close.svg) | panel-frontdoor-close | ![Preview](/icon-svg/panel-frontdoor-close.svg) | panel-frontdoor-open |
-| ![Preview](/icon-svg/panel-glass-door-2-locked.svg) | panel-glass-door-2-locked | ![Preview](/icon-svg/panel-glass-door-3-locked.svg) | panel-glass-door-3-locked |
-| ![Preview](/icon-svg/panel-glass-door-4-locked.svg) | panel-glass-door-4-locked | ![Preview](/icon-svg/panel-glass-door-close.svg) | panel-glass-door-close |
-| ![Preview](/icon-svg/panel-glass-door-locked.svg) | panel-glass-door-locked | ![Preview](/icon-svg/panel-glass-door-open.svg) | panel-glass-door-open |
-| ![Preview](/icon-svg/panel-glass-door2-close.svg) | panel-glass-door2-close | ![Preview](/icon-svg/panel-glass-door2-open.svg) | panel-glass-door2-open |
-| ![Preview](/icon-svg/panel-glass-door2-open.svg) | panel-glass-door3-close | ![Preview](/icon-svg/panel-glass-door3-open.svg) | panel-glass-door3-open |
-| ![Preview](/icon-svg/panel-glass-side-door-locked.svg) | panel-glass-side-door-locked | ![Preview](/icon-svg/panel-glassdoor-close.svg) | panel-glassdoor-close |
-| ![Preview](/icon-svg/panel-glassdoor-open.svg) | panel-glassdoor-open | ![Preview](/icon-svg/petflap-closed.svg) | petflap-closed |
-| ![Preview](/icon-svg/petflap-open.svg) | petflap-open | ![Preview](/icon-svg/side-glassdoor-close.svg) | side-glassdoor-close |
-| ![Preview](/icon-svg/side-glassdoor-open.svg) | side-glassdoor-open |
+| ![Preview](/icon-svg/reolink-510.svg) | reolink-510 | ![Preview](/icon-svg/reolink-811.svg) | reolink-811 |
+| ![Preview](/icon-svg/reolink-820.svg) | reolink-820 | ![Preview](/icon-svg/reolink-842.svg) | reolink-842 |
+| ![Preview](/icon-svg/reolink-argus.svg) | reolink-argus | ![Preview](/icon-svg/reolink-e1.svg) | reolink-e1 |
+| ![Preview](/icon-svg/reolink-go.svg) | reolink-go |
 
 ---
 
@@ -491,29 +599,6 @@ Icons made by @rchiileea
 
 ---
 
-## Christmas decorations
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/christmas-lights.svg) | christmas-lights | ![Preview](/icon-svg/christmas-tree-v2.svg) | christmas-tree-v2 |
-| ![Preview](/icon-svg/christmas-tree.svg) | christmas-tree | ![Preview](/icon-svg/christmas-wreath.svg) | christmas-wreath |
-
----
-
-## Ikea
-
-Icons made by @rchiileea and @Gtt1229
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/desk-sit-alt.svg) | desk-sit-alt | ![Preview](/icon-svg/desk-sit.svg) | desk-sit |
-| ![Preview](/icon-svg/desk-stand-alt.svg) | desk-stand-alt | ![Preview](/icon-svg/desk-stand.svg) | desk-stand |
-| ![Preview](/icon-svg/ikea-5-spot.svg) | ikea-5-spot | ![Preview](/icon-svg/ikea-blind-closed.svg) | ikea-blind-closed |
-| ![Preview](/icon-svg/ikea-blind-open.svg) | ikea-blind-open | ![Preview](/icon-svg/regolit-arc-lamp.svg) | regolit-arc-lamp |
-| ![Preview](/icon-svg/symfonisk-lampe.svg) | symfonisk-lampe | ![Preview](/icon-svg/ikea-hektar3.svg) | ikea-hektar3 |
-
----
-
 ## Schneider Electric
 
 Icons made by @rchiileea
@@ -526,16 +611,52 @@ Icons made by @rchiileea
 
 ---
 
-## Reolink
+## Shutter percentage of opening
 
 Icons made by @rchiileea
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/reolink-510.svg) | reolink-510 | ![Preview](/icon-svg/reolink-811.svg) | reolink-811 |
-| ![Preview](/icon-svg/reolink-820.svg) | reolink-820 | ![Preview](/icon-svg/reolink-842.svg) | reolink-842 |
-| ![Preview](/icon-svg/reolink-argus.svg) | reolink-argus | ![Preview](/icon-svg/reolink-e1.svg) | reolink-e1 |
-| ![Preview](/icon-svg/reolink-go.svg) | reolink-go |
+| ![Preview](/icon-svg/shutter-0.svg) | shutter-0 | ![Preview](/icon-svg/shutter-10.svg) | shutter-10 |
+| ![Preview](/icon-svg/shutter-20.svg) | shutter-20 | ![Preview](/icon-svg/shutter-30.svg) | shutter-30 |
+| ![Preview](/icon-svg/shutter-40.svg) | shutter-40 | ![Preview](/icon-svg/shutter-50.svg) | shutter-50 |
+| ![Preview](/icon-svg/shutter-60.svg) | shutter-60 | ![Preview](/icon-svg/shutter-70.svg) | shutter-70 |
+| ![Preview](/icon-svg/shutter-80.svg) | shutter-80 | ![Preview](/icon-svg/shutter-90.svg) | shutter-90 |
+| ![Preview](/icon-svg/shutter-100.svg) | shutter-100 |
+
+## Sonoff device
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/bridge.svg) | bridge | ![Preview](/icon-svg/mini.svg) | mini |
+| ![Preview](/icon-svg/smart-camera.svg) | smart-camera | ![Preview](/icon-svg/smart-plug-sonoff.svg) | smart-plug-sonoff |
+| ![Preview](/icon-svg/usb-smart-adaptor.svg) | usb-smart-adaptor | ![Preview](/icon-svg/window-sensor.svg) | window-sensor |
+
+---
+
+## Sonos device
+
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/sonos-arc.svg) | sonos-arc | ![Preview](/icon-svg/sonos-beam.svg) | sonos-beam |
+| ![Preview](/icon-svg/sonos-bookshelf-horizontal.svg) | sonos-bookshelf-horizontal | ![Preview](/icon-svg/sonos-bookshelf-vertical.svg) | sonos-bookshelf-vertical |
+| ![Preview](/icon-svg/sonos-move.svg) | sonos-move | ![Preview](/icon-svg/sonos-one.svg) | sonos-one |
+| ![Preview](/icon-svg/sonos-playbar.svg) | sonos-playbar | ![Preview](/icon-svg/sonos-sub.svg) | sonos-sub |
+
+---
+
+## Stage DMX Lights
+
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](./icon-svg/stage-backlight.svg) | stage-backlight | ![Preview](./icon-svg/stage-light-group.svg) | stage-light-group |
+| ![Preview](./icon-svg/stage-light.svg) | stage-light | ![Preview](./icon-svg/stage-spot-light.svg) | stage-spot-light |
+| ![Preview](./icon-svg/stage-uplight.svg) | stage-uplight | ![Preview](./icon-svg/stagel-light-2-group.svg) | stagel-light-2-group |
+| ![Preview](./icon-svg/stagel-light-2.svg) | stagel-light-2 |
 
 ---
 
@@ -552,7 +673,7 @@ Icons made by @rchiileea
 
 ---
 
-## Tp-Link
+## TP-Link
 
 Icons made by @rchiileea
 
@@ -574,145 +695,6 @@ Icons made by @rchiileea
 
 ---
 
-## Fritz
-
-Icons made by @rchiileea
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/fritz-repeater.svg) | fritz-repeater | ![Preview](/icon-svg/fritzbox-7530.svg) | fritzbox-7530 |
-
----
-
-## LG
-
-Icons made by @rchiileea
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/lg-air-purifier.svg) | lg-air-purifier | ![Preview](/icon-svg/lg-aircon.svg) | lg-aircon |
-| ![Preview](/icon-svg/lg-cooker.svg) | lg-cooker | ![Preview](/icon-svg/lg-fridge.svg) | lg-fridge |
-| ![Preview](/icon-svg/lg-oled55.svg) | lg-oled55 | ![Preview](/icon-svg/lg-signiture.svg) | lg-signiture |
-
----
-
-## Car manufacturer icon
-
-Icons made by @rchiileea
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/abarth.svg) | abarth | ![Preview](./icon-svg/alfa-romeo.svg) | alfa-romeo |
-| ![Preview](/icon-svg/audi.svg) | audi | ![Preview](/icon-svg/chrysler.svg) | chrysler |
-| ![Preview](/icon-svg/citroen.svg) | citroen | ![Preview](/icon-svg/dodge.svg) | dodge |
-| ![Preview](/icon-svg/ds.svg) | ds | ![Preview](/icon-svg/fiat.svg) | fiat |
-| ![Preview](/icon-svg/ford.svg) | ford | ![Preview](/icon-svg/honda.svg) | honda |
-| ![Preview](/icon-svg/hyundai.svg) | hyundai | ![Preview](/icon-svg/jeep.svg) | jeep |
-| ![Preview](/icon-svg/kia.svg) | kia | ![Preview](/icon-svg/lancia.svg) | lancia |
-| ![Preview](/icon-svg/nissan.svg) | nissan | ![Preview](/icon-svg/opel.svg) | opel |
-| ![Preview](/icon-svg/peugeot-alt.svg) | peugeot-alt | ![Preview](/icon-svg/peugeot.svg) | peugeot |
-| ![Preview](/icon-svg/porsche.svg) | porsche | ![Preview](/icon-svg/ram.svg) | ram |
-| ![Preview](/icon-svg/toyota.svg) | toyota | ![Preview](/icon-svg/vauxhall.svg) | vauxhall |
-| ![Preview](/icon-svg/volkswagen.svg) | volkswagen | ![Preview](/icon-svg/renault.svg) | renault |
-![Preview](/icon-svg/renault-invert.svg) | renault-invert | ![Preview](/icon-svg/bmw.svg) | bmw |
-| ![Preview](/icon-svg/bmw-alt.svg) | bmw-alt |
-
----
-
-## Aqara icon
-
-Icons made by @rchiileea
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/aqara-air-quality.svg) | aqara-air-quality | ![Preview](/icon-svg/aqara-cube.svg) | aqara-cube |
-| ![Preview](/icon-svg/aqara-fp1.svg) | aqara-fp1 | ![Preview](/icon-svg/aqara-g2-pro.svg) | aqara-g2-pro |
-| ![Preview](/icon-svg/aqara-g3.svg) | aqara-g3 | ![Preview](/icon-svg/aqara-gas-detector.svg) | aqara-gas-detector |
-| ![Preview](/icon-svg/aqara-h1-switch.svg) | aqara-h1-switch | ![Preview](/icon-svg/aqara-hub-n15-g2.svg) | aqara-hub-n15-g2 |
-| ![Preview](/icon-svg/aqara-opple.svg) | aqara-opple | ![Preview](/icon-svg/aqara-pet-feeder-c1.svg) | aqara-pet-feeder-c1 |
-| ![Preview](/icon-svg/aqara-smoke-detector.svg) | aqara-smoke-detector | ![Preview](/icon-svg/aqara-curtian.svg) | aqara-curtian |
-| ![Preview](/icon-svg/aqara-contact.svg) | aqara-contact | ![Preview](/icon-svg/aqara-inwall.svg) | aqara-inwall |
-| ![Preview](/icon-svg/aqara-motion.svg) | aqara-motion | ![Preview](/icon-svg/aqara-temperature.svg) | aqara-temperature |
-| ![Preview](/icon-svg/aqara-vibration.svg) | aqara-vibration | ![Preview](/icon-svg/aqara-waterleak.svg) | aqara-waterleak |
-
----
-
-## Stage DMX Lights
-
-Icons made by @rchiileea
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](./icon-svg/stage-backlight.svg) | stage-backlight | ![Preview](./icon-svg/stage-light-group.svg) | stage-light-group |
-| ![Preview](./icon-svg/stage-light.svg) | stage-light | ![Preview](./icon-svg/stage-spot-light.svg) | stage-spot-light |
-| ![Preview](./icon-svg/stage-uplight.svg) | stage-uplight | ![Preview](./icon-svg/stagel-light-2-group.svg) | stagel-light-2-group |
-| ![Preview](./icon-svg/stagel-light-2.svg) | stagel-light-2 |
-
----
-
-## House Rooms
-
-Icons made by @rchiileea
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/bathroom.svg) | bathroom | ![Preview](/icon-svg/bedroom.svg) | bedroom |
-| ![Preview](/icon-svg/driveway.svg) | driveway | ![Preview](/icon-svg/garage-alt-open.svg) | garage-alt-open |
-| ![Preview](/icon-svg/garage-alt-shut.svg) | garage-alt-shut | ![Preview](/icon-svg/garden.svg) | garden |
-| ![Preview](/icon-svg/kids-room.svg) | kids-room | ![Preview](/icon-svg/kitchen.svg) | kitchen |
-| ![Preview](/icon-svg/living-room.svg) | living-room | ![Preview](/icon-svg/office.svg) | office |
-| ![Preview](/icon-svg/outside.svg) | outside |
-
-## Dyson
-
-Icons made by @rchiileea
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/dyson-desk.svg) | dyson-desk | ![Preview](/icon-svg/dyson-floor.svg) | dyson-floor |
-
-## Duco Ventilation
-
-Icons made by @rchiileea
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/duco-auto.svg) | duco-auto | ![Preview](/icon-svg/duco-logo.svg) | duco-logo |
-![Preview](/icon-svg/duco-1.svg) | duco-1 | ![Preview](/icon-svg/duco-2.svg) | duco-2 |
-![Preview](/icon-svg/duco-3.svg) | duco-3 |
-
-## HA Addons
-
-Icons made by @sandrybridge
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/cloudflare.svg) | cloudflare | ![Preview](/icon-svg/mosquitto.svg) | mosquitto |
-![Preview](/icon-svg/nginx.svg) | nginx | ![Preview](/icon-svg/duckdns.svg) | duckdns |
-![Preview](/icon-svg/nut.svg) | nut | ![Preview](/icon-svg/adguard.svg) | adguard |
-![Preview](/icon-svg/samba.svg) | samba | ![Preview](/icon-svg/esphome.svg) | esphome |
-
-## Networking
-
-Icons made by @sandrybridge
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/pfsense-logo.svg) | pfsense-logo | ![Preview](/icon-svg/openwrt-logo.svg) | openwrt-logo |
-
-## Shutter percentage of opening
-
-Icons made by @rchiileea
-
-| Icon | Name | Icon | Name |
-| :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/shutter-0.svg) | shutter-0 | ![Preview](/icon-svg/shutter-10.svg) | shutter-10 |
-| ![Preview](/icon-svg/shutter-20.svg) | shutter-20 | ![Preview](/icon-svg/shutter-30.svg) | shutter-30 |
-| ![Preview](/icon-svg/shutter-40.svg) | shutter-40 | ![Preview](/icon-svg/shutter-50.svg) | shutter-50 |
-| ![Preview](/icon-svg/shutter-60.svg) | shutter-60 | ![Preview](/icon-svg/shutter-70.svg) | shutter-70 |
-| ![Preview](/icon-svg/shutter-80.svg) | shutter-80 | ![Preview](/icon-svg/shutter-90.svg) | shutter-90 |
-| ![Preview](/icon-svg/shutter-100.svg) | shutter-100 |
-
 ## Umage Lamps
 
 Icons made by @rchiileea
@@ -721,6 +703,24 @@ Icons made by @rchiileea
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/umage.svg) | umage | ![Preview](/icon-svg/umage-carmina.svg) | umage-carmina |
 | ![Preview](/icon-svg/umage-acorn.svg) | umage-acorn |
+
+## Window and Roller Shutter
+
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/blind-tilt-closed.svg) | blind-tilt-closed | ![Preview](/icon-svg/blind-tilt-open.svg) | blind-tilt-open |
+| ![Preview](/icon-svg/double-window-closed.svg) | double-window-closed | ![Preview](/icon-svg/double-window-open.svg) | double-window-open |
+| ![Preview](/icon-svg/lift-in-window-closed.svg) | lift-in-window-closed | ![Preview](/icon-svg/lift-in-window-open1.svg) | lift-in-window-open1 |
+| ![Preview](/icon-svg/lift-in-window-open2.svg) | lift-in-window-open2 | ![Preview](/icon-svg/lift-out-window-close.svg) | lift-out-window-close |
+| ![Preview](/icon-svg/lift-out-window-open.svg) | lift-out-window-open | ![Preview](/icon-svg/sliding-window-door-close.svg) | sliding-window-door-close |
+| ![Preview](/icon-svg/sliding-window-door-open.svg) | sliding-window-door-open | ![Preview](/icon-svg/tilt-window-closed.svg) | tilt-window-closed |
+| ![Preview](/icon-svg/tilt-window-opened.svg) | tilt-window-opened | ![Preview](/icon-svg/top-window-closed.svg) | top-window-closed |
+| ![Preview](/icon-svg/top-window-open.svg) | top-window-open | ![Preview](/icon-svg/vert-blind-close.svg) | vert-blind-close |
+| ![Preview](/icon-svg/vert-blind-open.svg) | vert-blind-open |
+
+---
 
 # Install
 
