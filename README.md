@@ -16,43 +16,59 @@ Custom brand icons for Home Assistant
 
 ## Icons Available
 
-- [Alexa](#alexa)
-- [Apple](#apple)
-- [Aqara](#aqara)
-- [Battery Status](#battery-status)
-- [Blink Cameras](#blink-cameras)
-- [Car Manufacturers](#car-manufacturers)
-- [Christmas Decorations](#christmas-decorations)
-- [Doors](#doors)
-- [Duco Ventilation](#duco-ventilation)
-- [Dyson](#dyson)
-- [Elgato](#elgato)
-- [Fritz](#fritz)
-- [Google](#google)
-- [HA Addons](#ha-addons)
-- [House Rooms](#house-rooms)
-- [IKEA](#ikea)
-- [LG](#lg)
-- [Meross](#meross)
-- [Miscellany of Icons](#miscellany-of-icons)
-- [Modem/Router ISP](#modemrouter-isp)
-- [Moes](#moes)
-- [Netgear](#netgear)
-- [Networking](#networking)
-- [Philips Hue](#philips-hue)
-- [Philips Hue made by @rchiileea](#philips-hue-made-by-rchiileea)
-- [Reolink](#reolink)
-- [Ring](#ring)
-- [Schneider Electric](#schneider-electric)
-- [Shutter Percentage of Opening](#shutter-percentage-of-opening)
-- [Sonoff](#sonoff)
-- [Sonos](#sonos)
-- [Stage DMX Lights](#stage-dmx-lights)
-- [Tesla](#tesla)
-- [TP-Link](#tp-link)
-- [Ubiquiti](#ubiquiti)
-- [Umage Lamps](#umage-lamps)
-- [Window and Roller Shutter](#window-and-roller-shutter)
+- [Custom brand icons](#custom-brand-icons)
+  - [Icons Available](#icons-available)
+    - [Alexa](#alexa)
+    - [Apple](#apple)
+    - [Aqara](#aqara)
+    - [Battery Status](#battery-status)
+    - [Blink Cameras](#blink-cameras)
+    - [Car Manufacturers](#car-manufacturers)
+    - [Christmas Decorations](#christmas-decorations)
+    - [Doors](#doors)
+    - [Duco Ventilation](#duco-ventilation)
+    - [Dyson](#dyson)
+    - [Elgato](#elgato)
+    - [Fritz](#fritz)
+    - [Google](#google)
+    - [HA Addons](#ha-addons)
+    - [House Rooms](#house-rooms)
+    - [IKEA](#ikea)
+    - [LG](#lg)
+    - [Meross](#meross)
+    - [Miscellany of Icons](#miscellany-of-icons)
+    - [Modem/Router ISP](#modemrouter-isp)
+    - [Moes](#moes)
+    - [Netgear](#netgear)
+    - [Networking](#networking)
+    - [Philips Hue](#philips-hue)
+    - [Philips Hue made by @rchiileea](#philips-hue-made-by-rchiileea)
+    - [Reolink](#reolink)
+    - [Ring](#ring)
+    - [Schneider Electric](#schneider-electric)
+    - [Shutter Percentage of Opening](#shutter-percentage-of-opening)
+    - [Sonoff](#sonoff)
+    - [Sonos](#sonos)
+    - [Stage DMX Lights](#stage-dmx-lights)
+    - [Tesla](#tesla)
+    - [TP-Link](#tp-link)
+    - [Ubiquiti](#ubiquiti)
+    - [Umage Lamps](#umage-lamps)
+    - [Window and Roller Shutter](#window-and-roller-shutter)
+    - [Vacuum Parts](#vacuum-parts)
+- [Install](#install)
+  - [HACS](#hacs)
+  - [Manual Installation](#manual-installation)
+  - [Use](#use)
+- [Help me insert more icons!](#help-me-insert-more-icons)
+- [Don't see the icon?](#dont-see-the-icon)
+- [Make icon](#make-icon)
+- [Icon Requests?](#icon-requests)
+- [Customize the prefix](#customize-the-prefix)
+- [Pulls requests](#pulls-requests)
+- [Thanks](#thanks)
+- [Support the project](#support-the-project)
+  - [Stargazers](#stargazers)
 
 ---
 
@@ -367,7 +383,10 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/steam.svg) | steam | ![Preview](/icon-svg/confluence.svg) | confluence |
 | ![Preview](/icon-svg/guacamole.svg) | guacamole | ![Preview](/icon-svg/prometheusio.svg) | prometheusio |
 | ![Preview](/icon-svg/truenas-logo.svg) | truenas-logo | ![Preview](/icon-svg/xiaomi-logo.svg) | xiaomi-logo |
-| ![Preview](/icon-svg/zidooo.svg) | zidooo |
+| ![Preview](/icon-svg/zidooo.svg) | zidooo | ![Preview](/icon-svg/abb_radio.svg) | abb_radio |
+| ![Preview](/icon-svg/elec_blanket.svg) | elec_blanket | ![Preview](/icon-svg/heos.svg) | heos |
+| ![Preview](/icon-svg/huawei.svg) | huawei | ![Preview](/icon-svg/mnm_radio.svg) | mnm_radio |
+| ![Preview](/icon-svg/qmusic_radio.svg) | qmusic_radio | ![Preview](/icon-svg/top_radio.svg) | top_radio | ![Preview](/icon-svg/wppilot.svg) | wppilot |
 
 ---
 
@@ -720,6 +739,17 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/tilt-window-opened.svg) | tilt-window-opened | ![Preview](/icon-svg/top-window-closed.svg) | top-window-closed |
 | ![Preview](/icon-svg/top-window-open.svg) | top-window-open | ![Preview](/icon-svg/vert-blind-close.svg) | vert-blind-close |
 | ![Preview](/icon-svg/vert-blind-open.svg) | vert-blind-open |
+
+---
+
+### Vacuum Parts
+
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/vac_filter.svg) | vac_filter | ![Preview](/icon-svg/vac_mbrush.svg) | vac_mbrush |
+| ![Preview](/icon-svg/vac_mop.svg) | vac_mop  | ![Preview](/icon-svg/vac_sbrush.svg) | vac_sbrush |
 
 ---
 
