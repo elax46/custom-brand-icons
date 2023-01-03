@@ -1,5 +1,5 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/elax46/custom-brand-icons)](/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/elax46/custom-brand-icons)](https://github.com/elax46/custom-brand-icons/releases/latest)
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 ![GitHub file size in bytes](https://img.shields.io/github/size/elax46/custom-brand-icons/dist/custom-brand-icons.js?label=plugin%20size)
 ![GitHub last commit](https://img.shields.io/github/last-commit/elax46/custom-brand-icons)
