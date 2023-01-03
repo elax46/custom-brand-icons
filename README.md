@@ -287,15 +287,16 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/wyzecam.svg) | wyzecam | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/xbox-alt.svg) | xbox-alt |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/xbox.svg) | xbox | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/yamaha-rx-v773.svg) | yamaha-rx-v773 |
 | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/youtube-alt.svg) | youtube-alt | ![Preview](/icon-svg/youtube-kids.svg) | youtube-kids |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/youtube-tv.svg) | youtube-tv | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/youtube.svg) | youtube |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/zigbee-dongle.svg) | zigbee-dongle | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/zwave-dongle.svg) | zwave-dongle |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/zwavejs.svg) | zwavejs | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/humidity.svg) | humidity |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/hubitat.svg) | hubitat | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/pm.svg) | pm |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/starbucks.svg) | starbucks | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/playback-button.svg) | playback-button |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/stereo-alt.svg) | stereo-alt | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/steam.svg) | steam |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/confluence.svg) | confluence | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/guacamole.svg) | guacamole |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/prometheusio.svg) | prometheusio | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/truenas-logo.svg) | truenas-logo |
-| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/xiaomi-logo.svg) | xiaomi-logo | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/zidooo.svg) | zidooo |
+| ![Preview](/icon-svg/youtube-music.svg) | youtube-music | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/youtube-tv.svg) | youtube-tv |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/youtube.svg) | youtube | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/zigbee-dongle.svg) | zigbee-dongle |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/zwave-dongle.svg) | zwave-dongle | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/zwavejs.svg) | zwavejs |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/humidity.svg) | humidity | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/hubitat.svg) | hubitat |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/pm.svg) | pm | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/starbucks.svg) | starbucks |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/playback-button.svg) | playback-button | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/stereo-alt.svg) | stereo-alt |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/steam.svg) | steam | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/confluence.svg) | confluence |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/guacamole.svg) | guacamole | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/prometheusio.svg) | prometheusio |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/truenas-logo.svg) | truenas-logo | ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/xiaomi-logo.svg) | xiaomi-logo |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/dev/icon-svg/zidooo.svg) | zidooo |
 
 
 ---
