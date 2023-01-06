@@ -154,7 +154,8 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/toyota.svg) | toyota | ![Preview](/icon-svg/vauxhall.svg) | vauxhall |
 | ![Preview](/icon-svg/volkswagen.svg) | volkswagen | ![Preview](/icon-svg/renault.svg) | renault |
 ![Preview](/icon-svg/renault-invert.svg) | renault-invert | ![Preview](/icon-svg/bmw.svg) | bmw |
-| ![Preview](/icon-svg/bmw-alt.svg) | bmw-alt |
+| ![Preview](/icon-svg/bmw-alt.svg) | bmw-alt | ![Preview](/icon-svg/volvo.svg) | volvo |
+| ![Preview](/icon-svg/volvo-alt.svg) | volvo-alt |
 
 ---
 
