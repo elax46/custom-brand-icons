@@ -686,7 +686,7 @@ Icons made by @rchiileea
 ---
 
 ### Television
-Icons made by @simpleicons
+Icons made by @pinky007 @rchiileea @simpleicons
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
