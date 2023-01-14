@@ -686,26 +686,39 @@ Icons made by @rchiileea
 ---
 
 ### Television
-Icons made by @simpleicons
+Icons made by @pinky007 @rchiileea @simpleicons
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/3sat.svg) | 3sat | ![Preview](/icon-svg/ARD.svg) | ARD |
+| ![Preview](/icon-svg/ARD_alpha.svg) | ARD alpha | ![Preview](/icon-svg/Arte.svg) | Arte |
 | ![Preview](/icon-svg/bbc.svg) | BBC | ![Preview](/icon-svg/cbs.svg) | CBS |
-| ![Preview](/icon-svg/cnn.svg) | CNN | ![Preview](/icon-svg/daserste.svg) | Das Erste |
-| ![Preview](/icon-svg/directv-go.svg) | directv-go | ![Preview](/icon-svg/directv-go-alt.svg) | directv-go-alt |
-|  ![Preview](/icon-svg/discovery-plus.svg) | discovery-plus | ![Preview](/icon-svg/disney-plus-alt.svg) | disney-plus-alt |
-| ![Preview](/icon-svg/disney-plus.svg) | disney-plus | ![Preview](/icon-svg/espn.svg) | espn |
-| ![Preview](/icon-svg/firetv.svg) | firetv | ![Preview](/icon-svg/fox.svg) | Fox |
+| ![Preview](/icon-svg/cnn.svg) | CNN | ![Preview](/icon-svg/Culturebox.svg) | Culturebox |
+| ![Preview](/icon-svg/daserste.svg) | Das Erste | ![Preview](/icon-svg/directv-go.svg) | directv-go |
+| ![Preview](/icon-svg/directv-go-alt.svg) | directv-go-alt | ![Preview](/icon-svg/discovery-plus.svg) | discovery-plus |
+| ![Preview](/icon-svg/disney-plus-alt.svg) | disney-plus-alt | ![Preview](/icon-svg/disney-plus.svg) | disney-plus |
+| ![Preview](/icon-svg/espn.svg) | espn | ![Preview](/icon-svg/firetv.svg) | firetv |
+| ![Preview](/icon-svg/fox.svg) | Fox | ![Preview](/icon-svg/France2.svg) | France 2 |
+| ![Preview](/icon-svg/France3.svg) | France 3 | ![Preview](/icon-svg/France4.svg) | France 4 |
+| ![Preview](/icon-svg/France5.svg) | France 5 | ![Preview](/icon-svg/FranceInfo.svg) | France Info |
 | ![Preview](/icon-svg/hbo.svg) | hbo | ![Preview](/icon-svg/hbo-max.svg) | hbo-max |
 | ![Preview](/icon-svg/hbo-max-alt.svg) | hbo-max-alt | ![Preview](/icon-svg/iptvx.svg) | iptvx |
-| ![Preview](/icon-svg/movistar-plus.svg) | movistar-plus | ![Preview](/icon-svg/netflix-alt.svg) | netflix-alt |
-| ![Preview](/icon-svg/netflix.svg) | netflix | ![Preview](/icon-svg/paramount.svg) | paramount |
-| ![Preview](/icon-svg/plutotv.svg) | plutotv | ![Preview](/icon-svg/prime-video-alt.svg) | prime-video-alt |
-| ![Preview](/icon-svg/prime-video.svg) | prime-video | ![Preview](/icon-svg/prosieben.svg) | ProSieben |
-| ![Preview](/icon-svg/rtl.svg) | RTL | ![Preview](/icon-svg/rtlzwei.svg) | RTL II |
-| ![Preview](/icon-svg/sat1.svg) | Sat1 | ![Preview](/icon-svg/tivo.svg) | tivo |
+| ![Preview](/icon-svg/Kika.svg) | Kika | ![Preview](/icon-svg/LaPremiere.svg) | La Premiere |
+| ![Preview](/icon-svg/LCI.svg) | LCI | ![Preview](/icon-svg/movistar-plus.svg) | movistar-plus | 
+| ![Preview](/icon-svg/netflix-alt.svg) | netflix-alt | ![Preview](/icon-svg/netflix.svg) | netflix | 
+| ![Preview](/icon-svg/Okoo.svg) | Okoo | ![Preview](/icon-svg/Okoo-alt.svg) | Okoo-alt |
+| ![Preview](/icon-svg/One.svg) | One | ![Preview](/icon-svg/paramount.svg) | paramount |
+| ![Preview](/icon-svg/Phoenix.svg) | Phoenix | ![Preview](/icon-svg/plutotv.svg) | plutotv | 
+| ![Preview](/icon-svg/prime-video-alt.svg) | prime-video-alt | ![Preview](/icon-svg/prime-video.svg) | prime-video | 
+| ![Preview](/icon-svg/prosieben.svg) | ProSieben | ![Preview](/icon-svg/rtl.svg) | RTL | 
+| ![Preview](/icon-svg/rtlzwei.svg) | RTL II | ![Preview](/icon-svg/sat1.svg) | Sat1 | 
+| ![Preview](/icon-svg/Tagesschau24.svg) | Tagesschau24 | ![Preview](/icon-svg/TF1.svg) | TF1 |
+| ![Preview](/icon-svg/TF1_Series_Films.svg) | TF1_Series_Films | ![Preview](/icon-svg/TFX.svg) | TFX |
+| ![Preview](/icon-svg/tivo.svg) | tivo | ![Preview](/icon-svg/TMC.svg) | TMC |
 | ![Preview](/icon-svg/tvnz.svg) | tvnz | ![Preview](/icon-svg/vox.svg) | Vox |
-| ![Preview](/icon-svg/zdf.svg) | ZDF |
+| ![Preview](/icon-svg/zdf.svg) | ZDF | ![Preview](/icon-svg/ZDFheute.svg) | ZDFheute |
+| ![Preview](/icon-svg/ZDFinfo.svg) | ZDFinfo | ![Preview](/icon-svg/ZDFneo.svg) | ZDFneo |
+| ![Preview](/icon-svg/ZDFtivi.svg) | ZDFtivi |
 
 ---
 
