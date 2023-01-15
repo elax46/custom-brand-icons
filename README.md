@@ -94,8 +94,9 @@ Custom brand icons for Home Assistant
 | ![Preview](/icon-svg/apple-ipad-pro.svg) | apple-ipad-pro | ![Preview](/icon-svg/apple-iphone.svg) | apple-iphone |
 | ![Preview](/icon-svg/apple-tv-box.svg) | apple-tv-box | ![Preview](/icon-svg/apple-tv.svg) | apple-tv |
 | ![Preview](/icon-svg/apple-watch-alt.svg) | apple-watch-alt | ![Preview](/icon-svg/apple-watch.svg) | apple-watch |
-| ![Preview](/icon-svg/appletv-gen2-remote.svg) | apple-tv-gen2-remote | ![Preview](/icon-svg/homepod-mini.svg) | homepod-mini |
-| ![Preview](/icon-svg/homepod.svg) | homepod | ![Preview](/icon-svg/imac.svg) | imac |
+| ![Preview](/icon-svg/appletv-gen2-remote.svg) | apple-tv-gen2-remote | ![Preview](/icon-svg/homekit.svg) | homekit |
+| ![Preview](/icon-svg/homepod.svg) | homepod | ![Preview](/icon-svg/homepod-mini.svg) | homepod-mini |
+| ![Preview](/icon-svg/imac.svg) | imac | | |
 
 ---
 
