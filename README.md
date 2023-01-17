@@ -868,7 +868,7 @@ To make an icon in svg format you can use different programs starting from illus
 
 # Icon Requests?
 
-The icon is not there? open a [custom icon request](/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) *The icons to integrate must be in svg format*
+The icon is not there? open a [custom icon request](https://github.com/elax46/custom-brand-icons/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) *The icons to integrate must be in svg format*
 
 # Customize the prefix
 
