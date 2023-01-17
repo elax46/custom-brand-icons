@@ -55,6 +55,7 @@ Custom brand icons for Home Assistant
     - [TP-Link](#tp-link)
     - [Ubiquiti](#ubiquiti)
     - [Umage Lamps](#umage-lamps)
+    - [Pedastal](#pedastal)
     - [Window and Roller Shutter](#window-and-roller-shutter)
     - [Vacuum Parts](#vacuum-parts)
 - [Install](#install)
@@ -273,6 +274,8 @@ Icons made by @rchiileea and @Gtt1229
 | ![Preview](/icon-svg/ikea-5-spot.svg) | ikea-5-spot | ![Preview](/icon-svg/ikea-blind-closed.svg) | ikea-blind-closed |
 | ![Preview](/icon-svg/ikea-blind-open.svg) | ikea-blind-open | ![Preview](/icon-svg/regolit-arc-lamp.svg) | regolit-arc-lamp |
 | ![Preview](/icon-svg/symfonisk-lampe.svg) | symfonisk-lampe | ![Preview](/icon-svg/ikea-hektar3.svg) | ikea-hektar3 |
+| ![Preview](/icon-svg/ikea-ps-2014-open.svg) | ikea-ps-2014-open | ![Preview](/icon-svg/ikea-ps-2014.svg) | ikea-ps-2014 |
+
 
 ---
 
@@ -719,7 +722,13 @@ Icons made by @pinky007 @rchiileea @simpleicons
 | ![Preview](/icon-svg/tvnz.svg) | tvnz | ![Preview](/icon-svg/vox.svg) | Vox |
 | ![Preview](/icon-svg/zdf.svg) | ZDF | ![Preview](/icon-svg/ZDFheute.svg) | ZDFheute |
 | ![Preview](/icon-svg/ZDFinfo.svg) | ZDFinfo | ![Preview](/icon-svg/ZDFneo.svg) | ZDFneo |
-| ![Preview](/icon-svg/ZDFtivi.svg) | ZDFtivi |
+| ![Preview](/icon-svg/ZDFtivi.svg) | ZDFtivi | ![Preview](/icon-svg/metv.svg) | metv |
+| ![Preview](/icon-svg/molotovtv.svg) | molotovtv | ![Preview](/icon-svg/plus.svg) | plus |
+| ![Preview](/icon-svg/retro-arena.svg) | retro-arena | ![Preview](/icon-svg/top-techno.svg) | top-techno |
+| ![Preview](/icon-svg/versuz-radio.svg) | versuz-radio | ![Preview](/icon-svg/abc.svg) | abc | 
+| ![Preview](/icon-svg/nbc.svg) | nbc | 
+
+
 
 ---
 
@@ -753,6 +762,19 @@ Icons made by @rchiileea
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/umage.svg) | umage | ![Preview](/icon-svg/umage-carmina.svg) | umage-carmina |
 | ![Preview](/icon-svg/umage-acorn.svg) | umage-acorn |
+
+---
+
+### Pedastal
+
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/pedastal-fan.svg) | pedastal-fan | ![Preview](/icon-svg/pedastal-fan-hollow.svg) | pedastal-fan-hollow |
+| ![Preview](/icon-svg/fan-blade.svg) | fan-blade |
+
+---
 
 ### Window and Roller Shutter
 
