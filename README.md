@@ -836,16 +836,16 @@ We recommend installing Custom brand icons card via [Home Assistant Community St
 
     ```yaml
     frontend:
-    extra_module_url:
-    - /local/community/custom-brand-icons/custom-brand-icons.js
+      extra_module_url:
+        - /local/community/custom-brand-icons/custom-brand-icons.js
     ```
 
 2. (optional) Or add the following to your lovelace configuration using the Raw Config editor under Configure UI or ui-lovelace.yaml if using YAML mode.
 
 ```yaml
 resources:
- - type: js
- url: /local/community/custom-brand-icons/custom-brand-icons.js
+  - type: js
+    url: /local/community/custom-brand-icons/custom-brand-icons.js
 ```
 
 ## Manual Installation
@@ -859,16 +859,16 @@ To add custom repositories please follow [this guide](https://hacs.xyz/docs/faq/
 
 ```yaml
 frontend:
- extra_module_url:
- - /local/custom-brand-icons.js
+  extra_module_url:
+    - /local/custom-brand-icons.js
 ```
 
 Or add the following to your lovelace configuration using the Raw Config editor under Configure UI or ui-lovelace.yaml if using YAML mode.
 
 ```yaml
 resources:
- - type: js
- url: /local/custom-brand-icons.js
+  - type: js
+    url: /local/custom-brand-icons.js
 ```
 
 Restart home-assistant.
@@ -881,15 +881,15 @@ Example of integration in the card
 
 ```yaml
 entities:
- - entity: light.lampada_entrance
- icon: 'phu:go'
- name: Go
- - entity: light.monitor_2_right
- icon: 'phu:play'
- name: play 1
- - entity: light.monitor_2_left
- icon: 'phu:play'
- name: play 2
+  - entity: light.lampada_entrance
+    icon: 'phu:go'
+    name: Go
+  - entity: light.monitor_2_right
+    icon: 'phu:play'
+    name: play 1
+  - entity: light.monitor_2_left
+    icon: 'phu:play'
+    name: play 2
 show_header_toggle: false
 title: Custom brand icons
 type: entities
