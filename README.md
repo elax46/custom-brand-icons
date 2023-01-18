@@ -24,6 +24,7 @@ Custom brand icons for Home Assistant
     - [Battery Status](#battery-status)
     - [Blink Cameras](#blink-cameras)
     - [Car Manufacturers](#car-manufacturers)
+  - [|  | voyah |  | xpeng |](#---voyah----xpeng-)
     - [Christmas Decorations](#christmas-decorations)
     - [Doors](#doors)
     - [Duco Ventilation](#duco-ventilation)
@@ -158,8 +159,26 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/volkswagen.svg) | volkswagen | ![Preview](/icon-svg/renault.svg) | renault |
 ![Preview](/icon-svg/renault-invert.svg) | renault-invert | ![Preview](/icon-svg/bmw.svg) | bmw |
 | ![Preview](/icon-svg/bmw-alt.svg) | bmw-alt | ![Preview](/icon-svg/volvo.svg) | volvo |
-| ![Preview](/icon-svg/volvo-alt.svg) | volvo-alt |
-
+| ![Preview](/icon-svg/volvo-alt.svg) | volvo-alt | ![Preview](/icon-svg/acura.svg) | acura |
+| ![Preview](/icon-svg/aston-martin.svg) | aston-martin | ![Preview](/icon-svg/bentley.svg) | bentley |
+| ![Preview](/icon-svg/bugatti.svg) | bugatti | ![Preview](/icon-svg/byd.svg) | byd |
+| ![Preview](/icon-svg/chevrolet.svg) | chevrolet | ![Preview](/icon-svg/dacia.svg) | dacia |
+| ![Preview](/icon-svg/fisker.svg) | fisker | ![Preview](/icon-svg/geely.svg) | geely |
+| ![Preview](/icon-svg/genesis.svg) | genesis | ![Preview](/icon-svg/great-wall.svg) | great-wall |
+| ![Preview](/icon-svg/hino.svg) | hino | ![Preview](/icon-svg/holden.svg) | holden |
+| ![Preview](/icon-svg/infiniti.svg) | infiniti | ![Preview](/icon-svg/jaguar.svg) | jaguar |
+| ![Preview](/icon-svg/koenigsegg.svg) | koenigsegg | ![Preview](/icon-svg/lamborghini.svg) | lamborghini |
+| ![Preview](/icon-svg/lexus.svg) | lexus | ![Preview](/icon-svg/lotus.svg) | lotus |
+| ![Preview](/icon-svg/lucid.svg) | lucid | ![Preview](/icon-svg/maserati.svg) | maserati |
+| ![Preview](/icon-svg/maybach.svg) | maybach | ![Preview](/icon-svg/mclaren.svg) | mclaren |
+| ![Preview](/icon-svg/mercedes.svg) | mercedes | ![Preview](/icon-svg/mini-bmw.svg) | mini-bmw |
+| ![Preview](/icon-svg/mitsubishi.svg) | mitsubishi | ![Preview](/icon-svg/nio.svg) | nio|
+| ![Preview](/icon-svg/pagani.svg) | pagani | ![Preview](/icon-svg/polestar.svg) | polestar |
+| ![Preview](/icon-svg/rivian.svg) | rivian | ![Preview](/icon-svg/rollsroyce.svg) | rollsroyce |
+| ![Preview](/icon-svg/saic.svg) | saic | ![Preview](/icon-svg/scion.svg) | scion |
+| ![Preview](/icon-svg/seat.svg) | seat | ![Preview](/icon-svg/skoda.svg) | skoda |
+| ![Preview](/icon-svg/smart.svg) | smart | ![Preview](/icon-svg/subaru.svg) | subaru |
+| ![Preview](/icon-svg/voyah.svg) | voyah | ![Preview](/icon-svg/xpeng.svg) | xpeng |
 ---
 
 ### Christmas Decorations
