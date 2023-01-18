@@ -24,6 +24,7 @@ Custom brand icons for Home Assistant
     - [Battery Status](#battery-status)
     - [Blink Cameras](#blink-cameras)
     - [Car Manufacturers](#car-manufacturers)
+  - [|  | voyah |  | xpeng |](#---voyah----xpeng-)
     - [Christmas Decorations](#christmas-decorations)
     - [Doors](#doors)
     - [Duco Ventilation](#duco-ventilation)
@@ -55,6 +56,7 @@ Custom brand icons for Home Assistant
     - [TP-Link](#tp-link)
     - [Ubiquiti](#ubiquiti)
     - [Umage Lamps](#umage-lamps)
+    - [Pedastal](#pedastal)
     - [Window and Roller Shutter](#window-and-roller-shutter)
     - [Vacuum Parts](#vacuum-parts)
 - [Install](#install)
@@ -94,8 +96,9 @@ Custom brand icons for Home Assistant
 | ![Preview](/icon-svg/apple-ipad-pro.svg) | apple-ipad-pro | ![Preview](/icon-svg/apple-iphone.svg) | apple-iphone |
 | ![Preview](/icon-svg/apple-tv-box.svg) | apple-tv-box | ![Preview](/icon-svg/apple-tv.svg) | apple-tv |
 | ![Preview](/icon-svg/apple-watch-alt.svg) | apple-watch-alt | ![Preview](/icon-svg/apple-watch.svg) | apple-watch |
-| ![Preview](/icon-svg/appletv-gen2-remote.svg) | apple-tv-gen2-remote | ![Preview](/icon-svg/homepod-mini.svg) | homepod-mini |
-| ![Preview](/icon-svg/homepod.svg) | homepod | ![Preview](/icon-svg/imac.svg) | imac |
+| ![Preview](/icon-svg/appletv-gen2-remote.svg) | apple-tv-gen2-remote | ![Preview](/icon-svg/homekit.svg) | homekit |
+| ![Preview](/icon-svg/homepod.svg) | homepod | ![Preview](/icon-svg/homepod-mini.svg) | homepod-mini |
+| ![Preview](/icon-svg/imac.svg) | imac | | |
 
 ---
 
@@ -155,8 +158,27 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/toyota.svg) | toyota | ![Preview](/icon-svg/vauxhall.svg) | vauxhall |
 | ![Preview](/icon-svg/volkswagen.svg) | volkswagen | ![Preview](/icon-svg/renault.svg) | renault |
 ![Preview](/icon-svg/renault-invert.svg) | renault-invert | ![Preview](/icon-svg/bmw.svg) | bmw |
-| ![Preview](/icon-svg/bmw-alt.svg) | bmw-alt |
-
+| ![Preview](/icon-svg/bmw-alt.svg) | bmw-alt | ![Preview](/icon-svg/volvo.svg) | volvo |
+| ![Preview](/icon-svg/volvo-alt.svg) | volvo-alt | ![Preview](/icon-svg/acura.svg) | acura |
+| ![Preview](/icon-svg/aston-martin.svg) | aston-martin | ![Preview](/icon-svg/bentley.svg) | bentley |
+| ![Preview](/icon-svg/bugatti.svg) | bugatti | ![Preview](/icon-svg/byd.svg) | byd |
+| ![Preview](/icon-svg/chevrolet.svg) | chevrolet | ![Preview](/icon-svg/dacia.svg) | dacia |
+| ![Preview](/icon-svg/fisker.svg) | fisker | ![Preview](/icon-svg/geely.svg) | geely |
+| ![Preview](/icon-svg/genesis.svg) | genesis | ![Preview](/icon-svg/great-wall.svg) | great-wall |
+| ![Preview](/icon-svg/hino.svg) | hino | ![Preview](/icon-svg/holden.svg) | holden |
+| ![Preview](/icon-svg/infiniti.svg) | infiniti | ![Preview](/icon-svg/jaguar.svg) | jaguar |
+| ![Preview](/icon-svg/koenigsegg.svg) | koenigsegg | ![Preview](/icon-svg/lamborghini.svg) | lamborghini |
+| ![Preview](/icon-svg/lexus.svg) | lexus | ![Preview](/icon-svg/lotus.svg) | lotus |
+| ![Preview](/icon-svg/lucid.svg) | lucid | ![Preview](/icon-svg/maserati.svg) | maserati |
+| ![Preview](/icon-svg/maybach.svg) | maybach | ![Preview](/icon-svg/mclaren.svg) | mclaren |
+| ![Preview](/icon-svg/mercedes.svg) | mercedes | ![Preview](/icon-svg/mini-bmw.svg) | mini-bmw |
+| ![Preview](/icon-svg/mitsubishi.svg) | mitsubishi | ![Preview](/icon-svg/nio.svg) | nio|
+| ![Preview](/icon-svg/pagani.svg) | pagani | ![Preview](/icon-svg/polestar.svg) | polestar |
+| ![Preview](/icon-svg/rivian.svg) | rivian | ![Preview](/icon-svg/rollsroyce.svg) | rollsroyce |
+| ![Preview](/icon-svg/saic.svg) | saic | ![Preview](/icon-svg/scion.svg) | scion |
+| ![Preview](/icon-svg/seat.svg) | seat | ![Preview](/icon-svg/skoda.svg) | skoda |
+| ![Preview](/icon-svg/smart.svg) | smart | ![Preview](/icon-svg/subaru.svg) | subaru |
+| ![Preview](/icon-svg/voyah.svg) | voyah | ![Preview](/icon-svg/xpeng.svg) | xpeng |
 ---
 
 ### Christmas Decorations
@@ -271,6 +293,8 @@ Icons made by @rchiileea and @Gtt1229
 | ![Preview](/icon-svg/ikea-5-spot.svg) | ikea-5-spot | ![Preview](/icon-svg/ikea-blind-closed.svg) | ikea-blind-closed |
 | ![Preview](/icon-svg/ikea-blind-open.svg) | ikea-blind-open | ![Preview](/icon-svg/regolit-arc-lamp.svg) | regolit-arc-lamp |
 | ![Preview](/icon-svg/symfonisk-lampe.svg) | symfonisk-lampe | ![Preview](/icon-svg/ikea-hektar3.svg) | ikea-hektar3 |
+| ![Preview](/icon-svg/ikea-ps-2014-open.svg) | ikea-ps-2014-open | ![Preview](/icon-svg/ikea-ps-2014.svg) | ikea-ps-2014 |
+
 
 ---
 
@@ -685,26 +709,45 @@ Icons made by @rchiileea
 ---
 
 ### Television
-Icons made by @simpleicons
+Icons made by @pinky007 @rchiileea @simpleicons
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/3sat.svg) | 3sat | ![Preview](/icon-svg/ARD.svg) | ARD |
+| ![Preview](/icon-svg/ARD_alpha.svg) | ARD alpha | ![Preview](/icon-svg/Arte.svg) | Arte |
 | ![Preview](/icon-svg/bbc.svg) | BBC | ![Preview](/icon-svg/cbs.svg) | CBS |
-| ![Preview](/icon-svg/cnn.svg) | CNN | ![Preview](/icon-svg/daserste.svg) | Das Erste |
-| ![Preview](/icon-svg/directv-go.svg) | directv-go | ![Preview](/icon-svg/directv-go-alt.svg) | directv-go-alt |
-|  ![Preview](/icon-svg/discovery-plus.svg) | discovery-plus | ![Preview](/icon-svg/disney-plus-alt.svg) | disney-plus-alt |
-| ![Preview](/icon-svg/disney-plus.svg) | disney-plus | ![Preview](/icon-svg/espn.svg) | espn |
-| ![Preview](/icon-svg/firetv.svg) | firetv | ![Preview](/icon-svg/fox.svg) | Fox |
+| ![Preview](/icon-svg/cnn.svg) | CNN | ![Preview](/icon-svg/Culturebox.svg) | Culturebox |
+| ![Preview](/icon-svg/daserste.svg) | Das Erste | ![Preview](/icon-svg/directv-go.svg) | directv-go |
+| ![Preview](/icon-svg/directv-go-alt.svg) | directv-go-alt | ![Preview](/icon-svg/discovery-plus.svg) | discovery-plus |
+| ![Preview](/icon-svg/disney-plus-alt.svg) | disney-plus-alt | ![Preview](/icon-svg/disney-plus.svg) | disney-plus |
+| ![Preview](/icon-svg/espn.svg) | espn | ![Preview](/icon-svg/firetv.svg) | firetv |
+| ![Preview](/icon-svg/fox.svg) | Fox | ![Preview](/icon-svg/France2.svg) | France 2 |
+| ![Preview](/icon-svg/France3.svg) | France 3 | ![Preview](/icon-svg/France4.svg) | France 4 |
+| ![Preview](/icon-svg/France5.svg) | France 5 | ![Preview](/icon-svg/FranceInfo.svg) | France Info |
 | ![Preview](/icon-svg/hbo.svg) | hbo | ![Preview](/icon-svg/hbo-max.svg) | hbo-max |
 | ![Preview](/icon-svg/hbo-max-alt.svg) | hbo-max-alt | ![Preview](/icon-svg/iptvx.svg) | iptvx |
-| ![Preview](/icon-svg/movistar-plus.svg) | movistar-plus | ![Preview](/icon-svg/netflix-alt.svg) | netflix-alt |
-| ![Preview](/icon-svg/netflix.svg) | netflix | ![Preview](/icon-svg/paramount.svg) | paramount |
-| ![Preview](/icon-svg/plutotv.svg) | plutotv | ![Preview](/icon-svg/prime-video-alt.svg) | prime-video-alt |
-| ![Preview](/icon-svg/prime-video.svg) | prime-video | ![Preview](/icon-svg/prosieben.svg) | ProSieben |
-| ![Preview](/icon-svg/rtl.svg) | RTL | ![Preview](/icon-svg/rtlzwei.svg) | RTL II |
-| ![Preview](/icon-svg/sat1.svg) | Sat1 | ![Preview](/icon-svg/tivo.svg) | tivo |
+| ![Preview](/icon-svg/Kika.svg) | Kika | ![Preview](/icon-svg/LaPremiere.svg) | La Premiere |
+| ![Preview](/icon-svg/LCI.svg) | LCI | ![Preview](/icon-svg/movistar-plus.svg) | movistar-plus | 
+| ![Preview](/icon-svg/netflix-alt.svg) | netflix-alt | ![Preview](/icon-svg/netflix.svg) | netflix | 
+| ![Preview](/icon-svg/Okoo.svg) | Okoo | ![Preview](/icon-svg/Okoo-alt.svg) | Okoo-alt |
+| ![Preview](/icon-svg/One.svg) | One | ![Preview](/icon-svg/paramount.svg) | paramount |
+| ![Preview](/icon-svg/Phoenix.svg) | Phoenix | ![Preview](/icon-svg/plutotv.svg) | plutotv | 
+| ![Preview](/icon-svg/prime-video-alt.svg) | prime-video-alt | ![Preview](/icon-svg/prime-video.svg) | prime-video | 
+| ![Preview](/icon-svg/prosieben.svg) | ProSieben | ![Preview](/icon-svg/rtl.svg) | RTL | 
+| ![Preview](/icon-svg/rtlzwei.svg) | RTL II | ![Preview](/icon-svg/sat1.svg) | Sat1 | 
+| ![Preview](/icon-svg/Tagesschau24.svg) | Tagesschau24 | ![Preview](/icon-svg/TF1.svg) | TF1 |
+| ![Preview](/icon-svg/TF1_Series_Films.svg) | TF1_Series_Films | ![Preview](/icon-svg/TFX.svg) | TFX |
+| ![Preview](/icon-svg/tivo.svg) | tivo | ![Preview](/icon-svg/TMC.svg) | TMC |
 | ![Preview](/icon-svg/tvnz.svg) | tvnz | ![Preview](/icon-svg/vox.svg) | Vox |
-| ![Preview](/icon-svg/zdf.svg) | ZDF |
+| ![Preview](/icon-svg/zdf.svg) | ZDF | ![Preview](/icon-svg/ZDFheute.svg) | ZDFheute |
+| ![Preview](/icon-svg/ZDFinfo.svg) | ZDFinfo | ![Preview](/icon-svg/ZDFneo.svg) | ZDFneo |
+| ![Preview](/icon-svg/ZDFtivi.svg) | ZDFtivi | ![Preview](/icon-svg/metv.svg) | metv |
+| ![Preview](/icon-svg/molotovtv.svg) | molotovtv | ![Preview](/icon-svg/plus.svg) | plus |
+| ![Preview](/icon-svg/retro-arena.svg) | retro-arena | ![Preview](/icon-svg/top-techno.svg) | top-techno |
+| ![Preview](/icon-svg/versuz-radio.svg) | versuz-radio | ![Preview](/icon-svg/abc.svg) | abc | 
+| ![Preview](/icon-svg/nbc.svg) | nbc | 
+
+
 
 ---
 
@@ -738,6 +781,19 @@ Icons made by @rchiileea
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/umage.svg) | umage | ![Preview](/icon-svg/umage-carmina.svg) | umage-carmina |
 | ![Preview](/icon-svg/umage-acorn.svg) | umage-acorn |
+
+---
+
+### Pedastal
+
+Icons made by @rchiileea
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/pedastal-fan.svg) | pedastal-fan | ![Preview](/icon-svg/pedastal-fan-hollow.svg) | pedastal-fan-hollow |
+| ![Preview](/icon-svg/fan-blade.svg) | fan-blade |
+
+---
 
 ### Window and Roller Shutter
 
@@ -867,7 +923,7 @@ To make an icon in svg format you can use different programs starting from illus
 
 # Icon Requests?
 
-The icon is not there? open a [custom icon request](/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) *The icons to integrate must be in svg format*
+The icon is not there? open a [custom icon request](https://github.com/elax46/custom-brand-icons/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) *The icons to integrate must be in svg format*
 
 # Customize the prefix
 
