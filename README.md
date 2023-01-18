@@ -24,7 +24,6 @@ Custom brand icons for Home Assistant
     - [Battery Status](#battery-status)
     - [Blink Cameras](#blink-cameras)
     - [Car Manufacturers](#car-manufacturers)
-  - [|  | voyah |  | xpeng |](#---voyah----xpeng-)
     - [Christmas Decorations](#christmas-decorations)
     - [Doors](#doors)
     - [Duco Ventilation](#duco-ventilation)
@@ -179,6 +178,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/seat.svg) | seat | ![Preview](/icon-svg/skoda.svg) | skoda |
 | ![Preview](/icon-svg/smart.svg) | smart | ![Preview](/icon-svg/subaru.svg) | subaru |
 | ![Preview](/icon-svg/voyah.svg) | voyah | ![Preview](/icon-svg/xpeng.svg) | xpeng |
+
 ---
 
 ### Christmas Decorations
