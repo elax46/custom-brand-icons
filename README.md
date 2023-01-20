@@ -742,7 +742,7 @@ Icons made by @pinky007 @rchiileea @simpleicons
 | ![Preview](/icon-svg/zdf.svg) | ZDF | ![Preview](/icon-svg/ZDFheute.svg) | ZDFheute |
 | ![Preview](/icon-svg/ZDFinfo.svg) | ZDFinfo | ![Preview](/icon-svg/ZDFneo.svg) | ZDFneo |
 | ![Preview](/icon-svg/ZDFtivi.svg) | ZDFtivi | ![Preview](/icon-svg/metv.svg) | metv |
-| ![Preview](/icon-svg/molotovtv.svg) | molotovtv | ![Preview](/icon-svg/plus.svg) | plus |
+| ![Preview](/icon-svg/molotovtv.svg) | molotovtv | ![Preview](/icon-svg/pbs.svg) | pbs |
 | ![Preview](/icon-svg/retro-arena.svg) | retro-arena | ![Preview](/icon-svg/top-techno.svg) | top-techno |
 | ![Preview](/icon-svg/versuz-radio.svg) | versuz-radio | ![Preview](/icon-svg/abc.svg) | abc | 
 | ![Preview](/icon-svg/nbc.svg) | nbc | 
