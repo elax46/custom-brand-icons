@@ -356,7 +356,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/laptop-windows.svg) | laptop-windows | ![Preview](/icon-svg/laptop.svg) | laptop |
 | ![Preview](/icon-svg/light-string.svg) | light-string | ![Preview](/icon-svg/linktap.svg) | linktap |
 | ![Preview](/icon-svg/litterbox.svg) | litterbox | ![Preview](/icon-svg/marquee-shutter.svg) | marquee-shutter |
-| ![Preview](/icon-svg/menergie.svg) | myenergi | ![Preview](/icon-svg/moonlight.svg) | moonlight | 
+| ![Preview](/icon-svg/myenergi.svg) | myenergi | ![Preview](/icon-svg/moonlight.svg) | moonlight | 
 | ![Preview](/icon-svg/nanoleaf.svg) | nanoleaf | ![Preview](/icon-svg/nas-v2.svg) | nas-v2 |
 | ![Preview](/icon-svg/nas.svg) | nas | ![Preview](/icon-svg/neon-closed.svg) | neon-closed |
 | ![Preview](/icon-svg/neon-open.svg) | neon-open | ![Preview](/icon-svg/neon.svg) | neon |
