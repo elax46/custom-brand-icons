@@ -593,6 +593,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](/icon-svg/wellner-solid.svg) | wellner-solid | ![Preview](/icon-svg/wellner.svg) | wellner |
 | ![Preview](/icon-svg/wellness.svg) | wellness | ![Preview](/icon-svg/zones-areas-first-floor.svg) | zones-areas-first-floor |
 | ![Preview](/icon-svg/zones-areas-ground-floor.svg) | zones-areas-ground-floor | ![Preview](/icon-svg/zones-areas-second-floor.svg) | zones-areas-second-floor |
+| ![Preview](/icon-svg/lily-alt.svg) | lily-alt | ![Preview](/icon-svg/lily-xl-alt.svg) | lily-xl-alt |
 
 ---
 
