@@ -58,6 +58,7 @@ Custom brand icons for Home Assistant
     - [Pedastal](#pedastal)
     - [Window and Roller Shutter](#window-and-roller-shutter)
     - [Vacuum Parts](#vacuum-parts)
+    - [Delivery Services](#delivery-services)
 - [Install](#install)
   - [HACS](#hacs)
   - [Manual Installation](#manual-installation)
@@ -112,7 +113,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/aqara-g3.svg) | aqara-g3 | ![Preview](/icon-svg/aqara-gas-detector.svg) | aqara-gas-detector |
 | ![Preview](/icon-svg/aqara-h1-switch.svg) | aqara-h1-switch | ![Preview](/icon-svg/aqara-hub-n15-g2.svg) | aqara-hub-n15-g2 |
 | ![Preview](/icon-svg/aqara-opple.svg) | aqara-opple | ![Preview](/icon-svg/aqara-pet-feeder-c1.svg) | aqara-pet-feeder-c1 |
-| ![Preview](/icon-svg/aqara-smoke-detector.svg) | aqara-smoke-detector | ![Preview](/icon-svg/aqara-curtian.svg) | aqara-curtian |
+| ![Preview](/icon-svg/aqara-smoke-detector.svg) | aqara-smoke-detector | ![Preview](/icon-svg/aqara-curtain.svg) | aqara-curtain |
 | ![Preview](/icon-svg/aqara-contact.svg) | aqara-contact | ![Preview](/icon-svg/aqara-inwall.svg) | aqara-inwall |
 | ![Preview](/icon-svg/aqara-motion.svg) | aqara-motion | ![Preview](/icon-svg/aqara-temperature.svg) | aqara-temperature |
 | ![Preview](/icon-svg/aqara-vibration.svg) | aqara-vibration | ![Preview](/icon-svg/aqara-waterleak.svg) | aqara-waterleak |
@@ -254,7 +255,10 @@ Icons made by @rchiileea
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/google-home.svg) | google-home | ![Preview](/icon-svg/google-wifi-router.svg) | google-wifi-router |
 | ![Preview](/icon-svg/home-max.svg) | home-max | ![Preview](/icon-svg/home-mini.svg) | home-mini |
-| ![Preview](/icon-svg/nest-wifi-repeater.svg) | nest-wifi-repeater | ![Preview](/icon-svg/nest-wifi-router.svg) | nest-wifi-router |
+| ![Preview](/icon-svg/nest-wifi-repeater.svg) | nest-wifi-repeater | ![Preview](/icon-svg/nest-wifi-router.svg) | nest-wifi-router 
+| ![Preview](/icon-svg/pixelwatch.svg) | pixelwatch | ![Preview](/icon-svg/nest-mini.svg) | nest-mini |
+| ![Preview](/icon-svg/chromecast.svg) | chromecast | ![Preview](/icon-svg/google-pixel.svg) | google-pixel |
+| ![Preview](/icon-svg/chromecast-alt.svg) | chromecast-alt |
 
 ---
 
@@ -294,6 +298,8 @@ Icons made by @rchiileea and @Gtt1229
 | ![Preview](/icon-svg/ikea-blind-open.svg) | ikea-blind-open | ![Preview](/icon-svg/regolit-arc-lamp.svg) | regolit-arc-lamp |
 | ![Preview](/icon-svg/symfonisk-lampe.svg) | symfonisk-lampe | ![Preview](/icon-svg/ikea-hektar3.svg) | ikea-hektar3 |
 | ![Preview](/icon-svg/ikea-ps-2014-open.svg) | ikea-ps-2014-open | ![Preview](/icon-svg/ikea-ps-2014.svg) | ikea-ps-2014 |
+| ![Preview](/icon-svg/ikea-blind-remote.svg) | ikea-blind-remote | ![Preview](/icon-svg/ikea-remote.svg) | ikea-remote |
+
 
 
 ---
@@ -356,7 +362,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/laptop-windows.svg) | laptop-windows | ![Preview](/icon-svg/laptop.svg) | laptop |
 | ![Preview](/icon-svg/light-string.svg) | light-string | ![Preview](/icon-svg/linktap.svg) | linktap |
 | ![Preview](/icon-svg/litterbox.svg) | litterbox | ![Preview](/icon-svg/marquee-shutter.svg) | marquee-shutter |
-| ![Preview](/icon-svg/menergie.svg) | myenergi | ![Preview](/icon-svg/moonlight.svg) | moonlight | 
+| ![Preview](/icon-svg/myenergi.svg) | myenergi | ![Preview](/icon-svg/moonlight.svg) | moonlight | 
 | ![Preview](/icon-svg/nanoleaf.svg) | nanoleaf | ![Preview](/icon-svg/nas-v2.svg) | nas-v2 |
 | ![Preview](/icon-svg/nas.svg) | nas | ![Preview](/icon-svg/neon-closed.svg) | neon-closed |
 | ![Preview](/icon-svg/neon-open.svg) | neon-open | ![Preview](/icon-svg/neon.svg) | neon |
@@ -402,6 +408,9 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/elec_blanket.svg) | elec_blanket | ![Preview](/icon-svg/heos.svg) | heos |
 | ![Preview](/icon-svg/huawei.svg) | huawei | ![Preview](/icon-svg/mnm_radio.svg) | mnm_radio |
 | ![Preview](/icon-svg/qmusic_radio.svg) | qmusic_radio | ![Preview](/icon-svg/top_radio.svg) | top_radio | ![Preview](/icon-svg/wppilot.svg) | wppilot |
+| ![Preview](/icon-svg/overseerr.svg) | overseerr | ![Preview](/icon-svg/f1.svg) | f1 |
+| ![Preview](/icon-svg/radarr.svg) | radarr | ![Preview](/icon-svg/sonarr.svg) | sonarr |
+| ![Preview](/icon-svg/sonarr.svg) | sonarr | ![Preview](/icon-svg/jellyseerr.svg) | jellyseerr | ![Preview](/icon-svg/ceiling-fan-alt.svg) | ceiling-fan-alt |
 
 ---
 
@@ -593,6 +602,7 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](/icon-svg/wellner-solid.svg) | wellner-solid | ![Preview](/icon-svg/wellner.svg) | wellner |
 | ![Preview](/icon-svg/wellness.svg) | wellness | ![Preview](/icon-svg/zones-areas-first-floor.svg) | zones-areas-first-floor |
 | ![Preview](/icon-svg/zones-areas-ground-floor.svg) | zones-areas-ground-floor | ![Preview](/icon-svg/zones-areas-second-floor.svg) | zones-areas-second-floor |
+| ![Preview](/icon-svg/lily-alt.svg) | lily-alt | ![Preview](/icon-svg/lily-xl-alt.svg) | lily-xl-alt |
 
 ---
 
@@ -821,6 +831,16 @@ Icons made by @rchiileea
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/vac_filter.svg) | vac_filter | ![Preview](/icon-svg/vac_mbrush.svg) | vac_mbrush |
 | ![Preview](/icon-svg/vac_mop.svg) | vac_mop  | ![Preview](/icon-svg/vac_sbrush.svg) | vac_sbrush |
+
+---
+
+### Delivery Services
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/royalmail.svg) | royalmail | ![Preview](/icon-svg/fedex.svg) | fedex |
+| ![Preview](/icon-svg/dhl.svg) | dhl | ![Preview](/icon-svg/usps.svg) | usps |
+| ![Preview](/icon-svg/ups-dlv.svg) | ups-dlv |
 
 ---
 
