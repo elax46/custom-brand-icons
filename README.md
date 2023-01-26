@@ -58,6 +58,7 @@ Custom brand icons for Home Assistant
     - [Pedastal](#pedastal)
     - [Window and Roller Shutter](#window-and-roller-shutter)
     - [Vacuum Parts](#vacuum-parts)
+    - [Delivery Services](#delivery-services)
 - [Install](#install)
   - [HACS](#hacs)
   - [Manual Installation](#manual-installation)
@@ -254,7 +255,10 @@ Icons made by @rchiileea
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/google-home.svg) | google-home | ![Preview](/icon-svg/google-wifi-router.svg) | google-wifi-router |
 | ![Preview](/icon-svg/home-max.svg) | home-max | ![Preview](/icon-svg/home-mini.svg) | home-mini |
-| ![Preview](/icon-svg/nest-wifi-repeater.svg) | nest-wifi-repeater | ![Preview](/icon-svg/nest-wifi-router.svg) | nest-wifi-router |
+| ![Preview](/icon-svg/nest-wifi-repeater.svg) | nest-wifi-repeater | ![Preview](/icon-svg/nest-wifi-router.svg) | nest-wifi-router 
+| ![Preview](/icon-svg/pixelwatch.svg) | pixelwatch | ![Preview](/icon-svg/nest-mini.svg) | nest-mini |
+| ![Preview](/icon-svg/chromecast.svg) | chromecast | ![Preview](/icon-svg/google-pixel.svg) | google-pixel |
+| ![Preview](/icon-svg/chromecast-alt.svg) | chromecast-alt |
 
 ---
 
@@ -294,6 +298,8 @@ Icons made by @rchiileea and @Gtt1229
 | ![Preview](/icon-svg/ikea-blind-open.svg) | ikea-blind-open | ![Preview](/icon-svg/regolit-arc-lamp.svg) | regolit-arc-lamp |
 | ![Preview](/icon-svg/symfonisk-lampe.svg) | symfonisk-lampe | ![Preview](/icon-svg/ikea-hektar3.svg) | ikea-hektar3 |
 | ![Preview](/icon-svg/ikea-ps-2014-open.svg) | ikea-ps-2014-open | ![Preview](/icon-svg/ikea-ps-2014.svg) | ikea-ps-2014 |
+| ![Preview](/icon-svg/ikea-blind-remote.svg) | ikea-blind-remote | ![Preview](/icon-svg/ikea-remote.svg) | ikea-remote |
+
 
 
 ---
@@ -402,6 +408,9 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/elec_blanket.svg) | elec_blanket | ![Preview](/icon-svg/heos.svg) | heos |
 | ![Preview](/icon-svg/huawei.svg) | huawei | ![Preview](/icon-svg/mnm_radio.svg) | mnm_radio |
 | ![Preview](/icon-svg/qmusic_radio.svg) | qmusic_radio | ![Preview](/icon-svg/top_radio.svg) | top_radio | ![Preview](/icon-svg/wppilot.svg) | wppilot |
+| ![Preview](/icon-svg/overseerr.svg) | overseerr | ![Preview](/icon-svg/f1.svg) | f1 |
+| ![Preview](/icon-svg/radarr.svg) | radarr | ![Preview](/icon-svg/sonarr.svg) | sonarr |
+| ![Preview](/icon-svg/sonarr.svg) | sonarr | ![Preview](/icon-svg/jellyseerr.svg) | jellyseerr | ![Preview](/icon-svg/ceiling-fan-alt.svg) | ceiling-fan-alt |
 
 ---
 
@@ -822,6 +831,16 @@ Icons made by @rchiileea
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/vac_filter.svg) | vac_filter | ![Preview](/icon-svg/vac_mbrush.svg) | vac_mbrush |
 | ![Preview](/icon-svg/vac_mop.svg) | vac_mop  | ![Preview](/icon-svg/vac_sbrush.svg) | vac_sbrush |
+
+---
+
+### Delivery Services
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/royalmail.svg) | royalmail | ![Preview](/icon-svg/fedex.svg) | fedex |
+| ![Preview](/icon-svg/dhl.svg) | dhl | ![Preview](/icon-svg/usps.svg) | usps |
+| ![Preview](/icon-svg/ups-dlv.svg) | ups-dlv |
 
 ---
 
