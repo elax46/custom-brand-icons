@@ -258,7 +258,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/nest-wifi-repeater.svg) | nest-wifi-repeater | ![Preview](/icon-svg/nest-wifi-router.svg) | nest-wifi-router 
 | ![Preview](/icon-svg/pixelwatch.svg) | pixelwatch | ![Preview](/icon-svg/nest-mini.svg) | nest-mini |
 | ![Preview](/icon-svg/chromecast.svg) | chromecast | ![Preview](/icon-svg/google-pixel.svg) | google-pixel |
-| ![Preview](/icon-svg/chromecast-alt.svg) | chromecast-alt |
+| ![Preview](/icon-svg/chromecast-alt.svg) | chromecast-alt | ![Preview](/icon-svg/nest-hub.svg) | nest-hub |
 
 ---
 
@@ -411,6 +411,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/overseerr.svg) | overseerr | ![Preview](/icon-svg/f1.svg) | f1 |
 | ![Preview](/icon-svg/radarr.svg) | radarr | ![Preview](/icon-svg/sonarr.svg) | sonarr |
 | ![Preview](/icon-svg/sonarr.svg) | sonarr | ![Preview](/icon-svg/jellyseerr.svg) | jellyseerr | ![Preview](/icon-svg/ceiling-fan-alt.svg) | ceiling-fan-alt |
+| ![Preview](/icon-svg/victoria-m.svg) | victoria-m |
 
 ---
 
@@ -677,6 +678,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/smart-camera.svg) | smart-camera | ![Preview](/icon-svg/smart-plug-sonoff.svg) | smart-plug-sonoff |
 | ![Preview](/icon-svg/usb-smart-adaptor.svg) | usb-smart-adaptor | ![Preview](/icon-svg/window-sensor.svg) | window-sensor |
 
+
 ---
 
 ### Sonos
@@ -689,6 +691,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/sonos-bookshelf-horizontal.svg) | sonos-bookshelf-horizontal | ![Preview](/icon-svg/sonos-bookshelf-vertical.svg) | sonos-bookshelf-vertical |
 | ![Preview](/icon-svg/sonos-move.svg) | sonos-move | ![Preview](/icon-svg/sonos-one.svg) | sonos-one |
 | ![Preview](/icon-svg/sonos-playbar.svg) | sonos-playbar | ![Preview](/icon-svg/sonos-sub.svg) | sonos-sub |
+| ![Preview](/icon-svg/sonos-play-3.svg) | sonos-play-3 | ![Preview](/icon-svg/sonos-port.svg) | sonos-port |
 
 ---
 
@@ -755,7 +758,7 @@ Icons made by @pinky007 @rchiileea @simpleicons
 | ![Preview](/icon-svg/molotovtv.svg) | molotovtv | ![Preview](/icon-svg/pbs.svg) | pbs |
 | ![Preview](/icon-svg/retro-arena.svg) | retro-arena | ![Preview](/icon-svg/top-techno.svg) | top-techno |
 | ![Preview](/icon-svg/versuz-radio.svg) | versuz-radio | ![Preview](/icon-svg/abc.svg) | abc | 
-| ![Preview](/icon-svg/nbc.svg) | nbc | 
+| ![Preview](/icon-svg/nbc.svg) | nbc | ![Preview](/icon-svg/dazn.svg) | dazn |
 
 
 
