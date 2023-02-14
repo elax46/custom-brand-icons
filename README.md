@@ -272,6 +272,8 @@ Icons made by @sandrybridge
 ![Preview](/icon-svg/nginx.svg) | nginx | ![Preview](/icon-svg/duckdns.svg) | duckdns |
 ![Preview](/icon-svg/nut.svg) | nut | ![Preview](/icon-svg/adguard.svg) | adguard |
 ![Preview](/icon-svg/samba.svg) | samba | ![Preview](/icon-svg/esphome.svg) | esphome |
+![Preview](/icon-svg/nodered.svg) | nodered | ![Preview](/icon-svg/vaultwarden.svg) | vaultwarden |
+![Preview](/icon-svg/letsencrypt.svg) | letsencrypt | 
 
 ### House Rooms
 
