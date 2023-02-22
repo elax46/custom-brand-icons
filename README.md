@@ -150,8 +150,8 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/citroen.svg) | citroen | ![Preview](/icon-svg/dodge.svg) | dodge |
 | ![Preview](/icon-svg/ds.svg) | ds | ![Preview](/icon-svg/fiat.svg) | fiat |
 | ![Preview](/icon-svg/ford.svg) | ford | ![Preview](/icon-svg/honda.svg) | honda |
-| ![Preview](/icon-svg/hyundai.svg) | hyundai | ![Preview](/icon-svg/jeep.svg) | jeep |
-| ![Preview](/icon-svg/kia.svg) | kia | ![Preview](/icon-svg/lancia.svg) | lancia |
+| ![Preview](/icon-svg/hyundai.svg) | hyundai | ![Preview](/icon-svg/hyundai-alt.svg) | hyundai-alt 
+| ![Preview](/icon-svg/jeep.svg) | jeep | ![Preview](/icon-svg/kia.svg) | kia | ![Preview](/icon-svg/lancia.svg) | lancia |
 | ![Preview](/icon-svg/nissan.svg) | nissan | ![Preview](/icon-svg/opel.svg) | opel |
 | ![Preview](/icon-svg/peugeot-alt.svg) | peugeot-alt | ![Preview](/icon-svg/peugeot.svg) | peugeot |
 | ![Preview](/icon-svg/porsche.svg) | porsche | ![Preview](/icon-svg/ram.svg) | ram |
@@ -413,7 +413,8 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/overseerr.svg) | overseerr | ![Preview](/icon-svg/f1.svg) | f1 |
 | ![Preview](/icon-svg/radarr.svg) | radarr | ![Preview](/icon-svg/sonarr.svg) | sonarr |
 | ![Preview](/icon-svg/sonarr.svg) | sonarr | ![Preview](/icon-svg/jellyseerr.svg) | jellyseerr | ![Preview](/icon-svg/ceiling-fan-alt.svg) | ceiling-fan-alt |
-| ![Preview](/icon-svg/victoria-m.svg) | victoria-m |
+| ![Preview](/icon-svg/victoria-m.svg) | victoria-m | ![Preview](/icon-svg/mainsail.svg) | mainsail |
+| ![Preview](/icon-svg/mg.svg) | mg | ![Preview](/icon-svg/voron.svg) | voron |
 
 ---
 
@@ -761,6 +762,8 @@ Icons made by @pinky007 @rchiileea @simpleicons
 | ![Preview](/icon-svg/retro-arena.svg) | retro-arena | ![Preview](/icon-svg/top-techno.svg) | top-techno |
 | ![Preview](/icon-svg/versuz-radio.svg) | versuz-radio | ![Preview](/icon-svg/abc.svg) | abc | 
 | ![Preview](/icon-svg/nbc.svg) | nbc | ![Preview](/icon-svg/dazn.svg) | dazn |
+| ![Preview](/icon-svg/orangetv.svg) | orangetv | ![Preview](/icon-svg/directtv.svg) | directtv
+| ![Preview](/icon-svg/atres-player.svg) | atres-player
 
 
 
