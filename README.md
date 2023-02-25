@@ -30,6 +30,7 @@ Custom brand icons for Home Assistant
     - [Dyson](#dyson)
     - [Elgato](#elgato)
     - [Fritz](#fritz)
+    - [Garbage Colletion](#garbage)
     - [Google](#google)
     - [HA Addons](#ha-addons)
     - [House Rooms](#house-rooms)
@@ -246,6 +247,18 @@ Icons made by @rchiileea
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/fritz-repeater.svg) | fritz-repeater | ![Preview](/icon-svg/fritzbox-7530.svg) | fritzbox-7530 |
+
+---
+
+### Garbage Collection
+
+Icons made by @sandrybridge
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/garbage-plastic.svg) | garbage-plastic | ![Preview](/icon-svg/garbage-organic.svg) | garbage-organic |
+![Preview](/icon-svg/garbage-residual.svg) | garbage-residual | ![Preview](/icon-svg/garbage-glass-alu.svg) | garbage-glass-alu |
+![Preview](/icon-svg/garbage-cardboard.svg) | garbage-cardboard | 
 
 ---
 
