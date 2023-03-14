@@ -30,7 +30,7 @@ Custom brand icons for Home Assistant
     - [Dyson](#dyson)
     - [Elgato](#elgato)
     - [Fritz](#fritz)
-    - [Garbage Colletion](#garbage)
+    - [Garbage Collection](#garbage-collection)
     - [Google](#google)
     - [HA Addons](#ha-addons)
     - [House Rooms](#house-rooms)
@@ -60,6 +60,7 @@ Custom brand icons for Home Assistant
     - [Window and Roller Shutter](#window-and-roller-shutter)
     - [Vacuum Parts](#vacuum-parts)
     - [Delivery Services](#delivery-services)
+    - [Bose](#bose)
 - [Install](#install)
   - [HACS](#hacs)
   - [Manual Installation](#manual-installation)
@@ -180,6 +181,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/seat.svg) | seat | ![Preview](/icon-svg/skoda.svg) | skoda |
 | ![Preview](/icon-svg/smart.svg) | smart | ![Preview](/icon-svg/subaru.svg) | subaru |
 | ![Preview](/icon-svg/voyah.svg) | voyah | ![Preview](/icon-svg/xpeng.svg) | xpeng |
+| ![Preview](/icon-svg/mazda.svg) | mazda |
 
 ---
 
@@ -428,6 +430,8 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/sonarr.svg) | sonarr | ![Preview](/icon-svg/jellyseerr.svg) | jellyseerr | ![Preview](/icon-svg/ceiling-fan-alt.svg) | ceiling-fan-alt |
 | ![Preview](/icon-svg/victoria-m.svg) | victoria-m | ![Preview](/icon-svg/mainsail.svg) | mainsail |
 | ![Preview](/icon-svg/mg.svg) | mg | ![Preview](/icon-svg/voron.svg) | voron |
+| ![Preview](/icon-svg/homey.svg) | homey | ![Preview](/icon-svg/openmediavault.svg) | openmediavault |
+| ![Preview](/icon-svg/vtm-alt.svg) | vtm-alt | ![Preview](/icon-svg/sabnzbd.svg) | sabnzbd |
 
 ---
 
@@ -776,7 +780,8 @@ Icons made by @pinky007 @rchiileea @simpleicons
 | ![Preview](/icon-svg/versuz-radio.svg) | versuz-radio | ![Preview](/icon-svg/abc.svg) | abc | 
 | ![Preview](/icon-svg/nbc.svg) | nbc | ![Preview](/icon-svg/dazn.svg) | dazn |
 | ![Preview](/icon-svg/orangetv.svg) | orangetv | ![Preview](/icon-svg/directtv.svg) | directtv
-| ![Preview](/icon-svg/atres-player.svg) | atres-player
+| ![Preview](/icon-svg/atres-player.svg) | atres-player | ![Preview](/icon-svg/magnentatv.svg) | magnentatv
+| ![Preview](/icon-svg/magnentatv.svg) | magnenta-tv
 
 
 
@@ -864,6 +869,14 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/ups-dlv.svg) | ups-dlv |
 
 ---
+
+### Bose
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/bose-soundtouch.svg) | bose-soundtouch | ![Preview](/icon-svg/boses-oundwave.svg) | boses-oundwave |
+
+
 
 # Install
 
