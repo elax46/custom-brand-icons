@@ -780,8 +780,8 @@ Icons made by @pinky007 @rchiileea @simpleicons
 | ![Preview](/icon-svg/versuz-radio.svg) | versuz-radio | ![Preview](/icon-svg/abc.svg) | abc | 
 | ![Preview](/icon-svg/nbc.svg) | nbc | ![Preview](/icon-svg/dazn.svg) | dazn |
 | ![Preview](/icon-svg/orangetv.svg) | orangetv | ![Preview](/icon-svg/directtv.svg) | directtv
-| ![Preview](/icon-svg/atres-player.svg) | atres-player | ![Preview](/icon-svg/magnentatv.svg) | magnentatv
-| ![Preview](/icon-svg/magnentatv.svg) | magnenta-tv
+| ![Preview](/icon-svg/atres-player.svg) | atres-player | ![Preview](/icon-svg/magentatv.svg) | magnentatv
+| ![Preview](/icon-svg/magentatv-alt.svg) | magentatv-alt
 
 
 
