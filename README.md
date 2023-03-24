@@ -61,6 +61,7 @@ Custom brand icons for Home Assistant
     - [Vacuum Parts](#vacuum-parts)
     - [Delivery Services](#delivery-services)
     - [Bose](#bose)
+    - [Huawei](#huawei)
 - [Install](#install)
   - [HACS](#hacs)
   - [Manual Installation](#manual-installation)
@@ -118,8 +119,10 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/aqara-smoke-detector.svg) | aqara-smoke-detector | ![Preview](/icon-svg/aqara-curtain.svg) | aqara-curtain |
 | ![Preview](/icon-svg/aqara-contact.svg) | aqara-contact | ![Preview](/icon-svg/aqara-inwall.svg) | aqara-inwall |
 | ![Preview](/icon-svg/aqara-motion.svg) | aqara-motion | ![Preview](/icon-svg/aqara-temperature.svg) | aqara-temperature |
-| ![Preview](/icon-svg/aqara-vibration.svg) | aqara-vibration | ![Preview](/icon-svg/aqara-waterleak.svg) | aqara-waterleak |
-
+| ![Preview](/icon-svg/aqara-vibration.svg) | aqara-vibration | ![Preview](/icon-svg/aqara-waterleak.svg) | aqara-waterleak 
+| ![Preview](/icon-svg/aqara-dw-p2.svg) | aqara-dw-p2 | ![Preview](/icon-svg/aqara-g4.svg) | aqara-g4 
+| ![Preview](/icon-svg/aqara-t1.svg) | aqara-t1
+ 
 ---
 
 ### Battery Status
@@ -181,7 +184,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/seat.svg) | seat | ![Preview](/icon-svg/skoda.svg) | skoda |
 | ![Preview](/icon-svg/smart.svg) | smart | ![Preview](/icon-svg/subaru.svg) | subaru |
 | ![Preview](/icon-svg/voyah.svg) | voyah | ![Preview](/icon-svg/xpeng.svg) | xpeng |
-| ![Preview](/icon-svg/mazda.svg) | mazda |
+| ![Preview](/icon-svg/mazda.svg) | mazda | ![Preview](/icon-svg/cupra.svg) | cupra |
 
 ---
 
@@ -301,7 +304,8 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/garage-alt-shut.svg) | garage-alt-shut | ![Preview](/icon-svg/garden.svg) | garden |
 | ![Preview](/icon-svg/kids-room.svg) | kids-room | ![Preview](/icon-svg/kitchen.svg) | kitchen |
 | ![Preview](/icon-svg/living-room.svg) | living-room | ![Preview](/icon-svg/office.svg) | office |
-| ![Preview](/icon-svg/outside.svg) | outside |
+| ![Preview](/icon-svg/outside.svg) | outside | ![Preview](/icon-svg/cloakroom.svg) | cloakroom |
+
 
 ### IKEA
 
@@ -432,6 +436,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/mg.svg) | mg | ![Preview](/icon-svg/voron.svg) | voron |
 | ![Preview](/icon-svg/homey.svg) | homey | ![Preview](/icon-svg/openmediavault.svg) | openmediavault |
 | ![Preview](/icon-svg/vtm-alt.svg) | vtm-alt | ![Preview](/icon-svg/sabnzbd.svg) | sabnzbd |
+| ![Preview](/icon-svg/bigbrother.svg) | bigbrother |
 
 ---
 
@@ -876,7 +881,14 @@ Icons made by @rchiileea
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/bose-soundtouch.svg) | bose-soundtouch | ![Preview](/icon-svg/boses-oundwave.svg) | boses-oundwave |
 
+---
 
+### Huawei
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/huawei-solar-battery-5.svg) | huawei-solar-battery-5 | ![Preview](/icon-svg/huawei-solar-battery-10.svg) | huawei-solar-battery-10 |
+| ![Preview](/icon-svg/huawei-solar-battery-15.svg) | huawei-solar-battery-15 | ![Preview](/icon-svg/huawei-solar-inverter.svg) | huawei-solar-inverter |
 
 # Install
 
