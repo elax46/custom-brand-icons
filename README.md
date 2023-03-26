@@ -888,7 +888,7 @@ Icons made by @rchiileea
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/huawei-solar-battery-5.svg) | huawei-solar-battery-5 | ![Preview](/icon-svg/huawei-solar-battery-10.svg) | huawei-solar-battery-10 |
-| ![Preview](/icon-svg/huawei-solar-battery-15.svg) | huawei-solar-battery-15 | ![Preview](/icon-svg/huawei-solar-inverter.svg) | huawei-solar-inverter |
+ | ![Preview](/icon-svg/huawei-solar-inverter.svg) | huawei-solar-inverter |
 
 # Install
 
