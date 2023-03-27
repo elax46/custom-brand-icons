@@ -2,7 +2,7 @@
 name: Custom Icon request
 about: Request a custom icon
 title: Custom Icon request [name icon]
-labels: icon-request
+labels: icon request
 assignees: rchiileea
 
 ---
