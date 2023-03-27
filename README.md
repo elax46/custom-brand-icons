@@ -119,10 +119,10 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/aqara-smoke-detector.svg) | aqara-smoke-detector | ![Preview](/icon-svg/aqara-curtain.svg) | aqara-curtain |
 | ![Preview](/icon-svg/aqara-contact.svg) | aqara-contact | ![Preview](/icon-svg/aqara-inwall.svg) | aqara-inwall |
 | ![Preview](/icon-svg/aqara-motion.svg) | aqara-motion | ![Preview](/icon-svg/aqara-temperature.svg) | aqara-temperature |
-| ![Preview](/icon-svg/aqara-vibration.svg) | aqara-vibration | ![Preview](/icon-svg/aqara-waterleak.svg) | aqara-waterleak 
-| ![Preview](/icon-svg/aqara-dw-p2.svg) | aqara-dw-p2 | ![Preview](/icon-svg/aqara-g4.svg) | aqara-g4 
+| ![Preview](/icon-svg/aqara-vibration.svg) | aqara-vibration | ![Preview](/icon-svg/aqara-waterleak.svg) | aqara-waterleak
+| ![Preview](/icon-svg/aqara-dw-p2.svg) | aqara-dw-p2 | ![Preview](/icon-svg/aqara-g4.svg) | aqara-g4
 | ![Preview](/icon-svg/aqara-t1.svg) | aqara-t1
- 
+
 ---
 
 ### Battery Status
@@ -155,7 +155,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/citroen.svg) | citroen | ![Preview](/icon-svg/dodge.svg) | dodge |
 | ![Preview](/icon-svg/ds.svg) | ds | ![Preview](/icon-svg/fiat.svg) | fiat |
 | ![Preview](/icon-svg/ford.svg) | ford | ![Preview](/icon-svg/honda.svg) | honda |
-| ![Preview](/icon-svg/hyundai.svg) | hyundai | ![Preview](/icon-svg/hyundai-alt.svg) | hyundai-alt 
+| ![Preview](/icon-svg/hyundai.svg) | hyundai | ![Preview](/icon-svg/hyundai-alt.svg) | hyundai-alt
 | ![Preview](/icon-svg/jeep.svg) | jeep | ![Preview](/icon-svg/kia.svg) | kia | ![Preview](/icon-svg/lancia.svg) | lancia |
 | ![Preview](/icon-svg/nissan.svg) | nissan | ![Preview](/icon-svg/opel.svg) | opel |
 | ![Preview](/icon-svg/peugeot-alt.svg) | peugeot-alt | ![Preview](/icon-svg/peugeot.svg) | peugeot |
@@ -263,7 +263,7 @@ Icons made by @sandrybridge
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/garbage-plastic.svg) | garbage-plastic | ![Preview](/icon-svg/garbage-organic.svg) | garbage-organic |
 ![Preview](/icon-svg/garbage-residual.svg) | garbage-residual | ![Preview](/icon-svg/garbage-glass-alu.svg) | garbage-glass-alu |
-![Preview](/icon-svg/garbage-cardboard.svg) | garbage-cardboard | 
+![Preview](/icon-svg/garbage-cardboard.svg) | garbage-cardboard |
 
 ---
 
@@ -273,7 +273,7 @@ Icons made by @sandrybridge
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/google-home.svg) | google-home | ![Preview](/icon-svg/google-wifi-router.svg) | google-wifi-router |
 | ![Preview](/icon-svg/home-max.svg) | home-max | ![Preview](/icon-svg/home-mini.svg) | home-mini |
-| ![Preview](/icon-svg/nest-wifi-repeater.svg) | nest-wifi-repeater | ![Preview](/icon-svg/nest-wifi-router.svg) | nest-wifi-router 
+| ![Preview](/icon-svg/nest-wifi-repeater.svg) | nest-wifi-repeater | ![Preview](/icon-svg/nest-wifi-router.svg) | nest-wifi-router
 | ![Preview](/icon-svg/pixelwatch.svg) | pixelwatch | ![Preview](/icon-svg/nest-mini.svg) | nest-mini |
 | ![Preview](/icon-svg/chromecast.svg) | chromecast | ![Preview](/icon-svg/google-pixel.svg) | google-pixel |
 | ![Preview](/icon-svg/chromecast-alt.svg) | chromecast-alt | ![Preview](/icon-svg/nest-hub.svg) | nest-hub |
@@ -291,7 +291,7 @@ Icons made by @sandrybridge
 ![Preview](/icon-svg/nut.svg) | nut | ![Preview](/icon-svg/adguard.svg) | adguard |
 ![Preview](/icon-svg/samba.svg) | samba | ![Preview](/icon-svg/esphome.svg) | esphome |
 ![Preview](/icon-svg/nodered.svg) | nodered | ![Preview](/icon-svg/vaultwarden.svg) | vaultwarden |
-![Preview](/icon-svg/letsencrypt.svg) | letsencrypt | 
+![Preview](/icon-svg/letsencrypt.svg) | letsencrypt |
 
 ### House Rooms
 
@@ -369,7 +369,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/crunchyrol.svg) | crunchyrol | ![Preview](/icon-svg/deezer-logo.svg) | deezer-logo |
 | ![Preview](/icon-svg/desktop-computer.svg) | desktop-computer | ![Preview](/icon-svg/dome-light.svg) | dome-light |
 | ![Preview](/icon-svg/dune-hd.svg) | dune-hd | ![Preview](/icon-svg/duplicati.svg) | duplicati |
-| ![Preview](/icon-svg/eggs.svg) | eggs | ![Preview](./icon-svg/emby.svg) | emby | 
+| ![Preview](/icon-svg/eggs.svg) | eggs | ![Preview](./icon-svg/emby.svg) | emby |
 | ![Preview](/icon-svg/essential-oil-diffuser-alt.svg) | essential-oil-diffuser-alt | ![Preview](/icon-svg/ev-charging.svg) | ev-charging |
 | ![Preview](/icon-svg/ev-notcharging.svg) | ev-notcharging | ![Preview](/icon-svg/floor-lamp-dual.svg) | floor-lamp-dual |
 | ![Preview](/icon-svg/floor-lamp.svg) | floor-lamp | ![Preview](/icon-svg/frigate.svg) | frigate |
@@ -383,7 +383,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/laptop-windows.svg) | laptop-windows | ![Preview](/icon-svg/laptop.svg) | laptop |
 | ![Preview](/icon-svg/light-string.svg) | light-string | ![Preview](/icon-svg/linktap.svg) | linktap |
 | ![Preview](/icon-svg/litterbox.svg) | litterbox | ![Preview](/icon-svg/marquee-shutter.svg) | marquee-shutter |
-| ![Preview](/icon-svg/myenergi.svg) | myenergi | ![Preview](/icon-svg/moonlight.svg) | moonlight | 
+| ![Preview](/icon-svg/myenergi.svg) | myenergi | ![Preview](/icon-svg/moonlight.svg) | moonlight |
 | ![Preview](/icon-svg/nanoleaf.svg) | nanoleaf | ![Preview](/icon-svg/nas-v2.svg) | nas-v2 |
 | ![Preview](/icon-svg/nas.svg) | nas | ![Preview](/icon-svg/neon-closed.svg) | neon-closed |
 | ![Preview](/icon-svg/neon-open.svg) | neon-open | ![Preview](/icon-svg/neon.svg) | neon |
@@ -391,12 +391,12 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/npo.svg) | npo | ![Preview](/icon-svg/nuki.svg) | nuki |
 | ![Preview](/icon-svg/nvidia-shield.svg) | nvidia-shield | ![Preview](/icon-svg/octoprint.svg) | octoprint |
 | ![Preview](/icon-svg/odometer.svg) | odometer | ![Preview](/icon-svg/outside-temp.svg) | outside-temp |
-| ![Preview](/icon-svg/peacock.svg) | peacock | ![Preview](/icon-svg/phoscon.svg) | phoscon | 
+| ![Preview](/icon-svg/peacock.svg) | peacock | ![Preview](/icon-svg/phoscon.svg) | phoscon |
 | ![Preview](/icon-svg/portainer.svg) | portainer | ![Preview](/icon-svg/power-panel-logo.svg) | power-panel-logo |
 | ![Preview](/icon-svg/proxmox.svg) | proxmox | ![Preview](/icon-svg/ram-memory.svg) | ram-memory |
 | ![Preview](/icon-svg/raspberry-pi.svg) | raspberry-pi | ![Preview](/icon-svg/rituals.svg) | rituals |
 | ![Preview](/icon-svg/roborock.svg) | roborock | ![Preview](/icon-svg/rocketleague.svg) | rocketleague |
-| ![Preview](/icon-svg/salt-lamp.svg) | salt-lamp | ![Preview](/icon-svg/salto.svg) | salto |
+| ![Preview](/icon-svg/salt-lamp.svg) | salt-lamp | ![Preview](/icon-svg/bigbrother.svg) | bigbrother |
 | ![Preview](/icon-svg/seagate-ssd-m2.svg) | seagate-ssd-m2 | ![Preview](/icon-svg/seagate-ssd.svg) | seagate-ssd |
 | ![Preview](/icon-svg/shed-open.svg) | shed-open | ![Preview](/icon-svg/shelly-logo.svg) | shelly-logo |
 | ![Preview](/icon-svg/shudder.svg) | shudder | ![Preview](/icon-svg/sky-q-logo.svg) | sky-q-logo |
@@ -436,7 +436,6 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/mg.svg) | mg | ![Preview](/icon-svg/voron.svg) | voron |
 | ![Preview](/icon-svg/homey.svg) | homey | ![Preview](/icon-svg/openmediavault.svg) | openmediavault |
 | ![Preview](/icon-svg/vtm-alt.svg) | vtm-alt | ![Preview](/icon-svg/sabnzbd.svg) | sabnzbd |
-| ![Preview](/icon-svg/bigbrother.svg) | bigbrother |
 
 ---
 
@@ -765,14 +764,14 @@ Icons made by @pinky007 @rchiileea @simpleicons
 | ![Preview](/icon-svg/hbo.svg) | hbo | ![Preview](/icon-svg/hbo-max.svg) | hbo-max |
 | ![Preview](/icon-svg/hbo-max-alt.svg) | hbo-max-alt | ![Preview](/icon-svg/iptvx.svg) | iptvx |
 | ![Preview](/icon-svg/Kika.svg) | Kika | ![Preview](/icon-svg/LaPremiere.svg) | La Premiere |
-| ![Preview](/icon-svg/LCI.svg) | LCI | ![Preview](/icon-svg/movistar-plus.svg) | movistar-plus | 
-| ![Preview](/icon-svg/netflix-alt.svg) | netflix-alt | ![Preview](/icon-svg/netflix.svg) | netflix | 
+| ![Preview](/icon-svg/LCI.svg) | LCI | ![Preview](/icon-svg/movistar-plus.svg) | movistar-plus |
+| ![Preview](/icon-svg/netflix-alt.svg) | netflix-alt | ![Preview](/icon-svg/netflix.svg) | netflix |
 | ![Preview](/icon-svg/Okoo.svg) | Okoo | ![Preview](/icon-svg/Okoo-alt.svg) | Okoo-alt |
 | ![Preview](/icon-svg/One.svg) | One | ![Preview](/icon-svg/paramount.svg) | paramount |
-| ![Preview](/icon-svg/Phoenix.svg) | Phoenix | ![Preview](/icon-svg/plutotv.svg) | plutotv | 
-| ![Preview](/icon-svg/prime-video-alt.svg) | prime-video-alt | ![Preview](/icon-svg/prime-video.svg) | prime-video | 
-| ![Preview](/icon-svg/prosieben.svg) | ProSieben | ![Preview](/icon-svg/rtl.svg) | RTL | 
-| ![Preview](/icon-svg/rtlzwei.svg) | RTL II | ![Preview](/icon-svg/sat1.svg) | Sat1 | 
+| ![Preview](/icon-svg/Phoenix.svg) | Phoenix | ![Preview](/icon-svg/plutotv.svg) | plutotv |
+| ![Preview](/icon-svg/prime-video-alt.svg) | prime-video-alt | ![Preview](/icon-svg/prime-video.svg) | prime-video |
+| ![Preview](/icon-svg/prosieben.svg) | ProSieben | ![Preview](/icon-svg/rtl.svg) | RTL |
+| ![Preview](/icon-svg/rtlzwei.svg) | RTL II | ![Preview](/icon-svg/sat1.svg) | Sat1 |
 | ![Preview](/icon-svg/Tagesschau24.svg) | Tagesschau24 | ![Preview](/icon-svg/TF1.svg) | TF1 |
 | ![Preview](/icon-svg/TF1_Series_Films.svg) | TF1_Series_Films | ![Preview](/icon-svg/TFX.svg) | TFX |
 | ![Preview](/icon-svg/tivo.svg) | tivo | ![Preview](/icon-svg/TMC.svg) | TMC |
@@ -782,7 +781,7 @@ Icons made by @pinky007 @rchiileea @simpleicons
 | ![Preview](/icon-svg/ZDFtivi.svg) | ZDFtivi | ![Preview](/icon-svg/metv.svg) | metv |
 | ![Preview](/icon-svg/molotovtv.svg) | molotovtv | ![Preview](/icon-svg/pbs.svg) | pbs |
 | ![Preview](/icon-svg/retro-arena.svg) | retro-arena | ![Preview](/icon-svg/top-techno.svg) | top-techno |
-| ![Preview](/icon-svg/versuz-radio.svg) | versuz-radio | ![Preview](/icon-svg/abc.svg) | abc | 
+| ![Preview](/icon-svg/versuz-radio.svg) | versuz-radio | ![Preview](/icon-svg/abc.svg) | abc |
 | ![Preview](/icon-svg/nbc.svg) | nbc | ![Preview](/icon-svg/dazn.svg) | dazn |
 | ![Preview](/icon-svg/orangetv.svg) | orangetv | ![Preview](/icon-svg/directtv.svg) | directtv
 | ![Preview](/icon-svg/atres-player.svg) | atres-player | ![Preview](/icon-svg/magentatv.svg) | magnentatv
