@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>uicontrolsDynamicScenes</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#101010">
+            <path d="M17,21 L11,21 C10.449,21 10,20.55 10,20 C10,19.45 10.449,19 11,19 L17,19 C17.55,19 18,19.45 18,20 C18,20.55 17.55,21 17,21 M22,17 L14,17 C13.449,17 13,16.55 13,16 C13,15.45 13.449,15 14,15 L22,15 C22.55,15 23,15.45 23,16 C23,16.55 22.55,17 22,17 M19,13 L11,13 C10.449,13 10,12.55 10,12 C10,11.45 10.449,11 11,11 L19,11 C19.55,11 20,11.45 20,12 C20,12.55 19.55,13 19,13 M16,4 C9.372,4 4,9.373 4,16 C4,22.627 9.372,28 16,28 C22.627,28 28,22.627 28,16 C28,9.373 22.627,4 16,4"></path>
+        </g>
+    </g>
+</svg>
