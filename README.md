@@ -602,6 +602,9 @@ These are the official icons from the [philips developer channel](https://develo
 | ![Preview](/icon-svg/roomsStudio.svg) | rooms-studio | ![Preview](/icon-svg/roomsTerrace.svg) | rooms-terrace |
 | ![Preview](/icon-svg/roomsToilet.svg) | rooms-toilet | ![Preview](/icon-svg/sana-alt.svg) | sana-alt |
 | ![Preview](/icon-svg/sana.svg) | sana | ![Preview](/icon-svg/scene-concentrate.svg) | scene-concentrate |
+| ![Preview](/icon-svg/scene-dimmed.svg) | scene-dimmed | ![Preview](/icon-svg/scene-dimmed.svg) | scene-dimmed |
+| ![Preview](/icon-svg/scene-bright.svg) | scene-bright | ![Preview](/icon-svg/scene-bright.svg) | scene-bright |
+| ![Preview](/icon-svg/scene-dynamic.svg) | scene-dynamic | ![Preview](/icon-svg/scene-dynamic.svg) | scene-dynamic |
 | ![Preview](/icon-svg/scene-energize.svg) | scene-energize | ![Preview](/icon-svg/scene-nightlight.svg) | scene-nightlight |
 | ![Preview](/icon-svg/scene-read.svg) | scene-read | ![Preview](/icon-svg/scene-relax.svg) | scene-relax |
 | ![Preview](/icon-svg/signe-gradient-floor.svg) | signe-gradient-floor | ![Preview](/icon-svg/signe-gradient-table.svg) | signe-gradient-table |
