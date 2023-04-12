@@ -61,7 +61,7 @@ Custom brand icons for Home Assistant
     - [Vacuum Parts](#vacuum-parts)
     - [Delivery Services](#delivery-services)
     - [Bose](#bose)
-    - [Huawei](#huawei)
+    - [Solar](#solar)
 - [Install](#install)
   - [HACS](#hacs)
   - [Manual Installation](#manual-installation)
@@ -185,6 +185,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/smart.svg) | smart | ![Preview](/icon-svg/subaru.svg) | subaru |
 | ![Preview](/icon-svg/voyah.svg) | voyah | ![Preview](/icon-svg/xpeng.svg) | xpeng |
 | ![Preview](/icon-svg/mazda.svg) | mazda | ![Preview](/icon-svg/cupra.svg) | cupra |
+| ![Preview](/icon-svg/landrover.svg) | landrover | ![Preview](/icon-svg/mustang.svg) | mustang |
 
 ---
 
@@ -214,7 +215,8 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/panel-glass-side-door-locked.svg) | panel-glass-side-door-locked | ![Preview](/icon-svg/panel-glassdoor-close.svg) | panel-glassdoor-close |
 | ![Preview](/icon-svg/panel-glassdoor-open.svg) | panel-glassdoor-open | ![Preview](/icon-svg/petflap-closed.svg) | petflap-closed |
 | ![Preview](/icon-svg/petflap-open.svg) | petflap-open | ![Preview](/icon-svg/side-glassdoor-close.svg) | side-glassdoor-close |
-| ![Preview](/icon-svg/side-glassdoor-open.svg) | side-glassdoor-open |
+| ![Preview](/icon-svg/side-glassdoor-open.svg) | side-glassdoor-open | ![Preview](/icon-svg/sliding-barndoor-open.svg) | sliding-barndoor-open |
+| ![Preview](/icon-svg/sliding-barndoor-closed.svg) | sliding-barndoor-closed |
 
 ---
 
@@ -436,6 +438,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/mg.svg) | mg | ![Preview](/icon-svg/voron.svg) | voron |
 | ![Preview](/icon-svg/homey.svg) | homey | ![Preview](/icon-svg/openmediavault.svg) | openmediavault |
 | ![Preview](/icon-svg/vtm-alt.svg) | vtm-alt | ![Preview](/icon-svg/sabnzbd.svg) | sabnzbd |
+| ![Preview](/icon-svg/twist-thermostat.svg) | twist-thermostat |  ![Preview](/icon-svg/casaos.svg) | casaos
 
 ---
 
@@ -788,7 +791,7 @@ Icons made by @pinky007 @rchiileea @simpleicons
 | ![Preview](/icon-svg/nbc.svg) | nbc | ![Preview](/icon-svg/dazn.svg) | dazn |
 | ![Preview](/icon-svg/orangetv.svg) | orangetv | ![Preview](/icon-svg/directtv.svg) | directtv
 | ![Preview](/icon-svg/atres-player.svg) | atres-player | ![Preview](/icon-svg/magentatv.svg) | magnentatv
-| ![Preview](/icon-svg/magentatv-alt.svg) | magentatv-alt
+| ![Preview](/icon-svg/magentatv-alt.svg) | magentatv-alt | ![Preview](/icon-svg/vtmgo.svg) | vtmgo
 
 
 
@@ -885,12 +888,12 @@ Icons made by @rchiileea
 
 ---
 
-### Huawei
+### Solar
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/huawei-solar-battery-5.svg) | huawei-solar-battery-5 | ![Preview](/icon-svg/huawei-solar-battery-10.svg) | huawei-solar-battery-10 |
- | ![Preview](/icon-svg/huawei-solar-inverter.svg) | huawei-solar-inverter |
+| ![Preview](/icon-svg/solar-battery-5.svg) | solar-battery-5 | ![Preview](/icon-svg/solar-battery-10.svg) | solar-battery-10 |
+ | ![Preview](/icon-svg/solar-battery-15.svg) | solar-battery-15 | ![Preview](/icon-svg/huawei-solar-inverter.svg) | huawei-solar-inverter |
 
 # Install
 
