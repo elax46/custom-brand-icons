@@ -176,7 +176,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/lexus.svg) | lexus | ![Preview](/icon-svg/lotus.svg) | lotus |
 | ![Preview](/icon-svg/lucid.svg) | lucid | ![Preview](/icon-svg/maserati.svg) | maserati |
 | ![Preview](/icon-svg/maybach.svg) | maybach | ![Preview](/icon-svg/mclaren.svg) | mclaren |
-| ![Preview](/icon-svg/mercedes.svg) | mercedes | ![Preview](/icon-svg/mini-bmw.svg) | mini-bmw |
+| ![Preview](/icon-svg/mercedes.svg) | mercedes | ![Preview](/icon-svg/mini-bmw.svg) | mini-bmw-  |
 | ![Preview](/icon-svg/mitsubishi.svg) | mitsubishi | ![Preview](/icon-svg/nio.svg) | nio|
 | ![Preview](/icon-svg/pagani.svg) | pagani | ![Preview](/icon-svg/polestar.svg) | polestar |
 | ![Preview](/icon-svg/rivian.svg) | rivian | ![Preview](/icon-svg/rollsroyce.svg) | rollsroyce |
@@ -439,6 +439,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/homey.svg) | homey | ![Preview](/icon-svg/openmediavault.svg) | openmediavault |
 | ![Preview](/icon-svg/vtm-alt.svg) | vtm-alt | ![Preview](/icon-svg/sabnzbd.svg) | sabnzbd |
 | ![Preview](/icon-svg/twist-thermostat.svg) | twist-thermostat |  ![Preview](/icon-svg/casaos.svg) | casaos
+![Preview](/icon-svg/sxm.svg) | sxm |
 
 ---
 
@@ -658,7 +659,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/reolink-510.svg) | reolink-510 | ![Preview](/icon-svg/reolink-811.svg) | reolink-811 |
 | ![Preview](/icon-svg/reolink-820.svg) | reolink-820 | ![Preview](/icon-svg/reolink-842.svg) | reolink-842 |
 | ![Preview](/icon-svg/reolink-argus.svg) | reolink-argus | ![Preview](/icon-svg/reolink-e1.svg) | reolink-e1 |
-| ![Preview](/icon-svg/reolink-go.svg) | reolink-go |
+| ![Preview](/icon-svg/reolink-go.svg) | reolink-go | ![Preview](/icon-svg/reolink-trackmix.svg) | reolink-trackmix |
 
 ---
 
@@ -671,7 +672,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/ring-alarm-panel.svg) | ring-alarm-panel | ![Preview](/icon-svg/ring-alarm.svg) | ring-alarm |
 | ![Preview](/icon-svg/ring-doorbell-pro.svg) | ring-doorbell-pro | ![Preview](/icon-svg/ring-doorbell.svg) | ring-doorbell |
 | ![Preview](/icon-svg/ring-floodlight.svg) | ring-floodlight | ![Preview](/icon-svg/ring-smart-lighting.svg) | ring-smart-lighting |
-| ![Preview](/icon-svg/ring-spotlight-cam.svg) | ring-spotlight-cam | ![Preview](/icon-svg/ring-stick-up-cam.svg) | ring-stick-up-cam |
+| ![Preview](/icon-svg/ring-spotlight-cam.svg) | ring-spotlight-cam | ![Preview](/icon-svg/ring-stick-up-cam.svg) | ring-stick-up-cam | 
 
 ---
 
