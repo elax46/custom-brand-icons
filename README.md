@@ -62,6 +62,8 @@ Custom brand icons for Home Assistant
     - [Delivery Services](#delivery-services)
     - [Bose](#bose)
     - [Solar](#solar)
+    - [Video Game Systems](#video-game-systems)
+    - [Cryptocurrency](#cryptocurrency)
 - [Install](#install)
   - [HACS](#hacs)
   - [Manual Installation](#manual-installation)
@@ -307,6 +309,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/kids-room.svg) | kids-room | ![Preview](/icon-svg/kitchen.svg) | kitchen |
 | ![Preview](/icon-svg/living-room.svg) | living-room | ![Preview](/icon-svg/office.svg) | office |
 | ![Preview](/icon-svg/outside.svg) | outside | ![Preview](/icon-svg/cloakroom.svg) | cloakroom |
+| ![Preview](/icon-svg/kitchen-alt.svg) | kitchen-alt |
 
 
 ### IKEA
@@ -439,7 +442,8 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/homey.svg) | homey | ![Preview](/icon-svg/openmediavault.svg) | openmediavault |
 | ![Preview](/icon-svg/vtm-alt.svg) | vtm-alt | ![Preview](/icon-svg/sabnzbd.svg) | sabnzbd |
 | ![Preview](/icon-svg/twist-thermostat.svg) | twist-thermostat |  ![Preview](/icon-svg/casaos.svg) | casaos
-![Preview](/icon-svg/sxm.svg) | sxm |
+![Preview](/icon-svg/sxm.svg) | sxm | ![Preview](/icon-svg/amp-measure.svg) | amp-measure |
+| ![Preview](/icon-svg/tronity.svg) | tronity |
 
 ---
 
@@ -895,6 +899,26 @@ Icons made by @rchiileea
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/solar-battery-5.svg) | solar-battery-5 | ![Preview](/icon-svg/solar-battery-10.svg) | solar-battery-10 |
  | ![Preview](/icon-svg/solar-battery-15.svg) | solar-battery-15 | ![Preview](/icon-svg/huawei-solar-inverter.svg) | huawei-solar-inverter |
+
+
+ ---
+
+### Video Game Systems
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/n64.svg) | n64 | ![Preview](/icon-svg/sega.svg) | sega |
+ | ![Preview](/icon-svg/gamecube.svg) | gamecube | ![Preview](/icon-svg/dreamcast.svg) | dreamcast |
+ | ![Preview](/icon-svg/sega-saturn.svg) | sega-saturn | ![Preview](/icon-svg/genesis-vgs.svg) | genesis-vgs |
+
+
+ ### Cryptocurrency
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/trx.svg) | trx | ![Preview](/icon-svg/zen.svg) | zen |
+ | ![Preview](/icon-svg/rvn.svg) | rvn | ![Preview](/icon-svg/eth.svg) | eth |
+ | ![Preview](/icon-svg/btc.svg) | btc |
 
 # Install
 
