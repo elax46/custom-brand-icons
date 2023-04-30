@@ -443,7 +443,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/vtm-alt.svg) | vtm-alt | ![Preview](/icon-svg/sabnzbd.svg) | sabnzbd |
 | ![Preview](/icon-svg/twist-thermostat.svg) | twist-thermostat |  ![Preview](/icon-svg/casaos.svg) | casaos
 ![Preview](/icon-svg/sxm.svg) | sxm | ![Preview](/icon-svg/amp-measure.svg) | amp-measure |
-| ![Preview](/icon-svg/tronity.svg) | tronity |
+| ![Preview](/icon-svg/tronity.svg) | tronity | ![Preview](/icon-svg/hive.svg) | hive |
 
 ---
 
@@ -917,8 +917,8 @@ Icons made by @rchiileea
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/trx.svg) | trx | ![Preview](/icon-svg/zen.svg) | zen |
- | ![Preview](/icon-svg/rvn.svg) | rvn | ![Preview](/icon-svg/eth.svg) | eth |
- | ![Preview](/icon-svg/btc.svg) | btc |
+ | ![Preview](/icon-svg/rvn.svg) | rvn | ![Preview](/icon-svg/etc.svg) | etc |
+ | ![Preview](/icon-svg/btg.svg) | btg |
 
 # Install
 
