@@ -64,6 +64,7 @@ Custom brand icons for Home Assistant
     - [Solar](#solar)
     - [Video Game Systems](#video-game-systems)
     - [Cryptocurrency](#cryptocurrency)
+    - [Yeelight](#yeelight)
 - [Install](#install)
   - [HACS](#hacs)
   - [Manual Installation](#manual-installation)
@@ -281,6 +282,8 @@ Icons made by @sandrybridge
 | ![Preview](/icon-svg/pixelwatch.svg) | pixelwatch | ![Preview](/icon-svg/nest-mini.svg) | nest-mini |
 | ![Preview](/icon-svg/chromecast.svg) | chromecast | ![Preview](/icon-svg/google-pixel.svg) | google-pixel |
 | ![Preview](/icon-svg/chromecast-alt.svg) | chromecast-alt | ![Preview](/icon-svg/nest-hub.svg) | nest-hub |
+| ![Preview](/icon-svg/nest-audio.svg) | nest-audio |
+
 
 ---
 
@@ -444,6 +447,11 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/twist-thermostat.svg) | twist-thermostat |  ![Preview](/icon-svg/casaos.svg) | casaos
 ![Preview](/icon-svg/sxm.svg) | sxm | ![Preview](/icon-svg/amp-measure.svg) | amp-measure |
 | ![Preview](/icon-svg/tronity.svg) | tronity | ![Preview](/icon-svg/hive.svg) | hive |
+| ![Preview](/icon-svg/plex.svg) | plex | ![Preview](/icon-svg/ring.svg) | ring |
+| ![Preview](/icon-svg/tado.svg) | tado | ![Preview](/icon-svg/roon.svg) | roon |
+| ![Preview](/icon-svg/wall-mounted-tablet.svg) | wall-mounted-tablet | ![Preview](/icon-svg/grill-charcoal.svg) | grill-charcoal |
+| ![Preview](/icon-svg/grill-gas.svg) | grill-gas | ![Preview](/icon-svg/grill-ceramic.svg) | grill-ceramic | 
+| ![Preview](/icon-svg/carrier.svg) | carrier | ![Preview](/icon-svg/carrier-home.svg) | carrier-home | 
 
 ---
 
@@ -796,7 +804,8 @@ Icons made by @pinky007 @rchiileea @simpleicons
 | ![Preview](/icon-svg/nbc.svg) | nbc | ![Preview](/icon-svg/dazn.svg) | dazn |
 | ![Preview](/icon-svg/orangetv.svg) | orangetv | ![Preview](/icon-svg/directtv.svg) | directtv
 | ![Preview](/icon-svg/atres-player.svg) | atres-player | ![Preview](/icon-svg/magentatv.svg) | magnentatv
-| ![Preview](/icon-svg/magentatv-alt.svg) | magentatv-alt | ![Preview](/icon-svg/vtmgo.svg) | vtmgo
+| ![Preview](/icon-svg/magentatv-alt.svg) | magentatv-alt | ![Preview](/icon-svg/vtmgo.svg) | vtmgo 
+| ![Preview](/icon-svg/hulu.svg) | hulu
 
 
 
@@ -919,6 +928,18 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/trx.svg) | trx | ![Preview](/icon-svg/zen.svg) | zen |
  | ![Preview](/icon-svg/rvn.svg) | rvn | ![Preview](/icon-svg/etc.svg) | etc |
  | ![Preview](/icon-svg/btg.svg) | btg |
+
+ ---
+
+  ### Yeelight
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/yeelight-beside-lamp.svg) | yeelight-beside-lamp | ![Preview](/icon-svg/yeelight-bulb.svg) | yeelight-bulb |
+ | ![Preview](/icon-svg/yeelight-bulb-group.svg) | yeelight-bulb-group | ![Preview](/icon-svg/yeelight-ceiling.svg) | yeelight-ceiling |
+ | ![Preview](/icon-svg/yeelight-desklamp.svg) | yeelight-desklamp | ![Preview](/icon-svg/yeelight-strip.svg) | yeelight-strip |
+
+  ---
 
 # Install
 
