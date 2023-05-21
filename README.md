@@ -124,7 +124,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/aqara-motion.svg) | aqara-motion | ![Preview](/icon-svg/aqara-temperature.svg) | aqara-temperature |
 | ![Preview](/icon-svg/aqara-vibration.svg) | aqara-vibration | ![Preview](/icon-svg/aqara-waterleak.svg) | aqara-waterleak
 | ![Preview](/icon-svg/aqara-dw-p2.svg) | aqara-dw-p2 | ![Preview](/icon-svg/aqara-g4.svg) | aqara-g4
-| ![Preview](/icon-svg/aqara-t1.svg) | aqara-t1
+| ![Preview](/icon-svg/aqara-t1.svg) | aqara-t1 | ![Preview](/icon-svg/aqara-wirelessbutton.svg) | aqara-wirelessbutton
 
 ---
 
@@ -451,7 +451,8 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/tado.svg) | tado | ![Preview](/icon-svg/roon.svg) | roon |
 | ![Preview](/icon-svg/wall-mounted-tablet.svg) | wall-mounted-tablet | ![Preview](/icon-svg/grill-charcoal.svg) | grill-charcoal |
 | ![Preview](/icon-svg/grill-gas.svg) | grill-gas | ![Preview](/icon-svg/grill-ceramic.svg) | grill-ceramic | 
-| ![Preview](/icon-svg/carrier.svg) | carrier | ![Preview](/icon-svg/carrier-home.svg) | carrier-home | 
+| ![Preview](/icon-svg/carrier.svg) | carrier | ![Preview](/icon-svg/carrier-home.svg) | carrier-home |
+| ![Preview](/icon-svg/pocketcasts.svg) | pocketcasts | ![Preview](/icon-svg/tado-thermostat.svg) | tado-thermostat
 
 ---
 
@@ -780,8 +781,7 @@ Icons made by @pinky007 @rchiileea @simpleicons
 | ![Preview](/icon-svg/fox.svg) | Fox | ![Preview](/icon-svg/France2.svg) | France 2 |
 | ![Preview](/icon-svg/France3.svg) | France 3 | ![Preview](/icon-svg/France4.svg) | France 4 |
 | ![Preview](/icon-svg/France5.svg) | France 5 | ![Preview](/icon-svg/FranceInfo.svg) | France Info |
-| ![Preview](/icon-svg/hbo.svg) | hbo | ![Preview](/icon-svg/hbo-max.svg) | hbo-max |
-| ![Preview](/icon-svg/hbo-max-alt.svg) | hbo-max-alt | ![Preview](/icon-svg/iptvx.svg) | iptvx |
+| ![Preview](/icon-svg/hbo.svg) | hbo | ![Preview](/icon-svg/max.svg) | max | ![Preview](/icon-svg/iptvx.svg) | iptvx |
 | ![Preview](/icon-svg/Kika.svg) | Kika | ![Preview](/icon-svg/LaPremiere.svg) | La Premiere |
 | ![Preview](/icon-svg/LCI.svg) | LCI | ![Preview](/icon-svg/movistar-plus.svg) | movistar-plus |
 | ![Preview](/icon-svg/netflix-alt.svg) | netflix-alt | ![Preview](/icon-svg/netflix.svg) | netflix |
@@ -805,7 +805,7 @@ Icons made by @pinky007 @rchiileea @simpleicons
 | ![Preview](/icon-svg/orangetv.svg) | orangetv | ![Preview](/icon-svg/directtv.svg) | directtv
 | ![Preview](/icon-svg/atres-player.svg) | atres-player | ![Preview](/icon-svg/magentatv.svg) | magnentatv
 | ![Preview](/icon-svg/magentatv-alt.svg) | magentatv-alt | ![Preview](/icon-svg/vtmgo.svg) | vtmgo 
-| ![Preview](/icon-svg/hulu.svg) | hulu
+| ![Preview](/icon-svg/hulu.svg) | hulu | ![Preview](/icon-svg/my-canal.svg) | my-canal
 
 
 
