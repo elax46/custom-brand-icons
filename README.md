@@ -276,8 +276,7 @@ Icons made by @sandrybridge
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/google-home.svg) | google-home | ![Preview](/icon-svg/google-wifi-router.svg) | google-wifi-router |
-| ![Preview](/icon-svg/home-max.svg) | home-max | ![Preview](/icon-svg/home-mini.svg) | home-mini |
+| ![Preview](/icon-svg/google-home.svg) | google-home | ![Preview](/icon-svg/google-wifi-router.svg) | google-wifi-router | ![Preview](/icon-svg/home-mini.svg) | home-mini |
 | ![Preview](/icon-svg/nest-wifi-repeater.svg) | nest-wifi-repeater | ![Preview](/icon-svg/nest-wifi-router.svg) | nest-wifi-router
 | ![Preview](/icon-svg/pixelwatch.svg) | pixelwatch | ![Preview](/icon-svg/nest-mini.svg) | nest-mini |
 | ![Preview](/icon-svg/chromecast.svg) | chromecast | ![Preview](/icon-svg/google-pixel.svg) | google-pixel |
