@@ -278,11 +278,10 @@ Icons made by @sandrybridge
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/google-home.svg) | google-home | ![Preview](/icon-svg/google-wifi-router.svg) | google-wifi-router | ![Preview](/icon-svg/home-mini.svg) | home-mini |
 | ![Preview](/icon-svg/nest-wifi-repeater.svg) | nest-wifi-repeater | ![Preview](/icon-svg/nest-wifi-router.svg) | nest-wifi-router
-| ![Preview](/icon-svg/pixelwatch.svg) | pixelwatch | ![Preview](/icon-svg/nest-mini.svg) | nest-mini |
-| ![Preview](/icon-svg/chromecast.svg) | chromecast | ![Preview](/icon-svg/google-pixel.svg) | google-pixel |
-| ![Preview](/icon-svg/chromecast-alt.svg) | chromecast-alt | ![Preview](/icon-svg/nest-hub.svg) | nest-hub |
-| ![Preview](/icon-svg/nest-audio.svg) | nest-audio |
-
+| ![Preview](/icon-svg/nest-mini.svg) | nest-mini | ![Preview](/icon-svg/nest-mini-alt.svg) | next-mini-alt |
+| ![Preview](/icon-svg/nest-audio.svg) | nest-audio  | ![Preview](/icon-svg/nest-hub.svg) | nest-hub |
+| ![Preview](/icon-svg/pixelwatch.svg) | pixelwatch | ![Preview](/icon-svg/google-pixel.svg) | google-pixel |
+| ![Preview](/icon-svg/chromecast.svg) | chromecast | ![Preview](/icon-svg/chromecast-alt.svg) | chromecast-alt
 
 ---
 
@@ -805,7 +804,8 @@ Icons made by @pinky007 @rchiileea @simpleicons
 | ![Preview](/icon-svg/atres-player.svg) | atres-player | ![Preview](/icon-svg/magentatv.svg) | magnentatv
 | ![Preview](/icon-svg/magentatv-alt.svg) | magentatv-alt | ![Preview](/icon-svg/vtmgo.svg) | vtmgo 
 | ![Preview](/icon-svg/hulu.svg) | hulu | ![Preview](/icon-svg/my-canal.svg) | my-canal
-
+| ![Preview](/icon-svg/movies-anywhere.svg) | movies-anywhere | ![Preview](/icon-svg/movies-anywhere-text.svg) | movies-anywhere-text
+| ![Preview](/icon-svg/movies-anywhere-text-vertical.svg) | movies-anywhere-text-vertical
 
 
 ---
@@ -939,6 +939,15 @@ Icons made by @rchiileea
  | ![Preview](/icon-svg/yeelight-desklamp.svg) | yeelight-desklamp | ![Preview](/icon-svg/yeelight-strip.svg) | yeelight-strip |
 
   ---
+
+### SleepIQ / SleepNumber
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/sleepiq.svg) | sleep-iq |  |  |
+
+---
+
 
 # Install
 
