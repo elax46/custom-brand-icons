@@ -805,7 +805,8 @@ Icons made by @pinky007 @rchiileea @simpleicons
 | ![Preview](/icon-svg/atres-player.svg) | atres-player | ![Preview](/icon-svg/magentatv.svg) | magnentatv
 | ![Preview](/icon-svg/magentatv-alt.svg) | magentatv-alt | ![Preview](/icon-svg/vtmgo.svg) | vtmgo 
 | ![Preview](/icon-svg/hulu.svg) | hulu | ![Preview](/icon-svg/my-canal.svg) | my-canal
-
+| ![Preview](/icon-svg/movies-anywhere.svg) | movies-anywhere | ![Preview](/icon-svg/movies-anywhere-text.svg) | movies-anywhere-text
+| ![Preview](/icon-svg/movies-anywhere-text-vertical.svg) | movies-anywhere-text-vertical
 
 
 ---
@@ -939,6 +940,15 @@ Icons made by @rchiileea
  | ![Preview](/icon-svg/yeelight-desklamp.svg) | yeelight-desklamp | ![Preview](/icon-svg/yeelight-strip.svg) | yeelight-strip |
 
   ---
+
+### SleepIQ / SleepNumber
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/sleepiq.svg) | sleep-iq |  |  |
+
+---
+
 
 # Install
 
