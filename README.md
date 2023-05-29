@@ -12,14 +12,20 @@
 
 ![2FA](https://res.cloudinary.com/dcongin7u/image/upload/v1620853194/example_pwvozi.jpg)
 
-### Custom brand icons use the prefix `phu:`
-### Append Name (of the icon) after `phu:`
+#### Custom brand icons use the prefix `phu:`
+#### Append Name (of the icon) after `phu:`
 - Example: `phu:eggs` ![Preview](/icon-svg/eggs.svg)
 - Example: `phu:chicken` ![Preview](/icon-svg/chicken.svg)
 
+### Make sure to install `custom-brand-icons.js` into `configuration.yaml` or `lovelace.yaml`
+
 ## Index
 
-- [Icons Available By Brand / Group](#icons-available)
+- [Installation Methods](#installation-methods)
+  - [HACS](#hacs)
+  - [Manual Installation](#manual-installation)
+  - [User Manual](#user-manual)
+- [Icons Available](#icons-available)
   - [Alexa](#alexa)
   - [Apple](#apple)
   - [Aqara](#aqara)
@@ -67,10 +73,6 @@
   - [Video Game Systems](#video-game-systems)
   - [Cryptocurrency](#cryptocurrency)
   - [Yeelight](#yeelight)
-- [Installation Methods](#installation-methods)
-  - [HACS](#hacs)
-  - [Manual Installation](#manual-installation)
-  - [User Manual](#user-manual)
 - [Don't see the icon?](#dont-see-the-icon)
 - [Icon Requests](#icon-requests)
 - [Support the project](#support-the-project)
@@ -80,6 +82,9 @@
   - [Modify custom-brand-icons.js file](#modify-custom-brand-iconsjs-file)
   - [Update README.md](#update-readmemd)
   - [Contributions and Pull Requests](#contributions-and-pull-requests)
+---
+
+# Icons Available
 
 ---
 
