@@ -10,74 +10,76 @@
 
 # Custom brand icons
 
-Custom brand icons for Home Assistant
-
 ![2FA](https://res.cloudinary.com/dcongin7u/image/upload/v1620853194/example_pwvozi.jpg)
 
-## Icons Available
+### Custom brand icons use the prefix `phu:`
+### Append Name (of the icon) after `phu:`
+- Example: `phu:eggs` ![Preview](/icon-svg/eggs.svg)
+- Example: `phu:chicken` ![Preview](/icon-svg/chicken.svg)
 
-- [Custom brand icons](#custom-brand-icons)
-  - [Icons Available](#icons-available)
-    - [Alexa](#alexa)
-    - [Apple](#apple)
-    - [Aqara](#aqara)
-    - [Battery Status](#battery-status)
-    - [Blink Cameras](#blink-cameras)
-    - [Car Manufacturers](#car-manufacturers)
-    - [Christmas Decorations](#christmas-decorations)
-    - [Doors](#doors)
-    - [Duco Ventilation](#duco-ventilation)
-    - [Dyson](#dyson)
-    - [Elgato](#elgato)
-    - [Fritz](#fritz)
-    - [Garbage Collection](#garbage-collection)
-    - [Google](#google)
-    - [HA Addons](#ha-addons)
-    - [House Rooms](#house-rooms)
-    - [IKEA](#ikea)
-    - [LG](#lg)
-    - [Meross](#meross)
-    - [Miscellany of Icons](#miscellany-of-icons)
-    - [Modem/Router ISP](#modemrouter-isp)
-    - [Moes](#moes)
-    - [Netgear](#netgear)
-    - [Networking](#networking)
-    - [Philips Hue](#philips-hue)
-    - [Philips Hue made by @rchiileea](#philips-hue-made-by-rchiileea)
-    - [Reolink](#reolink)
-    - [Ring](#ring)
-    - [Schneider Electric](#schneider-electric)
-    - [Shutter Percentage of Opening](#shutter-percentage-of-opening)
-    - [Sonoff](#sonoff)
-    - [Sonos](#sonos)
-    - [Stage DMX Lights](#stage-dmx-lights)
-    - [Tesla](#tesla)
-    - [Television](#television)
-    - [TP-Link](#tp-link)
-    - [Ubiquiti](#ubiquiti)
-    - [Umage Lamps](#umage-lamps)
-    - [Pedastal](#pedastal)
-    - [Window and Roller Shutter](#window-and-roller-shutter)
-    - [Vacuum Parts](#vacuum-parts)
-    - [Delivery Services](#delivery-services)
-    - [Bose](#bose)
-    - [Solar](#solar)
-    - [Video Game Systems](#video-game-systems)
-    - [Cryptocurrency](#cryptocurrency)
-    - [Yeelight](#yeelight)
-- [Install](#install)
+## Index
+
+- [Icons Available By Brand / Group](#icons-available)
+  - [Alexa](#alexa)
+  - [Apple](#apple)
+  - [Aqara](#aqara)
+  - [Battery Status](#battery-status)
+  - [Blink Cameras](#blink-cameras)
+  - [Car Manufacturers](#car-manufacturers)
+  - [Christmas Decorations](#christmas-decorations)
+  - [Doors](#doors)
+  - [Duco Ventilation](#duco-ventilation)
+  - [Dyson](#dyson)
+  - [Elgato](#elgato)
+  - [Fritz](#fritz)
+  - [Garbage Collection](#garbage-collection)
+  - [Google](#google)
+  - [HA Addons](#ha-addons)
+  - [House Rooms](#house-rooms)
+  - [IKEA](#ikea)
+  - [LG](#lg)
+  - [Meross](#meross)
+  - [Miscellany of Icons](#miscellany-of-icons)
+  - [Modem/Router ISP](#modemrouter-isp)
+  - [Moes](#moes)
+  - [Netgear](#netgear)
+  - [Networking](#networking)
+  - [Philips Hue Official](#philips-hue-official)
+  - [Philips Hue Custom](#philips-hue-custom)
+  - [Reolink](#reolink)
+  - [Ring](#ring)
+  - [Schneider Electric](#schneider-electric)
+  - [Shutter Percentage of Opening](#shutter-percentage-of-opening)
+  - [Sonoff](#sonoff)
+  - [Sonos](#sonos)
+  - [Stage DMX Lights](#stage-dmx-lights)
+  - [Tesla](#tesla)
+  - [Television](#television)
+  - [TP-Link](#tp-link)
+  - [Ubiquiti](#ubiquiti)
+  - [Umage Lamps](#umage-lamps)
+  - [Pedastal](#pedastal)
+  - [Window and Roller Shutter](#window-and-roller-shutter)
+  - [Vacuum Parts](#vacuum-parts)
+  - [Delivery Services](#delivery-services)
+  - [Bose](#bose)
+  - [Solar](#solar)
+  - [Video Game Systems](#video-game-systems)
+  - [Cryptocurrency](#cryptocurrency)
+  - [Yeelight](#yeelight)
+- [Installation Methods](#installation-methods)
   - [HACS](#hacs)
   - [Manual Installation](#manual-installation)
-  - [Use](#use)
-- [Help me insert more icons!](#help-me-insert-more-icons)
+  - [User Manual](#user-manual)
 - [Don't see the icon?](#dont-see-the-icon)
-- [Make icon](#make-icon)
-- [Icon Requests?](#icon-requests)
-- [Customize the prefix](#customize-the-prefix)
-- [Pulls requests](#pulls-requests)
-- [Thanks](#thanks)
+- [Icon Requests](#icon-requests)
 - [Support the project](#support-the-project)
   - [Stargazers](#stargazers)
+- [Developer Workflow](#developer-workflow)
+  - [Make your own svg icon](#make-your-own-svg-icon)
+  - [Modify custom-brand-icons.js file](#modify-custom-brand-iconsjs-file)
+  - [Update README.md](#update-readmemd)
+  - [Contributions and Pull Requests](#contributions-and-pull-requests)
 
 ---
 
@@ -110,7 +112,7 @@ Custom brand icons for Home Assistant
 
 ### Aqara
 
-Icons made by @rchiileea
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -149,7 +151,7 @@ Icons made by @rchiileea
 
 ### Car Manufacturers
 
-Icons made by @rchiileea
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -165,7 +167,7 @@ Icons made by @rchiileea
 | ![Preview](/icon-svg/porsche.svg) | porsche | ![Preview](/icon-svg/ram.svg) | ram |
 | ![Preview](/icon-svg/toyota.svg) | toyota | ![Preview](/icon-svg/vauxhall.svg) | vauxhall |
 | ![Preview](/icon-svg/volkswagen.svg) | volkswagen | ![Preview](/icon-svg/renault.svg) | renault |
-![Preview](/icon-svg/renault-invert.svg) | renault-invert | ![Preview](/icon-svg/bmw.svg) | bmw |
+| ![Preview](/icon-svg/renault-invert.svg) | renault-invert | ![Preview](/icon-svg/bmw.svg) | bmw |
 | ![Preview](/icon-svg/bmw-alt.svg) | bmw-alt | ![Preview](/icon-svg/volvo.svg) | volvo |
 | ![Preview](/icon-svg/volvo-alt.svg) | volvo-alt | ![Preview](/icon-svg/acura.svg) | acura |
 | ![Preview](/icon-svg/aston-martin.svg) | aston-martin | ![Preview](/icon-svg/bentley.svg) | bentley |
@@ -203,7 +205,7 @@ Icons made by @rchiileea
 
 ### Doors
 
-Icons made by @rchiileea
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -225,7 +227,7 @@ Icons made by @rchiileea
 
 ### Duco Ventilation
 
-Icons made by @rchiileea
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -235,7 +237,7 @@ Icons made by @rchiileea
 
 ### Dyson
 
-Icons made by @rchiileea
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -252,7 +254,7 @@ Icons made by @rchiileea
 
 ### Fritz
 
-Icons made by @rchiileea
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -262,7 +264,7 @@ Icons made by @rchiileea
 
 ### Garbage Collection
 
-Icons made by @sandrybridge
+Icons made by [@sandrybridge](https://github.com/sandrybridge)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -287,7 +289,7 @@ Icons made by @sandrybridge
 
 ### HA Addons
 
-Icons made by @sandrybridge
+Icons made by [@sandrybridge](https://github.com/sandrybridge)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -300,7 +302,7 @@ Icons made by @sandrybridge
 
 ### House Rooms
 
-Icons made by @rchiileea
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -315,7 +317,7 @@ Icons made by @rchiileea
 
 ### IKEA
 
-Icons made by @rchiileea and @Gtt1229
+Icons made by [@rchiileea](https://github.com/rchiileea) and [@Gtt1229](https://github.com/Gtt1229)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -333,7 +335,7 @@ Icons made by @rchiileea and @Gtt1229
 
 ### LG
 
-Icons made by @rchiileea
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -488,15 +490,15 @@ Icons made by @rchiileea
 
 ### Networking
 
-Icons made by @sandrybridge
+Icons made by [@sandrybridge](https://github.com/sandrybridge)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/pfsense-logo.svg) | pfsense-logo | ![Preview](/icon-svg/openwrt-logo.svg) | openwrt-logo |
 
-### Philips Hue
+### Philips Hue Official
 
-These are the official icons from the [philips developer channel](https://developers.meethue.com/develop/application-design-guidance/icon-pack/)
+These are the official icons from the [Philips Hue Developer Channel](https://developers.meethue.com/develop/application-design-guidance/icon-pack/).
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -649,7 +651,8 @@ These are the official icons from the [philips developer channel](https://develo
 
 ---
 
-### Philips Hue made by @rchiileea
+### Philips Hue Custom
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -663,7 +666,7 @@ These are the official icons from the [philips developer channel](https://develo
 
 ### Reolink
 
-Icons made by @rchiileea
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -676,7 +679,7 @@ Icons made by @rchiileea
 
 ### Ring
 
-Icons made by @rchiileea
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -689,7 +692,7 @@ Icons made by @rchiileea
 
 ### Schneider Electric
 
-Icons made by @rchiileea
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -701,7 +704,7 @@ Icons made by @rchiileea
 
 ### Shutter Percentage of Opening
 
-Icons made by @rchiileea
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -725,7 +728,7 @@ Icons made by @rchiileea
 
 ### Sonos
 
-Icons made by @rchiileea
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -739,7 +742,7 @@ Icons made by @rchiileea
 
 ### Stage DMX Lights
 
-Icons made by @rchiileea
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -752,7 +755,7 @@ Icons made by @rchiileea
 
 ### Tesla
 
-Icons made by @rchiileea
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -764,7 +767,7 @@ Icons made by @rchiileea
 ---
 
 ### Television
-Icons made by @pinky007 @rchiileea @simpleicons
+Icons made by [@pinky007](https://github.com/pinky007) [@rchiileea](https://github.com/rchiileea) [@simpleicons](https://github.com/simpleicons)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -812,7 +815,7 @@ Icons made by @pinky007 @rchiileea @simpleicons
 
 ### TP-Link
 
-Icons made by @rchiileea
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name |
 | :--- | :--- |
@@ -822,7 +825,7 @@ Icons made by @rchiileea
 
 ### Ubiquiti
 
-Icons made by @rchiileea
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -834,7 +837,7 @@ Icons made by @rchiileea
 
 ### Umage Lamps
 
-Icons made by @rchiileea
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -845,7 +848,7 @@ Icons made by @rchiileea
 
 ### Pedastal
 
-Icons made by @rchiileea
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -856,7 +859,7 @@ Icons made by @rchiileea
 
 ### Window and Roller Shutter
 
-Icons made by @rchiileea
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -874,7 +877,7 @@ Icons made by @rchiileea
 
 ### Vacuum Parts
 
-Icons made by @rchiileea
+Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -906,7 +909,7 @@ Icons made by @rchiileea
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/solar-battery-5.svg) | solar-battery-5 | ![Preview](/icon-svg/solar-battery-10.svg) | solar-battery-10 |
- | ![Preview](/icon-svg/solar-battery-15.svg) | solar-battery-15 | ![Preview](/icon-svg/huawei-solar-inverter.svg) | huawei-solar-inverter |
+| ![Preview](/icon-svg/solar-battery-15.svg) | solar-battery-15 | ![Preview](/icon-svg/huawei-solar-inverter.svg) | huawei-solar-inverter |
 
 
  ---
@@ -916,8 +919,8 @@ Icons made by @rchiileea
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/n64.svg) | n64 | ![Preview](/icon-svg/sega.svg) | sega |
- | ![Preview](/icon-svg/gamecube.svg) | gamecube | ![Preview](/icon-svg/dreamcast.svg) | dreamcast |
- | ![Preview](/icon-svg/sega-saturn.svg) | sega-saturn | ![Preview](/icon-svg/genesis-vgs.svg) | genesis-vgs |
+| ![Preview](/icon-svg/gamecube.svg) | gamecube | ![Preview](/icon-svg/dreamcast.svg) | dreamcast |
+| ![Preview](/icon-svg/sega-saturn.svg) | sega-saturn | ![Preview](/icon-svg/genesis-vgs.svg) | genesis-vgs |
 
 
  ### Cryptocurrency
@@ -925,8 +928,8 @@ Icons made by @rchiileea
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/trx.svg) | trx | ![Preview](/icon-svg/zen.svg) | zen |
- | ![Preview](/icon-svg/rvn.svg) | rvn | ![Preview](/icon-svg/etc.svg) | etc |
- | ![Preview](/icon-svg/btg.svg) | btg |
+| ![Preview](/icon-svg/rvn.svg) | rvn | ![Preview](/icon-svg/etc.svg) | etc |
+| ![Preview](/icon-svg/btg.svg) | btg |
 
  ---
 
@@ -935,8 +938,8 @@ Icons made by @rchiileea
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/yeelight-beside-lamp.svg) | yeelight-beside-lamp | ![Preview](/icon-svg/yeelight-bulb.svg) | yeelight-bulb |
- | ![Preview](/icon-svg/yeelight-bulb-group.svg) | yeelight-bulb-group | ![Preview](/icon-svg/yeelight-ceiling.svg) | yeelight-ceiling |
- | ![Preview](/icon-svg/yeelight-desklamp.svg) | yeelight-desklamp | ![Preview](/icon-svg/yeelight-strip.svg) | yeelight-strip |
+| ![Preview](/icon-svg/yeelight-bulb-group.svg) | yeelight-bulb-group | ![Preview](/icon-svg/yeelight-ceiling.svg) | yeelight-ceiling |
+| ![Preview](/icon-svg/yeelight-desklamp.svg) | yeelight-desklamp | ![Preview](/icon-svg/yeelight-strip.svg) | yeelight-strip |
 
   ---
 
@@ -944,20 +947,20 @@ Icons made by @rchiileea
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/sleepiq.svg) | sleep-iq |  |  |
+| ![Preview](/icon-svg/sleepiq.svg) | sleep-iq
 
 ---
 
 
-# Install
+# Installation Methods
 
-## HACS
-
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=elax46&repository=custom-brand-icons&category=frontend)
+#### HACS
 
 We recommend installing Custom brand icons card via [Home Assistant Community Store](https://hacs.xyz)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=elax46&repository=custom-brand-icons&category=frontend)
 
-1. Add the folowing to the `frontend` section of your `configuration.yaml`
+After installing through HACS:
+1. Add the following lines to your `configuration.yaml`
 
     ```yaml
     frontend:
@@ -965,44 +968,47 @@ We recommend installing Custom brand icons card via [Home Assistant Community St
         - /local/community/custom-brand-icons/custom-brand-icons.js
     ```
 
-2. (optional) Or add the following to your lovelace configuration using the Raw Config editor under Configure UI or ui-lovelace.yaml if using YAML mode.
+2. (Optional) YAML mode users. Add the following to your lovelace configuration using the Raw Config editor under Configure UI or ui-lovelace.yaml.
 
-```yaml
-resources:
-  - type: js
-    url: /local/community/custom-brand-icons/custom-brand-icons.js
-```
+    ```yaml
+    resources:
+      - type: js
+        url: /local/community/custom-brand-icons/custom-brand-icons.js
+    ```
 
-## Manual Installation
+#### Manual Installation
 
 To add custom repositories please follow [this guide](https://hacs.xyz/docs/faq/custom_repositories/). Set URL to `` and category to `Lovelace`.
 
 1. Download `custom-brand-icons.js` file from the [latest release](/releases/latest).
 2. Copy the `custom-brand-icons.js` file into `<config>/www/` the directory where your `configuration.yaml` resides.
 
-3. Add the folowing to the `frontend` section of your `configuration.yaml`
+3. Add the following to the `frontend` section of your `configuration.yaml`
 
-```yaml
-frontend:
-  extra_module_url:
-    - /local/custom-brand-icons.js
-```
+    ```yaml
+    frontend:
+      extra_module_url:
+        - /local/custom-brand-icons.js
+    ```
 
-Or add the following to your lovelace configuration using the Raw Config editor under Configure UI or ui-lovelace.yaml if using YAML mode.
+4. (Optional) YAML mode users. Add the following to your lovelace configuration using the Raw Config editor under Configure UI or ui-lovelace.yaml.
 
-```yaml
-resources:
-  - type: js
-    url: /local/custom-brand-icons.js
-```
+    ```yaml
+    resources:
+      - type: js
+        url: /local/custom-brand-icons.js
+    ```
 
-Restart home-assistant.
+5. Restart Home Assistant.
 
-## Use
+# User Manual
 
-you can use icons by entering the prefix `phu:`
+#### Custom brand icons use the prefix `phu:`
+#### Append Name (of the icon) after `phu:`
+- Example: `phu:eggs` ![Preview](/icon-svg/eggs.svg)
+- Example: `phu:chicken` ![Preview](/icon-svg/chicken.svg)
 
-Example of integration in the card
+Example of custom brand icons a lovelace card:
 
 ```yaml
 entities:
@@ -1019,59 +1025,106 @@ show_header_toggle: false
 title: Custom brand icons
 type: entities
 ```
+# Don't see the icon?
 
-# Help me insert more icons!
+#### Hard Reload (browser cache issue)
+- Reload browser by holding CTRL and pressing F5.
+- For Mac, hold ⌘ CMD and ⇧ SHIFT, then press R.
 
-***Attention I remind you that the icons must be in svg format***
+#### Redownload Integration
+1. From left sidebar, select on *HACS*.
+2. Select on *Integrations*.
+3. From the top header bar (Integrations, Frontend), select *Frontend*.
+4. Search *custom-brand-icons* on the search bar.
+5. Select *Custom brand icons*.
+6. From the top right, select the 3 vertical dots which opens a dropdown menu.
+7. Select *Redownload*.
+8. **Hard reload** browser.
 
-If you want, you can help me expand the number of icons available. Just add the following string to the `var icons` variable of the `custom-brand-icons.js` file
+#### Reinstall Integration
+1. Open the dropdown menu from **Step 6** of **Redownload Integration**.
+2. Select *Remove*, then select *Remove* again on the popup.
+3. This should bring you back to /hacs/frontend
+4. From the top right, select the 3 vertical dots which opens a dropdown menu.
+5. Select on *Custom repositories*.
+6. Find *Custom brand icons* and select it.
+7. On the bottom right, select the big blue *Download* icon.
+8. **Hard reload** browser.
 
-let's take the first string for example:
+# Icon Requests
+
+Want an icon? Open a [custom icon request](https://github.com/elax46/custom-brand-icons/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) or [contribute to the project](#developer-workflow).
+-  Provide a **svg file** along with your request.
+-  For developers, open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
+
+# Support the project
+
+Thanks, as always, to the precious contribution to [@rchiileea](https://github.com/rchiileea) for the creation of the required icons!
+Do you like these icons? Support the project with a pizza 🍕🍕
+
+[![coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/elax46)
+
+## StarGazers
+[![Stargazers repo roster for @elax46/custom-brand-icons](https://reporoster.com/stars/elax46/custom-brand-icons)](/stargazers)
+
+
+# Developer Workflow
+
+## Make your own `svg` icon
+
+- To make an icon in svg format you can use different programs starting from illustrator, inkview, or [Inkscape](https://inkscape.org/).
+- Verify `svg` icons are set properly by using text editor of your choice ([Notepad++](https://notepad-plus-plus.org/), Notepad, or Visual Studio Code).
+- The size of the icons must be 24px by 24px.
+- The `svg` code must contain viewbox. No transform, translate, or scale.
+- Make sure to add color: #44739e. Every custom brand icon uses this color.
+- Once done, add the svg file in the folder `icon-svg` found in the root of the repo.
+
+Example svg file below:
+
+```svg
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<!-- path d="..." is unique for each icon -->
+
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+   <path
+     style="fill:#44739e"
+     d="..."
+    \>
+  </svg>
+```
+
+
+### Modify `custom-brand-icons.js` file
+
+Add the following string to the `var icons` variable of the `custom-brand-icons.js` file
+
+First string for example:
 
 ```js
 "Bollard": [0, 0, 24.0, 24.0, "string"]
 ```
 
-- `Bollard` = icon name
+- `Bollard` = svg icon name used for `phu:`
 - `0, 0, 24.0, 24.0` = this data can be recovered from the svg file `viewBox="0 0 24 24"` ***If this data is not present in the file you can leave the one indicated by me***
-- `String` = this data can be recovered from the svg file `<path d="M21,12.5 C21,13.33 18.76,...."` In particular you will have to enter only the part of the vector code `"M21,12.5 C21,13.33 18.76"` For an example take a look at the [icons already inserted](dist/custom-brand-icons.js)
-- **When you open a pull request do it on the dev branch**
-- In addition to inserting the icon in the `icon-svg` folder and updating the `custom-brand-icons.js` file, remember to also update the `README.md` file by inserting the new icon
+- `string` = this data can be recovered from the svg file `<path d="M21,12.5 C21,13.33 18.76,...."` In particular you will have to enter only the part of the vector code `"M21,12.5 C21,13.33 18.76"` For an example take a look at the [icons already inserted](dist/custom-brand-icons.js)
 
-# Don't see the icon?
-
-It probably depends on the cache. Open Home assistant from an incognito window and check that the icon loads if yes then it depends on the cache, otherwise double check the installation
-
-# Make icon
-
-To make an icon in svg format you can use different programs starting from illustrator or inkview. The size of the icons must be 24x24 and the svg code must not contain transform, translate, scale but only viewbox
-
-# Icon Requests?
-
-The icon is not there? open a [custom icon request](https://github.com/elax46/custom-brand-icons/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) *The icons to integrate must be in svg format*
-
-# Customize the prefix
-
-In case you want to create your own perfix you can edit the last line of the `custom-brand-icons.js`
+(Optional) In case you want to create your own perfix you can edit the last line of the `custom-brand-icons.js`
 
 ```js
- window.customIconsets["yourprefix"] = getIcon;
+window.customIconsets["yourprefix"] = getIcon;
 ```
 
-# Pulls requests
+### Update `README.md`
+- Remember to also update the `README.md` file by inserting the new icon.
 
-If you want to integrate icons or change errors in the documentation do not hesitate to open a pull request remember to open it on the dev branch
 
-# Thanks
-
-Thanks, as always, to the precious contribution to @rchiileea for the creation of the required icons!
-
-# Support the project
-
-Do you like these icons? Support the project with a pizza 🍕🍕
-
-[![coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/elax46)
-
-## Stargazers
-
-[![Stargazers repo roster for @elax46/custom-brand-icons](https://reporoster.com/stars/elax46/custom-brand-icons)](/stargazers)
+### Contributions and Pull Requests
+After adding your svg icon in `icon-svg`, modifying `custom-brand-icons.js`, and updating `README.md.`
+Open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
