@@ -17,7 +17,7 @@
 - Example: `phu:eggs` ![Preview](/icon-svg/eggs.svg)
 - Example: `phu:chicken` ![Preview](/icon-svg/chicken.svg)
 
-### Make sure to install `custom-brand-icons.js` into `configuration.yaml` or `lovelace.yaml`
+### Make sure to [install](#installation-methods) `custom-brand-icons.js` into `configuration.yaml` or `ui-lovelace.yaml`
 
 ## Index
 
@@ -1006,6 +1006,8 @@ To add custom repositories please follow [this guide](https://hacs.xyz/docs/faq/
 
 5. Restart Home Assistant.
 
+---
+
 # User Manual
 
 #### Custom brand icons use the prefix `phu:`
@@ -1030,6 +1032,9 @@ show_header_toggle: false
 title: Custom brand icons
 type: entities
 ```
+
+---
+
 # Don't see the icon?
 
 #### Hard Reload (browser cache issue)
@@ -1060,9 +1065,9 @@ type: entities
 
 Want an icon? Open a [custom icon request](https://github.com/elax46/custom-brand-icons/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) or [contribute to the project](#developer-workflow).
 -  Provide a **svg file** along with your request.
--  For developers, open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
+-  For those who [made their own icons](#developer-workflow), open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
 
-# Support the project
+# Thanks for your support
 
 Thanks, as always, to the precious contribution to [@rchiileea](https://github.com/rchiileea) for the creation of the required icons!
 Do you like these icons? Support the project with a pizza 🍕🍕
@@ -1072,16 +1077,17 @@ Do you like these icons? Support the project with a pizza 🍕🍕
 ## StarGazers
 [![Stargazers repo roster for @elax46/custom-brand-icons](https://reporoster.com/stars/elax46/custom-brand-icons)](/stargazers)
 
+---
 
 # Developer Workflow
 
-## Make your own `svg` icon
+### Make your own `svg` icon
 
 - To make an icon in svg format you can use different programs starting from illustrator, inkview, or [Inkscape](https://inkscape.org/).
 - Verify `svg` icons are set properly by using text editor of your choice ([Notepad++](https://notepad-plus-plus.org/), Notepad, or Visual Studio Code).
-- The size of the icons must be 24px by 24px.
-- The `svg` code must contain viewbox. No transform, translate, or scale.
-- Make sure to add color: #44739e. Every custom brand icon uses this color.
+- The size of the icons must be **24px by 24px**.
+- The `svg` code must contain **viewbox**. No transform, translate, or scale.
+- Make sure to add color: **#44739e**. Every custom brand icon uses this color.
 - Once done, add the svg file in the folder `icon-svg` found in the root of the repo.
 
 Example svg file below:
@@ -1108,17 +1114,19 @@ Example svg file below:
 
 ### Modify `custom-brand-icons.js` file
 
-Add the following string to the `var icons` variable of the `custom-brand-icons.js` file
+Add the following entry to the `var icons` variable (list) of the `custom-brand-icons.js` file
 
-First string for example:
+Example entry:
 
 ```js
 "Bollard": [0, 0, 24.0, 24.0, "string"]
 ```
 
 - `Bollard` = svg icon name used for `phu:`
-- `0, 0, 24.0, 24.0` = this data can be recovered from the svg file `viewBox="0 0 24 24"` ***If this data is not present in the file you can leave the one indicated by me***
-- `string` = this data can be recovered from the svg file `<path d="M21,12.5 C21,13.33 18.76,...."` In particular you will have to enter only the part of the vector code `"M21,12.5 C21,13.33 18.76"` For an example take a look at the [icons already inserted](dist/custom-brand-icons.js)
+- `0, 0, 24.0, 24.0` = this data can be recovered from the svg file `viewBox="0 0 24 24"`
+  -  ***If this data is not present, you can leave the one indicated by me.***
+- `string` = this data can be recovered from the svg file `<path d="M21,12.5 C21,13.33 18.76,...."` In particular you will have to enter only the part of the vector code `"M21,12.5 C21,13.33 18.76"`. 
+  - For an example, take a look at the [icons already inserted](dist/custom-brand-icons.js).
 
 (Optional) In case you want to create your own perfix you can edit the last line of the `custom-brand-icons.js`
 
@@ -1127,7 +1135,7 @@ window.customIconsets["yourprefix"] = getIcon;
 ```
 
 ### Update `README.md`
-- Remember to also update the `README.md` file by inserting the new icon.
+- Remember to also update the `README.md` file by inserting the icon's path and the name for `phu:`.
 
 
 ### Contributions and Pull Requests
