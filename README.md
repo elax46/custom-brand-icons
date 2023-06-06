@@ -333,6 +333,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea) and [@Gtt1229](https://
 | ![Preview](/icon-svg/symfonisk-lampe.svg) | symfonisk-lampe | ![Preview](/icon-svg/ikea-hektar3.svg) | ikea-hektar3 |
 | ![Preview](/icon-svg/ikea-ps-2014-open.svg) | ikea-ps-2014-open | ![Preview](/icon-svg/ikea-ps-2014.svg) | ikea-ps-2014 |
 | ![Preview](/icon-svg/ikea-blind-remote.svg) | ikea-blind-remote | ![Preview](/icon-svg/ikea-remote.svg) | ikea-remote |
+| ![Preview](/icon-svg/ikea-paparlamp.svg) | ikea-paparlamp | ![Preview](/icon-svg/ikea-jakobsbyn.svg) | ikea-jakobsbyn
 
 
 
