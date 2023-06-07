@@ -503,7 +503,6 @@ Icons made by [@sandrybridge](https://github.com/sandrybridge)
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/pfsense-logo.svg) | pfsense-logo | ![Preview](/icon-svg/openwrt-logo.svg) | openwrt-logo |
 
-
 ### Philips Hue Official
 
 These are the official icons from the [Philips Hue Developer Channel](https://developers.meethue.com/develop/application-design-guidance/icon-pack/).
