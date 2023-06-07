@@ -467,6 +467,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/fastgate.svg) | fastgate | ![Preview](/icon-svg/nexxt.svg) | nexxt |
+| ![Preview](/icon-svg/opnsense.svg) | opnsense
 
 ---
 
@@ -501,6 +502,7 @@ Icons made by [@sandrybridge](https://github.com/sandrybridge)
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/pfsense-logo.svg) | pfsense-logo | ![Preview](/icon-svg/openwrt-logo.svg) | openwrt-logo |
+
 
 ### Philips Hue Official
 
