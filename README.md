@@ -37,6 +37,7 @@
   - [Duco Ventilation](#duco-ventilation)
   - [Dyson](#dyson)
   - [Elgato](#elgato)
+  - [Eufy](#eufy)
   - [Fritz](#fritz)
   - [Garbage Collection](#garbage-collection)
   - [Google](#google)
@@ -257,6 +258,16 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 
 ---
 
+### Eufy
+
+Icons made by [@gtt1229](https://github.com/gtt1229)
+
+| Icon | Name |
+| :--- | :--- |
+| ![Preview](/icon-svg/eufy-doorbell.svg) | eufy-doorbell |
+
+---
+
 ### Fritz
 
 Icons made by [@rchiileea](https://github.com/rchiileea)
@@ -459,6 +470,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/grill-gas.svg) | grill-gas | ![Preview](/icon-svg/grill-ceramic.svg) | grill-ceramic | 
 | ![Preview](/icon-svg/carrier.svg) | carrier | ![Preview](/icon-svg/carrier-home.svg) | carrier-home |
 | ![Preview](/icon-svg/pocketcasts.svg) | pocketcasts | ![Preview](/icon-svg/tado-thermostat.svg) | tado-thermostat
+| ![Preview](/icon-svg/3dprinter-printing.svg) | 3dprinter-printing | ![Preview](/icon-svg/3dprinter-standby.svg) | 3dprinter-standby
 
 ---
 
@@ -681,6 +693,11 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/reolink-820.svg) | reolink-820 | ![Preview](/icon-svg/reolink-842.svg) | reolink-842 |
 | ![Preview](/icon-svg/reolink-argus.svg) | reolink-argus | ![Preview](/icon-svg/reolink-e1.svg) | reolink-e1 |
 | ![Preview](/icon-svg/reolink-go.svg) | reolink-go | ![Preview](/icon-svg/reolink-trackmix.svg) | reolink-trackmix |
+
+Icons made by [@gtt1229](https://github.com/gtt1229)
+| Icon | Name |
+| :--- | :--- |
+| ![Preview](/icon-svg/reolink-doorbell.svg) | reolink-doorbell
 
 ---
 
