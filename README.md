@@ -21,11 +21,11 @@
 
 ## Index
 
-- [Custom brand icons](#custom-brand-icons)
-      - [Custom brand icons use the prefix `phu:`](#custom-brand-icons-use-the-prefix-phu)
-      - [Append Name (of the icon) after `phu:`](#append-name-of-the-icon-after-phu)
-    - [Make sure to install `custom-brand-icons.js` into `configuration.yaml` or `ui-lovelace.yaml`](#make-sure-to-install-custom-brand-iconsjs-into-configurationyaml-or-ui-lovelaceyaml)
-  - [Index](#index)
+
+- [Installation Methods](#installation-methods)
+  - [HACS](#hacs)
+  - [Manual Installation](#manual-installation)
+  - [User Manual](#user-manual)
 - [Icons Available](#icons-available)
     - [Alexa](#alexa)
     - [Apple](#apple)
