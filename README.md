@@ -473,7 +473,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/carrier.svg) | carrier | ![Preview](/icon-svg/carrier-home.svg) | carrier-home |
 | ![Preview](/icon-svg/pocketcasts.svg) | pocketcasts | ![Preview](/icon-svg/tado-thermostat.svg) | tado-thermostat
 | ![Preview](/icon-svg/abletonlive.svg) | abletonlive | ![Preview](/icon-svg/discord.svg) | discord
-| ![Preview](/icon-svg/telegram.svg) | telegram| ![Preview](/icon-svg/3dprinter-printing.svg) | 3dprinter-printing | ![Preview](/icon-svg/3dprinter-standby.svg) | 3dprinter-standby
+| ![Preview](/icon-svg/telegram.svg) | telegram| ![Preview](/icon-svg/3dprinter-printing.svg) | 3dprinter-printing 
+| ![Preview](/icon-svg/3dprinter-standby.svg) | 3dprinter-standby
 
 ---
 
