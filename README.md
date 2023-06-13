@@ -38,6 +38,7 @@
     - [Duco Ventilation](#duco-ventilation)
     - [Dyson](#dyson)
     - [Elgato](#elgato)
+    - [Eufy](#eufy)
     - [Fritz](#fritz)
     - [Garbage Collection](#garbage-collection)
     - [Google](#google)
@@ -268,6 +269,16 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 
 ---
 
+### Eufy
+
+Icons made by [@gtt1229](https://github.com/gtt1229)
+
+| Icon | Name |
+| :--- | :--- |
+| ![Preview](/icon-svg/eufy-doorbell.svg) | eufy-doorbell |
+
+---
+
 ### Fritz
 
 Icons made by [@rchiileea](https://github.com/rchiileea)
@@ -344,6 +355,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea) and [@Gtt1229](https://
 | ![Preview](/icon-svg/symfonisk-lampe.svg) | symfonisk-lampe | ![Preview](/icon-svg/ikea-hektar3.svg) | ikea-hektar3 |
 | ![Preview](/icon-svg/ikea-ps-2014-open.svg) | ikea-ps-2014-open | ![Preview](/icon-svg/ikea-ps-2014.svg) | ikea-ps-2014 |
 | ![Preview](/icon-svg/ikea-blind-remote.svg) | ikea-blind-remote | ![Preview](/icon-svg/ikea-remote.svg) | ikea-remote |
+| ![Preview](/icon-svg/ikea-paparlamp.svg) | ikea-paparlamp | ![Preview](/icon-svg/ikea-jakobsbyn.svg) | ikea-jakobsbyn
 
 
 
@@ -470,7 +482,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/carrier.svg) | carrier | ![Preview](/icon-svg/carrier-home.svg) | carrier-home |
 | ![Preview](/icon-svg/pocketcasts.svg) | pocketcasts | ![Preview](/icon-svg/tado-thermostat.svg) | tado-thermostat
 | ![Preview](/icon-svg/abletonlive.svg) | abletonlive | ![Preview](/icon-svg/discord.svg) | discord
-| ![Preview](/icon-svg/telegram.svg) | telegram
+| ![Preview](/icon-svg/telegram.svg) | telegram| ![Preview](/icon-svg/3dprinter-printing.svg) | 3dprinter-printing | ![Preview](/icon-svg/3dprinter-standby.svg) | 3dprinter-standby
 
 ---
 
@@ -479,6 +491,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/fastgate.svg) | fastgate | ![Preview](/icon-svg/nexxt.svg) | nexxt |
+| ![Preview](/icon-svg/opnsense.svg) | opnsense
 
 ---
 
@@ -693,6 +706,11 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/reolink-argus.svg) | reolink-argus | ![Preview](/icon-svg/reolink-e1.svg) | reolink-e1 |
 | ![Preview](/icon-svg/reolink-go.svg) | reolink-go | ![Preview](/icon-svg/reolink-trackmix.svg) | reolink-trackmix |
 
+Icons made by [@gtt1229](https://github.com/gtt1229)
+| Icon | Name |
+| :--- | :--- |
+| ![Preview](/icon-svg/reolink-doorbell.svg) | reolink-doorbell
+
 ---
 
 ### Ring
@@ -850,6 +868,9 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/ubiquiti-ap.svg) | ubiquiti-ap | ![Preview](/icon-svg/ubiquiti-logo.svg) | ubiquiti-logo |
 | ![Preview](/icon-svg/ubiquiti-usg-p3.svg) | ubiquiti-usg-p3 | ![Preview](/icon-svg/ubiquiti.svg) | ubiquiti |
 | ![Preview](/icon-svg/unifi.svg) | unifi | ![Preview](/icon-svg/unifi-protect.svg) | unifi-protect |
+| ![Preview](/icon-svg/ubiquiti-udm-pro.svg) | ubiquiti-udm-pro | ![Preview](/icon-svg/ubiquiti-cam-instant.svg) | ubiquiti-cam-instant |
+| ![Preview](/icon-svg/ubiquiti-cam-flex.svg) | ubiquiti-cam-flex |
+
 
 ---
 
