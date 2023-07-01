@@ -384,6 +384,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/2-way-uplighter.svg) | 2-way-uplighter | ![Preview](/icon-svg/air-conditioner.svg) | air-conditioner |
+| ![Preview](/icon-svg/RVjack-extend.svg) | Rv jack extend | ![Preview](/icon-svg/RVjack-retract.svg) | RV jack retrated |
 | ![Preview](/icon-svg/alexa-logo.svg) | alexa-logo | ![Preview](/icon-svg/amazon-logo.svg) | amazon-logo |
 | ![Preview](/icon-svg/asus-rp-68u.svg) | asus-rp-68u | ![Preview](/icon-svg/bitfocus.svg) | bitfocus |
 | ![Preview](/icon-svg/bitwarden.svg) | bitwarden | ![Preview](/icon-svg/ceiling-fan-light.svg) | ceiling-fan-light |
