@@ -983,6 +983,13 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 
 ---
 
+### Rv Icons
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/rvjack-extend.svg) | rvjack-extend
+| ![Preview](/icon-svg/rvjack-retract.svg) | rvjack-retract
+
 
 # Installation Methods
 
