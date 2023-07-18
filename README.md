@@ -209,6 +209,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/voyah.svg) | voyah | ![Preview](/icon-svg/xpeng.svg) | xpeng |
 | ![Preview](/icon-svg/mazda.svg) | mazda | ![Preview](/icon-svg/cupra.svg) | cupra |
 | ![Preview](/icon-svg/landrover.svg) | landrover | ![Preview](/icon-svg/mustang.svg) | mustang |
+| ![Preview](/icon-svg/hyundai-ioniq.svg) | hyundai-ioniq
 
 ---
 
@@ -485,7 +486,9 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/pocketcasts.svg) | pocketcasts | ![Preview](/icon-svg/tado-thermostat.svg) | tado-thermostat
 | ![Preview](/icon-svg/abletonlive.svg) | abletonlive | ![Preview](/icon-svg/discord.svg) | discord
 | ![Preview](/icon-svg/telegram.svg) | telegram| ![Preview](/icon-svg/3dprinter-printing.svg) | 3dprinter-printing 
-| ![Preview](/icon-svg/3dprinter-standby.svg) | 3dprinter-standby
+| ![Preview](/icon-svg/3dprinter-standby.svg) | 3dprinter-standby | ![Preview](/icon-svg/fortinet.svg) | fortinet
+| ![Preview](/icon-svg/heb.svg) | heb | ![Preview](/icon-svg/knx.svg) | knx
+| ![Preview](/icon-svg/smarthome-solver.svg) | smarthome-solver | ![Preview](/icon-svg/target.svg) | target
 
 ---
 
