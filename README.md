@@ -22,10 +22,11 @@
 ## Index
 
 
-- [Installation Methods](#installation-methods)
-  - [HACS](#hacs)
-  - [Manual Installation](#manual-installation)
-  - [User Manual](#user-manual)
+- [Custom brand icons](#custom-brand-icons)
+      - [Custom brand icons use the prefix `phu:`](#custom-brand-icons-use-the-prefix-phu)
+      - [Append Name (of the icon) after `phu:`](#append-name-of-the-icon-after-phu)
+    - [Make sure to install `custom-brand-icons.js` into `configuration.yaml` or `ui-lovelace.yaml`](#make-sure-to-install-custom-brand-iconsjs-into-configurationyaml-or-ui-lovelaceyaml)
+  - [Index](#index)
 - [Icons Available](#icons-available)
     - [Alexa](#alexa)
     - [Apple](#apple)
@@ -76,7 +77,16 @@
     - [Cryptocurrency](#cryptocurrency)
     - [Yeelight](#yeelight)
     - [SleepIQ / SleepNumber](#sleepiq--sleepnumber)
+- [Installation Methods](#installation-methods)
+      - [HACS](#hacs)
+      - [Manual Installation](#manual-installation)
+- [User Manual](#user-manual)
+      - [Custom brand icons use the prefix `phu:`](#custom-brand-icons-use-the-prefix-phu-1)
+      - [Append Name (of the icon) after `phu:`](#append-name-of-the-icon-after-phu-1)
 - [Don't see the icon?](#dont-see-the-icon)
+      - [Hard Reload (browser cache issue)](#hard-reload-browser-cache-issue)
+      - [Redownload Integration](#redownload-integration)
+      - [Reinstall Integration](#reinstall-integration)
 - [Icon Requests](#icon-requests)
 - [Thanks for your support](#thanks-for-your-support)
   - [StarGazers](#stargazers)
@@ -199,6 +209,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/voyah.svg) | voyah | ![Preview](/icon-svg/xpeng.svg) | xpeng |
 | ![Preview](/icon-svg/mazda.svg) | mazda | ![Preview](/icon-svg/cupra.svg) | cupra |
 | ![Preview](/icon-svg/landrover.svg) | landrover | ![Preview](/icon-svg/mustang.svg) | mustang |
+| ![Preview](/icon-svg/hyundai-ioniq.svg) | hyundai-ioniq
 
 ---
 
@@ -361,6 +372,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/lg-air-purifier.svg) | lg-air-purifier | ![Preview](/icon-svg/lg-aircon.svg) | lg-aircon |
 | ![Preview](/icon-svg/lg-cooker.svg) | lg-cooker | ![Preview](/icon-svg/lg-fridge.svg) | lg-fridge |
 | ![Preview](/icon-svg/lg-oled55.svg) | lg-oled55 | ![Preview](/icon-svg/lg-signiture.svg) | lg-signiture |
+| ![Preview](/icon-svg/lg.svg) | lg |
 
 ---
 
@@ -474,7 +486,9 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/pocketcasts.svg) | pocketcasts | ![Preview](/icon-svg/tado-thermostat.svg) | tado-thermostat
 | ![Preview](/icon-svg/abletonlive.svg) | abletonlive | ![Preview](/icon-svg/discord.svg) | discord
 | ![Preview](/icon-svg/telegram.svg) | telegram| ![Preview](/icon-svg/3dprinter-printing.svg) | 3dprinter-printing 
-| ![Preview](/icon-svg/3dprinter-standby.svg) | 3dprinter-standby
+| ![Preview](/icon-svg/3dprinter-standby.svg) | 3dprinter-standby | ![Preview](/icon-svg/fortinet.svg) | fortinet
+| ![Preview](/icon-svg/heb.svg) | heb | ![Preview](/icon-svg/knx.svg) | knx
+| ![Preview](/icon-svg/smarthome-solver.svg) | smarthome-solver | ![Preview](/icon-svg/target.svg) | target
 
 ---
 
