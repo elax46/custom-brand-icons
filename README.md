@@ -209,7 +209,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/voyah.svg) | voyah | ![Preview](/icon-svg/xpeng.svg) | xpeng |
 | ![Preview](/icon-svg/mazda.svg) | mazda | ![Preview](/icon-svg/cupra.svg) | cupra |
 | ![Preview](/icon-svg/landrover.svg) | landrover | ![Preview](/icon-svg/mustang.svg) | mustang |
-| ![Preview](/icon-svg/hyundai-ioniq.svg) | hyundai-ioniq
+| ![Preview](/icon-svg/hyundai-ioniq.svg) | hyundai-ioniq | ![Preview](/icon-svg/car-fob.svg) | car-fob
 
 ---
 
@@ -489,6 +489,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/3dprinter-standby.svg) | 3dprinter-standby | ![Preview](/icon-svg/fortinet.svg) | fortinet
 | ![Preview](/icon-svg/heb.svg) | heb | ![Preview](/icon-svg/knx.svg) | knx
 | ![Preview](/icon-svg/smarthome-solver.svg) | smarthome-solver | ![Preview](/icon-svg/target.svg) | target
+| ![Preview](/icon-svg/battery-temp.svg) | battery-temp
 
 ---
 
@@ -850,7 +851,8 @@ Icons made by [@pinky007](https://github.com/pinky007) [@rchiileea](https://gith
 | ![Preview](/icon-svg/magentatv-alt.svg) | magentatv-alt | ![Preview](/icon-svg/vtmgo.svg) | vtmgo 
 | ![Preview](/icon-svg/hulu.svg) | hulu | ![Preview](/icon-svg/my-canal.svg) | my-canal
 | ![Preview](/icon-svg/movies-anywhere.svg) | movies-anywhere | ![Preview](/icon-svg/movies-anywhere-text.svg) | movies-anywhere-text
-| ![Preview](/icon-svg/movies-anywhere-text-vertical.svg) | movies-anywhere-text-vertical
+| ![Preview](/icon-svg/movies-anywhere-text-vertical.svg) | movies-anywhere-text-vertical | ![Preview](/icon-svg/waiputv.svg) | waiputv
+| ![Preview](/icon-svg/maxdome.svg) | maxdome
 
 
 ---
