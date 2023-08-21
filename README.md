@@ -489,7 +489,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/3dprinter-standby.svg) | 3dprinter-standby | ![Preview](/icon-svg/fortinet.svg) | fortinet
 | ![Preview](/icon-svg/heb.svg) | heb | ![Preview](/icon-svg/knx.svg) | knx
 | ![Preview](/icon-svg/smarthome-solver.svg) | smarthome-solver | ![Preview](/icon-svg/target.svg) | target
-| ![Preview](/icon-svg/battery-temp.svg) | battery-temp
+| ![Preview](/icon-svg/battery-temp.svg) | battery-temp | ![Preview](/icon-svg/miele-scout.svg) | miele-scout
 
 ---
 
