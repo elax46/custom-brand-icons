@@ -358,6 +358,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea) and [@Gtt1229](https://
 | ![Preview](/icon-svg/ikea-ps-2014-open.svg) | ikea-ps-2014-open | ![Preview](/icon-svg/ikea-ps-2014.svg) | ikea-ps-2014 |
 | ![Preview](/icon-svg/ikea-blind-remote.svg) | ikea-blind-remote | ![Preview](/icon-svg/ikea-remote.svg) | ikea-remote |
 | ![Preview](/icon-svg/ikea-paparlamp.svg) | ikea-paparlamp | ![Preview](/icon-svg/ikea-jakobsbyn.svg) | ikea-jakobsbyn
+| ![Preview](/icon-svg/ikea-dimmer.svg) | ikea-dimmer
 
 
 
@@ -489,7 +490,9 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/3dprinter-standby.svg) | 3dprinter-standby | ![Preview](/icon-svg/fortinet.svg) | fortinet
 | ![Preview](/icon-svg/heb.svg) | heb | ![Preview](/icon-svg/knx.svg) | knx
 | ![Preview](/icon-svg/smarthome-solver.svg) | smarthome-solver | ![Preview](/icon-svg/target.svg) | target
-| ![Preview](/icon-svg/battery-temp.svg) | battery-temp
+| ![Preview](/icon-svg/battery-temp.svg) | battery-temp | ![Preview](/icon-svg/miele-scout.svg) | miele-scout
+| ![Preview](/icon-svg/ecowitt.svg) | ecowitt | ![Preview](/icon-svg/solar-battery.svg) | solar-battery
+| ![Preview](/icon-svg/h2o-softener.svg) | h2o-softener
 
 ---
 
@@ -995,6 +998,16 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/sleepiq.svg) | sleep-iq
+
+---
+
+### Air Sensor Icons
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/co2.svg) | co2 | ![Preview](/icon-svg/air-presure.svg) | air-presure
+| ![Preview](/icon-svg/voc.svg) | voc | ![Preview](/icon-svg/pm2-5.svg) | pm2-5 
+| ![Preview](/icon-svg/radon.svg) | radon | ![Preview](/icon-svg/moisture.svg) | moisture
 
 ---
 
