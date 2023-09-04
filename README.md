@@ -768,6 +768,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/bridge.svg) | bridge | ![Preview](/icon-svg/mini.svg) | mini |
 | ![Preview](/icon-svg/smart-camera.svg) | smart-camera | ![Preview](/icon-svg/smart-plug-sonoff.svg) | smart-plug-sonoff |
 | ![Preview](/icon-svg/usb-smart-adaptor.svg) | usb-smart-adaptor | ![Preview](/icon-svg/window-sensor.svg) | window-sensor |
+| ![Preview](/icon-svg/nspro-panel.svg) | nspro-panel |
 
 
 ---
