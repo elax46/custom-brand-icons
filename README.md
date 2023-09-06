@@ -856,7 +856,7 @@ Icons made by [@pinky007](https://github.com/pinky007) [@rchiileea](https://gith
 | ![Preview](/icon-svg/hulu.svg) | hulu | ![Preview](/icon-svg/my-canal.svg) | my-canal
 | ![Preview](/icon-svg/movies-anywhere.svg) | movies-anywhere | ![Preview](/icon-svg/movies-anywhere-text.svg) | movies-anywhere-text
 | ![Preview](/icon-svg/movies-anywhere-text-vertical.svg) | movies-anywhere-text-vertical | ![Preview](/icon-svg/waiputv.svg) | waiputv
-| ![Preview](/icon-svg/maxdome.svg) | maxdome
+| ![Preview](/icon-svg/maxdome.svg) | maxdome | ![Preview](/icon-svg/oqee.svg) | oqee
 
 
 ---
