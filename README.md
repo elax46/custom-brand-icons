@@ -493,7 +493,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/smarthome-solver.svg) | smarthome-solver | ![Preview](/icon-svg/target.svg) | target
 | ![Preview](/icon-svg/battery-temp.svg) | battery-temp | ![Preview](/icon-svg/miele-scout.svg) | miele-scout
 | ![Preview](/icon-svg/ecowitt.svg) | ecowitt | ![Preview](/icon-svg/solar-battery.svg) | solar-battery
-| ![Preview](/icon-svg/h2o-softener.svg) | h2o-softener
+| ![Preview](/icon-svg/h2o-softener.svg) | h2o-softener| ![Preview](icon-svg/Firefox.svg) | firefox |
 
 ---
 
@@ -690,7 +690,7 @@ These are the official icons from the [Philips Hue Developer Channel](https://de
 | ![Preview](/icon-svg/wellness.svg) | wellness | ![Preview](/icon-svg/zones-areas-first-floor.svg) | zones-areas-first-floor |
 | ![Preview](/icon-svg/zones-areas-ground-floor.svg) | zones-areas-ground-floor | ![Preview](/icon-svg/zones-areas-second-floor.svg) | zones-areas-second-floor |
 | ![Preview](/icon-svg/lily-alt.svg) | lily-alt | ![Preview](/icon-svg/lily-xl-alt.svg) | lily-xl-alt |
-| ![Preview](icon-svg/Firefox.svg) | firefox |
+
 
 ---
 
