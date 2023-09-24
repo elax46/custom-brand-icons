@@ -342,7 +342,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/kids-room.svg) | kids-room | ![Preview](/icon-svg/kitchen.svg) | kitchen |
 | ![Preview](/icon-svg/living-room.svg) | living-room | ![Preview](/icon-svg/office.svg) | office |
 | ![Preview](/icon-svg/outside.svg) | outside | ![Preview](/icon-svg/cloakroom.svg) | cloakroom |
-| ![Preview](/icon-svg/kitchen-alt.svg) | kitchen-alt |
+| ![Preview](/icon-svg/kitchen-alt.svg) | kitchen-alt | ![Preview](icon-svg/table-lighting.svg) | table-lighting |
+| ![Preview](icon-svg/table-lighting-alt.svg) | table-lighting-alt |
 
 
 ### IKEA
@@ -493,7 +494,11 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/smarthome-solver.svg) | smarthome-solver | ![Preview](/icon-svg/target.svg) | target
 | ![Preview](/icon-svg/battery-temp.svg) | battery-temp | ![Preview](/icon-svg/miele-scout.svg) | miele-scout
 | ![Preview](/icon-svg/ecowitt.svg) | ecowitt | ![Preview](/icon-svg/solar-battery.svg) | solar-battery
-| ![Preview](/icon-svg/h2o-softener.svg) | h2o-softener| ![Preview](icon-svg/Firefox.svg) | firefox |
+| ![Preview](/icon-svg/water-softener.svg) | water-softener| ![Preview](icon-svg/Firefox.svg) | firefox |
+| ![Preview](icon-svg/air-source-heating.svg) | air-source-heating |  ![Preview](icon-svg/eero.svg) | eero |
+| ![Preview](icon-svg/ezviz.svg) | ezviz | ![Preview](icon-svg/kuma.svg) | kuma |
+| ![Preview](icon-svg/picnic.svg) | picnic |
+
 
 ---
 
