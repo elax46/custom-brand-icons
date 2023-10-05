@@ -57,6 +57,7 @@
     - [Philips Hue Custom](#philips-hue-custom)
     - [Reolink](#reolink)
     - [Ring](#ring)
+    - [Roku](#roku)
     - [Schneider Electric](#schneider-electric)
     - [Shutter Percentage of Opening](#shutter-percentage-of-opening)
     - [Sonoff](#sonoff)
@@ -740,6 +741,14 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/ring-doorbell-pro.svg) | ring-doorbell-pro | ![Preview](/icon-svg/ring-doorbell.svg) | ring-doorbell |
 | ![Preview](/icon-svg/ring-floodlight.svg) | ring-floodlight | ![Preview](/icon-svg/ring-smart-lighting.svg) | ring-smart-lighting |
 | ![Preview](/icon-svg/ring-spotlight-cam.svg) | ring-spotlight-cam | ![Preview](/icon-svg/ring-stick-up-cam.svg) | ring-stick-up-cam | 
+
+---
+
+### Roku
+
+| Icon | Name |
+| :--- | :--- |
+| ![Preview](/icon-svg/roku-ultra.svg) | roku-ultra |
 
 ---
 
