@@ -872,8 +872,8 @@ Icons made by [@pinky007](https://github.com/pinky007) [@rchiileea](https://gith
 | ![Preview](/icon-svg/hulu.svg) | hulu | ![Preview](/icon-svg/my-canal.svg) | my-canal
 | ![Preview](/icon-svg/movies-anywhere.svg) | movies-anywhere | ![Preview](/icon-svg/movies-anywhere-text.svg) | movies-anywhere-text
 | ![Preview](/icon-svg/movies-anywhere-text-vertical.svg) | movies-anywhere-text-vertical | ![Preview](/icon-svg/waiputv.svg) | waiputv
-| ![Preview](/icon-svg/maxdome.svg) | maxdome | ![Preview](/icon-svg/oqee.svg) | oqee
-
+| ![Preview](/icon-svg/maxdome.svg) | maxdome | ![Preview](/icon-svg/oqee.svg) | oqee |
+| ![Preview](/icon-svg/homemati-ip.svg) | homemati-ip | ![Preview](/icon-svg/water-reservoir.svg) | water-reservoir | 
 
 ---
 
@@ -1018,7 +1018,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 
 ---
 
-### Air Sensor Icons
+## Air Sensor Icons
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -1027,7 +1027,12 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/radon.svg) | radon | ![Preview](/icon-svg/moisture.svg) | moisture
 
 ---
-
+## Pool & Chemical Icons
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/pool-filter.svg) | pool-filter | ![Preview](/icon-svg/pool-depth.svg) | pool-depth
+| ![Preview](/icon-svg/pool-salinty.svg) | pool-salinty | ![Preview](/icon-svg/pool-clorine.svg) | pool-clorine |
+![Preview](/icon-svg/pool-electric-lvl.svg) | pool-electric-lvl | ![Preview](/icon-svg/pool-disolved.svg) | pool-disolved |
 
 # Installation Methods
 
