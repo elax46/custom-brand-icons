@@ -342,6 +342,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/garage-alt-shut.svg) | garage-alt-shut | ![Preview](/icon-svg/garden.svg) | garden |
 | ![Preview](/icon-svg/kids-room.svg) | kids-room | ![Preview](/icon-svg/kitchen.svg) | kitchen |
 | ![Preview](/icon-svg/living-room.svg) | living-room | ![Preview](/icon-svg/office.svg) | office |
+| ![Preview](/icon-svg/piano.svg) | piano | ![Preview](/icon-svg/piano.svg) | piano |
 | ![Preview](/icon-svg/outside.svg) | outside | ![Preview](/icon-svg/cloakroom.svg) | cloakroom |
 | ![Preview](/icon-svg/kitchen-alt.svg) | kitchen-alt | ![Preview](icon-svg/table-lighting.svg) | table-lighting |
 | ![Preview](icon-svg/table-lighting-alt.svg) | table-lighting-alt |
