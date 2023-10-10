@@ -342,7 +342,6 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/garage-alt-shut.svg) | garage-alt-shut | ![Preview](/icon-svg/garden.svg) | garden |
 | ![Preview](/icon-svg/kids-room.svg) | kids-room | ![Preview](/icon-svg/kitchen.svg) | kitchen |
 | ![Preview](/icon-svg/living-room.svg) | living-room | ![Preview](/icon-svg/office.svg) | office |
-| ![Preview](/icon-svg/piano.svg) | piano | ![Preview](/icon-svg/piano.svg) | piano |
 | ![Preview](/icon-svg/outside.svg) | outside | ![Preview](/icon-svg/cloakroom.svg) | cloakroom |
 | ![Preview](/icon-svg/kitchen-alt.svg) | kitchen-alt | ![Preview](icon-svg/table-lighting.svg) | table-lighting |
 | ![Preview](icon-svg/table-lighting-alt.svg) | table-lighting-alt |
@@ -483,6 +482,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/twist-thermostat.svg) | twist-thermostat |  ![Preview](/icon-svg/casaos.svg) | casaos
 ![Preview](/icon-svg/sxm.svg) | sxm | ![Preview](/icon-svg/amp-measure.svg) | amp-measure |
 | ![Preview](/icon-svg/tronity.svg) | tronity | ![Preview](/icon-svg/hive.svg) | hive |
+| ![Preview](/icon-svg/piano.svg) | piano | ![Preview](/icon-svg/piano.svg) | piano |
 | ![Preview](/icon-svg/plex.svg) | plex | ![Preview](/icon-svg/ring.svg) | ring |
 | ![Preview](/icon-svg/tado.svg) | tado | ![Preview](/icon-svg/roon.svg) | roon |
 | ![Preview](/icon-svg/wall-mounted-tablet.svg) | wall-mounted-tablet | ![Preview](/icon-svg/grill-charcoal.svg) | grill-charcoal |
