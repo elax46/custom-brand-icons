@@ -57,6 +57,7 @@
     - [Philips Hue Custom](#philips-hue-custom)
     - [Reolink](#reolink)
     - [Ring](#ring)
+    - [Roku](#roku)
     - [Schneider Electric](#schneider-electric)
     - [Shutter Percentage of Opening](#shutter-percentage-of-opening)
     - [Sonoff](#sonoff)
@@ -313,6 +314,7 @@ Icons made by [@sandrybridge](https://github.com/sandrybridge)
 | ![Preview](/icon-svg/nest-audio.svg) | nest-audio  | ![Preview](/icon-svg/nest-hub.svg) | nest-hub |
 | ![Preview](/icon-svg/pixelwatch.svg) | pixelwatch | ![Preview](/icon-svg/google-pixel.svg) | google-pixel |
 | ![Preview](/icon-svg/chromecast.svg) | chromecast | ![Preview](/icon-svg/chromecast-alt.svg) | chromecast-alt
+| ![Preview](/icon-svg/google-logo-circle.svg) | google-logo-circle |
 
 ---
 
@@ -341,7 +343,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/kids-room.svg) | kids-room | ![Preview](/icon-svg/kitchen.svg) | kitchen |
 | ![Preview](/icon-svg/living-room.svg) | living-room | ![Preview](/icon-svg/office.svg) | office |
 | ![Preview](/icon-svg/outside.svg) | outside | ![Preview](/icon-svg/cloakroom.svg) | cloakroom |
-| ![Preview](/icon-svg/kitchen-alt.svg) | kitchen-alt |
+| ![Preview](/icon-svg/kitchen-alt.svg) | kitchen-alt | ![Preview](icon-svg/table-lighting.svg) | table-lighting |
+| ![Preview](icon-svg/table-lighting-alt.svg) | table-lighting-alt |
 
 
 ### IKEA
@@ -358,6 +361,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea) and [@Gtt1229](https://
 | ![Preview](/icon-svg/ikea-ps-2014-open.svg) | ikea-ps-2014-open | ![Preview](/icon-svg/ikea-ps-2014.svg) | ikea-ps-2014 |
 | ![Preview](/icon-svg/ikea-blind-remote.svg) | ikea-blind-remote | ![Preview](/icon-svg/ikea-remote.svg) | ikea-remote |
 | ![Preview](/icon-svg/ikea-paparlamp.svg) | ikea-paparlamp | ![Preview](/icon-svg/ikea-jakobsbyn.svg) | ikea-jakobsbyn
+| ![Preview](/icon-svg/ikea-dimmer.svg) | ikea-dimmer
 
 
 
@@ -489,7 +493,13 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/3dprinter-standby.svg) | 3dprinter-standby | ![Preview](/icon-svg/fortinet.svg) | fortinet
 | ![Preview](/icon-svg/heb.svg) | heb | ![Preview](/icon-svg/knx.svg) | knx
 | ![Preview](/icon-svg/smarthome-solver.svg) | smarthome-solver | ![Preview](/icon-svg/target.svg) | target
-| ![Preview](/icon-svg/battery-temp.svg) | battery-temp
+| ![Preview](/icon-svg/battery-temp.svg) | battery-temp | ![Preview](/icon-svg/miele-scout.svg) | miele-scout
+| ![Preview](/icon-svg/ecowitt.svg) | ecowitt | ![Preview](/icon-svg/solar-battery.svg) | solar-battery
+| ![Preview](/icon-svg/water-softener.svg) | water-softener| ![Preview](icon-svg/Firefox.svg) | firefox |
+| ![Preview](icon-svg/air-source-heating.svg) | air-source-heating |  ![Preview](icon-svg/eero.svg) | eero |
+| ![Preview](icon-svg/ezviz.svg) | ezviz | ![Preview](icon-svg/kuma.svg) | kuma |
+| ![Preview](icon-svg/picnic.svg) | picnic |
+
 
 ---
 
@@ -687,6 +697,7 @@ These are the official icons from the [Philips Hue Developer Channel](https://de
 | ![Preview](/icon-svg/zones-areas-ground-floor.svg) | zones-areas-ground-floor | ![Preview](/icon-svg/zones-areas-second-floor.svg) | zones-areas-second-floor |
 | ![Preview](/icon-svg/lily-alt.svg) | lily-alt | ![Preview](/icon-svg/lily-xl-alt.svg) | lily-xl-alt |
 
+
 ---
 
 ### Philips Hue Custom
@@ -733,6 +744,14 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 
 ---
 
+### Roku
+
+| Icon | Name |
+| :--- | :--- |
+| ![Preview](/icon-svg/roku-ultra.svg) | roku-ultra |
+
+---
+
 ### Schneider Electric
 
 Icons made by [@rchiileea](https://github.com/rchiileea)
@@ -765,6 +784,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/bridge.svg) | bridge | ![Preview](/icon-svg/mini.svg) | mini |
 | ![Preview](/icon-svg/smart-camera.svg) | smart-camera | ![Preview](/icon-svg/smart-plug-sonoff.svg) | smart-plug-sonoff |
 | ![Preview](/icon-svg/usb-smart-adaptor.svg) | usb-smart-adaptor | ![Preview](/icon-svg/window-sensor.svg) | window-sensor |
+| ![Preview](/icon-svg/nspro-panel.svg) | nspro-panel |
 
 
 ---
@@ -852,8 +872,8 @@ Icons made by [@pinky007](https://github.com/pinky007) [@rchiileea](https://gith
 | ![Preview](/icon-svg/hulu.svg) | hulu | ![Preview](/icon-svg/my-canal.svg) | my-canal
 | ![Preview](/icon-svg/movies-anywhere.svg) | movies-anywhere | ![Preview](/icon-svg/movies-anywhere-text.svg) | movies-anywhere-text
 | ![Preview](/icon-svg/movies-anywhere-text-vertical.svg) | movies-anywhere-text-vertical | ![Preview](/icon-svg/waiputv.svg) | waiputv
-| ![Preview](/icon-svg/maxdome.svg) | maxdome
-
+| ![Preview](/icon-svg/maxdome.svg) | maxdome | ![Preview](/icon-svg/oqee.svg) | oqee |
+| ![Preview](/icon-svg/homemati-ip.svg) | homemati-ip | ![Preview](/icon-svg/water-reservoir.svg) | water-reservoir | 
 
 ---
 
@@ -998,6 +1018,21 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 
 ---
 
+## Air Sensor Icons
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/co2.svg) | co2 | ![Preview](/icon-svg/air-presure.svg) | air-presure
+| ![Preview](/icon-svg/voc.svg) | voc | ![Preview](/icon-svg/pm2-5.svg) | pm2-5 
+| ![Preview](/icon-svg/radon.svg) | radon | ![Preview](/icon-svg/moisture.svg) | moisture
+
+---
+## Pool & Chemical Icons
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/pool-filter.svg) | pool-filter | ![Preview](/icon-svg/pool-depth.svg) | pool-depth
+| ![Preview](/icon-svg/pool-salinty.svg) | pool-salinty | ![Preview](/icon-svg/pool-clorine.svg) | pool-clorine |
+![Preview](/icon-svg/pool-electric-lvl.svg) | pool-electric-lvl | ![Preview](/icon-svg/pool-disolved.svg) | pool-disolved |
 
 # Installation Methods
 
