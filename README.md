@@ -482,7 +482,6 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/twist-thermostat.svg) | twist-thermostat |  ![Preview](/icon-svg/casaos.svg) | casaos
 ![Preview](/icon-svg/sxm.svg) | sxm | ![Preview](/icon-svg/amp-measure.svg) | amp-measure |
 | ![Preview](/icon-svg/tronity.svg) | tronity | ![Preview](/icon-svg/hive.svg) | hive |
-| ![Preview](/icon-svg/piano.svg) | piano | ![Preview](/icon-svg/piano.svg) | piano |
 | ![Preview](/icon-svg/plex.svg) | plex | ![Preview](/icon-svg/ring.svg) | ring |
 | ![Preview](/icon-svg/tado.svg) | tado | ![Preview](/icon-svg/roon.svg) | roon |
 | ![Preview](/icon-svg/wall-mounted-tablet.svg) | wall-mounted-tablet | ![Preview](/icon-svg/grill-charcoal.svg) | grill-charcoal |
@@ -499,7 +498,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/water-softener.svg) | water-softener| ![Preview](icon-svg/Firefox.svg) | firefox |
 | ![Preview](icon-svg/air-source-heating.svg) | air-source-heating |  ![Preview](icon-svg/eero.svg) | eero |
 | ![Preview](icon-svg/ezviz.svg) | ezviz | ![Preview](icon-svg/kuma.svg) | kuma |
-| ![Preview](icon-svg/picnic.svg) | picnic |
+| ![Preview](icon-svg/picnic.svg) | picnic | ![Preview](/icon-svg/piano.svg) | piano |
 
 
 ---
