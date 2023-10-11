@@ -498,7 +498,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/water-softener.svg) | water-softener| ![Preview](icon-svg/Firefox.svg) | firefox |
 | ![Preview](icon-svg/air-source-heating.svg) | air-source-heating |  ![Preview](icon-svg/eero.svg) | eero |
 | ![Preview](icon-svg/ezviz.svg) | ezviz | ![Preview](icon-svg/kuma.svg) | kuma |
-| ![Preview](icon-svg/picnic.svg) | picnic |
+| ![Preview](icon-svg/picnic.svg) | picnic | ![Preview](/icon-svg/piano.svg) | piano |
 
 
 ---
