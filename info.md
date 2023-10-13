@@ -12,7 +12,7 @@ Custom brand icons for Home Assistant
 
 # Install
 
- 1. Add the folowing to the `frontend` section of your `configuration.yaml`
+ 1. Add the following to the `frontend` section of your `configuration.yaml`
 
   ```yaml
 frontend:
