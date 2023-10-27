@@ -498,7 +498,10 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/water-softener.svg) | water-softener| ![Preview](icon-svg/Firefox.svg) | firefox |
 | ![Preview](icon-svg/air-source-heating.svg) | air-source-heating |  ![Preview](icon-svg/eero.svg) | eero |
 | ![Preview](icon-svg/ezviz.svg) | ezviz | ![Preview](icon-svg/kuma.svg) | kuma |
-| ![Preview](icon-svg/picnic.svg) | picnic |
+| ![Preview](icon-svg/picnic.svg) | picnic | ![Preview](/icon-svg/piano.svg) | piano |
+| ![Preview](/icon-svg/soil-moisture.svg) | soil-moisture | ![Preview](/icon-svg/weather-page-alt.svg) | weather-page-alt |
+| ![Preview](/icon-svg/wps-wifi.svg) | wps-wifi | ![Preview](/icon-svg/rede_globo.svg) | rede_globo |
+| ![Preview](/icon-svg/redbull-tv.svg) | redbull-tv | ![Preview](/icon-svg/rede_bandeirantes.svg) | rede_bandeirantes |
 
 
 ---
