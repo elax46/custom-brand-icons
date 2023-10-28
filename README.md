@@ -876,6 +876,9 @@ Icons made by [@pinky007](https://github.com/pinky007) [@rchiileea](https://gith
 | ![Preview](/icon-svg/movies-anywhere.svg) | movies-anywhere | ![Preview](/icon-svg/movies-anywhere-text.svg) | movies-anywhere-text
 | ![Preview](/icon-svg/movies-anywhere-text-vertical.svg) | movies-anywhere-text-vertical | ![Preview](/icon-svg/waiputv.svg) | waiputv
 | ![Preview](/icon-svg/maxdome.svg) | maxdome | ![Preview](/icon-svg/oqee.svg) | oqee |
+| ![Preview](/icon-svg/kion-tv.svg) | kion-tv | ![Preview](/icon-svg/ivi-tv.svg) | ivi-tv |
+| ![Preview](/icon-svg/start-tv.svg) | start-tv | ![Preview](/icon-svg/wink-tv.svg) | wink-tv |
+| ![Preview](/icon-svg/okko-tv.svg) | okko-tv | ![Preview](/icon-svg/more-tv.svg) | more-tv |
 | ![Preview](/icon-svg/homemati-ip.svg) | homemati-ip | ![Preview](/icon-svg/water-reservoir.svg) | water-reservoir | 
 
 ---
