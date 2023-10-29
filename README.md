@@ -502,6 +502,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/soil-moisture.svg) | soil-moisture | ![Preview](/icon-svg/weather-page-alt.svg) | weather-page-alt |
 | ![Preview](/icon-svg/wps-wifi.svg) | wps-wifi | ![Preview](/icon-svg/rede_globo.svg) | rede_globo |
 | ![Preview](/icon-svg/redbull-tv.svg) | redbull-tv | ![Preview](/icon-svg/rede_bandeirantes.svg) | rede_bandeirantes |
+| ![Preview](/icon-svg/soil-reading.svg) | soil-reading | ![Preview](/icon-svg/qbittorrent.svg) | qbittorrent |
+| ![Preview](/icon-svg/peloton.svg) | peloton |  ![Preview](/icon-svg/oura-o.svg) | oura-o |
 
 
 ---
