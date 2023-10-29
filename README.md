@@ -1144,9 +1144,9 @@ type: entities
 # Icon Requests
 
 Want an icon? Open a [custom icon request](https://github.com/elax46/custom-brand-icons/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) or [contribute to the project](#developer-workflow).
--  Provide a **svg file and jpg logo of your request** and a image along with your request. (links to SVG's or Images will be ignored you must upload the files into your request, ignoring this will result in request being ignored).
+-  Provide a **svg file and jpg logo of your request** and a image along with your request.
+-  (links to SVG's or Images will be ignored you must upload the files into your request, ignoring this will result in request being ignored).
 -  For those who [made their own icons](#developer-workflow), open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
--  
 
 # Thanks for your support
 
