@@ -111,7 +111,9 @@
 | ![Preview](/icon-svg/echo-gen-2.svg) | echo-gen-2 | ![Preview](/icon-svg/echo-plus.svg) | echo-plus |
 | ![Preview](/icon-svg/echo-show-5-gen-2.svg) | echo-show-5-gen-2 | ![Preview](/icon-svg/echo-show-5-group.svg) | echo-show-5-group |
 | ![Preview](/icon-svg/echo-show-8-gen-2.svg) | echo-show-8-gen-2 | ![Preview](/icon-svg/echo-show-8-group.svg) | echo-show-8-group |
-| ![Preview](/icon-svg/echo-spot.svg) | echo-spot |
+| ![Preview](/icon-svg/echo-spot.svg) | echo-spot | ![Preview](/icon-svg/echo-show-15.svg) | echo-show-15 |
+| ![Preview](/icon-svg/echo-studio-2nd.svg) | echo-studio-2nd | ![Preview](/icon-svg/echo-show-10.svg) | echo-show-10 |
+| ![Preview](/icon-svg/echo-pop.svg) |echo-pop|
 
 ---
 
@@ -146,6 +148,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/aqara-vibration.svg) | aqara-vibration | ![Preview](/icon-svg/aqara-waterleak.svg) | aqara-waterleak
 | ![Preview](/icon-svg/aqara-dw-p2.svg) | aqara-dw-p2 | ![Preview](/icon-svg/aqara-g4.svg) | aqara-g4
 | ![Preview](/icon-svg/aqara-t1.svg) | aqara-t1 | ![Preview](/icon-svg/aqara-wirelessbutton.svg) | aqara-wirelessbutton
+| ![Preview](/icon-svg/aqara-e1.svg) | aqara-e1 |
 
 ---
 
