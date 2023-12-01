@@ -112,8 +112,8 @@
 | ![Preview](/icon-svg/echo-show-5-gen-2.svg) | echo-show-5-gen-2 | ![Preview](/icon-svg/echo-show-5-group.svg) | echo-show-5-group |
 | ![Preview](/icon-svg/echo-show-8-gen-2.svg) | echo-show-8-gen-2 | ![Preview](/icon-svg/echo-show-8-group.svg) | echo-show-8-group |
 | ![Preview](/icon-svg/echo-spot.svg) | echo-spot | ![Preview](/icon-svg/echo-show-15.svg) | echo-show-15 |
-| ![Preview](/icon-svg/echo-studio-2nd.svg) | echo-studio-2nd | ![Preview](/icon-svg/echo-show-10.svg) | echo-show-10 |
-| ![Preview](/icon-svg/echo-pop.svg) |echo-pop|
+| ![Preview](/icon-svg/echo-studio-2nd.svg) | echo-studio-2nd | ![Preview](/icon-svg/echo-show-10.svg) | echo-show-10 |  ![Preview](/icon-svg/echo-pop.svg) |echo-pop| 
+|  ![Preview](/icon-svg/echo-flex.svg) | echo-flex |
 
 ---
 
@@ -364,7 +364,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea) and [@Gtt1229](https://
 | ![Preview](/icon-svg/ikea-ps-2014-open.svg) | ikea-ps-2014-open | ![Preview](/icon-svg/ikea-ps-2014.svg) | ikea-ps-2014 |
 | ![Preview](/icon-svg/ikea-blind-remote.svg) | ikea-blind-remote | ![Preview](/icon-svg/ikea-remote.svg) | ikea-remote |
 | ![Preview](/icon-svg/ikea-paparlamp.svg) | ikea-paparlamp | ![Preview](/icon-svg/ikea-jakobsbyn.svg) | ikea-jakobsbyn
-| ![Preview](/icon-svg/ikea-dimmer.svg) | ikea-dimmer
+| ![Preview](/icon-svg/ikea-dimmer.svg) | ikea-dimmer  | ![Preview](/icon-svg/ikea-piskott.svg) | ikea-piskott |
 
 
 
@@ -507,6 +507,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/redbull-tv.svg) | redbull-tv | ![Preview](/icon-svg/rede_bandeirantes.svg) | rede_bandeirantes |
 | ![Preview](/icon-svg/soil-reading.svg) | soil-reading | ![Preview](/icon-svg/qbittorrent.svg) | qbittorrent |
 | ![Preview](/icon-svg/peloton.svg) | peloton |  ![Preview](/icon-svg/oura-o.svg) | oura-o |
+|  ![Preview](/icon-svg/ble-mesh.svg) | ble-mesh |  ![Preview](/icon-svg/euro.svg) | euro |
+|  ![Preview](/icon-svg/easee.svg) | easee |  ![Preview](/icon-svg/dts.svg) | dts |
 
 
 ---
@@ -720,6 +722,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/outdoor-motion.svg) | outdoor-motion | ![Preview](/icon-svg/tap-dial.svg) | tap-dial |
 | ![Preview](/icon-svg/go-portable-table.svg) | go-portable-table | ![Preview](/icon-svg/perifo-spot.svg) | perifo-spot |
 | ![Preview](/icon-svg/festavia.svg) | festavia |
+|  ![Preview](/icon-svg/centris-four.svg) | centris-four |
 
 ### Reolink
 
