@@ -507,8 +507,12 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/redbull-tv.svg) | redbull-tv | ![Preview](/icon-svg/rede_bandeirantes.svg) | rede_bandeirantes |
 | ![Preview](/icon-svg/soil-reading.svg) | soil-reading | ![Preview](/icon-svg/qbittorrent.svg) | qbittorrent |
 | ![Preview](/icon-svg/peloton.svg) | peloton |  ![Preview](/icon-svg/oura-o.svg) | oura-o |
-|  ![Preview](/icon-svg/ble-mesh.svg) | ble-mesh |  ![Preview](/icon-svg/euro.svg) | euro |
+|  ![Preview](/icon-svg/ble-mesh.svg) | ble-mesh |  ![Preview](/icon-svg/clock-euro.svg) | clock-euro |
 |  ![Preview](/icon-svg/easee.svg) | easee |  ![Preview](/icon-svg/dts.svg) | dts |
+|  ![Preview](/icon-svg/bluray.svg) | bluray |  ![Preview](/icon-svg/dvd.svg) | dvd |
+|  ![Preview](/icon-svg/extension-eu.svg) | extension-eu | ![Preview](/icon-svg/extension-uk.svg) | extension-uk |
+|  ![Preview](/icon-svg/extension-us.svg) | extension-us | ![Preview](/icon-svg/nintendo-switch-logo.svg) | nintendo-switch-logo |
+| ![Preview](/icon-svg/thread-net.svg) | thread-net |
 
 
 ---
@@ -795,7 +799,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/bridge.svg) | bridge | ![Preview](/icon-svg/mini.svg) | mini |
 | ![Preview](/icon-svg/smart-camera.svg) | smart-camera | ![Preview](/icon-svg/smart-plug-sonoff.svg) | smart-plug-sonoff |
 | ![Preview](/icon-svg/usb-smart-adaptor.svg) | usb-smart-adaptor | ![Preview](/icon-svg/window-sensor.svg) | window-sensor |
-| ![Preview](/icon-svg/nspro-panel.svg) | nspro-panel |
+| ![Preview](/icon-svg/nspro-panel.svg) | nspro-panel |  ![Preview](/icon-svg/sonoff-0p1.svg) | sonoff-0p1 |
 
 
 ---
@@ -895,9 +899,9 @@ Icons made by [@pinky007](https://github.com/pinky007) [@rchiileea](https://gith
 
 Icons made by [@rchiileea](https://github.com/rchiileea)
 
-| Icon | Name |
-| :--- | :--- |
-| ![Preview](/icon-svg/tp-link-tapo.svg) | tp-link-tapo |
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/tp-link-tapo.svg) | tp-link-tapo |![Preview](/icon-svg/tplink-re450.svg) | tplink-re450 |
 
 ---
 
