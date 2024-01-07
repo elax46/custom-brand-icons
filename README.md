@@ -313,7 +313,7 @@ Icons made by [@sandrybridge](https://github.com/sandrybridge)
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/google-home.svg) | google-home | ![Preview](/icon-svg/google-wifi-router.svg) | google-wifi-router | ![Preview](/icon-svg/home-mini.svg) | home-mini |
 | ![Preview](/icon-svg/nest-wifi-repeater.svg) | nest-wifi-repeater | ![Preview](/icon-svg/nest-wifi-router.svg) | nest-wifi-router
-| ![Preview](/icon-svg/nest-mini.svg) | nest-mini | ![Preview](/icon-svg/nest-mini-alt.svg) | nest-mini-alt |
+| ![Preview](/icon-svg/nest-mini.svg) | nest-mini | ![Preview](/icon-svg/nest-mini-alt.svg) | next-mini-alt |
 | ![Preview](/icon-svg/nest-audio.svg) | nest-audio  | ![Preview](/icon-svg/nest-hub.svg) | nest-hub |
 | ![Preview](/icon-svg/pixelwatch.svg) | pixelwatch | ![Preview](/icon-svg/google-pixel.svg) | google-pixel |
 | ![Preview](/icon-svg/chromecast.svg) | chromecast | ![Preview](/icon-svg/chromecast-alt.svg) | chromecast-alt
