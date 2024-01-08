@@ -148,7 +148,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/aqara-vibration.svg) | aqara-vibration | ![Preview](/icon-svg/aqara-waterleak.svg) | aqara-waterleak
 | ![Preview](/icon-svg/aqara-dw-p2.svg) | aqara-dw-p2 | ![Preview](/icon-svg/aqara-g4.svg) | aqara-g4
 | ![Preview](/icon-svg/aqara-t1.svg) | aqara-t1 | ![Preview](/icon-svg/aqara-wirelessbutton.svg) | aqara-wirelessbutton
-| ![Preview](/icon-svg/aqara-e1.svg) | aqara-e1 |
+| ![Preview](/icon-svg/aqara-e1.svg) | aqara-e1 | ![Preview](/icon-svg/aqara-m3.svg) | aqara-m3 |
+![Preview](/icon-svg/aqara-symphony-t1.svg) | aqara-symphony-t1 |
 
 ---
 
@@ -313,7 +314,7 @@ Icons made by [@sandrybridge](https://github.com/sandrybridge)
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/google-home.svg) | google-home | ![Preview](/icon-svg/google-wifi-router.svg) | google-wifi-router | ![Preview](/icon-svg/home-mini.svg) | home-mini |
 | ![Preview](/icon-svg/nest-wifi-repeater.svg) | nest-wifi-repeater | ![Preview](/icon-svg/nest-wifi-router.svg) | nest-wifi-router
-| ![Preview](/icon-svg/nest-mini.svg) | nest-mini | ![Preview](/icon-svg/nest-mini-alt.svg) | next-mini-alt |
+| ![Preview](/icon-svg/nest-mini.svg) | nest-mini | ![Preview](/icon-svg/nest-mini-alt.svg) | nest-mini-alt |
 | ![Preview](/icon-svg/nest-audio.svg) | nest-audio  | ![Preview](/icon-svg/nest-hub.svg) | nest-hub |
 | ![Preview](/icon-svg/pixelwatch.svg) | pixelwatch | ![Preview](/icon-svg/google-pixel.svg) | google-pixel |
 | ![Preview](/icon-svg/chromecast.svg) | chromecast | ![Preview](/icon-svg/chromecast-alt.svg) | chromecast-alt
@@ -512,7 +513,10 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 |  ![Preview](/icon-svg/bluray.svg) | bluray |  ![Preview](/icon-svg/dvd.svg) | dvd |
 |  ![Preview](/icon-svg/extension-eu.svg) | extension-eu | ![Preview](/icon-svg/extension-uk.svg) | extension-uk |
 |  ![Preview](/icon-svg/extension-us.svg) | extension-us | ![Preview](/icon-svg/nintendo-switch-logo.svg) | nintendo-switch-logo |
-| ![Preview](/icon-svg/thread-net.svg) | thread-net |
+| ![Preview](/icon-svg/thread-net.svg) | thread-net | ![Preview](/icon-svg/analogue.svg) | analogue |
+| ![Preview](/icon-svg/analogue-3d.svg) | analogue-3d | ![Preview](/icon-svg/bambu-lab.svg) | bambu-lab |
+![Preview](/icon-svg/bambu-lab-alt.svg) | bambu-lab-alt  | ![Preview](/icon-svg/grogu.svg) | grogu  
+|![Preview](/icon-svg/odido.svg) | odido | ![Preview](/icon-svg/valetudo.svg) | valetudo  
 
 
 ---
@@ -892,6 +896,9 @@ Icons made by [@pinky007](https://github.com/pinky007) [@rchiileea](https://gith
 | ![Preview](/icon-svg/start-tv.svg) | start-tv | ![Preview](/icon-svg/wink-tv.svg) | wink-tv |
 | ![Preview](/icon-svg/okko-tv.svg) | okko-tv | ![Preview](/icon-svg/more-tv.svg) | more-tv |
 | ![Preview](/icon-svg/homemati-ip.svg) | homemati-ip | ![Preview](/icon-svg/water-reservoir.svg) | water-reservoir | 
+| ![Preview](/icon-svg/caiway.svg) | caiway | ![Preview](/icon-svg/delta.svg) | delta |
+|![Preview](/icon-svg/kpn.svg) | kpn  |![Preview](/icon-svg/sky-alt.svg) | sky-alt
+|![Preview](/icon-svg/ziggo.svg) | ziggo  
 
 ---
 
