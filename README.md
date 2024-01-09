@@ -992,7 +992,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/bose-soundtouch.svg) | bose-soundtouch | ![Preview](/icon-svg/boses-oundwave.svg) | boses-oundwave |
+| ![Preview](/icon-svg/bose-soundtouch.svg) | bose-soundtouch | ![Preview](/icon-svg/boses-oundwave.svg) | bose-soundwave |
 
 ---
 
