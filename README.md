@@ -517,6 +517,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/analogue-3d.svg) | analogue-3d | ![Preview](/icon-svg/bambu-lab.svg) | bambu-lab |
 ![Preview](/icon-svg/bambu-lab-alt.svg) | bambu-lab-alt  | ![Preview](/icon-svg/grogu.svg) | grogu  
 |![Preview](/icon-svg/odido.svg) | odido | ![Preview](/icon-svg/valetudo.svg) | valetudo  
+| ![Preview](/icon-svg/octopusenergy.svg) | octopusenergy  
 
 
 ---
