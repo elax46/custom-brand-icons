@@ -19,6 +19,15 @@
 
 ### Make sure to [install](#installation-methods) `custom-brand-icons.js` into `configuration.yaml` or `ui-lovelace.yaml`
 
+## Iconify
+
+All icons are available in the [framework Iconify](https://github.com/iconify). You can use icons using the prefix `cbi`. Anyone who uses this icon set via the framework is reminded to comply with the license. For commercial purposes you can contact us
+
+- For all information  visit the website https://iconify.design
+- For use visit https://iconify.design/docs/usage/
+- Browse Icons  https://icon-sets.iconify.design/cbi/
+
+
 ## Index
 
 
