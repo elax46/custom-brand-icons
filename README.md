@@ -19,6 +19,15 @@
 
 ### Make sure to [install](#installation-methods) `custom-brand-icons.js` into `configuration.yaml` or `ui-lovelace.yaml`
 
+## Iconify
+
+All icons are available in the [framework Iconify](https://github.com/iconify). You can use icons using the prefix `cbi`. Anyone who uses this icon set via the framework is reminded to comply with the license. For commercial purposes you can contact us
+
+- For all information  visit the website https://iconify.design
+- For use visit https://iconify.design/docs/usage/
+- Browse Icons  https://icon-sets.iconify.design/cbi/
+
+
 ## Index
 
 
@@ -517,6 +526,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/analogue-3d.svg) | analogue-3d | ![Preview](/icon-svg/bambu-lab.svg) | bambu-lab |
 ![Preview](/icon-svg/bambu-lab-alt.svg) | bambu-lab-alt  | ![Preview](/icon-svg/grogu.svg) | grogu  
 |![Preview](/icon-svg/odido.svg) | odido | ![Preview](/icon-svg/valetudo.svg) | valetudo  
+| ![Preview](/icon-svg/octopusenergy.svg) | octopusenergy  
 
 
 ---
@@ -992,7 +1002,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/bose-soundtouch.svg) | bose-soundtouch | ![Preview](/icon-svg/boses-oundwave.svg) | boses-oundwave |
+| ![Preview](/icon-svg/bose-soundtouch.svg) | bose-soundtouch | ![Preview](/icon-svg/boses-oundwave.svg) | bose-soundwave |
 
 ---
 
