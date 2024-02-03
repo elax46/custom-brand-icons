@@ -158,7 +158,9 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/aqara-dw-p2.svg) | aqara-dw-p2 | ![Preview](/icon-svg/aqara-g4.svg) | aqara-g4
 | ![Preview](/icon-svg/aqara-t1.svg) | aqara-t1 | ![Preview](/icon-svg/aqara-wirelessbutton.svg) | aqara-wirelessbutton
 | ![Preview](/icon-svg/aqara-e1.svg) | aqara-e1 | ![Preview](/icon-svg/aqara-m3.svg) | aqara-m3 |
-![Preview](/icon-svg/aqara-symphony-t1.svg) | aqara-symphony-t1 |
+![Preview](/icon-svg/aqara-symphony-t1.svg) | aqara-symphony-t1 | ![Preview](/icon-svg/aqara-thermo-e1.svg) | aqara-thermo-e1 |
+![Preview](/icon-svg/aqara-z1-pro-1.svg) | aqara-z1-pro-1 | ![Preview](/icon-svg/aqara-z1-pro-2.svg) | aqara-z1-pro-2 |
+![Preview](/icon-svg/aqara-z1-pro-3.svg) | aqara-z1-pro-3 | ![Preview](/icon-svg/aqara-z1-pro-4.svg) | aqara-z1-pro-4 |
 
 ---
 
@@ -327,7 +329,11 @@ Icons made by [@sandrybridge](https://github.com/sandrybridge)
 | ![Preview](/icon-svg/nest-audio.svg) | nest-audio  | ![Preview](/icon-svg/nest-hub.svg) | nest-hub |
 | ![Preview](/icon-svg/pixelwatch.svg) | pixelwatch | ![Preview](/icon-svg/google-pixel.svg) | google-pixel |
 | ![Preview](/icon-svg/chromecast.svg) | chromecast | ![Preview](/icon-svg/chromecast-alt.svg) | chromecast-alt
-| ![Preview](/icon-svg/google-logo-circle.svg) | google-logo-circle |
+| ![Preview](/icon-svg/google-logo-circle.svg) | google-logo-circle |![Preview](/icon-svg/nest-hub.svg) | nest-hub  | 
+|![Preview](/icon-svg/next-hub-max.svg) | next-hub-max   |![Preview](/icon-svg/tplink-router.svg) | tplink-router  | 
+
+
+ 
 
 ---
 
@@ -908,7 +914,11 @@ Icons made by [@pinky007](https://github.com/pinky007) [@rchiileea](https://gith
 | ![Preview](/icon-svg/homemati-ip.svg) | homemati-ip | ![Preview](/icon-svg/water-reservoir.svg) | water-reservoir | 
 | ![Preview](/icon-svg/caiway.svg) | caiway | ![Preview](/icon-svg/delta.svg) | delta |
 |![Preview](/icon-svg/kpn.svg) | kpn  |![Preview](/icon-svg/sky-alt.svg) | sky-alt
-|![Preview](/icon-svg/ziggo.svg) | ziggo  
+|![Preview](/icon-svg/ziggo.svg) | ziggo  | ![Preview](/icon-svg/amc.svg) | amc  | 
+|![Preview](/icon-svg/binge.svg) | binge  |![Preview](/icon-svg/stan.svg) | stan  | 
+|![Preview](/icon-svg/stan-sport.svg) | stan-sport  | 
+
+
 
 ---
 
