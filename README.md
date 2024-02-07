@@ -1054,6 +1054,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/yeelight-beside-lamp.svg) | yeelight-beside-lamp | ![Preview](/icon-svg/yeelight-bulb.svg) | yeelight-bulb |
 | ![Preview](/icon-svg/yeelight-bulb-group.svg) | yeelight-bulb-group | ![Preview](/icon-svg/yeelight-ceiling.svg) | yeelight-ceiling |
 | ![Preview](/icon-svg/yeelight-desklamp.svg) | yeelight-desklamp | ![Preview](/icon-svg/yeelight-strip.svg) | yeelight-strip |
+| ![Preview](/icon-svg/yeelight-cube.svg) | yeelight-cube | ![Preview](/icon-svg/yeelight-cube2.svg) | yeelight-cube2 |
 
   ---
 
