@@ -493,7 +493,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/qmusic_radio.svg) | qmusic_radio | ![Preview](/icon-svg/top_radio.svg) | top_radio | ![Preview](/icon-svg/wppilot.svg) | wppilot |
 | ![Preview](/icon-svg/overseerr.svg) | overseerr | ![Preview](/icon-svg/f1.svg) | f1 |
 | ![Preview](/icon-svg/radarr.svg) | radarr | ![Preview](/icon-svg/sonarr.svg) | sonarr |
-| ![Preview](/icon-svg/sonarr.svg) | sonarr | ![Preview](/icon-svg/jellyseerr.svg) | jellyseerr | ![Preview](/icon-svg/ceiling-fan-alt.svg) | ceiling-fan-alt |
+| ![Preview](/icon-svg/sonarr.svg) | sonarr | ![Preview](/icon-svg/jellyseerr.svg) | jellyseerr | ![Preview](/icon-svg/prowlarr.svg) | prowlarr |
+| ![Preview](/icon-svg/ceiling-fan-alt.svg) | ceiling-fan-alt |
 | ![Preview](/icon-svg/victoria-m.svg) | victoria-m | ![Preview](/icon-svg/mainsail.svg) | mainsail |
 | ![Preview](/icon-svg/mg.svg) | mg | ![Preview](/icon-svg/voron.svg) | voron |
 | ![Preview](/icon-svg/homey.svg) | homey | ![Preview](/icon-svg/openmediavault.svg) | openmediavault |
