@@ -29,6 +29,8 @@ All icons are available in the [framework Iconify](https://github.com/iconify). 
 - For use visit https://iconify.design/docs/usage/
 - Browse Icons  https://icon-sets.iconify.design/cbi/
 
+# Icon Requests
+Please read the Icon request info near bottom of page as failing to follow this in a request post will result in rejection
 
 ## Index
 
@@ -1189,7 +1191,8 @@ type: entities
 # Icon Requests
 
 Want an icon? Open a [custom icon request](https://github.com/elax46/custom-brand-icons/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) or [contribute to the project](#developer-workflow).
--  Provide a **svg file** along with your request.
+-  Provide a **svg file and jpg logo of your request** and a image along with your request.
+-  (links to SVG's or Images will be ignored you must upload the files into your request, ignoring this will result in request being ignored).
 -  For those who [made their own icons](#developer-workflow), open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
 
 # Thanks for your support
