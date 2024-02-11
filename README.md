@@ -10,7 +10,7 @@
 
 # Custom brand icons
 
-![logo](https://res.cloudinary.com/dcongin7u/image/upload/v1707320837/cbi-logo.jpg)
+![logo](https://github.com/rchiileea/IMAGES/blob/main/main-logo-youtube.png)
 
 #### Custom brand icons use the prefix `phu:`
 #### Append Name (of the icon) after `phu:`
