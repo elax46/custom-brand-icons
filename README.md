@@ -10,14 +10,12 @@
 
 # Custom brand icons
 
-![logo](https://github.com/rchiileea/IMAGES/blob/main/main-logo-youtube.png)
+![2FA](https://res.cloudinary.com/dcongin7u/image/upload/v1620853194/example_pwvozi.jpg)
 
 #### Custom brand icons use the prefix `phu:`
 #### Append Name (of the icon) after `phu:`
 - Example: `phu:eggs` ![Preview](/icon-svg/eggs.svg)
 - Example: `phu:chicken` ![Preview](/icon-svg/chicken.svg)
-
-![example](https://res.cloudinary.com/dcongin7u/image/upload/v1620853194/example_pwvozi.jpg)
 
 ### Make sure to [install](#installation-methods) `custom-brand-icons.js` into `configuration.yaml` or `ui-lovelace.yaml`
 
@@ -29,8 +27,6 @@ All icons are available in the [framework Iconify](https://github.com/iconify). 
 - For use visit https://iconify.design/docs/usage/
 - Browse Icons  https://icon-sets.iconify.design/cbi/
 
-# Icon Requests
-Please read the Icon request info near bottom of page as failing to follow this in a request post will result in rejection
 
 ## Index
 
@@ -497,7 +493,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/qmusic_radio.svg) | qmusic_radio | ![Preview](/icon-svg/top_radio.svg) | top_radio | ![Preview](/icon-svg/wppilot.svg) | wppilot |
 | ![Preview](/icon-svg/overseerr.svg) | overseerr | ![Preview](/icon-svg/f1.svg) | f1 |
 | ![Preview](/icon-svg/radarr.svg) | radarr | ![Preview](/icon-svg/sonarr.svg) | sonarr |
-| ![Preview](/icon-svg/sonarr.svg) | sonarr | ![Preview](/icon-svg/jellyseerr.svg) | jellyseerr | ![Preview](/icon-svg/ceiling-fan-alt.svg) | ceiling-fan-alt |
+| ![Preview](/icon-svg/sonarr.svg) | sonarr | ![Preview](/icon-svg/jellyseerr.svg) | jellyseerr |
+| ![Preview](/icon-svg/prowlarr.svg) | prowlarr | ![Preview](/icon-svg/ceiling-fan-alt.svg) | ceiling-fan-alt |
 | ![Preview](/icon-svg/victoria-m.svg) | victoria-m | ![Preview](/icon-svg/mainsail.svg) | mainsail |
 | ![Preview](/icon-svg/mg.svg) | mg | ![Preview](/icon-svg/voron.svg) | voron |
 | ![Preview](/icon-svg/homey.svg) | homey | ![Preview](/icon-svg/openmediavault.svg) | openmediavault |
@@ -1056,7 +1053,6 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/yeelight-beside-lamp.svg) | yeelight-beside-lamp | ![Preview](/icon-svg/yeelight-bulb.svg) | yeelight-bulb |
 | ![Preview](/icon-svg/yeelight-bulb-group.svg) | yeelight-bulb-group | ![Preview](/icon-svg/yeelight-ceiling.svg) | yeelight-ceiling |
 | ![Preview](/icon-svg/yeelight-desklamp.svg) | yeelight-desklamp | ![Preview](/icon-svg/yeelight-strip.svg) | yeelight-strip |
-| ![Preview](/icon-svg/yeelight-cube.svg) | yeelight-cube | ![Preview](/icon-svg/yeelight-cube2.svg) | yeelight-cube2 |
 
   ---
 
