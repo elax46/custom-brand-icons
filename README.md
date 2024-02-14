@@ -1,3 +1,4 @@
+
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/elax46/custom-brand-icons)](https://github.com/elax46/custom-brand-icons/releases/latest)
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
@@ -9,6 +10,7 @@
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
 # Custom brand icons
+
 
 ![2FA](https://res.cloudinary.com/dcongin7u/image/upload/v1620853194/example_pwvozi.jpg)
 
@@ -161,6 +163,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 ![Preview](/icon-svg/aqara-symphony-t1.svg) | aqara-symphony-t1 | ![Preview](/icon-svg/aqara-thermo-e1.svg) | aqara-thermo-e1 |
 ![Preview](/icon-svg/aqara-z1-pro-1.svg) | aqara-z1-pro-1 | ![Preview](/icon-svg/aqara-z1-pro-2.svg) | aqara-z1-pro-2 |
 ![Preview](/icon-svg/aqara-z1-pro-3.svg) | aqara-z1-pro-3 | ![Preview](/icon-svg/aqara-z1-pro-4.svg) | aqara-z1-pro-4 |
+| ![Preview](/icon-svg/aqara-a100.svg) | aqara-a100 |[Preview](/icon-svg/aqara-n100.svg) | aqara-n100 |
+| ![Preview](/icon-svg/aqara-u100.svg) | aqara-u100 |
 
 ---
 
@@ -493,7 +497,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/qmusic_radio.svg) | qmusic_radio | ![Preview](/icon-svg/top_radio.svg) | top_radio | ![Preview](/icon-svg/wppilot.svg) | wppilot |
 | ![Preview](/icon-svg/overseerr.svg) | overseerr | ![Preview](/icon-svg/f1.svg) | f1 |
 | ![Preview](/icon-svg/radarr.svg) | radarr | ![Preview](/icon-svg/sonarr.svg) | sonarr |
-| ![Preview](/icon-svg/sonarr.svg) | sonarr | ![Preview](/icon-svg/jellyseerr.svg) | jellyseerr | ![Preview](/icon-svg/ceiling-fan-alt.svg) | ceiling-fan-alt |
+| ![Preview](/icon-svg/jellyseerr.svg) | jellyseerr | ![Preview](/icon-svg/prowlarr.svg) | prowlarr | 
+| ![Preview](/icon-svg/ceiling-fan-alt.svg) | ceiling-fan-alt |
 | ![Preview](/icon-svg/victoria-m.svg) | victoria-m | ![Preview](/icon-svg/mainsail.svg) | mainsail |
 | ![Preview](/icon-svg/mg.svg) | mg | ![Preview](/icon-svg/voron.svg) | voron |
 | ![Preview](/icon-svg/homey.svg) | homey | ![Preview](/icon-svg/openmediavault.svg) | openmediavault |
@@ -532,7 +537,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/analogue-3d.svg) | analogue-3d | ![Preview](/icon-svg/bambu-lab.svg) | bambu-lab |
 ![Preview](/icon-svg/bambu-lab-alt.svg) | bambu-lab-alt  | ![Preview](/icon-svg/grogu.svg) | grogu  
 |![Preview](/icon-svg/odido.svg) | odido | ![Preview](/icon-svg/valetudo.svg) | valetudo  
-| ![Preview](/icon-svg/octopusenergy.svg) | octopusenergy  
+| ![Preview](/icon-svg/octopusenergy.svg) | octopusenergy | ![Preview](/icon-svg/tuenaero.svg) | tuenaero | 
 
 
 ---
@@ -916,7 +921,7 @@ Icons made by [@pinky007](https://github.com/pinky007) [@rchiileea](https://gith
 |![Preview](/icon-svg/kpn.svg) | kpn  |![Preview](/icon-svg/sky-alt.svg) | sky-alt
 |![Preview](/icon-svg/ziggo.svg) | ziggo  | ![Preview](/icon-svg/amc.svg) | amc  | 
 |![Preview](/icon-svg/binge.svg) | binge  |![Preview](/icon-svg/stan.svg) | stan  | 
-|![Preview](/icon-svg/stan-sport.svg) | stan-sport  | 
+|![Preview](/icon-svg/stan-sport.svg) | stan-sport  | ![Preview](/icon-svg/globoplay.svg) | globoplay |
 
 
 
@@ -1264,3 +1269,4 @@ window.customIconsets["yourprefix"] = getIcon;
 ### Contributions and Pull Requests
 After adding your svg icon in `icon-svg`, modifying `custom-brand-icons.js`, and updating `README.md.`
 Open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
+

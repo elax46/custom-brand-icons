@@ -8,7 +8,7 @@
 # Custom brand icons
 Custom brand icons for Home Assistant
 
-![2FA](https://res.cloudinary.com/dcongin7u/image/upload/v1620853194/example_pwvozi.jpg)
+![logo](https://res.cloudinary.com/dcongin7u/image/upload/v1707320837/cbi-logo.jpg)
 
 # Install
 
