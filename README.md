@@ -161,6 +161,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 ![Preview](/icon-svg/aqara-symphony-t1.svg) | aqara-symphony-t1 | ![Preview](/icon-svg/aqara-thermo-e1.svg) | aqara-thermo-e1 |
 ![Preview](/icon-svg/aqara-z1-pro-1.svg) | aqara-z1-pro-1 | ![Preview](/icon-svg/aqara-z1-pro-2.svg) | aqara-z1-pro-2 |
 ![Preview](/icon-svg/aqara-z1-pro-3.svg) | aqara-z1-pro-3 | ![Preview](/icon-svg/aqara-z1-pro-4.svg) | aqara-z1-pro-4 |
+| ![Preview](/icon-svg/aqara-a100.svg) | aqara-a100 |[Preview](/icon-svg/aqara-n100.svg) | aqara-n100 |
+| ![Preview](/icon-svg/aqara-u100.svg) | aqara-u100 |
 
 ---
 
@@ -533,7 +535,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/analogue-3d.svg) | analogue-3d | ![Preview](/icon-svg/bambu-lab.svg) | bambu-lab |
 ![Preview](/icon-svg/bambu-lab-alt.svg) | bambu-lab-alt  | ![Preview](/icon-svg/grogu.svg) | grogu  
 |![Preview](/icon-svg/odido.svg) | odido | ![Preview](/icon-svg/valetudo.svg) | valetudo  
-| ![Preview](/icon-svg/octopusenergy.svg) | octopusenergy  
+| ![Preview](/icon-svg/octopusenergy.svg) | octopusenergy | ![Preview](/icon-svg/tuenaero.svg) | tuenaero | 
 
 
 ---
@@ -917,7 +919,7 @@ Icons made by [@pinky007](https://github.com/pinky007) [@rchiileea](https://gith
 |![Preview](/icon-svg/kpn.svg) | kpn  |![Preview](/icon-svg/sky-alt.svg) | sky-alt
 |![Preview](/icon-svg/ziggo.svg) | ziggo  | ![Preview](/icon-svg/amc.svg) | amc  | 
 |![Preview](/icon-svg/binge.svg) | binge  |![Preview](/icon-svg/stan.svg) | stan  | 
-|![Preview](/icon-svg/stan-sport.svg) | stan-sport  | 
+|![Preview](/icon-svg/stan-sport.svg) | stan-sport  | [Preview](/icon-svg/globoplay.svg) | globoplay |
 
 
 
