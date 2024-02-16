@@ -334,7 +334,7 @@ Icons made by [@sandrybridge](https://github.com/sandrybridge)
 | ![Preview](/icon-svg/pixelwatch.svg) | pixelwatch | ![Preview](/icon-svg/google-pixel.svg) | google-pixel |
 | ![Preview](/icon-svg/chromecast.svg) | chromecast | ![Preview](/icon-svg/chromecast-alt.svg) | chromecast-alt
 | ![Preview](/icon-svg/google-logo-circle.svg) | google-logo-circle |![Preview](/icon-svg/nest-hub.svg) | nest-hub  | 
-|![Preview](/icon-svg/next-hub-max.svg) | next-hub-max   |![Preview](/icon-svg/tplink-router.svg) | tplink-router  | 
+|![Preview](/icon-svg/next-hub-max.svg) | nest-hub-max   |![Preview](/icon-svg/tplink-router.svg) | tplink-router  | 
 
 
  
