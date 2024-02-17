@@ -11,8 +11,7 @@
 
 # Custom brand icons
 
-
-![2FA](https://res.cloudinary.com/dcongin7u/image/upload/v1620853194/example_pwvozi.jpg)
+![logo](https://res.cloudinary.com/dcongin7u/image/upload/v1707320837/cbi-logo.jpg)
 
 #### Custom brand icons use the prefix `phu:`
 #### Append Name (of the icon) after `phu:`
@@ -20,6 +19,8 @@
 - Example: `phu:chicken` ![Preview](/icon-svg/chicken.svg)
 
 ### Make sure to [install](#installation-methods) `custom-brand-icons.js` into `configuration.yaml` or `ui-lovelace.yaml`
+
+![2FA](https://res.cloudinary.com/dcongin7u/image/upload/v1620853194/example_pwvozi.jpg)
 
 ## Iconify
 
@@ -333,8 +334,7 @@ Icons made by [@sandrybridge](https://github.com/sandrybridge)
 | ![Preview](/icon-svg/nest-audio.svg) | nest-audio  | ![Preview](/icon-svg/nest-hub.svg) | nest-hub |
 | ![Preview](/icon-svg/pixelwatch.svg) | pixelwatch | ![Preview](/icon-svg/google-pixel.svg) | google-pixel |
 | ![Preview](/icon-svg/chromecast.svg) | chromecast | ![Preview](/icon-svg/chromecast-alt.svg) | chromecast-alt
-| ![Preview](/icon-svg/google-logo-circle.svg) | google-logo-circle |![Preview](/icon-svg/nest-hub.svg) | nest-hub  | 
-|![Preview](/icon-svg/next-hub-max.svg) | nest-hub-max   |![Preview](/icon-svg/tplink-router.svg) | tplink-router  | 
+| ![Preview](/icon-svg/google-logo-circle.svg) | google-logo-circle |![Preview](/icon-svg/next-hub-max.svg) | nest-hub-max   
 
 
  
@@ -934,6 +934,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/tp-link-tapo.svg) | tp-link-tapo |![Preview](/icon-svg/tplink-re450.svg) | tplink-re450 |
+| ![Preview](/icon-svg/tplink-router.svg) | tplink-router  | 
 
 ---
 
