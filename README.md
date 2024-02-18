@@ -385,8 +385,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea) and [@Gtt1229](https://
 | ![Preview](/icon-svg/ikea-blind-remote.svg) | ikea-blind-remote | ![Preview](/icon-svg/ikea-remote.svg) | ikea-remote |
 | ![Preview](/icon-svg/ikea-paparlamp.svg) | ikea-paparlamp | ![Preview](/icon-svg/ikea-jakobsbyn.svg) | ikea-jakobsbyn
 | ![Preview](/icon-svg/ikea-dimmer.svg) | ikea-dimmer  | ![Preview](/icon-svg/ikea-piskott.svg) | ikea-piskott |
-
-
+| ![Preview](/icon-svg/ikea-fado.svg) | ikea-fado  |  |  |
 
 ---
 
