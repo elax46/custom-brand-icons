@@ -55,6 +55,7 @@ All icons are available in the [framework Iconify](https://github.com/iconify). 
     - [Fritz](#fritz)
     - [Garbage Collection](#garbage-collection)
     - [Google](#google)
+    - [Govee](#govee)
     - [HA Addons](#ha-addons)
     - [House Rooms](#house-rooms)
     - [IKEA](#ikea)
@@ -336,10 +337,13 @@ Icons made by [@sandrybridge](https://github.com/sandrybridge)
 | ![Preview](/icon-svg/chromecast.svg) | chromecast | ![Preview](/icon-svg/chromecast-alt.svg) | chromecast-alt
 | ![Preview](/icon-svg/google-logo-circle.svg) | google-logo-circle |![Preview](/icon-svg/next-hub-max.svg) | nest-hub-max   
 
-
- 
-
 ---
+
+### Govee
+
+| Icon | Name 
+| :--- | :--- 
+| ![Preview](/icon-svg/govee-h6076.svg) | govee-h6076
 
 ### HA Addons
 
