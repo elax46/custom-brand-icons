@@ -1165,6 +1165,22 @@ type: entities
 
 # Don't see the icon?
 
+### Cache issue HomeAssistant 2024.1.1
+
+Some addons (including official) have had some [cache issues since 2024.1.1]([https://](https://github.com/elax46/custom-brand-icons/issues/560)), here are a few work arounds to try
+
+1. first go to settings, dashboard and 3 dots click resorces, add resource
+
+    ```yaml
+    /hacsfiles/custom-brand-icons/custom-brand-icons.js?hacstag=366862031202420
+    ```
+
+2. Add this second resource too
+    ```yaml
+    /local/community/custom-brand-icons/custom-brand-icons.js
+    ```
+
+
 #### Hard Reload (browser cache issue)
 - Reload browser by holding CTRL and pressing F5.
 - For Mac, hold ⌘ CMD and ⇧ SHIFT, then press R.
