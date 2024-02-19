@@ -55,6 +55,7 @@ All icons are available in the [framework Iconify](https://github.com/iconify). 
     - [Fritz](#fritz)
     - [Garbage Collection](#garbage-collection)
     - [Google](#google)
+    - [Govee](#govee)
     - [HA Addons](#ha-addons)
     - [House Rooms](#house-rooms)
     - [IKEA](#ikea)
@@ -336,10 +337,13 @@ Icons made by [@sandrybridge](https://github.com/sandrybridge)
 | ![Preview](/icon-svg/chromecast.svg) | chromecast | ![Preview](/icon-svg/chromecast-alt.svg) | chromecast-alt
 | ![Preview](/icon-svg/google-logo-circle.svg) | google-logo-circle |![Preview](/icon-svg/next-hub-max.svg) | nest-hub-max   
 
-
- 
-
 ---
+
+### Govee
+
+| Icon | Name 
+| :--- | :--- 
+| ![Preview](/icon-svg/govee-h6076.svg) | govee-h6076
 
 ### HA Addons
 
@@ -385,8 +389,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea) and [@Gtt1229](https://
 | ![Preview](/icon-svg/ikea-blind-remote.svg) | ikea-blind-remote | ![Preview](/icon-svg/ikea-remote.svg) | ikea-remote |
 | ![Preview](/icon-svg/ikea-paparlamp.svg) | ikea-paparlamp | ![Preview](/icon-svg/ikea-jakobsbyn.svg) | ikea-jakobsbyn
 | ![Preview](/icon-svg/ikea-dimmer.svg) | ikea-dimmer  | ![Preview](/icon-svg/ikea-piskott.svg) | ikea-piskott |
-
-
+| ![Preview](/icon-svg/ikea-fado.svg) | ikea-fado  |  |  |
 
 ---
 
@@ -1164,6 +1167,22 @@ type: entities
 ---
 
 # Don't see the icon?
+
+### Cache issue HomeAssistant 2024.1.1
+
+Some addons (including official) have had some [cache issues since 2024.1.1]([https://](https://github.com/elax46/custom-brand-icons/issues/560)), here are a few work arounds to try
+
+1. first go to settings, dashboard and 3 dots click resorces, add resource
+
+    ```yaml
+    /hacsfiles/custom-brand-icons/custom-brand-icons.js?hacstag=366862031202420
+    ```
+
+2. Add this second resource too
+    ```yaml
+    /local/community/custom-brand-icons/custom-brand-icons.js
+    ```
+
 
 #### Hard Reload (browser cache issue)
 - Reload browser by holding CTRL and pressing F5.
