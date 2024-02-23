@@ -542,6 +542,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 |![Preview](/icon-svg/odido.svg) | odido | ![Preview](/icon-svg/valetudo.svg) | valetudo  
 | ![Preview](/icon-svg/octopusenergy.svg) | octopusenergy | ![Preview](/icon-svg/tuenaero.svg) | tuenaero | 
 | ![Preview](/icon-svg/irobot.svg) | irobot | ![Preview](/icon-svg/ecovacs.svg) | ecovacs |
+| ![Preview](/icon-svg/atari-console.svg) | atari-console | ![Preview](/icon-svg/nes-console.svg) | nes-console |
+| ![Preview](/icon-svg/scart.svg) | scart |
 
 
 ---
