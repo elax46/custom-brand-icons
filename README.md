@@ -541,6 +541,9 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 ![Preview](/icon-svg/bambu-lab-alt.svg) | bambu-lab-alt  | ![Preview](/icon-svg/grogu.svg) | grogu  
 |![Preview](/icon-svg/odido.svg) | odido | ![Preview](/icon-svg/valetudo.svg) | valetudo  
 | ![Preview](/icon-svg/octopusenergy.svg) | octopusenergy | ![Preview](/icon-svg/tuenaero.svg) | tuenaero | 
+| ![Preview](/icon-svg/irobot.svg) | irobot | ![Preview](/icon-svg/ecovacs.svg) | ecovacs |
+| ![Preview](/icon-svg/atari-console.svg) | atari-console | ![Preview](/icon-svg/nes-console.svg) | nes-console |
+| ![Preview](/icon-svg/scart.svg) | scart |
 
 
 ---
@@ -970,6 +973,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 ### Pedastal
 
 Icons made by [@rchiileea](https://github.com/rchiileea)
+For a guide on how to use this please visit the post [here](https://github.com/elax46/custom-brand-icons/discussions/358).
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
