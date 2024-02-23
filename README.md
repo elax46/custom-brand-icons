@@ -970,12 +970,12 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 ### Pedastal
 
 Icons made by [@rchiileea](https://github.com/rchiileea)
+For a guide on how to use this please visit the post [here](https://github.com/elax46/custom-brand-icons/discussions/358).
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/pedastal-fan.svg) | pedastal-fan | ![Preview](/icon-svg/pedastal-fan-hollow.svg) | pedastal-fan-hollow |
 | ![Preview](/icon-svg/fan-blade.svg) | fan-blade |
-For a guide on how to use this please visit the post [here](https://github.com/elax46/custom-brand-icons/discussions/358).
 
 ---
 
