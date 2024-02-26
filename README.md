@@ -232,6 +232,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/mazda.svg) | mazda | ![Preview](/icon-svg/cupra.svg) | cupra |
 | ![Preview](/icon-svg/landrover.svg) | landrover | ![Preview](/icon-svg/mustang.svg) | mustang |
 | ![Preview](/icon-svg/hyundai-ioniq.svg) | hyundai-ioniq | ![Preview](/icon-svg/car-fob.svg) | car-fob
+| ![Preview](/icon-svg/suzuki.svg) | suzuki |
 
 ---
 
@@ -543,7 +544,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/octopusenergy.svg) | octopusenergy | ![Preview](/icon-svg/tuenaero.svg) | tuenaero | 
 | ![Preview](/icon-svg/irobot.svg) | irobot | ![Preview](/icon-svg/ecovacs.svg) | ecovacs |
 | ![Preview](/icon-svg/atari-console.svg) | atari-console | ![Preview](/icon-svg/nes-console.svg) | nes-console |
-| ![Preview](/icon-svg/scart.svg) | scart |
+| ![Preview](/icon-svg/scart.svg) | scart | ![Preview](/icon-svg/extractor-fan.svg) | extractor-fan |
+| ![Preview](/icon-svg/govee-h6046.svg) | govee-h6046 | ![Preview](/icon-svg/hobby.svg) | hobby |
 
 
 ---
