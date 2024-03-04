@@ -546,7 +546,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/atari-console.svg) | atari-console | ![Preview](/icon-svg/nes-console.svg) | nes-console |
 | ![Preview](/icon-svg/scart.svg) | scart | ![Preview](/icon-svg/extractor-fan.svg) | extractor-fan |
 | ![Preview](/icon-svg/govee-h6046.svg) | govee-h6046 | ![Preview](/icon-svg/hobby.svg) | hobby |
-
+| ![Preview](/icon-svg/goaccess.svg) | goaccess |  | |
 
 ---
 
