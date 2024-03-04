@@ -358,6 +358,7 @@ Icons made by [@sandrybridge](https://github.com/sandrybridge)
 ![Preview](/icon-svg/samba.svg) | samba | ![Preview](/icon-svg/esphome.svg) | esphome |
 ![Preview](/icon-svg/nodered.svg) | nodered | ![Preview](/icon-svg/vaultwarden.svg) | vaultwarden |
 ![Preview](/icon-svg/letsencrypt.svg) | letsencrypt | ![Preview](/icon-svg/ipmi2mqtt.svg) | ipmi2mqtt |
+![Preview](/icon-svg/zigbee2mqtt.svg) | zigbee2mqtt
 
 ### House Rooms
 
