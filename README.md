@@ -933,6 +933,7 @@ Icons made by [@pinky007](https://github.com/pinky007) [@rchiileea](https://gith
 |![Preview](/icon-svg/ziggo.svg) | ziggo  | ![Preview](/icon-svg/amc.svg) | amc  | 
 |![Preview](/icon-svg/binge.svg) | binge  |![Preview](/icon-svg/stan.svg) | stan  | 
 |![Preview](/icon-svg/stan-sport.svg) | stan-sport  | ![Preview](/icon-svg/globoplay.svg) | globoplay |
+|![Preview](/icon-svg/channel-4-uk.svg) | Channel 4 (UK) | | |
 
 
 
