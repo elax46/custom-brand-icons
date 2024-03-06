@@ -548,7 +548,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/scart.svg) | scart | ![Preview](/icon-svg/extractor-fan.svg) | extractor-fan |
 | ![Preview](/icon-svg/govee-h6046.svg) | govee-h6046 | ![Preview](/icon-svg/hobby.svg) | hobby |
 | ![Preview](/icon-svg/transmission-bt.svg) | transmission-bt | ![Preview](/icon-svg/vanguard.svg) | vanguard |
-| ![Preview](/icon-svg/monzo.svg) | monzo | |  |
+| ![Preview](/icon-svg/monzo.svg) | monzo | ![Preview](/icon-svg/goaccess.svg) | goaccess |
 
 
 ---
