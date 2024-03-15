@@ -1048,6 +1048,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/n64.svg) | n64 | ![Preview](/icon-svg/sega.svg) | sega |
 | ![Preview](/icon-svg/gamecube.svg) | gamecube | ![Preview](/icon-svg/dreamcast.svg) | dreamcast |
 | ![Preview](/icon-svg/sega-saturn.svg) | sega-saturn | ![Preview](/icon-svg/genesis-vgs.svg) | genesis-vgs |
+| ![Preview](/icon-svg/playstation.svg) | playstation | ![Preview](/icon-svg/playstation-5.svg) | playstation-5 |
+| ![Preview](/icon-svg/playstation-4.svg) | playstation-4 | ![Preview](/icon-svg/playstation-3.svg) | playstation-3 |
 
 
  ### Cryptocurrency
