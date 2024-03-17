@@ -18,6 +18,13 @@
 - Example: `phu:eggs` ![Preview](/icon-svg/eggs.svg)
 - Example: `phu:chicken` ![Preview](/icon-svg/chicken.svg)
 
+# Icon Requests
+
+Want an icon? Open a [custom icon request](https://github.com/elax46/custom-brand-icons/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) or [contribute to the project](#developer-workflow).
+-  Provide a **svg file and jpg logo of your request (we also are not mind readers and dont know every icon globaly so if no name is present please add it** and a image along with your request.
+-  (links to SVG's or Images will be ignored you must upload the files into your request, ignoring this will result in request being ignored).
+-  For those who [made their own icons](#developer-workflow), open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
+
 ### Make sure to [install](#installation-methods) `custom-brand-icons.js` into `configuration.yaml` or `ui-lovelace.yaml`
 
 ![2FA](https://res.cloudinary.com/dcongin7u/image/upload/v1620853194/example_pwvozi.jpg)
@@ -1217,13 +1224,6 @@ Some addons (including official) have had some [cache issues since 2024.1.1]([ht
 6. Find *Custom brand icons* and select it.
 7. On the bottom right, select the big blue *Download* icon.
 8. **Hard reload** browser.
-
-# Icon Requests
-
-Want an icon? Open a [custom icon request](https://github.com/elax46/custom-brand-icons/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) or [contribute to the project](#developer-workflow).
--  Provide a **svg file and jpg logo of your request** and a image along with your request.
--  (links to SVG's or Images will be ignored you must upload the files into your request, ignoring this will result in request being ignored).
--  For those who [made their own icons](#developer-workflow), open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
 
 # Thanks for your support
 
