@@ -22,7 +22,7 @@
 
 Want an icon? Open a [custom icon request](https://github.com/elax46/custom-brand-icons/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) or [contribute to the project](#developer-workflow).
 -  Provide a **svg file and jpg logo of your request (we also are not mind readers and dont know every icon globaly so if no name is present please add it** and a image along with your request.
--  (links to SVG's or Images will be ignored you must upload the files into your request, ignoring this will result in request being ignored).
+-  links to SVG's or Images will be ignored you must upload the files into your request, ignoring this will result in request being ignored. (if you can not be bothered to spend a few minutes doing this, why should we spend time making it).
 -  For those who [made their own icons](#developer-workflow), open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
 
 ### Make sure to [install](#installation-methods) `custom-brand-icons.js` into `configuration.yaml` or `ui-lovelace.yaml`
