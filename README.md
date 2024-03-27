@@ -18,6 +18,13 @@
 - Example: `phu:eggs` ![Preview](/icon-svg/eggs.svg)
 - Example: `phu:chicken` ![Preview](/icon-svg/chicken.svg)
 
+# Icon Requests
+
+Want an icon? Open a [custom icon request](https://github.com/elax46/custom-brand-icons/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) or [contribute to the project](#developer-workflow).
+-  Provide a **svg file and jpg logo of your request (we also are not mind readers and dont know every icon globaly so if no name is present please add it** and a image along with your request.
+-  links to SVG's or Images will be ignored you must upload the files into your request, ignoring this will result in request being ignored. (if you can not be bothered to spend a few minutes doing this, why should we spend time making it).
+-  For those who [made their own icons](#developer-workflow), open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
+
 ### Make sure to [install](#installation-methods) `custom-brand-icons.js` into `configuration.yaml` or `ui-lovelace.yaml`
 
 ![2FA](https://res.cloudinary.com/dcongin7u/image/upload/v1620853194/example_pwvozi.jpg)
@@ -358,6 +365,7 @@ Icons made by [@sandrybridge](https://github.com/sandrybridge)
 ![Preview](/icon-svg/samba.svg) | samba | ![Preview](/icon-svg/esphome.svg) | esphome |
 ![Preview](/icon-svg/nodered.svg) | nodered | ![Preview](/icon-svg/vaultwarden.svg) | vaultwarden |
 ![Preview](/icon-svg/letsencrypt.svg) | letsencrypt | ![Preview](/icon-svg/ipmi2mqtt.svg) | ipmi2mqtt |
+![Preview](/icon-svg/zigbee2mqtt.svg) | zigbee2mqtt
 
 ### House Rooms
 
@@ -546,6 +554,9 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/atari-console.svg) | atari-console | ![Preview](/icon-svg/nes-console.svg) | nes-console |
 | ![Preview](/icon-svg/scart.svg) | scart | ![Preview](/icon-svg/extractor-fan.svg) | extractor-fan |
 | ![Preview](/icon-svg/govee-h6046.svg) | govee-h6046 | ![Preview](/icon-svg/hobby.svg) | hobby |
+| ![Preview](/icon-svg/transmission-bt.svg) | transmission-bt | ![Preview](/icon-svg/vanguard.svg) | vanguard |
+| ![Preview](/icon-svg/monzo.svg) | monzo | ![Preview](/icon-svg/goaccess.svg) | goaccess |
+| ![Preview](/icon-svg/play-bar-one.svg) | play-bar-one |![Preview](/icon-svg/meta.svg) | meta |
 
 
 ---
@@ -848,6 +859,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/sonos-move.svg) | sonos-move | ![Preview](/icon-svg/sonos-one.svg) | sonos-one |
 | ![Preview](/icon-svg/sonos-playbar.svg) | sonos-playbar | ![Preview](/icon-svg/sonos-sub.svg) | sonos-sub |
 | ![Preview](/icon-svg/sonos-play-3.svg) | sonos-play-3 | ![Preview](/icon-svg/sonos-port.svg) | sonos-port |
+| ![Preview](/icon-svg/sonos-ray.svg) | sonos-ray |
 
 ---
 
@@ -930,6 +942,7 @@ Icons made by [@pinky007](https://github.com/pinky007) [@rchiileea](https://gith
 |![Preview](/icon-svg/ziggo.svg) | ziggo  | ![Preview](/icon-svg/amc.svg) | amc  | 
 |![Preview](/icon-svg/binge.svg) | binge  |![Preview](/icon-svg/stan.svg) | stan  | 
 |![Preview](/icon-svg/stan-sport.svg) | stan-sport  | ![Preview](/icon-svg/globoplay.svg) | globoplay |
+|![Preview](/icon-svg/channel-4-uk.svg) | Channel 4 (UK) | | |
 
 
 
@@ -1048,6 +1061,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/n64.svg) | n64 | ![Preview](/icon-svg/sega.svg) | sega |
 | ![Preview](/icon-svg/gamecube.svg) | gamecube | ![Preview](/icon-svg/dreamcast.svg) | dreamcast |
 | ![Preview](/icon-svg/sega-saturn.svg) | sega-saturn | ![Preview](/icon-svg/genesis-vgs.svg) | genesis-vgs |
+| ![Preview](/icon-svg/playstation.svg) | playstation | ![Preview](/icon-svg/playstation-5.svg) | playstation-5 |
+| ![Preview](/icon-svg/playstation-4.svg) | playstation-4 | ![Preview](/icon-svg/playstation-3.svg) | playstation-3 |
 
 
  ### Cryptocurrency
@@ -1214,13 +1229,6 @@ Some addons (including official) have had some [cache issues since 2024.1.1]([ht
 7. On the bottom right, select the big blue *Download* icon.
 8. **Hard reload** browser.
 
-# Icon Requests
-
-Want an icon? Open a [custom icon request](https://github.com/elax46/custom-brand-icons/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) or [contribute to the project](#developer-workflow).
--  Provide a **svg file and jpg logo of your request** and a image along with your request.
--  (links to SVG's or Images will be ignored you must upload the files into your request, ignoring this will result in request being ignored).
--  For those who [made their own icons](#developer-workflow), open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
-
 # Thanks for your support
 
 Thanks, as always, to the precious contribution to [@rchiileea](https://github.com/rchiileea) for the creation of the required icons!
@@ -1295,4 +1303,3 @@ window.customIconsets["yourprefix"] = getIcon;
 ### Contributions and Pull Requests
 After adding your svg icon in `icon-svg`, modifying `custom-brand-icons.js`, and updating `README.md.`
 Open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
-
