@@ -556,6 +556,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/govee-h6046.svg) | govee-h6046 | ![Preview](/icon-svg/hobby.svg) | hobby |
 | ![Preview](/icon-svg/transmission-bt.svg) | transmission-bt | ![Preview](/icon-svg/vanguard.svg) | vanguard |
 | ![Preview](/icon-svg/monzo.svg) | monzo | ![Preview](/icon-svg/goaccess.svg) | goaccess |
+| ![Preview](/icon-svg/play-bar-one.svg) | play-bar-one |![Preview](/icon-svg/meta.svg) | meta |
 
 
 ---
@@ -858,6 +859,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/sonos-move.svg) | sonos-move | ![Preview](/icon-svg/sonos-one.svg) | sonos-one |
 | ![Preview](/icon-svg/sonos-playbar.svg) | sonos-playbar | ![Preview](/icon-svg/sonos-sub.svg) | sonos-sub |
 | ![Preview](/icon-svg/sonos-play-3.svg) | sonos-play-3 | ![Preview](/icon-svg/sonos-port.svg) | sonos-port |
+| ![Preview](/icon-svg/sonos-ray.svg) | sonos-ray |
 
 ---
 
