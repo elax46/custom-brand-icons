@@ -6,7 +6,6 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-animate.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-aria.min.js"></script>
@@ -15,47 +14,64 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-sanitize.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-114/svg-assets-cache.js"></script>
-
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
     <script src="../dist/custom-brand-icons.js"></script>
-    <script src="script.js"></script>
+    <script src="iconfinder.js"></script>
 </head>
-<body>
-<div ng-controller="DemoCtrl as ctrl" ng-cloak="" class="autocompletedemoCustomTemplate" ng-app="finder">
-    <div flex-xs="" flex-gt-sm="50">
-        <md-content layout-padding="" layout="column" flex="">
-            <form ng-submit="$event.preventDefault()">
-                <p>Search icons</p>
-                <md-autocomplete md-selected-item="selectedIcon" id="custom-template" ng-disabled="ctrl.isDisabled" md-no-cache="ctrl.noCache" md-selected-item="ctrl.selectedItem" md-search-text-change="ctrl.searchTextChange(ctrl.searchText)" md-search-text="ctrl.searchText" md-selected-item-change="ctrl.selectedItemChange(item)" md-items="item in ctrl.querySearch(ctrl.searchText)" md-item-text="item.name" md-min-length="0" md-escape-options="clear" input-aria-label="Current Icon" placeholder="Pick a Hass Hue Icon" md-menu-class="autocomplete-custom-template" md-menu-container-class="custom-container">
-                    <md-item-template>
-              <span class="item-title">
-                  <md-icon><svg viewBox="0 0 24 24" height="24px" width="24px" fill="#44739e" xmlns="http://www.w3.org/2000/svg"><path d="{{item.path}}"></path></svg></md-icon>
-                <span>phu:{{item.name}} </span>
-              </span>
-              <span class="item-metadata">
-                <span>
-                  <strong>Aliases:</strong> {{item.aliases}}
-                </span>
-              </span>
-                    </md-item-template>
-                </md-autocomplete>
-            </form>
-        </md-content>
-
-        <md-content layout-padding="" layout="column" data-ng-if="selectedIcon" flex="">
-            <md-card>
+<body data-ng-controller="AppCtrl" data-ng-app="aaIconFinder">
+<div id="outer">
+    <div layout-padding="">
+        <md-card>
+            <md-card-title layout="row">
+                <md-card-title-text flex="">
+                    <span class="md-headline">
+                        <span data-ng-if="!externalLibrary">Custom Brand Icons </span>
+                        <span data-ng-if="externalLibrary">Icon Library </span>
+                        Cheat Sheet
+                    </span>
+                    <span class="md-subhead">Use the search box below to look for
+                         <span data-ng-if="!externalLibrary">a fixture name, bulb type or keyword</span>
+                         <span data-ng-if="externalLibrary">an icon by name or keyword</span>
+                    </span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+                <md-input-container class="md-block" flex="">
+                    <label>
+                        <span data-ng-if="!externalLibrary">Fixture name, bulb type or keyword</span>
+                        <span data-ng-if="externalLibrary">Icon name or keyword</span>
+                    </label>
+                    <input ng-model="searchTerm">
+                    <md-button class="md-raised md-primary btn-xs"
+                               data-ng-if="searchTerm"
+                               data-ng-click="copyDirectLink()">Copy direct link to this search</md-button>
+                </md-input-container>
+                <div data-ng-if="!externalLibrary">
+                    Examples:
+                    <md-button class="groupX left" data-ng-click="updateSearchTerm('tv')">Tv</md-button>
+                    <md-button class="groupX right" data-ng-click="updateSearchTerm('pendant')">pendant</md-button>
+                </div>
+            </md-card-content>
+        </md-card>
+        <md-content layout="row" layout-wrap="">
+            <md-card data-ng-repeat="icon in icons | filter:matchesSearchTerm"
+                     flex-xs="100"
+                     flex-sm="50"
+                     flex-md="33"
+                     flex-gt-md="25"
+                     class="no-margin-card">
                 <md-card-title>
                     <md-card-title-text>
-                        <span class="md-headline">phu:{{selectedIcon.name}}</span>
-                        <span class="md-subhead">{{selectedIcon.aliases}}</span>
+                        <span class="md-headline"><span data-ng-if="!externalLibrary">phu:</span>{{icon.name}}</span>
+                        <span class="md-subhead">{{icon.aliases}}</span>
                     </md-card-title-text>
                     <md-card-title-media>
                         <div class="md-media-xl card-media">
-                            <svg viewBox="0 0 24 24" width="70" fill="#44739e" xmlns="http://www.w3.org/2000/svg"><path d="{{selectedIcon.path}}"></path></svg></md-icon>
+                            <svg viewBox="0 0 24 24" width="70" fill="#44739e" xmlns="http://www.w3.org/2000/svg"><path ng-attr-d="{{icon.path}}"></path></svg></md-icon>
                         </div>
                     </md-card-title-media>
                 </md-card-title>
@@ -63,6 +79,4 @@
         </md-content>
     </div>
 </div>
-
-
 </body>
