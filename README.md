@@ -398,7 +398,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea) and [@Gtt1229](https://
 | ![Preview](/icon-svg/ikea-blind-remote.svg) | ikea-blind-remote | ![Preview](/icon-svg/ikea-remote.svg) | ikea-remote |
 | ![Preview](/icon-svg/ikea-paparlamp.svg) | ikea-paparlamp | ![Preview](/icon-svg/ikea-jakobsbyn.svg) | ikea-jakobsbyn
 | ![Preview](/icon-svg/ikea-dimmer.svg) | ikea-dimmer  | ![Preview](/icon-svg/ikea-piskott.svg) | ikea-piskott |
-| ![Preview](/icon-svg/ikea-fado.svg) | ikea-fado  |  |  |
+| ![Preview](/icon-svg/ikea-fado.svg) | ikea-fado  | ![Preview](/icon-svg/ikea-sinnerlig.svg) | ikea-sinnerlig |
 
 ---
 
@@ -510,8 +510,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/overseerr.svg) | overseerr | ![Preview](/icon-svg/f1.svg) | f1 |
 | ![Preview](/icon-svg/radarr.svg) | radarr | ![Preview](/icon-svg/sonarr.svg) | sonarr |
 | ![Preview](/icon-svg/jellyseerr.svg) | jellyseerr | ![Preview](/icon-svg/prowlarr.svg) | prowlarr | 
-| ![Preview](/icon-svg/ceiling-fan-alt.svg) | ceiling-fan-alt |
-| ![Preview](/icon-svg/victoria-m.svg) | victoria-m | ![Preview](/icon-svg/mainsail.svg) | mainsail |
+| ![Preview](/icon-svg/ceiling-fan-alt.svg) | ceiling-fan-alt | ![Preview](/icon-svg/victoria-m.svg) | victoria-m | ![Preview](/icon-svg/mainsail.svg) | mainsail |
 | ![Preview](/icon-svg/mg.svg) | mg | ![Preview](/icon-svg/voron.svg) | voron |
 | ![Preview](/icon-svg/homey.svg) | homey | ![Preview](/icon-svg/openmediavault.svg) | openmediavault |
 | ![Preview](/icon-svg/vtm-alt.svg) | vtm-alt | ![Preview](/icon-svg/sabnzbd.svg) | sabnzbd |
@@ -546,8 +545,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 |  ![Preview](/icon-svg/extension-eu.svg) | extension-eu | ![Preview](/icon-svg/extension-uk.svg) | extension-uk |
 |  ![Preview](/icon-svg/extension-us.svg) | extension-us | ![Preview](/icon-svg/nintendo-switch-logo.svg) | nintendo-switch-logo |
 | ![Preview](/icon-svg/thread-net.svg) | thread-net | ![Preview](/icon-svg/analogue.svg) | analogue |
-| ![Preview](/icon-svg/analogue-3d.svg) | analogue-3d | ![Preview](/icon-svg/bambu-lab.svg) | bambu-lab |
-![Preview](/icon-svg/bambu-lab-alt.svg) | bambu-lab-alt  | ![Preview](/icon-svg/grogu.svg) | grogu  
+| ![Preview](/icon-svg/analogue-3d.svg) | analogue-3d | ![Preview](/icon-svg/grogu.svg) | grogu  
 |![Preview](/icon-svg/odido.svg) | odido | ![Preview](/icon-svg/valetudo.svg) | valetudo  
 | ![Preview](/icon-svg/octopusenergy.svg) | octopusenergy | ![Preview](/icon-svg/tuenaero.svg) | tuenaero | 
 | ![Preview](/icon-svg/irobot.svg) | irobot | ![Preview](/icon-svg/ecovacs.svg) | ecovacs |
@@ -557,6 +555,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/transmission-bt.svg) | transmission-bt | ![Preview](/icon-svg/vanguard.svg) | vanguard |
 | ![Preview](/icon-svg/monzo.svg) | monzo | ![Preview](/icon-svg/goaccess.svg) | goaccess |
 | ![Preview](/icon-svg/play-bar-one.svg) | play-bar-one |![Preview](/icon-svg/meta.svg) | meta |
+|![Preview](/icon-svg/mealie.svg) | mealie |![Preview](/icon-svg/cowboy-ebike.svg) | cowboy-ebike |
+|![Preview](/icon-svg/cowboy-ebike-alt.svg) | cowboy-ebike-alt |
 
 
 ---
@@ -859,7 +859,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/sonos-move.svg) | sonos-move | ![Preview](/icon-svg/sonos-one.svg) | sonos-one |
 | ![Preview](/icon-svg/sonos-playbar.svg) | sonos-playbar | ![Preview](/icon-svg/sonos-sub.svg) | sonos-sub |
 | ![Preview](/icon-svg/sonos-play-3.svg) | sonos-play-3 | ![Preview](/icon-svg/sonos-port.svg) | sonos-port |
-| ![Preview](/icon-svg/sonos-ray.svg) | sonos-ray |
+| ![Preview](/icon-svg/sonos-ray.svg) | sonos-ray | ![Preview](/icon-svg/sonos-sub-mini.svg) | sonos-sub-mini |
 
 ---
 
@@ -1108,6 +1108,15 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/pool-filter.svg) | pool-filter | ![Preview](/icon-svg/pool-depth.svg) | pool-depth
 | ![Preview](/icon-svg/pool-salinty.svg) | pool-salinty | ![Preview](/icon-svg/pool-clorine.svg) | pool-clorine |
 ![Preview](/icon-svg/pool-electric-lvl.svg) | pool-electric-lvl | ![Preview](/icon-svg/pool-disolved.svg) | pool-disolved |
+
+---
+### Bambulab
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+ | ![Preview](/icon-svg/bambu-lab.svg) | bambu-lab |![Preview](/icon-svg/bambu-lab-alt.svg) | bambu-lab-alt  |
+ | ![Preview](/icon-svg/a1-mini.svg) | a1-mini | ![Preview](/icon-svg/P1S.svg) | p1s |
+
 
 # Installation Methods
 
