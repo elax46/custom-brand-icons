@@ -398,7 +398,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea) and [@Gtt1229](https://
 | ![Preview](/icon-svg/ikea-blind-remote.svg) | ikea-blind-remote | ![Preview](/icon-svg/ikea-remote.svg) | ikea-remote |
 | ![Preview](/icon-svg/ikea-paparlamp.svg) | ikea-paparlamp | ![Preview](/icon-svg/ikea-jakobsbyn.svg) | ikea-jakobsbyn
 | ![Preview](/icon-svg/ikea-dimmer.svg) | ikea-dimmer  | ![Preview](/icon-svg/ikea-piskott.svg) | ikea-piskott |
-| ![Preview](/icon-svg/ikea-fado.svg) | ikea-fado  |  |  |
+| ![Preview](/icon-svg/ikea-fado.svg) | ikea-fado  | ![Preview](/icon-svg/ikea-sinnerlig.svg) | ikea-sinnerlig |
 
 ---
 
@@ -557,6 +557,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/transmission-bt.svg) | transmission-bt | ![Preview](/icon-svg/vanguard.svg) | vanguard |
 | ![Preview](/icon-svg/monzo.svg) | monzo | ![Preview](/icon-svg/goaccess.svg) | goaccess |
 | ![Preview](/icon-svg/play-bar-one.svg) | play-bar-one |![Preview](/icon-svg/meta.svg) | meta |
+|![Preview](/icon-svg/mealie.svg) | mealie |![Preview](/icon-svg/cowboy-ebike.svg) | cowboy-ebike |
+|![Preview](/icon-svg/cowboy-ebike-alt.svg) | cowboy-ebike-alt |
 
 
 ---
@@ -859,7 +861,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/sonos-move.svg) | sonos-move | ![Preview](/icon-svg/sonos-one.svg) | sonos-one |
 | ![Preview](/icon-svg/sonos-playbar.svg) | sonos-playbar | ![Preview](/icon-svg/sonos-sub.svg) | sonos-sub |
 | ![Preview](/icon-svg/sonos-play-3.svg) | sonos-play-3 | ![Preview](/icon-svg/sonos-port.svg) | sonos-port |
-| ![Preview](/icon-svg/sonos-ray.svg) | sonos-ray |
+| ![Preview](/icon-svg/sonos-ray.svg) | sonos-ray | ![Preview](/icon-svg/sonos-sub-mini.svg) | sonos-sub-mini |
 
 ---
 
@@ -1108,6 +1110,14 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/pool-filter.svg) | pool-filter | ![Preview](/icon-svg/pool-depth.svg) | pool-depth
 | ![Preview](/icon-svg/pool-salinty.svg) | pool-salinty | ![Preview](/icon-svg/pool-clorine.svg) | pool-clorine |
 ![Preview](/icon-svg/pool-electric-lvl.svg) | pool-electric-lvl | ![Preview](/icon-svg/pool-disolved.svg) | pool-disolved |
+
+---
+### Bambulab
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/a1-mini.svg) | a1-mini | ![Preview](/icon-svg/P1S.svg) | p1s |
+
 
 # Installation Methods
 
