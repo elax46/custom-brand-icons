@@ -510,8 +510,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/overseerr.svg) | overseerr | ![Preview](/icon-svg/f1.svg) | f1 |
 | ![Preview](/icon-svg/radarr.svg) | radarr | ![Preview](/icon-svg/sonarr.svg) | sonarr |
 | ![Preview](/icon-svg/jellyseerr.svg) | jellyseerr | ![Preview](/icon-svg/prowlarr.svg) | prowlarr | 
-| ![Preview](/icon-svg/ceiling-fan-alt.svg) | ceiling-fan-alt |
-| ![Preview](/icon-svg/victoria-m.svg) | victoria-m | ![Preview](/icon-svg/mainsail.svg) | mainsail |
+| ![Preview](/icon-svg/ceiling-fan-alt.svg) | ceiling-fan-alt | ![Preview](/icon-svg/victoria-m.svg) | victoria-m | ![Preview](/icon-svg/mainsail.svg) | mainsail |
 | ![Preview](/icon-svg/mg.svg) | mg | ![Preview](/icon-svg/voron.svg) | voron |
 | ![Preview](/icon-svg/homey.svg) | homey | ![Preview](/icon-svg/openmediavault.svg) | openmediavault |
 | ![Preview](/icon-svg/vtm-alt.svg) | vtm-alt | ![Preview](/icon-svg/sabnzbd.svg) | sabnzbd |
@@ -546,8 +545,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 |  ![Preview](/icon-svg/extension-eu.svg) | extension-eu | ![Preview](/icon-svg/extension-uk.svg) | extension-uk |
 |  ![Preview](/icon-svg/extension-us.svg) | extension-us | ![Preview](/icon-svg/nintendo-switch-logo.svg) | nintendo-switch-logo |
 | ![Preview](/icon-svg/thread-net.svg) | thread-net | ![Preview](/icon-svg/analogue.svg) | analogue |
-| ![Preview](/icon-svg/analogue-3d.svg) | analogue-3d | ![Preview](/icon-svg/bambu-lab.svg) | bambu-lab |
-![Preview](/icon-svg/bambu-lab-alt.svg) | bambu-lab-alt  | ![Preview](/icon-svg/grogu.svg) | grogu  
+| ![Preview](/icon-svg/analogue-3d.svg) | analogue-3d | ![Preview](/icon-svg/grogu.svg) | grogu  
 |![Preview](/icon-svg/odido.svg) | odido | ![Preview](/icon-svg/valetudo.svg) | valetudo  
 | ![Preview](/icon-svg/octopusenergy.svg) | octopusenergy | ![Preview](/icon-svg/tuenaero.svg) | tuenaero | 
 | ![Preview](/icon-svg/irobot.svg) | irobot | ![Preview](/icon-svg/ecovacs.svg) | ecovacs |
@@ -1116,7 +1114,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
-| ![Preview](/icon-svg/a1-mini.svg) | a1-mini | ![Preview](/icon-svg/P1S.svg) | p1s |
+ | ![Preview](/icon-svg/bambu-lab.svg) | bambu-lab |![Preview](/icon-svg/bambu-lab-alt.svg) | bambu-lab-alt  |
+ | ![Preview](/icon-svg/a1-mini.svg) | a1-mini | ![Preview](/icon-svg/P1S.svg) | p1s |
 
 
 # Installation Methods
