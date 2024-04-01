@@ -110,7 +110,7 @@ app.controller('AppCtrl', ['$scope', '$http','$mdToast',
                             path: my_icon.path,
                             keywords:keywords,
                             aliases: aliases,
-                            value: ('hue:' + my_list[icon].name + ' ' + aliases).toLowerCase()
+                            value: ('phu:' + my_list[icon].name + ' ' + aliases).toLowerCase()
                         });
                         $scope.$applyAsync();
                     })
@@ -136,9 +136,9 @@ app.controller('AppCtrl', ['$scope', '$http','$mdToast',
 
         $scope.newWindow = function (library) {
             if (typeof library === "undefined"){
-                window.open('iconfinder.html');
+                window.open('index.html');
             }else{
-            window.open('iconfinder.html?library=' + library.url);
+            window.open('index.html?library=' + library.url);
             }
         }
 
