@@ -1,0 +1,68 @@
+.md-autocomplete-suggestions-container li {
+    border-bottom: 1px solid #ccc;
+    height: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    white-space: normal;
+}
+
+.item-title,
+.item-metadata {
+    display: block;
+    line-height: 2;
+}
+.item-title md-icon {
+    height: 24px;
+    width: 24px;
+}
+.no-margin-card{
+    margin:0;
+    padding:3px;
+    border-top:1px solid #e0e0e0;
+    border-radius:0;
+}
+
+.groupX {
+    font-size: 16px;
+    margin: 20px 0;
+    padding: 3px 15px 3px 15px;
+    color: white;
+    background-color: #44739e;
+    text-transform: none;
+    font-weight: 400;
+    min-width:100px;
+}
+
+.md-button.left {
+    border-radius: 10px 0 0 10px;
+}
+
+.md-button.middle {
+    border-radius: 0;
+    border-left: 1px solid rgba(230, 230, 230, 0.96);
+    border-right: 1px solid rgba(230, 230, 230, 0.96);
+}
+
+.md-button.right {
+    border-radius: 0 10px 10px 0;
+}
+
+.md-button:not([disabled]):hover {
+    background-color: rgba(193, 193, 193, 0.96);
+    color: black;
+    transition: 0.3s;
+}
+
+.md-raised {
+    background-color: #44739e !important;
+}
+
+.md-raised:hover{
+    background-color: rgba(193, 193, 193, 0.96) !important;
+    color: black !important;
+}
+
+.md-input-focused {
+    color: #44739e !important;
+
+}
