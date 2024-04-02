@@ -399,6 +399,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea) and [@Gtt1229](https://
 | ![Preview](/icon-svg/ikea-paparlamp.svg) | ikea-paparlamp | ![Preview](/icon-svg/ikea-jakobsbyn.svg) | ikea-jakobsbyn
 | ![Preview](/icon-svg/ikea-dimmer.svg) | ikea-dimmer  | ![Preview](/icon-svg/ikea-piskott.svg) | ikea-piskott |
 | ![Preview](/icon-svg/ikea-fado.svg) | ikea-fado  | ![Preview](/icon-svg/ikea-sinnerlig.svg) | ikea-sinnerlig |
+| ![Preview](/icon-svg/ikea-floalt-panel.svg) | ikea-floalt-panel  | ![Preview](/icon-svg/ikea-gunnarp-panel.svg) | ikea-gunnarp-panel |
+| ![Preview](/icon-svg/ikea-gunnarp-round.svg) | ikea-gunnarp-round | ![Preview](/icon-svg/ikea-vidja.svg) | ikea-vidja |
 
 ---
 
@@ -556,7 +558,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/monzo.svg) | monzo | ![Preview](/icon-svg/goaccess.svg) | goaccess |
 | ![Preview](/icon-svg/play-bar-one.svg) | play-bar-one |![Preview](/icon-svg/meta.svg) | meta |
 |![Preview](/icon-svg/mealie.svg) | mealie |![Preview](/icon-svg/cowboy-ebike.svg) | cowboy-ebike |
-|![Preview](/icon-svg/cowboy-ebike-alt.svg) | cowboy-ebike-alt |
+|![Preview](/icon-svg/cowboy-ebike-alt.svg) | cowboy-ebike-alt | ![Preview](/icon-svg/authentik.svg) | authentik |
 
 
 ---
@@ -769,8 +771,9 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/ls-spot-iris-group-v2.svg) | ls-spot-iris-group-v2 | ![Preview](/icon-svg/ls-sultan-iris-group-v2.svg) | ls-sultan-iris-group-v2 |
 | ![Preview](/icon-svg/outdoor-motion.svg) | outdoor-motion | ![Preview](/icon-svg/tap-dial.svg) | tap-dial |
 | ![Preview](/icon-svg/go-portable-table.svg) | go-portable-table | ![Preview](/icon-svg/perifo-spot.svg) | perifo-spot |
-| ![Preview](/icon-svg/festavia.svg) | festavia |
-|  ![Preview](/icon-svg/centris-four.svg) | centris-four |
+| ![Preview](/icon-svg/festavia.svg) | festavia |  ![Preview](/icon-svg/centris-four.svg) | centris-four |
+|  ![Preview](/icon-svg/hue-sync-strip.svg) | hue-sync-strip |
+
 
 ### Reolink
 
@@ -1116,6 +1119,17 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | :--- | :--- | :--- | :--- |
  | ![Preview](/icon-svg/bambu-lab.svg) | bambu-lab |![Preview](/icon-svg/bambu-lab-alt.svg) | bambu-lab-alt  |
  | ![Preview](/icon-svg/a1-mini.svg) | a1-mini | ![Preview](/icon-svg/P1S.svg) | p1s |
+
+ ---
+
+## Floors
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/upstairs-1.svg) | upstairs-1 | ![Preview](/icon-svg/upstairs-2.svg) | upstairs-2
+| ![Preview](/icon-svg/upstairs-3.svg) | upstairs-3 | ![Preview](/icon-svg/upstairs-4.svg) | upstairs-4
+| ![Preview](/icon-svg/upstairs.svg) | upstairs | ![Preview](/icon-svg/downstairs.svg) | downstairs
+| ![Preview](/icon-svg/downstairs-basement.svg) | downstairs-basement | ![Preview](/icon-svg/downstairs-ground.svg) | downstairs-ground
 
 
 # Installation Methods
