@@ -92,12 +92,11 @@ app.controller('AppCtrl', ['$scope', '$http','$mdToast',
 
         $scope.importFromScript = function () {
             console.log('importing!');
-
             $scope.icons = [];
-            let icon_list = getIconList(); 
+            let icon_list = getIconList();
             icon_list.then(function(my_list){
                 for(const icon in my_list){
-                    let this_icon = getIcon(my_list[icon].name); 
+                    let this_icon = getIcon(my_list[icon].name);
                     this_icon.then(function(my_icon){
                         console.log('adding', my_list[icon].name);
                         let keywords = my_list[icon].keywords,
@@ -118,6 +117,7 @@ app.controller('AppCtrl', ['$scope', '$http','$mdToast',
             });
         };
 
+        
         $scope.matchesSearchTerm = function (icon) {
             if (!$scope.searchTerm) {
                 return true;
@@ -136,9 +136,9 @@ app.controller('AppCtrl', ['$scope', '$http','$mdToast',
 
         $scope.newWindow = function (library) {
             if (typeof library === "undefined"){
-                window.open('index.html');
+                window.open('iconfinder.html');
             }else{
-            window.open('index.html?library=' + library.url);
+            window.open('iconfinder.html?library=' + library.url);
             }
         }
 
