@@ -98,7 +98,6 @@ app.controller('AppCtrl', ['$scope', '$http','$mdToast',
                 for(const icon in my_list){
                     let this_icon = getIcon(my_list[icon].name);
                     this_icon.then(function(my_icon){
-                        console.log('adding', my_list[icon].name);
                         let keywords = my_list[icon].keywords,
                             aliases = keywords
                                 ? keywords.join(', ')
