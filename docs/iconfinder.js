@@ -117,7 +117,7 @@ app.controller('AppCtrl', ['$scope', '$http','$mdToast',
             });
         };
 
-        
+
         $scope.matchesSearchTerm = function (icon) {
             if (!$scope.searchTerm) {
                 return true;
@@ -136,9 +136,9 @@ app.controller('AppCtrl', ['$scope', '$http','$mdToast',
 
         $scope.newWindow = function (library) {
             if (typeof library === "undefined"){
-                window.open('iconfinder.html');
+                window.open('index.html');
             }else{
-            window.open('iconfinder.html?library=' + library.url);
+            window.open('index.html?library=' + library.url);
             }
         }
 
