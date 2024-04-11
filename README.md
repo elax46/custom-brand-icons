@@ -559,7 +559,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/play-bar-one.svg) | play-bar-one |![Preview](/icon-svg/meta.svg) | meta |
 |![Preview](/icon-svg/mealie.svg) | mealie |![Preview](/icon-svg/cowboy-ebike.svg) | cowboy-ebike |
 |![Preview](/icon-svg/cowboy-ebike-alt.svg) | cowboy-ebike-alt | ![Preview](/icon-svg/authentik.svg) | authentik |
-
+|![Preview](/icon-svg/trakt.svg) | trakt | ![Preview](/icon-svg/unraid.svg) | unraid |
 
 ---
 
@@ -888,7 +888,12 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/model-s-charge-side.svg) | model-s-charge-side | ![Preview](/icon-svg/model-s-charge.svg) | model-s-charge |
 | ![Preview](/icon-svg/model-s-side.svg) | model-s-side | ![Preview](/icon-svg/model-s.svg) | model-s |
 | ![Preview](/icon-svg/model-x-charge.svg) | model-x-charge | ![Preview](/icon-svg/model-x-open.svg) | model-x-open |
-| ![Preview](/icon-svg/tesla-icon.svg) | tesla-icon |
+| ![Preview](/icon-svg/tesla-icon.svg) | tesla-icon | ![Preview](/icon-svg/tesla-defrost.svg) | tesla-defrost |
+| ![Preview](/icon-svg/tesla-fan.svg) | tesla-fan | ![Preview](/icon-svg/tesla-fart.svg) | tesla-fart |
+| ![Preview](/icon-svg/tesla-flash.svg) | tesla-flash | ![Preview](/icon-svg/tesla-hood.svg) | tesla-hood |
+| ![Preview](/icon-svg/tesla-lock.svg) | tesla-lock | ![Preview](/icon-svg/tesla-open.svg) | tesla-open |
+| ![Preview](/icon-svg/tesla-sentry.svg) | tesla-sentry | ![Preview](/icon-svg/tesla-start.svg) | tesla-start |
+| ![Preview](/icon-svg/tesla-trunk.svg) | tesla-trunk | ![Preview](/icon-svg/tesla-vent.svg) | tesla-vent |
 
 ---
 
