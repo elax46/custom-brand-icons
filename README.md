@@ -173,7 +173,10 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 ![Preview](/icon-svg/aqara-z1-pro-1.svg) | aqara-z1-pro-1 | ![Preview](/icon-svg/aqara-z1-pro-2.svg) | aqara-z1-pro-2 |
 ![Preview](/icon-svg/aqara-z1-pro-3.svg) | aqara-z1-pro-3 | ![Preview](/icon-svg/aqara-z1-pro-4.svg) | aqara-z1-pro-4 |
 | ![Preview](/icon-svg/aqara-a100.svg) | aqara-a100 |[Preview](/icon-svg/aqara-n100.svg) | aqara-n100 |
-| ![Preview](/icon-svg/aqara-u100.svg) | aqara-u100 |
+| ![Preview](/icon-svg/aqara-u100.svg) | aqara-u100 | ![Preview](/icon-svg/aqara-bodyfat-scale.svg) | aqara-bodyfat-scale |
+| ![Preview](/icon-svg/aqara-camera-g5.svg) | aqara-camera-g5 | ![Preview](/icon-svg/aqara-h1-1.svg) | aqara-h1-1 |
+| ![Preview](/icon-svg/aqara-h1-2.svg) | aqara-h1-2 | ![Preview](/icon-svg/aqara-h1-3.svg) | aqara-h1-3 |
+| ![Preview](/icon-svg/aqara-h1-dimmer.svg) | aqara-h1-dimmer |
 
 ---
 
@@ -560,6 +563,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 |![Preview](/icon-svg/mealie.svg) | mealie |![Preview](/icon-svg/cowboy-ebike.svg) | cowboy-ebike |
 |![Preview](/icon-svg/cowboy-ebike-alt.svg) | cowboy-ebike-alt | ![Preview](/icon-svg/authentik.svg) | authentik |
 |![Preview](/icon-svg/trakt.svg) | trakt | ![Preview](/icon-svg/unraid.svg) | unraid |
+|![Preview](/icon-svg/ewelink.svg) | ewelink | ![Preview](/icon-svg/tower-fan.svg) | tower-fan |
+| ![Preview](/icon-svg/tuya.svg) | tuya |
 
 ---
 
@@ -1123,7 +1128,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
  | ![Preview](/icon-svg/bambu-lab.svg) | bambu-lab |![Preview](/icon-svg/bambu-lab-alt.svg) | bambu-lab-alt  |
- | ![Preview](/icon-svg/a1-mini.svg) | a1-mini | ![Preview](/icon-svg/P1S.svg) | p1s |
+ | ![Preview](/icon-svg/a1-mini.svg) | a1-mini | ![Preview](/icon-svg/3d-fillement.svg) | 3d-fillement |
+ 
 
  ---
 
