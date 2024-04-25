@@ -17,19 +17,11 @@ app.controller('AppCtrl', ['$scope', '$http','$mdToast',
                 ? params.get('search')
                 : '';
 
-            if (params.get('library')) {
-                console.log('loading external library');
 
-                $scope.externalLibrary = params.get('library');
-                $scope.activeExternalLibrary = $scope.supportedLibraries.find(lib => lib.url == $scope.externalLibrary);
-
-                $scope.loadExternalIconLibrary();
-
-            } else {
                 console.log('using default library');
                 $scope.externalLibrary = false;
                 $scope.importFromScript();
-            }
+            
         };
 
         $scope.copyDirectLink = function () {
