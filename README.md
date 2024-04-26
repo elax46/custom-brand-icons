@@ -983,6 +983,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/unifi.svg) | unifi | ![Preview](/icon-svg/unifi-protect.svg) | unifi-protect |
 | ![Preview](/icon-svg/ubiquiti-udm-pro.svg) | ubiquiti-udm-pro | ![Preview](/icon-svg/ubiquiti-cam-instant.svg) | ubiquiti-cam-instant |
 | ![Preview](/icon-svg/ubiquiti-cam-flex.svg) | ubiquiti-cam-flex |
+| ![Preview](/icon-svg/ubiquiti-ux.svg) | ubiquiti-ux |
 
 
 ---
