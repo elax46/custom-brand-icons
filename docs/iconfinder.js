@@ -16,8 +16,6 @@ app.controller('AppCtrl', ['$scope', '$http','$mdToast',
             $scope.searchTerm = params.get('search')
                 ? params.get('search')
                 : '';
-
-
                 console.log('using default library');
                 $scope.externalLibrary = false;
                 $scope.importFromScript();
@@ -61,29 +59,11 @@ app.controller('AppCtrl', ['$scope', '$http','$mdToast',
             });
         };
 
-
         $scope.updateSearchTerm = function (text) {
             $scope.searchTerm = text;
         };
 
-        $scope.loadExternalIconLibrary = function () {
-
-            var scriptEl = document.createElement('script');
-            console.log('starting');
-
-            scriptEl.setAttribute('src', $scope.externalLibrary);
-            scriptEl.setAttribute('type', 'text/javascript');
-            scriptEl.onload = function ($scope) {
-                var scope = angular.element(document.querySelector('#outer')).scope();
-                scope.$apply(function () {
-                    scope.importFromScript();
-                });
-            };
-            document.head.appendChild(scriptEl);
-        };
-
         $scope.importFromScript = function () {
-            console.log('importing!');
             $scope.icons = [];
             let icon_list = getIconList();
             icon_list.then(function(my_list){
@@ -108,7 +88,6 @@ app.controller('AppCtrl', ['$scope', '$http','$mdToast',
             });
         };
 
-
         $scope.matchesSearchTerm = function (icon) {
             if (!$scope.searchTerm) {
                 return true;
@@ -119,10 +98,6 @@ app.controller('AppCtrl', ['$scope', '$http','$mdToast',
                     if (icon.value.indexOf(searchTerms[i]) !== -1) return true;
                 }
             }
-        };
-
-        $scope.openMenu = function ($mdMenu, ev) {
-            $mdMenu.open(ev);
         };
 
         $scope.newWindow = function (library) {
