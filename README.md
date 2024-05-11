@@ -147,7 +147,7 @@ All icons are available in the [framework Iconify](https://github.com/iconify). 
 | ![Preview](/icon-svg/apple-watch-alt.svg) | apple-watch-alt | ![Preview](/icon-svg/apple-watch.svg) | apple-watch |
 | ![Preview](/icon-svg/appletv-gen2-remote.svg) | apple-tv-gen2-remote | ![Preview](/icon-svg/homekit.svg) | homekit |
 | ![Preview](/icon-svg/homepod.svg) | homepod | ![Preview](/icon-svg/homepod-mini.svg) | homepod-mini |
-| ![Preview](/icon-svg/imac.svg) | imac | | |
+| ![Preview](/icon-svg/imac.svg) | imac | ![Preview](/icon-svg/apple-airpods-max.svg) | apple-airpods-max |
 
 ---
 
