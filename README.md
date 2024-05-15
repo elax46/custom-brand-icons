@@ -148,6 +148,7 @@ All icons are available in the [framework Iconify](https://github.com/iconify). 
 | ![Preview](/icon-svg/appletv-gen2-remote.svg) | apple-tv-gen2-remote | ![Preview](/icon-svg/homekit.svg) | homekit |
 | ![Preview](/icon-svg/homepod.svg) | homepod | ![Preview](/icon-svg/homepod-mini.svg) | homepod-mini |
 | ![Preview](/icon-svg/imac.svg) | imac | ![Preview](/icon-svg/apple-airpods-max.svg) | apple-airpods-max |
+| ![Preview](/icon-svg/apple-watch-pro.svg) | apple-watch-pro |
 
 ---
 
@@ -176,8 +177,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/aqara-u100.svg) | aqara-u100 | ![Preview](/icon-svg/aqara-bodyfat-scale.svg) | aqara-bodyfat-scale |
 | ![Preview](/icon-svg/aqara-camera-g5.svg) | aqara-camera-g5 | ![Preview](/icon-svg/aqara-h1-1.svg) | aqara-h1-1 |
 | ![Preview](/icon-svg/aqara-h1-2.svg) | aqara-h1-2 | ![Preview](/icon-svg/aqara-h1-3.svg) | aqara-h1-3 |
-| ![Preview](/icon-svg/aqara-h1-dimmer.svg) | aqara-h1-dimmer |
-
+| ![Preview](/icon-svg/aqara-h1-dimmer.svg) | aqara-h1-dimmer |  ![Preview](/icon-svg/aqara-fp2.svg) | aqara-fp2 |
 ---
 
 ### Battery Status
@@ -564,7 +564,9 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 |![Preview](/icon-svg/cowboy-ebike-alt.svg) | cowboy-ebike-alt | ![Preview](/icon-svg/authentik.svg) | authentik |
 |![Preview](/icon-svg/trakt.svg) | trakt | ![Preview](/icon-svg/unraid.svg) | unraid |
 |![Preview](/icon-svg/ewelink.svg) | ewelink | ![Preview](/icon-svg/tower-fan.svg) | tower-fan |
-| ![Preview](/icon-svg/tuya.svg) | tuya |
+| ![Preview](/icon-svg/tuya.svg) | tuya  | ![Preview](/icon-svg/alarm-dot-com.svg) | alarm-dot-com |
+| ![Preview](/icon-svg/intex-pool-light.svg) | intex-pool-light | ![Preview](/icon-svg/noip.svg) | noip |
+| ![Preview](/icon-svg/ovhcloud.svg) | ovhcloud | ![Preview](/icon-svg/ulanzi-tc001.svg) | ulanzi-tc001 |
 
 ---
 
