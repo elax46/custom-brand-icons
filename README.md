@@ -1130,9 +1130,9 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
- | ![Preview](/icon-svg/bambu-lab.svg) | bambu-lab |![Preview](/icon-svg/bambu-lab-alt.svg) | bambulab-alt  |
- | ![Preview](/icon-svg/a1-mini.svg) | a1-mini | ![Preview](/icon-svg/3d-filament.svg) | 3d-filament |
- 
+| ![Preview](/icon-svg/bambu-lab.svg) | bambu-lab |![Preview](/icon-svg/bambu-lab-alt.svg) | bambulab-alt  |
+| ![Preview](/icon-svg/a1-mini.svg) | a1-mini | ![Preview](/icon-svg/3d-filament.svg) | 3d-filament |
+| ![Preview](/icon-svg/P1S.svg)     | P1S     |                                         |              | 
 
  ---
 
