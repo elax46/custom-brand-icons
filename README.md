@@ -75,6 +75,7 @@ All icons are available in the [framework Iconify](https://github.com/iconify). 
     - [Networking](#networking)
     - [Philips Hue Official](#philips-hue-official)
     - [Philips Hue Custom](#philips-hue-custom)
+    - [Quatt](#quatt)
     - [Reolink](#reolink)
     - [Ring](#ring)
     - [Roku](#roku)
@@ -781,6 +782,16 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/festavia.svg) | festavia |  ![Preview](/icon-svg/centris-four.svg) | centris-four |
 |  ![Preview](/icon-svg/hue-sync-strip.svg) | hue-sync-strip |
 
+
+---
+
+### Quatt
+
+| Icon | Name | Icon | Name |
+| :--- | :--- | :--- | :--- |
+| ![Preview](/icon-svg/quatt.svg) | quatt
+
+---
 
 ### Reolink
 
