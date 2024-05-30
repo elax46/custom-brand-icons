@@ -787,6 +787,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 
 ### Quatt
 
+Icons made by [@a-r-j-a-n](https://github.com/a-r-j-a-n)
+
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
 | ![Preview](/icon-svg/quatt.svg) | quatt
