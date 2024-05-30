@@ -202,7 +202,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 
 ### Car Manufacturers
 
-Icons made by [@rchiileea](https://github.com/rchiileea)
+Icons made by [@rchiileea](https://github.com/rchiileea), [@a-r-j-a-n](https://github.com/a-r-j-a-n)
 
 | Icon | Name | Icon | Name |
 | :--- | :--- | :--- | :--- |
@@ -243,7 +243,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/mazda.svg) | mazda | ![Preview](/icon-svg/cupra.svg) | cupra |
 | ![Preview](/icon-svg/landrover.svg) | landrover | ![Preview](/icon-svg/mustang.svg) | mustang |
 | ![Preview](/icon-svg/hyundai-ioniq.svg) | hyundai-ioniq | ![Preview](/icon-svg/car-fob.svg) | car-fob
-| ![Preview](/icon-svg/suzuki.svg) | suzuki |
+| ![Preview](/icon-svg/suzuki.svg) | suzuki | ![Preview](/icon-svg/range-rover.svg) | range-rover |
 
 ---
 
