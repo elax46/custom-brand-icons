@@ -20,38 +20,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
-    <script src="custom-brand-icons.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/elax46/custom-brand-icons@main/dist/custom-brand-icons.js"></script>
     <script src="iconfinder.js"></script>
 </head>
-<body data-ng-controller="AppCtrl" data-ng-app="aaIconFinder">
+<body data-ng-controller="AppCtrl" data-ng-app="ElaxIconFinder">
 <div id="outer">
     <div layout-padding="">
         <md-card>
             <md-card-title layout="row">
                 <md-card-title-text flex="">
                     <span class="md-headline">
-                        <span data-ng-if="!externalLibrary">Custom Brand Icons </span>
-                        <span data-ng-if="externalLibrary">Icon Library </span>
+                        <span>Custom Brand Icons </span>
+                        <span>Icon Library </span>
                         Cheat Sheet
                     </span>
                     <span class="md-subhead">Use the search box below to look for
-                         <span data-ng-if="!externalLibrary">a fixture name, bulb type or keyword</span>
-                         <span data-ng-if="externalLibrary">an icon by name or keyword</span>
+                         <span>a fixture name, bulb type or keyword</span>
+                         <span >an icon by name or keyword</span>
                     </span>
                 </md-card-title-text>
             </md-card-title>
             <md-card-content>
                 <md-input-container class="md-block" flex="">
                     <label>
-                        <span data-ng-if="!externalLibrary">Fixture name, bulb type or keyword</span>
-                        <span data-ng-if="externalLibrary">Icon name or keyword</span>
+                        <span >Fixture name, bulb type or keyword</span>
+                        <span >Icon name or keyword</span>
                     </label>
                     <input ng-model="searchTerm">
                     <md-button class="md-raised md-primary btn-xs"
                                data-ng-if="searchTerm"
                                data-ng-click="copyDirectLink()">Copy direct link to this search</md-button>
                 </md-input-container>
-                <div data-ng-if="!externalLibrary">
+                <div ">
                     Examples:
                     <md-button class="groupX left" data-ng-click="updateSearchTerm('tv')">Tv</md-button>
                     <md-button class="groupX right" data-ng-click="updateSearchTerm('pendant')">pendant</md-button>
@@ -67,7 +67,7 @@
                      class="no-margin-card">
                 <md-card-title>
                     <md-card-title-text>
-                        <span class="md-headline"><span data-ng-if="!externalLibrary">phu:</span>{{icon.name}}</span>
+                        <span class="md-headline"><span >phu:</span>{{icon.name}}</span>
                         <span class="md-subhead">{{icon.aliases}}</span>
                     </md-card-title-text>
                     <md-card-title-media>
