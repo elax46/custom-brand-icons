@@ -567,6 +567,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/tuya.svg) | tuya  | ![Preview](/icon-svg/alarm-dot-com.svg) | alarm-dot-com |
 | ![Preview](/icon-svg/intex-pool-light.svg) | intex-pool-light | ![Preview](/icon-svg/noip.svg) | noip |
 | ![Preview](/icon-svg/ovhcloud.svg) | ovhcloud | ![Preview](/icon-svg/ulanzi-tc001.svg) | ulanzi-tc001 |
+| ![Preview](/icon-svg/quatt.svg) | quatt | |
 
 ---
 
