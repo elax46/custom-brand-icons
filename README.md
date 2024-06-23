@@ -567,6 +567,7 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/tuya.svg) | tuya  | ![Preview](/icon-svg/alarm-dot-com.svg) | alarm-dot-com |
 | ![Preview](/icon-svg/intex-pool-light.svg) | intex-pool-light | ![Preview](/icon-svg/noip.svg) | noip |
 | ![Preview](/icon-svg/ovhcloud.svg) | ovhcloud | ![Preview](/icon-svg/ulanzi-tc001.svg) | ulanzi-tc001 |
+| ![Preview](/icon-svg/quatt.svg) | quatt | |
 
 ---
 
@@ -958,7 +959,8 @@ Icons made by [@pinky007](https://github.com/pinky007) [@rchiileea](https://gith
 |![Preview](/icon-svg/binge.svg) | binge  |![Preview](/icon-svg/stan.svg) | stan  | 
 |![Preview](/icon-svg/stan-sport.svg) | stan-sport  | ![Preview](/icon-svg/globoplay.svg) | globoplay |
 |![Preview](/icon-svg/goplay.svg) | goplay  | ![Preview](/icon-svg/goplay-alt.svg) | goplay-alt |
-|![Preview](/icon-svg/channel-4-uk.svg) | Channel 4 (UK) | | |
+|![Preview](/icon-svg/channel-4-uk.svg) | Channel 4 (UK) | ![Preview](/icon-svg/go3.svg) | go3 |
+| ![Preview](/icon-svg/tet.svg) | tet | ![Preview](/icon-svg/tet-plus.svg) | tet-plus |
 
 
 
