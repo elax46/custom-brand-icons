@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/custom-brand-icons/FileContentIndex
+/.vs/custom-brand-icons/v17
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
+/.vs
