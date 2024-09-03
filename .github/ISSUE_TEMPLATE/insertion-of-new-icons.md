@@ -7,6 +7,6 @@ assignees: rchiileea
 
 ---
 
-**link will be ignnored please upload icon/image**
+**links will be ignnored please upload icon/image**
 
 **off-type icons will not be accepted, Home Assistant makes it visible when an entity is on or off, it is useless to weigh down the library**
