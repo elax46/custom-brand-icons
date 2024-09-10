@@ -183,7 +183,7 @@ Do you like these icons? Support the project with a pizza 🍕🍕
 - Verify `svg` icons are set properly by using text editor of your choice ([Notepad++](https://notepad-plus-plus.org/), Notepad, or Visual Studio Code).
 - The size of the SVG must be **24px by 24px**.
 - The `svg` code must contain **viewbox**. The size of the viewbox must be **24px by 24px**. No transform, translate, or scale.
-- The icon in the box must have a 2px border around it minumum and should not protrude into this area.
+- The icon in the box must have a **2px border** around it minumum and should **not** protrude into this area.
 - Make sure to add color: **#44739e**. Every custom brand icon uses this color.
 - Once done, add the svg file in the folder `icon-svg` found in the root of the repo.
 
