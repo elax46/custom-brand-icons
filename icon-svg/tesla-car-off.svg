@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24px"
+   fill="#44739e"
+   height="24px"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="tesla-car-off.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="45.254834"
+     inkscape:cx="10.717087"
+     inkscape:cy="12.164446"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     d="m 21.907,9.641 a 1.106,1.106 0 0 0 -0.088,-1.05 c -0.27,-0.519 -2.14,-0.647 -2.056,-0.033 0.034,0.248 0.1,0.416 -0.206,0.446 A 2.406,2.406 0 0 1 19.42,8.687 L 18.89,7.06 A 2.652,2.652 0 0 0 17.608,5.56 L 17.235,5.36 A 3.893,3.893 0 0 0 15.4,4.9 H 8.605 A 3.9,3.9 0 0 0 6.768,5.357 l -0.372,0.2 a 2.648,2.648 0 0 0 -1.282,1.5 L 4.58,8.682 A 2.4,2.4 0 0 1 4.444,9 C 4.136,8.97 4.203,8.8 4.237,8.554 4.321,7.94 2.451,8.068 2.181,8.587 A 1.106,1.106 0 0 0 2.093,9.637 2.157,2.157 0 0 0 3.814,9.924 L 2.735,11.241 A 2.1,2.1 0 0 0 2.157,12.7 l 0.029,5.364 A 1.083,1.083 0 0 0 3.3,19.1 H 4.944 A 0.5,0.5 0 0 0 5.46,18.625 V 18.604 L 5.432,17.4 h 13.142 l -0.029,1.21 a 0.5,0.5 0 0 0 0.5,0.5 h 1.664 a 1.083,1.083 0 0 0 1.116,-1.04 l 0.03,-5.364 A 2.11,2.11 0 0 0 21.277,11.247 L 20.186,9.923 A 2.159,2.159 0 0 0 21.907,9.641 Z M 5.388,8.9 A 3.181,3.181 0 0 1 8.667,5.83 h 6.666 a 3.183,3.183 0 0 1 3.281,3.076 v 0.45 A 0.125,0.125 0 0 1 18.489,9.48 H 5.512 A 0.124,0.124 0 0 1 5.388,9.356 Z m 1.393,4.029 a 0.249,0.249 0 0 1 -0.205,0.115 h -3.06 c -0.136,0 -0.418,-0.062 -0.418,-0.475 L 3.305,11.5 C 3.376,11.128 4.111,11.149 4.438,11.344 L 6.7,12.591 a 0.248,0.248 0 0 1 0.081,0.342 z M 20.7,11.5 l 0.207,1.073 c 0,0.413 -0.282,0.475 -0.418,0.475 h -3.06 a 0.247,0.247 0 0 1 -0.124,-0.457 l 2.266,-1.247 c 0.318,-0.195 1.053,-0.218 1.129,0.156 z"
+     id="path1" />
+  <path
+     d="M 20.979058,19.231705 6.8890572,5.1417048 l -4,-4 -1.3,1.24 19.7300008,19.7300002 1.27,-1.27 -1.61,-1.61"
+     id="path1-4"
+     sodipodi:nodetypes="ccccccc" />
+  <path
+     d="M 22.313248,18.023328 8.2232481,3.9333274 4.2232484,-0.06667275 l -1.3,1.24000005 19.7299996,19.7300007 1.27,-1.27 -1.61,-1.61"
+     id="path1-4-7"
+     sodipodi:nodetypes="ccccccc"
+     style="fill:#ffffff" />
+</svg>
