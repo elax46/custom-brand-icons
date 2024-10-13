@@ -230,10 +230,6 @@ Example entry:
 window.customIconsets["yourprefix"] = getIcon;
 ```
 
-### Update `README.md`
-- Remember to also update the `README.md` file by inserting the icon's path and the name for `phu:`.
-
-
 ### Contributions and Pull Requests
 After adding your svg icon in `icon-svg`, modifying `custom-brand-icons.js`, and updating `README.md.`
 Open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
