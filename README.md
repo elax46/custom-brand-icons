@@ -98,7 +98,6 @@ All icons are available in the [framework Iconify](https://github.com/iconify). 
     - [Cryptocurrency](#cryptocurrency)
     - [Yeelight](#yeelight)
     - [SleepIQ / SleepNumber](#sleepiq--sleepnumber)
-    - [Owlet](#owlet)
 - [Installation Methods](#installation-methods)
       - [HACS](#hacs)
       - [Manual Installation](#manual-installation)
