@@ -559,8 +559,8 @@ Icons made by [@rchiileea](https://github.com/rchiileea)
 | ![Preview](/icon-svg/monzo.svg) | monzo | ![Preview](/icon-svg/goaccess.svg) | goaccess |
 | ![Preview](/icon-svg/play-bar-one.svg) | play-bar-one |![Preview](/icon-svg/meta.svg) | meta |
 |![Preview](/icon-svg/mealie.svg) | mealie |![Preview](/icon-svg/cowboy-ebike.svg) | cowboy-ebike |
-|![Preview](/icon-svg/cowboy-ebike-alt.svg) | cowboy-ebike-alt | ![Preview](/icon-svg/authentik.svg) | authentik | ![Preview](/icon-svg/owlet.svg) | owlet |
-
+|![Preview](/icon-svg/cowboy-ebike-alt.svg) | cowboy-ebike-alt | ![Preview](/icon-svg/authentik.svg) | authentik |
+|![Preview](/icon-svg/owlet.svg) | owlet
 
 ---
 
