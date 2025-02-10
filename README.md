@@ -21,8 +21,8 @@
 # Icon Requests
 
 Want an icon? Open a [custom icon request](https://github.com/elax46/custom-brand-icons/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) or [contribute to the project](#developer-workflow).
-- Provide a **svg file and jpg logo of your request (we also are not mind readers and dont know every icon globaly so if no name is present please add it or it will be ignored** and a image along with your request.
--  links to SVG's or Images will be ignored you must upload the files into your request, ignoring this will result in request being ignored. (if you can not be bothered to spend a few minutes doing this, why should we spend time making it).
+-  Provide a **svg file and jpg logo of your request (we also are not mind readers and dont know every icon globaly so if no name is present please add it or it will be ignored** and a image along with your request.
+-  links to SVG's or Images will be ignored, you must upload the files into your request and they must be visible in post. `IGNORING THIS SIMPLE REQUEST WILL RESULT IN YOUR REQUEST BEING IGNORED AND CLOSED`  (if you can not be bothered to spend a few minutes doing this, why should we spend time looking for it and making it).
 -  For those who [made their own icons](#developer-workflow), open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
 
 ### Make sure to [install](#installation-methods) `custom-brand-icons.js` into `configuration.yaml` or `ui-lovelace.yaml`
@@ -224,7 +224,7 @@ Example entry:
 - `string` = this data can be recovered from the svg file `<path d="M21,12.5 C21,13.33 18.76,...."` In particular you will have to enter only the part of the vector code `"M21,12.5 C21,13.33 18.76"`. 
   - For an example, take a look at the [icons already inserted](dist/custom-brand-icons.js).
 
-(Optional) In case you want to create your own perfix you can edit the last line of the `custom-brand-icons.js`
+(Optional) In case you want to create your own prefix you can edit the last line of the `custom-brand-icons.js`
 
 ```js
 window.customIconsets["yourprefix"] = getIcon;

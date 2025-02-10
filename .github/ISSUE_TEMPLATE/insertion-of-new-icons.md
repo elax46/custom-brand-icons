@@ -7,6 +7,10 @@ assignees: rchiileea
 
 ---
 
-**Insert a link to an SVG icon the integrable icons are ONLY in SVG format**
+**links will be ignnored please upload icon/image**
+
+**Again read main rules, Also I will point out low quality images of products will be ignored, if you can not be bothered to search we wont either**
 
 **off-type icons will not be accepted, Home Assistant makes it visible when an entity is on or off, it is useless to weigh down the library**
+
+
