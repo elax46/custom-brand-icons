@@ -181,7 +181,7 @@ Do you like these icons? Support the project with a pizza 🍕🍕
 
 - To make an icon in svg format you can use different programs starting from illustrator, inkview, or [Inkscape](https://inkscape.org/).
 - Verify `svg` icons are set properly by using text editor of your choice ([Notepad++](https://notepad-plus-plus.org/), Notepad, or Visual Studio Code).
-- The size of the icons must be **24px by 24px**.
+- Rules on Icon size and contraints are ([HERE](https://github.com/elax46/custom-brand-icons/discussions/1021), 
 - The `svg` code must contain **viewbox**. No transform, translate, or scale.
 - Make sure to add color: **#44739e**. Every custom brand icon uses this color.
 - Once done, add the svg file in the folder `icon-svg` found in the root of the repo.
@@ -233,3 +233,4 @@ window.customIconsets["yourprefix"] = getIcon;
 ### Contributions and Pull Requests
 After adding your svg icon in `icon-svg`, modifying `custom-brand-icons.js`, and updating `README.md.`
 Open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
+
