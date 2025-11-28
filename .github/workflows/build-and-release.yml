@@ -20,11 +20,11 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: .   # 👈 importante! directory radice
+        working-directory: .   
 
       - name: Build icons
         run: node custom-icons-builder.js
-        working-directory: .   # 👈 importante!
+        working-directory: .   
 
       - name: Archive dist
         run: zip -r dist.zip dist
