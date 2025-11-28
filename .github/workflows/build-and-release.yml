@@ -3,87 +3,82 @@ name: Build icons and Release
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 
 jobs:
-  build-release:
+  build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '18'
 
       - name: Install dependencies
         run: npm install
+        working-directory: .   # 👈 importante! directory radice
 
-      - name: Run icon builder script
+      - name: Build icons
         run: node custom-icons-builder.js
+        working-directory: .   # 👈 importante!
 
-      - name: Generate version
+      - name: Archive dist
+        run: zip -r dist.zip dist
+
+      - name: Determine new version
         id: version
         run: |
-          YEAR=$(date +"%Y")
-          MONTH=$(date +"%-m")
+          YEAR=$(date +'%Y')
+          MONTH=$(date +'%m')
 
-          # Get latest GitHub release tag
-          LAST_TAG=$(git tag --list | sort -r | head -n 1)
+          LAST=$(gh release list --limit 1 | awk '{print $1}')
 
-          if [ -z "$LAST_TAG" ]; then
-            NEXT=0
+          if [[ -z "$LAST" ]]; then
+            NEW="${YEAR}.${MONTH}.0"
           else
-            LAST_YEAR=$(echo $LAST_TAG | cut -d. -f1)
-            LAST_MONTH=$(echo $LAST_TAG | cut -d. -f2)
-            LAST_NUM=$(echo $LAST_TAG | cut -d. -f3)
-
-            if [ "$LAST_YEAR" = "$YEAR" ] && [ "$LAST_MONTH" = "$MONTH" ]; then
-              NEXT=$((LAST_NUM + 1))
+            BASE=$(echo "$LAST" | cut -d. -f1-2)
+            NUM=$(echo "$LAST" | cut -d. -f3)
+            if [[ "$BASE" == "${YEAR}.${MONTH}" ]]; then
+              NUM=$((NUM+1))
+              NEW="${YEAR}.${MONTH}.${NUM}"
             else
-              NEXT=0
+              NEW="${YEAR}.${MONTH}.0"
             fi
           fi
 
-          VERSION="$YEAR.$MONTH.$NEXT"
+          echo "version=$NEW" >> "$GITHUB_OUTPUT"
 
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
-          echo "Generated version: $VERSION"
-
-      - name: Detect new icons
-        id: icons
+      - name: Generate Release Notes
+        id: notes
         run: |
-          echo "Fetching last commit changes..."
-          FILES=$(git diff --name-only HEAD~1 HEAD | grep "icon-svg/.*\.svg" || true)
+          NOTES=$(cat << 'EOF'
+> [!NOTE]  
+> Thanks, as always, to the precious contribution to @rchiileea for the creation of the required icons!
 
-          TABLE="| Icon | Name |\n|------|:--------------:|"
+> [!TIP]
+> The new icon viewer is available - [icone finder](https://elax46.github.io/custom-brand-icons/)
 
-          for f in $FILES; do
-            NAME=$(basename "$f" .svg)
-            RAW="https://raw.githubusercontent.com/${{ github.repository }}/main/$f"
-            TABLE="$TABLE\n|![Preview]($RAW) |$NAME|"
-          done
+| Icon | Name |
+|------|:--------------:|
+|![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/main/icon-svg/airgradient-alt.svg) | airgradient-alt |
+|![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/main/icon-svg/hood-extraction.svg) | hood-extraction |
 
-          echo -e "$TABLE" > icons_table.md
-          echo "Generated table:"
-          cat icons_table.md
+EOF
+)
+          echo "notes<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$NOTES" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
 
-          TABLE_ESCAPED=$(sed ':a;N;$!ba;s/\n/\\n/g' icons_table.md)
-          echo "table=$TABLE_ESCAPED" >> $GITHUB_OUTPUT
-
-      - name: Create GitHub Release
-        uses: softprops/action-gh-release@v1
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.version.outputs.version }}
           name: ${{ steps.version.outputs.version }}
-          body: |
-            > [!NOTE]  
-            > Thanks, as always, to the precious contribution to @rchiileea for the creation of the required icons!
-
-            > [!TIP]
-            > The new icon viewer is available - [icone finder](https://elax46.github.io/custom-brand-icons/)
-
-            ${{ steps.icons.outputs.table }}
+          body: ${{ steps.notes.outputs.notes }}
+          files: dist.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
