@@ -20,10 +20,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
+          cache: 'npm'
 
       # 3️⃣ Install dependencies
       - name: Install dependencies
-        run: npm install
+        run: npm ci
         working-directory: .
 
       # 4️⃣ Build icons
@@ -33,23 +34,35 @@ jobs:
 
       # 5️⃣ Archive dist folder
       - name: Archive dist
-        run: zip -r dist.zip dist
+        run: |
+          if [ -d dist ]; then
+            zip -r dist.zip dist
+          else
+            echo "No dist folder found, skipping zip"
+          fi
 
       # 6️⃣ Determine new version
       - name: Determine new version
         id: version
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          set -euo pipefail
           YEAR=$(date +'%Y')
           MONTH=$(date +'%m')
 
-          # Retrieve last release
-          LAST=$(gh release list --limit 1 | awk '{print $1}')
+          # Retrieve last release using `gh` and fallback gracefully
+          LAST=$(gh release list --limit 1 --json tagName --jq '.[0].tagName' 2>/dev/null || true)
+          # Strip leading v if present
+          LAST=${LAST#v}
 
-          if [[ -z "$LAST" ]]; then
+          if [[ -z "$LAST" || "$LAST" == "null" ]]; then
             NEW="${YEAR}.${MONTH}.0"
           else
             BASE=$(echo "$LAST" | cut -d. -f1-2)
             NUM=$(echo "$LAST" | cut -d. -f3)
+            # Sanitize NUM
+            NUM=${NUM:-0}
             if [[ "$BASE" == "${YEAR}.${MONTH}" ]]; then
               NUM=$((NUM+1))
               NEW="${YEAR}.${MONTH}.${NUM}"
@@ -58,24 +71,30 @@ jobs:
             fi
           fi
 
-          echo "version=$NEW" >> "$GITHUB_OUTPUT"
+          echo "version=${NEW}" >> "$GITHUB_OUTPUT"
 
       # 7️⃣ Generate release notes (YAML-safe)
       - name: Generate release notes
         id: notes
         run: |
-          cat << 'EOF' >> $GITHUB_OUTPUT
-notes='| Icon | Name |' \
-'|------|:--------------:|' \
-'|![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/main/icon-svg/airgradient-alt.svg) | airgradient-alt |' \
-'|![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/main/icon-svg/hood-extraction.svg) | hood-extraction |' \
+          set -euo pipefail
+          cat > ./release_notes.md <<'RELEASE'
+| Icon | Name |
+|------|:--------------:|
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/main/icon-svg/airgradient-alt.svg) | airgradient-alt |
+| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/main/icon-svg/hood-extraction.svg) | hood-extraction |
 
-> [!NOTE]  
+> [!NOTE]
 > Thanks, as always, to the precious contribution to @rchiileea for the creation of the required icons!
 
-> [!TIP]  
+> [!TIP]
 > The new icon viewer is available - [icone finder](https://elax46.github.io/custom-brand-icons/)
-EOF
+RELEASE
+
+          # Properly set a multi-line step output
+          echo "notes<<EOF" >> $GITHUB_OUTPUT
+          cat ./release_notes.md >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
 
       # 8️⃣ Create GitHub release
       - name: Create Release
