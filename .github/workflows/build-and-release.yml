@@ -4,16 +4,24 @@ on:
   push:
     branches:
       - main
+    # avoid infinite loop when we push only changes to the dist folder
+    paths-ignore:
+      - 'dist/**'
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       # 1️⃣ Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # ensure the action has permission to push
+          persist-credentials: true
 
       # 2️⃣ Setup Node.js
       - name: Setup Node.js
@@ -36,6 +44,21 @@ jobs:
           else
             echo "custom-icons-builder.js not found. Nothing to build."
           fi
+
+      # 5️⃣ Commit and push dist changes back to main (only if any changes)
+      - name: Commit dist changes
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A dist || true
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes detected in dist; skipping commit"
+            exit 0
+          fi
+          git commit -m "chore: update dist/custom-brand-icons.js [ci skip]"
+          git push origin HEAD:main
 
       # 5️⃣ Upload build artifacts (opzionale ma utile)
       # Così puoi scaricare dist/ direttamente da GitHub Actions
