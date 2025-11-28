@@ -22,6 +22,8 @@ jobs:
         with:
           # ensure the action has permission to push
           persist-credentials: true
+          # fetch full history and tags for versioning and diff
+          fetch-depth: 0
 
       # 2️⃣ Setup Node.js
       - name: Setup Node.js
@@ -45,20 +47,129 @@ jobs:
             echo "custom-icons-builder.js not found. Nothing to build."
           fi
 
-      # 5️⃣ Commit and push dist changes back to main (only if any changes)
-      - name: Commit dist changes
+      # 5️⃣ Commit and push generated changes back to main (only if any changes)
+      - name: Commit generated changes
         run: |
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A dist || true
+          # Stage ALL changes so generated files outside dist (if any) are included
+          git add -A || true
           # Only commit if there are changes
           if git diff --staged --quiet; then
             echo "No changes detected in dist; skipping commit"
             exit 0
           fi
-          git commit -m "chore: update dist/custom-brand-icons.js [ci skip]"
+          git commit -m "chore: update generated files [ci skip]"
           git push origin HEAD:main
+
+      # 6️⃣ Determine new version (year.month.incremental) and new icons
+      - name: Determine version & new icons
+        id: version
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          YEAR=$(date +'%Y')
+          MONTH=$(date +'%m')
+          # Fetch tags (if not already present)
+          git fetch --tags --prune
+
+          LAST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || true)
+          LAST_TAG="${LAST_TAG#v}"
+
+          if [[ -z "$LAST_TAG" || "$LAST_TAG" == "null" ]]; then
+            NEW_VERSION="${YEAR}.${MONTH}.0"
+            LAST_TAG=""
+          else
+            BASE=$(echo "$LAST_TAG" | cut -d. -f1-2)
+            NUM=$(echo "$LAST_TAG" | cut -d. -f3)
+            NUM=${NUM:-0}
+            if [[ "$BASE" == "${YEAR}.${MONTH}" ]]; then
+              NUM=$((NUM+1))
+              NEW_VERSION="${YEAR}.${MONTH}.${NUM}"
+            else
+              NEW_VERSION="${YEAR}.${MONTH}.0"
+            fi
+          fi
+
+          echo "version=${NEW_VERSION}" >> $GITHUB_OUTPUT
+
+          # Determine new icons added in this range. If no last tag, consider current added files since first commit
+          if [[ -z "$LAST_TAG" ]]; then
+            NEW_ICONS=$(git ls-files icon-svg | sed 's|icon-svg/||' | sort -u || true)
+          else
+            NEW_ICONS=$(git diff --name-only "${LAST_TAG}" HEAD | grep '^icon-svg/' | sed 's|icon-svg/||' | sort -u || true)
+          fi
+
+          # Write the list of new icon basenames to an output file to be used in release notes
+          if [[ -z "$NEW_ICONS" ]]; then
+            echo "new_icons=" >> $GITHUB_OUTPUT
+          else
+            # join with spaces
+            ICONS_JOINED=$(echo "$NEW_ICONS" | tr '\n' ' ')
+            echo "new_icons=${ICONS_JOINED}" >> $GITHUB_OUTPUT
+          fi
+
+      # 7️⃣ Build release notes (including NOTE/TIP and table of new icons)
+      - name: Build release notes
+        id: notes
+        run: |
+          set -euo pipefail
+          VERSION=${{ steps.version.outputs.version }}
+          NEW_ICONS_STR=${{ steps.version.outputs.new_icons }}
+
+          cat > ./release_notes.md <<'RELEASE'
+> [!NOTE]
+> Thanks, as always, to the precious contribution to @rchiileea for the creation of the required icons!
+
+> [!TIP]
+> The new icon viewer is available - [icone finder](https://elax46.github.io/custom-brand-icons/)
+
+RELEASE
+
+          if [[ -n "$NEW_ICONS_STR" ]]; then
+            echo "| Icon | Name |" >> ./release_notes.md
+            echo "|------|:--------------:|" >> ./release_notes.md
+            for f in $NEW_ICONS_STR; do
+              NAME="$(basename "$f" .svg)"
+              echo "| ![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/main/icon-svg/$f) | $NAME |" >> ./release_notes.md
+            done
+          else
+            echo "No new icon files were detected." >> ./release_notes.md
+          fi
+
+          # Set output
+          echo "notes<<EOF" >> $GITHUB_OUTPUT
+          cat ./release_notes.md >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      # 8️⃣ Zip dist if exists, to attach to release
+      - name: Zip dist (if exists)
+        run: |
+          if [ -d dist ]; then
+            rm -f dist.zip
+            zip -r dist.zip dist
+          else
+            echo "No dist folder to zip"
+          fi
+
+      # 9️⃣ Zip repository root (tracked files) to attach to the release
+      - name: Zip repository root
+        run: |
+          rm -f repo.zip || true
+          git archive --format=zip --output=repo.zip HEAD || true
+
+      # 10️⃣ Create GitHub release
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.version }}
+          name: ${{ steps.version.outputs.version }}
+          body: ${{ steps.notes.outputs.notes }}
+          files: repo.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # 5️⃣ Upload build artifacts (opzionale ma utile)
       # Così puoi scaricare dist/ direttamente da GitHub Actions
