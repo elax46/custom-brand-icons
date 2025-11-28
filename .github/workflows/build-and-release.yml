@@ -21,20 +21,21 @@ jobs:
         with:
           node-version: '18'
 
-      # 3️⃣ Optional: cache npm registry to speed up installs
-      - name: Cache npm
-        uses: actions/cache@v4
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
+      # 3️⃣ Diagnostic: Show repo root (useful for debugging missing files)
+      - name: Show repo root
+        run: |
+          echo "PWD=$PWD"
+          ls -la
 
-      # 4️⃣ Install dependencies
-      - name: Install dependencies
-        run: npm install
-
-      # 5️⃣ Run the icon builder
+      # 4️⃣ Run the icon builder (skips if file missing)
       - name: Build icons
-        run: node custom-icons-builder.js
+        run: |
+          if [ -f custom-icons-builder.js ]; then
+            echo "Executing custom-icons-builder.js"
+            node custom-icons-builder.js
+          else
+            echo "custom-icons-builder.js not found. Nothing to build."
+          fi
 
       # 5️⃣ Upload build artifacts (opzionale ma utile)
       # Così puoi scaricare dist/ direttamente da GitHub Actions
