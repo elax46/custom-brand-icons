@@ -1,40 +1,48 @@
-name: Build icons and Release
+name: Build Icons and Release
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
-  build:
+  build-and-release:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # 2️⃣ Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
+      # 3️⃣ Install dependencies
       - name: Install dependencies
         run: npm install
-        working-directory: .   
+        working-directory: .
 
+      # 4️⃣ Build icons
       - name: Build icons
         run: node custom-icons-builder.js
-        working-directory: .   
+        working-directory: .
 
+      # 5️⃣ Archive dist folder
       - name: Archive dist
         run: zip -r dist.zip dist
 
+      # 6️⃣ Determine new version
       - name: Determine new version
         id: version
         run: |
           YEAR=$(date +'%Y')
           MONTH=$(date +'%m')
 
+          # Retrieve last release
           LAST=$(gh release list --limit 1 | awk '{print $1}')
 
           if [[ -z "$LAST" ]]; then
@@ -52,27 +60,26 @@ jobs:
 
           echo "version=$NEW" >> "$GITHUB_OUTPUT"
 
-      - name: Generate Release Notes
+      # 7️⃣ Generate release notes (YAML-safe)
+      - name: Generate release notes
         id: notes
         run: |
-          NOTES=$(cat << 'EOF'
+          echo "notes<<EOF" >> "$GITHUB_OUTPUT"
+          cat << 'EOM' >> "$GITHUB_OUTPUT"
+'| Icon | Name |'
+'|------|:--------------:|'
+'|![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/main/icon-svg/airgradient-alt.svg) | airgradient-alt |'
+'|![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/main/icon-svg/hood-extraction.svg) | hood-extraction |'
+
 > [!NOTE]  
 > Thanks, as always, to the precious contribution to @rchiileea for the creation of the required icons!
 
-> [!TIP]
+> [!TIP]  
 > The new icon viewer is available - [icone finder](https://elax46.github.io/custom-brand-icons/)
-
-| Icon | Name |
-|------|:--------------:|
-|![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/main/icon-svg/airgradient-alt.svg) | airgradient-alt |
-|![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/main/icon-svg/hood-extraction.svg) | hood-extraction |
-
-EOF
-)
-          echo "notes<<EOF" >> "$GITHUB_OUTPUT"
-          echo "$NOTES" >> "$GITHUB_OUTPUT"
+EOM
           echo "EOF" >> "$GITHUB_OUTPUT"
 
+      # 8️⃣ Create GitHub release
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
