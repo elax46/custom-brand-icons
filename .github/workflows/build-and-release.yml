@@ -20,13 +20,19 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          cache: 'npm'
 
-      # 3️⃣ Install dependencies
+      # 3️⃣ Optional: cache npm registry to speed up installs
+      - name: Cache npm
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
+
+      # 4️⃣ Install dependencies
       - name: Install dependencies
         run: npm install
 
-      # 4️⃣ Run the icon builder
+      # 5️⃣ Run the icon builder
       - name: Build icons
         run: node custom-icons-builder.js
 
