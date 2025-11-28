@@ -1,0 +1,89 @@
+name: Build icons and Release
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run icon builder script
+        run: node custom-icons-builder.js
+
+      - name: Generate version
+        id: version
+        run: |
+          YEAR=$(date +"%Y")
+          MONTH=$(date +"%-m")
+
+          # Get latest GitHub release tag
+          LAST_TAG=$(git tag --list | sort -r | head -n 1)
+
+          if [ -z "$LAST_TAG" ]; then
+            NEXT=0
+          else
+            LAST_YEAR=$(echo $LAST_TAG | cut -d. -f1)
+            LAST_MONTH=$(echo $LAST_TAG | cut -d. -f2)
+            LAST_NUM=$(echo $LAST_TAG | cut -d. -f3)
+
+            if [ "$LAST_YEAR" = "$YEAR" ] && [ "$LAST_MONTH" = "$MONTH" ]; then
+              NEXT=$((LAST_NUM + 1))
+            else
+              NEXT=0
+            fi
+          fi
+
+          VERSION="$YEAR.$MONTH.$NEXT"
+
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Generated version: $VERSION"
+
+      - name: Detect new icons
+        id: icons
+        run: |
+          echo "Fetching last commit changes..."
+          FILES=$(git diff --name-only HEAD~1 HEAD | grep "icon-svg/.*\.svg" || true)
+
+          TABLE="| Icon | Name |\n|------|:--------------:|"
+
+          for f in $FILES; do
+            NAME=$(basename "$f" .svg)
+            RAW="https://raw.githubusercontent.com/${{ github.repository }}/main/$f"
+            TABLE="$TABLE\n|![Preview]($RAW) |$NAME|"
+          done
+
+          echo -e "$TABLE" > icons_table.md
+          echo "Generated table:"
+          cat icons_table.md
+
+          TABLE_ESCAPED=$(sed ':a;N;$!ba;s/\n/\\n/g' icons_table.md)
+          echo "table=$TABLE_ESCAPED" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.version.outputs.version }}
+          name: ${{ steps.version.outputs.version }}
+          body: |
+            > [!NOTE]  
+            > Thanks, as always, to the precious contribution to @rchiileea for the creation of the required icons!
+
+            > [!TIP]
+            > The new icon viewer is available - [icone finder](https://elax46.github.io/custom-brand-icons/)
+
+            ${{ steps.icons.outputs.table }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
