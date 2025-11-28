@@ -20,6 +20,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
+          cache: 'npm'
 
       # 3️⃣ Install dependencies
       - name: Install dependencies
@@ -31,7 +32,17 @@ jobs:
 
       # 5️⃣ Upload build artifacts (opzionale ma utile)
       # Così puoi scaricare dist/ direttamente da GitHub Actions
+      - name: Check dist exists
+        id: check-dist
+        run: |
+          if [ -d dist ]; then
+            echo "dist-exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "dist-exists=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Upload dist folder
+        if: steps.check-dist.outputs.dist-exists == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: custom-brand-icons-dist
