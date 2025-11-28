@@ -64,20 +64,18 @@ jobs:
       - name: Generate release notes
         id: notes
         run: |
-          echo "notes<<EOF" >> "$GITHUB_OUTPUT"
-          cat << 'EOM' >> "$GITHUB_OUTPUT"
-'| Icon | Name |'
-'|------|:--------------:|'
-'|![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/main/icon-svg/airgradient-alt.svg) | airgradient-alt |'
-'|![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/main/icon-svg/hood-extraction.svg) | hood-extraction |'
+          cat << 'EOF' >> $GITHUB_OUTPUT
+notes='| Icon | Name |' \
+'|------|:--------------:|' \
+'|![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/main/icon-svg/airgradient-alt.svg) | airgradient-alt |' \
+'|![Preview](https://raw.githubusercontent.com/elax46/custom-brand-icons/main/icon-svg/hood-extraction.svg) | hood-extraction |' \
 
 > [!NOTE]  
 > Thanks, as always, to the precious contribution to @rchiileea for the creation of the required icons!
 
 > [!TIP]  
 > The new icon viewer is available - [icone finder](https://elax46.github.io/custom-brand-icons/)
-EOM
-          echo "EOF" >> "$GITHUB_OUTPUT"
+EOF
 
       # 8️⃣ Create GitHub release
       - name: Create Release
