@@ -11,7 +11,6 @@
 
 # Custom brand icons
 
-
 ![logo](https://res.cloudinary.com/dcongin7u/image/upload/v1707320837/cbi-logo.jpg)
 
 #### Custom brand icons use the prefix `phu:`
@@ -234,5 +233,6 @@ window.customIconsets["yourprefix"] = getIcon;
 ### Contributions and Pull Requests
 After adding your svg icon in `icon-svg`, modifying `custom-brand-icons.js`, and updating `README.md.`
 Open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
+
 
 
