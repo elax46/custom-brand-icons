@@ -57,10 +57,10 @@
                     <md-button class="groupX right" data-ng-click="updateSearchTerm('pendant')">pendant</md-button>
                 </div>
                 <div layout="row" layout-align="start center" style="margin-top:8px;">
-                    <md-checkbox ng-model="selectMode">Seleziona icone</md-checkbox>
-                    <md-button class="md-primary md-raised" ng-click="clearSelection()" ng-disabled="selectedCount()===0" style="margin-left:12px;">Cancella</md-button>
-                    <md-button class="md-accent md-raised" ng-click="downloadSelected()" ng-disabled="selectedCount()===0" style="margin-left:8px;">Scarica selezione (JS)</md-button>
-                    <div style="margin-left:16px">Selezionate: <strong>{{selectedCount()}}</strong></div>
+                    <md-checkbox ng-model="selectMode">Select icons</md-checkbox>
+                    <md-button class="md-primary md-raised" ng-click="clearSelection()" ng-disabled="selectedCount()===0" style="margin-left:12px;">Delete</md-button>
+                    <md-button class="md-accent md-raised" ng-click="downloadSelected()" ng-disabled="selectedCount()===0" style="margin-left:8px;">Download selection (JS)</md-button>
+                    <div style="margin-left:16px">selected: <strong>{{selectedCount()}}</strong></div>
                 </div>
                 <div ng-if="selectedCount()>0" layout="row" layout-wrap style="margin-top:8px;">
                     <div ng-repeat="(name, val) in selectedIcons" style="display:flex;align-items:center;margin-right:12px;">
