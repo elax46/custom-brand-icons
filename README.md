@@ -10,6 +10,7 @@
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
 
+
 # Custom brand icons
 
 ![logo](https://res.cloudinary.com/dcongin7u/image/upload/v1707320837/cbi-logo.jpg)
@@ -234,6 +235,7 @@ window.customIconsets["yourprefix"] = getIcon;
 ### Contributions and Pull Requests
 After adding your svg icon in `icon-svg`, modifying `custom-brand-icons.js`, and updating `README.md.`
 Open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
+
 
 
 
