@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-    # avoid infinite loop when we push only changes to the dist folder
-    paths-ignore:
-      - 'dist/**'
   workflow_dispatch:
 
 jobs:
