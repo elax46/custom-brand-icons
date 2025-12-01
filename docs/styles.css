@@ -20,6 +20,34 @@
     padding:3px;
     border-top:1px solid #e0e0e0;
     border-radius:0;
+    position: relative; /* needed so absolute checkbox inside card aligns correctly */
+}
+.no-margin-card md-checkbox .md-icon {
+    border-color: #44739e !important;
+}
+.no-margin-card md-checkbox.md-checked .md-icon {
+    background-color: #44739e !important;
+    border-color: #44739e !important;
+}
+.no-margin-card md-checkbox.md-checked .md-icon:after {
+    color: #fff !important;
+}
+
+/* also ensure global selectMode checkbox uses our color */
+md-checkbox[ng-model="selectMode"] .md-icon {
+    border-color: #44739e !important;
+}
+md-checkbox[ng-model="selectMode"].md-checked .md-icon {
+    background-color: #44739e !important;
+    border-color: #44739e !important;
+}
+
+/* position per-card checkbox correctly relative to the card */
+.card-select-checkbox {
+    position: absolute !important;
+    right: 8px !important;
+    top: 8px !important;
+    z-index: 50 !important;
 }
 
 .groupX {
@@ -65,4 +93,8 @@
 .md-input-focused {
     color: #44739e !important;
 
+}
+
+.selected-card {
+    border: 2px solid #4caf50;
 }

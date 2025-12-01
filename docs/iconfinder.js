@@ -7,6 +7,8 @@ app.controller('AppCtrl', ['$scope', '$http','$mdToast',
 
         $scope.init = function () {
             $scope.parseURLParams();
+            $scope.selectMode = false;
+            $scope.selectedIcons = {};
         };
 
         
@@ -99,6 +101,114 @@ app.controller('AppCtrl', ['$scope', '$http','$mdToast',
         $scope.openMenu = function ($mdMenu, ev) {
             $mdMenu.open(ev);
         };
+
+        // Selection helpers
+        $scope.isSelected = function(name){
+            return !!$scope.selectedIcons[name];
+        }
+
+        $scope.getIconPath = function(name){
+            if(window.icons && window.icons[name]){ return window.icons[name][4]; }
+            return '';
+        }
+
+        $scope.toggleSelection = function(name, $event){
+            if($event){
+                // Prevent card clicks or other parent handlers
+                $event && $event.stopPropagation();
+            }
+            if($scope.isSelected(name)){
+                delete $scope.selectedIcons[name];
+            } else {
+                // Allow unlimited selections (user requested no fixed limit)
+                // let currentCount = Object.keys($scope.selectedIcons).length;
+                $scope.selectedIcons[name] = true;
+            }
+        }
+
+        $scope.selectedCount = function(){
+            return Object.keys($scope.selectedIcons).length;
+        }
+
+
+        $scope.clearSelection = function(){
+            $scope.selectedIcons = {};
+            $scope.showToast('Selezione cancellata');
+        }
+
+        $scope.buildReducedScript = function(){
+            let selected = {};
+            Object.keys($scope.selectedIcons).forEach(function(name){
+                if(name in window.icons){
+                    selected[name] = window.icons[name];
+                }
+            });
+
+            // Build the reduced JS similar to custom-brand-icons.js, minimally including icons var and helper functions
+                // helper to format array elements
+                let escapeArrayItem = function(item){
+                    if (typeof item === 'number'){
+                        if (Number.isInteger(item)) return item.toFixed(1); // 32 -> 32.0
+                        return item.toString();
+                    }
+                    return JSON.stringify(item);
+                };
+
+                // Build single-line per icon entries
+                let lines = [];
+                lines.push('var icons = {');
+                let keys = Object.keys(selected);
+                keys.forEach(function(k, idx){
+                    let arr = selected[k];
+                    let arrStr = '[' + arr.map(escapeArrayItem).join(',') + ']';
+                    lines.push('  ' + JSON.stringify(k) + ':' + arrStr + (idx < keys.length - 1 ? ',' : ''));
+                });
+                lines.push('};\n\n');
+
+                let content = lines.join('\n');
+          content += `async function getIcon(name) {\n`;
+content += `  if (!(name in icons)) {\n`;
+content += `    console.log(` + "`Icon \"${name}\" not available`" + `);\n`;
+content += `    return '';\n`;
+content += `  }\n\n`;
+
+content += `  var svgDef = icons[name];\n`;
+content += `  var primaryPath = svgDef[4];\n`;
+content += `  return {\n`;
+content += `    path: primaryPath,\n`;
+content += `    viewBox: svgDef[0] + " " + svgDef[1] + " " + svgDef[2] + " " + svgDef[3]\n`;
+content += `  };\n`;
+content += `}\n\n`;
+
+content += `async function getIconList() {\n`;
+content += `  return Object.entries(icons).map(([icon]) => ({\n`;
+content += `    name: icon\n`;
+content += `  }));\n`;
+content += `}\n\n`;
+
+content += `window.customIconsets = window.customIconsets || {};\n`;
+content += `window.customIconsets["phu"] = getIcon;\n\n`;
+
+content += `window.customIcons = window.customIcons || {};\n`;
+content += `window.customIcons["phu"] = { getIcon, getIconList };\n`;
+  
+
+            return content;
+        }
+
+        $scope.downloadSelected = function(){
+            let js = $scope.buildReducedScript();
+            let blob = new Blob([js], { type: 'text/javascript' });
+            let url = URL.createObjectURL(blob);
+            let a = document.createElement('a');
+            a.href = url;
+            a.download = 'custom-brand-icons.reduced.js';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+            $scope.showToast('File scaricato: custom-brand-icons.reduced.js');
+        }
 
         $scope.newWindow = function (library) {
             if (typeof library === "undefined"){

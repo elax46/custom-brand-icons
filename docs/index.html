@@ -51,10 +51,23 @@
                                data-ng-if="searchTerm"
                                data-ng-click="copyDirectLink()">Copy direct link to this search</md-button>
                 </md-input-container>
-                <div ">
+                <div>
                     Examples:
                     <md-button class="groupX left" data-ng-click="updateSearchTerm('tv')">Tv</md-button>
                     <md-button class="groupX right" data-ng-click="updateSearchTerm('pendant')">pendant</md-button>
+                </div>
+                <div layout="row" layout-align="start center" style="margin-top:8px;">
+                    <md-checkbox ng-model="selectMode">Seleziona icone</md-checkbox>
+                    <md-button class="md-primary md-raised" ng-click="clearSelection()" ng-disabled="selectedCount()===0" style="margin-left:12px;">Cancella</md-button>
+                    <md-button class="md-accent md-raised" ng-click="downloadSelected()" ng-disabled="selectedCount()===0" style="margin-left:8px;">Scarica selezione (JS)</md-button>
+                    <div style="margin-left:16px">Selezionate: <strong>{{selectedCount()}}</strong></div>
+                </div>
+                <div ng-if="selectedCount()>0" layout="row" layout-wrap style="margin-top:8px;">
+                    <div ng-repeat="(name, val) in selectedIcons" style="display:flex;align-items:center;margin-right:12px;">
+                        <svg viewBox="0 0 32 32" width="20" height="20" style="margin-right:6px;" xmlns="http://www.w3.org/2000/svg"><path ng-attr-d="{{getIconPath(name)}}"></path></svg>
+                        <span>{{name}}</span>
+                        <md-button class="md-icon-button" aria-label="rimuovi" ng-click="toggleSelection(name, $event)"><md-icon class="material-icons">clear</md-icon></md-button>
+                    </div>
                 </div>
             </md-card-content>
         </md-card>
@@ -64,15 +77,18 @@
                      flex-sm="50"
                      flex-md="33"
                      flex-gt-md="25"
-                     class="no-margin-card">
+                     class="no-margin-card"
+                     ng-class="{ 'selected-card': isSelected(icon.name) }"
+                     ng-click="selectMode && toggleSelection(icon.name, $event)">
                 <md-card-title>
                     <md-card-title-text>
                         <span class="md-headline"><span >phu:</span>{{icon.name}}</span>
                         <span class="md-subhead">{{icon.aliases}}</span>
                     </md-card-title-text>
                     <md-card-title-media>
+                        <md-checkbox class="card-select-checkbox" ng-if="selectMode" aria-label="Seleziona icona" ng-checked="isSelected(icon.name)" ng-click="toggleSelection(icon.name, $event)"></md-checkbox>
                         <div class="md-media-xl card-media">
-                            <svg viewBox="0 0 32 32" width="70" fill="#44739e" xmlns="http://www.w3.org/2000/svg"><path ng-attr-d="{{icon.path}}"></path></svg></md-icon>
+                            <svg viewBox="0 0 32 32" width="70" fill="#44739e" xmlns="http://www.w3.org/2000/svg"><path ng-attr-d="{{icon.path}}"></path></svg>
                         </div>
                     </md-card-title-media>
                 </md-card-title>
