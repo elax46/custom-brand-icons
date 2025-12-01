@@ -1,0 +1,169 @@
+name: Build Custom Brand Icons
+
+on:
+  push:
+    branches:
+      - main
+    # avoid infinite loop when we push only changes to the dist folder
+    paths-ignore:
+      - 'dist/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      # Optional: set this secret if you want to push updates to a fork (owner/repo)
+      # e.g. elax46/custom-brand-icons
+      ICONFINDER_REPO: ${{ secrets.ICONFINDER_REPO }}
+      # Optional: Personal Access Token with repo write access for pushing to a fork
+      ICONFINDER_PAT: ${{ secrets.ICONFINDER_PAT }}
+
+    steps:
+      # 1️⃣ Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # ensure the action has permission to push
+          persist-credentials: true
+
+      # 2️⃣ Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      # 3️⃣ Diagnostic: Show repo root (useful for debugging missing files)
+      - name: Show repo root
+        run: |
+          echo "PWD=$PWD"
+          ls -la
+
+      # 4️⃣ Run the icon builder (skips if file missing)
+      - name: Build icons
+        run: |
+          if [ -f custom-icons-builder.js ]; then
+            echo "Executing custom-icons-builder.js"
+            node custom-icons-builder.js
+          else
+            echo "custom-icons-builder.js not found. Nothing to build."
+          fi
+
+      # 4.1️⃣ Determine version to write into docs (package.json preferred; fallback to dist)
+      - name: Determine package version
+        id: determine-version
+        shell: bash
+        run: |
+            set -e
+            VERSION=""
+            if [ -f package.json ]; then
+              echo "Reading version from package.json"
+              VERSION=$(node -p "require('./package.json').version" 2>/dev/null || true)
+            fi
+            if [ -z "$VERSION" ] && [ -f dist/custom-brand-icons.js ]; then
+              echo "Falling back to parsing dist/custom-brand-icons.js for version"
+              VERSION=$(grep -Eo "[0-9]+\.[0-9]+\.[0-9]+(-[A-Za-z0-9.]+)?" dist/custom-brand-icons.js | head -1 || true)
+            fi
+            if [ -z "$VERSION" ]; then
+              echo "No version found. Leaving VERSION empty"
+            else
+              echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
+              echo "VERSION=$VERSION" >> $GITHUB_ENV
+            fi
+
+      # 5️⃣ Commit and push dist changes back to main (only if any changes)
+      - name: Commit dist changes
+        id: commit-dist
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A dist || true
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes detected in dist; skipping commit"
+            echo "dist-changed=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          git commit -m "chore: update dist/custom-brand-icons.js [ci skip]"
+          git push origin HEAD:main
+          echo "dist-changed=true" >> $GITHUB_OUTPUT
+
+      # 5️⃣ Update iconfinder docs folder in branch `iconfinder` (or a fork if specified)
+      #    This step will checkout the `iconfinder` branch into a subdirectory, update files under `docs` that
+      #    reference the built JS file or contain `?v=` version params, then commit and push changes.
+      - name: Checkout iconfinder docs (same repo)
+        if: ${{ env.ICONFINDER_REPO == '' }}
+        uses: actions/checkout@v4
+        with:
+          ref: iconfinder
+          path: iconfinder
+          persist-credentials: true
+
+      - name: Checkout iconfinder docs (external fork)
+        if: ${{ env.ICONFINDER_REPO != '' }}
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.ICONFINDER_REPO }}
+          ref: iconfinder
+          path: iconfinder
+          token: ${{ secrets.ICONFINDER_PAT }}
+          persist-credentials: true
+
+      - name: Update docs with new version and push
+        if: ${{ steps.determine-version.outputs.VERSION != '' && steps.commit-dist.outputs.dist-changed == 'true' }}
+        env:
+          VERSION: ${{ steps.determine-version.outputs.VERSION }}
+        run: |
+          set -e
+          # The checkout above placed branch contents under 'iconfinder'
+          if [ ! -d iconfinder/docs ]; then
+            echo "iconfinder/docs not found — skipping docs update"
+            exit 0
+          fi
+          pushd iconfinder
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Common patterns to replace:
+          #   /path/custom-brand-icons.js?v=OLDVERSION -> update version after ?v=
+          #   custom-brand-icons.js?v=OLDVERSION         -> same as above
+          #   version: "OLDVERSION"                     -> updates in code snippets
+          # Use sed to replace occurrences in all files under docs
+          echo "Replacing version occurrences with $VERSION"
+          # Replace ?v= version parameters
+          find docs -type f -print0 | xargs -0 sed -i -E "s/(custom-brand-icons(\\.min)?\\.js\\?v=)([0-9]+\\.[0-9]+\\.[0-9]+(-[A-Za-z0-9.]+)?)/\\1$VERSION/g" || true
+          # Replace explicit version fields like: version: "1.2.3"
+          find docs -type f -print0 | xargs -0 sed -i -E "s/(version:\s*\")[0-9]+\.[0-9]+\.[0-9]+(-[A-Za-z0-9.]+)?(\")/\1$VERSION\3/g" || true
+
+          # Stage and push if there were changes
+          git add -A docs || true
+          if git diff --staged --quiet; then
+            echo "No changes detected in iconfinder docs; skipping commit"
+            popd
+            exit 0
+          fi
+          git commit -m "chore(iconfinder): update docs version to $VERSION [ci skip]"
+          # If we checked out a fork via repository:, the default origin is that fork. Otherwise it's the same repository.
+          git push origin iconfinder
+          popd
+
+      # 5️⃣ Upload build artifacts (opzionale ma utile)
+      # Così puoi scaricare dist/ direttamente da GitHub Actions
+      - name: Check dist exists
+        id: check-dist
+        run: |
+          if [ -d dist ]; then
+            echo "dist-exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "dist-exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Upload dist folder
+        if: steps.check-dist.outputs.dist-exists == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: custom-brand-icons-dist
+          path: dist
