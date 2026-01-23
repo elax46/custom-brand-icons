@@ -40,7 +40,7 @@ All icons are available in the [framework Iconify](https://github.com/iconify). 
 
 ## Available Icons
 
-To view all the available icons you can go to the following address
+To view all available icons, you can go to the following address. The icon viewer also allows you to generate a `custom brand-icons.js` with only the icons you want, allowing you to streamline the icon pack and eliminate loading issues.
  -  [Icon Finder](https://elax46.github.io/custom-brand-icons/)
 
 # Installation Methods
@@ -163,6 +163,14 @@ Some addons (including official) have had some [cache issues since 2024.1.1]([ht
 7. On the bottom right, select the big blue *Download* icon.
 8. **Hard reload** browser.
 
+
+#### Create a smaller version of the icon pack
+
+1. Go to [icon viewer](https://elax46.github.io/custom-brand-icons/)
+2. Select all the icons you want to add to your HA instance
+3. Download the js file and install it manually in Home Assistant
+
+
 # Thanks for your support
 
 Thanks, as always, to the precious contribution to [@rchiileea](https://github.com/rchiileea) for the creation of the required icons!
@@ -181,7 +189,7 @@ Do you like these icons? Support the project with a pizza 🍕🍕
 
 - To make an icon in svg format you can use different programs starting from illustrator, inkview, or [Inkscape](https://inkscape.org/).
 - Verify `svg` icons are set properly by using text editor of your choice ([Notepad++](https://notepad-plus-plus.org/), Notepad, or Visual Studio Code).
-- The size of the icons must be **24px by 24px**.
+- Rules on Icon size and contraints are ([HERE](https://github.com/elax46/custom-brand-icons/discussions/1021), 
 - The `svg` code must contain **viewbox**. No transform, translate, or scale.
 - Make sure to add color: **#44739e**. Every custom brand icon uses this color.
 - Once done, add the svg file in the folder `icon-svg` found in the root of the repo.
@@ -208,21 +216,20 @@ Example svg file below:
 ```
 
 
-### Modify `custom-brand-icons.js` file
+###  ( optional ) if you want to generate the icon package locally
 
-Add the following entry to the `var icons` variable (list) of the `custom-brand-icons.js` file
+> [!WARNING]  
+>You need to have Node.js installed to use automatic generation.
 
-Example entry:
+Go to the local folder where the `custom-icons-builder.js` file is located and run `node custom-icons-builder.js` The script will generate a new `custom brand-icons` file with the updated icons.
+
+If everything went well you will see a message like this
 
 ```js
-"Bollard": [0, 0, 24.0, 24.0, "string"]
+✅ Build completed
+📁 Generated file: dist/custom-brand-icons.js
+🔢 Total icons: XXXX
 ```
-
-- `Bollard` = svg icon name used for `phu:`
-- `0, 0, 24.0, 24.0` = this data can be recovered from the svg file `viewBox="0 0 24 24"`
-  -  ***If this data is not present, you can leave the one indicated by me.***
-- `string` = this data can be recovered from the svg file `<path d="M21,12.5 C21,13.33 18.76,...."` In particular you will have to enter only the part of the vector code `"M21,12.5 C21,13.33 18.76"`. 
-  - For an example, take a look at the [icons already inserted](dist/custom-brand-icons.js).
 
 (Optional) In case you want to create your own prefix you can edit the last line of the `custom-brand-icons.js`
 
@@ -231,5 +238,5 @@ window.customIconsets["yourprefix"] = getIcon;
 ```
 
 ### Contributions and Pull Requests
-After adding your svg icon in `icon-svg`, modifying `custom-brand-icons.js`, and updating `README.md.`
-Open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
+
+After adding your svg icon in `icon-svg`. Open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
