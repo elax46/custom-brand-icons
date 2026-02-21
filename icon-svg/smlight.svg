@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" version="1.1">
+  <defs>
+    <mask id="sml-mask">
+      <rect width="24" height="24" fill="white" />
+      <circle cx="7.8" cy="8.2" r="6.2" fill="none" stroke="black" stroke-width="0.7" />
+      <circle cx="16.2" cy="8.2" r="6.2" fill="none" stroke="black" stroke-width="0.7" />
+      <circle cx="12" cy="15.8" r="6.2" fill="none" stroke="black" stroke-width="0.7" />
+    </mask>
+  </defs>
+  <g mask="url(#sml-mask)">
+    <circle cx="7.8" cy="8.2" r="6.2" fill="#44739e" />
+    <circle cx="16.2" cy="8.2" r="6.2" fill="#44739e" />
+    <circle cx="12" cy="15.8" r="6.2" fill="#44739e" />
+  </g>
+</svg>
