@@ -10,16 +10,35 @@ function extractPath(svgContent) {
   return m ? m[1] : "";
 }
 
+function extractViewBox(svgContent) {
+  const m = svgContent.match(/<svg.+?viewBox="([^"]+)"/);
+  if (m) {
+    const parts = m[1].split(" ").map(Number);
+    if (parts.length === 4) {
+      return parts;
+    } else {
+      throw new Error("Invalid viewBox format: " + m[1]);
+    }
+  }
+  // Fallback to default viewBox if not found
+  return [0, 0, 24, 24];
+}
+
 const files = fs.readdirSync(ICONS_DIR).filter(f => f.endsWith(".svg"));
 
 let output = "var icons = {\n";
 
 files.forEach(file => {
-  const name = path.basename(file, ".svg");
-  const svgContent = fs.readFileSync(path.join(ICONS_DIR, file), "utf8");
-  const pathData = extractPath(svgContent);
+  try {
+    const name = path.basename(file, ".svg");
+    const svgContent = fs.readFileSync(path.join(ICONS_DIR, file), "utf8");
+    const pathData = extractPath(svgContent);
+    const viewBox = extractViewBox(svgContent);
 
-  output += `  "${name}":[0,0,24,24,${JSON.stringify(pathData)}],\n`;
+    output += `  "${name}":[${viewBox.join(",")},${JSON.stringify(pathData)}],\n`;
+  } catch (err) {
+    console.log(`❌ Failed to process ${file}: ${err.message}`);
+  }
 });
 
 output += "};\n\n";
