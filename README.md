@@ -192,7 +192,10 @@ Do you like these icons? Support the project with a pizza 🍕🍕
 - Rules on Icon size and contraints are ([HERE](https://github.com/elax46/custom-brand-icons/discussions/1021), 
 - The `svg` code must contain **viewbox**. No transform, translate, or scale.
 - Make sure to add color: **#44739e**. Every custom brand icon uses this color.
+- all icons must have a nomenclature NOT in camelcase but of the type `part1name-part2name`
 - Once done, add the svg file in the folder `icon-svg` found in the root of the repo.
+
+- the icon must ***not be composed of multiple paths but a single** one as shown in the example below
 
 Example svg file below:
 
