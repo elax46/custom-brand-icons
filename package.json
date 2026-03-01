@@ -1,0 +1,18 @@
+{
+  "name": "custom-brand-icons",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "fast-glob": "^3.3.3",
+    "svg-path-bbox": "^2.1.0",
+    "svgpath": "^2.6.0",
+    "svgson": "^5.3.1",
+    "svgo": "^4.0.0"
+  },
+  "scripts": {
+    "normalize": "node script/normalize-icons.mjs",
+    "clean": "node script/normalize-icons.mjs --clean",
+    "vrt": "node script/normalize-icons.mjs --vrt",
+    "clean:vrt": "node script/normalize-icons.mjs --clean --vrt"
+  }
+}
