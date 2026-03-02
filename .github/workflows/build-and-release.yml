@@ -12,12 +12,7 @@ jobs:
     permissions:
       contents: write
 
-    env:
-      ICONFINDER_REPO: ${{ secrets.ICONFINDER_REPO }}
-      ICONFINDER_PAT: ${{ secrets.ICONFINDER_PAT }}
-
     steps:
-
       # 1️⃣ Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -28,101 +23,51 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: 18
+          cache: npm
 
-      # 3️⃣ Install dependencies (FONDAMENTALE)
+      # 3️⃣ Install dependencies
       - name: Install dependencies
         run: npm ci
 
-      # 4️⃣ Debug repo root
-      - name: Show repo root
-        run: |
-          echo "PWD=$PWD"
-          ls -la
-
-      # 5️⃣ Build icons
+      # 4️⃣ Build icons
       - name: Build icons
         run: |
           set -e
-          if [ -f custom-icons-builder.cjs ]; then
-            echo "Executing custom-icons-builder.cjs"
-            node custom-icons-builder.cjs
-            echo "After build:"
-            ls -la
-            ls -la dist || true
-          else
-            echo "custom-icons-builder.cjs not found. Nothing to build."
+
+          if [ ! -f custom-icons-builder.cjs ]; then
+            echo "❌ custom-icons-builder.cjs not found!"
+            exit 1
           fi
 
-      # 6️⃣ Determine version (compatibile con type: module)
-      - name: Determine package version
-        id: determine-version
-        shell: bash
-        run: |
-          set -e
-          VERSION=""
-          if [ -f package.json ]; then
-            VERSION=$(node -e "console.log(JSON.parse(require('fs').readFileSync('package.json')).version)" || true)
-          fi
-          if [ -z "$VERSION" ] && [ -f dist/custom-brand-icons.js ]; then
-            VERSION=$(grep -Eo "[0-9]+\.[0-9]+\.[0-9]+(-[A-Za-z0-9.]+)?" dist/custom-brand-icons.js | head -1 || true)
-          fi
-          if [ -n "$VERSION" ]; then
-            echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
-            echo "VERSION=$VERSION" >> $GITHUB_ENV
+          echo "🚀 Running builder..."
+          node custom-icons-builder.cjs
+
+          if [ ! -f dist/custom-brand-icons.js ]; then
+            echo "❌ Build failed: dist/custom-brand-icons.js not generated"
+            exit 1
           fi
 
-      # 7️⃣ Commit dist changes
+          echo "✅ Build completed successfully"
+
+      # 5️⃣ Commit dist changes (solo se cambiato)
       - name: Commit dist changes
-        id: commit-dist
         run: |
-          set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A dist || true
+
+          git add dist
 
           if git diff --staged --quiet; then
-            echo "No changes detected in dist; skipping commit"
-            echo "dist-changed=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No changes in dist"
             exit 0
           fi
 
-          git commit -m "chore: update dist/custom-brand-icons.js [ci skip]"
+          git commit -m "chore: update dist build [ci skip]"
           git push origin HEAD:main
-          echo "dist-changed=true" >> $GITHUB_OUTPUT
 
-      # 8️⃣ Checkout iconfinder branch (same repo)
-      - name: Checkout iconfinder docs (same repo)
-        if: ${{ env.ICONFINDER_REPO == '' }}
-        uses: actions/checkout@v4
-        with:
-          ref: iconfinder
-          path: iconfinder
-          persist-credentials: true
-
-      # 8️⃣ Checkout iconfinder branch (external fork)
-      - name: Checkout iconfinder docs (external fork)
-        if: ${{ env.ICONFINDER_REPO != '' }}
-        uses: actions/checkout@v4
-        with:
-          repository: ${{ env.ICONFINDER_REPO }}
-          ref: iconfinder
-          path: iconfinder
-          token: ${{ secrets.ICONFINDER_PAT }}
-          persist-credentials: true
-
-      # 9️⃣ Copy built JS into docs
-      - name: Copy built JS into docs
-        if: ${{ steps.commit-dist.outputs.dist-changed == 'true' }}
-        run: |
-          set -e
-          if [ -f dist/custom-brand-icons.js ]; then
-            cp dist/custom-brand-icons.js iconfinder/docs/custom-brand-icons.js
-          fi
-
-      # 🔟 Upload dist artifacts
-      - name: Upload dist folder
-        if: always()
+      # 6️⃣ Upload artifact (opzionale ma utile)
+      - name: Upload dist artifact
         uses: actions/upload-artifact@v4
         with:
           name: custom-brand-icons-dist
