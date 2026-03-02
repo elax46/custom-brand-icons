@@ -29,43 +29,43 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # 4️⃣ Build icons
+      # 4️⃣ Clean / normalize icons (Visual Regression Test)
+      - name: Clean / normalize icons
+        run: |
+          set -e
+          echo "🧹 Running npm run clean:vrt..."
+          npm run clean:vrt
+
+      # 5️⃣ Build icons
       - name: Build icons
         run: |
           set -e
-
           if [ ! -f custom-icons-builder.cjs ]; then
             echo "❌ custom-icons-builder.cjs not found!"
             exit 1
           fi
-
           echo "🚀 Running builder..."
           node custom-icons-builder.cjs
-
           if [ ! -f dist/custom-brand-icons.js ]; then
             echo "❌ Build failed: dist/custom-brand-icons.js not generated"
             exit 1
           fi
-
           echo "✅ Build completed successfully"
 
-      # 5️⃣ Commit dist changes (solo se cambiato)
+      # 6️⃣ Commit dist changes (solo se cambiato)
       - name: Commit dist changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add dist
-
+          git add -f dist
           if git diff --staged --quiet; then
             echo "ℹ️ No changes in dist"
             exit 0
           fi
-
           git commit -m "chore: update dist build [ci skip]"
           git push origin HEAD:main
 
-      # 6️⃣ Upload artifact
+      # 7️⃣ Upload artifact
       - name: Upload dist artifact
         uses: actions/upload-artifact@v4
         with:
