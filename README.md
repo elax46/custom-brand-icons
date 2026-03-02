@@ -15,8 +15,6 @@
 
 #### Custom brand icons use the prefix `phu:`
 #### Append Name (of the icon) after `phu:`
-- Example: `phu:eggs` ![Preview](/icon-svg/eggs.svg)
-- Example: `phu:chicken` ![Preview](/icon-svg/chicken.svg)
 
 # Icon Requests
 
