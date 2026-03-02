@@ -240,6 +240,33 @@ If everything went well you will see a message like this
 window.customIconsets["yourprefix"] = getIcon;
 ```
 
+### Normalize script
+
+> [!WARNING]  
+>You need to have Node.js installed to use.
+
+> [!NOTE]  
+> This procedure can be performed locally to verify that the icons meet the required requirements and that they are compliant and minimized as best as possible.
+
+Thanks to the work of @SoulSolistice, a `normalize-icons.mjs` has been introduced that performs the following operations:
+
+- `viewBox="0 0 24 24"`
+- geometry scaled to fit within `MAX_GEO` x `MAX_GEO` (aspect preserved), default 20x20
+- geometry centered at `viewBox / 2`, default 12,12
+- paths only output, baked coordinates, no transforms
+- fill color is fixed to BRAND_FILL, default `#44739e`
+- --clean: svgo --> normalize --> svgo (because normalization expands path data)
+- --vrt: ImageMagick montage ... --> script/vrt.png as "Visual Regression Test"
+- default input/output (when not specified): custom-brand-icons/icon-svg
+
+
+#### Installation & use:
+* Run `npm i` in `custom-brand-icons` folder to install requirements
+* Run `npm run clean:vrt` to clean the current icons (will be overwritten). Also creates `vrt.png` in the `scripts` folder as "Visual Regression Test". This needs ImageMagick installed.
+
+
+
+
 ### Contributions and Pull Requests
 
 After adding your svg icon in `icon-svg`. Open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
