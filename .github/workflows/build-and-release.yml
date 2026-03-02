@@ -40,10 +40,10 @@ jobs:
       - name: Build icons
         run: |
           if [ -f custom-icons-builder.js ]; then
-            echo "Executing custom-icons-builder.js"
-            node custom-icons-builder.js
+            echo "Executing custom-icons-builder.cjs"
+            node custom-icons-builder.cjs
           else
-            echo "custom-icons-builder.js not found. Nothing to build."
+            echo "custom-icons-builder.cjs not found. Nothing to build."
           fi
 
       # 4.1️⃣ Determine version
