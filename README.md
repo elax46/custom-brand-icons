@@ -96,8 +96,8 @@ To add custom repositories please follow [this guide](https://hacs.xyz/docs/faq/
 
 #### Custom brand icons use the prefix `phu:`
 #### Append Name (of the icon) after `phu:`
-- Example: `phu:eggs` ![Preview](/icon-svg/eggs.svg)
-- Example: `phu:chicken` ![Preview](/icon-svg/chicken.svg)
+- Example: `phu:eggs` <img src="/icon-svg/eggs.svg" title="Preview" alt="Preview" width="24"/>
+- Example: `phu:chicken` <img src="/icon-svg/chicken.svg" title="Preview" alt="Preview" width="24"/>
 
 Example of custom brand icons a lovelace card:
 
