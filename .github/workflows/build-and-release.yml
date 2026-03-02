@@ -29,14 +29,18 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # 4️⃣ Clean / normalize icons (Visual Regression Test)
+      # 4️⃣ Install ImageMagick (necessario per npm run clean:vrt)
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+
+      # 5️⃣ Clean / normalize icons
       - name: Clean / normalize icons
         run: |
           set -e
           echo "🧹 Running npm run clean:vrt..."
           npm run clean:vrt
 
-      # 5️⃣ Build icons
+      # 6️⃣ Build icons
       - name: Build icons
         run: |
           set -e
@@ -52,7 +56,7 @@ jobs:
           fi
           echo "✅ Build completed successfully"
 
-      # 6️⃣ Commit dist changes (solo se cambiato)
+      # 7️⃣ Commit dist changes (solo se cambiato)
       - name: Commit dist changes
         run: |
           git config user.name "github-actions[bot]"
@@ -65,7 +69,7 @@ jobs:
           git commit -m "chore: update dist build [ci skip]"
           git push origin HEAD:main
 
-      # 7️⃣ Upload artifact
+      # 8️⃣ Upload artifact
       - name: Upload dist artifact
         uses: actions/upload-artifact@v4
         with:
