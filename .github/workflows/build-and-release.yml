@@ -12,10 +12,6 @@ jobs:
     permissions:
       contents: write
 
-    env:
-      ICONFINDER_REPO: ${{ secrets.ICONFINDER_REPO }}
-      ICONFINDER_PAT: ${{ secrets.ICONFINDER_PAT }}
-
     steps:
 
       # 1️⃣ Checkout repository
@@ -28,85 +24,61 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: 18
 
       # 3️⃣ Install dependencies
       - name: Install dependencies
         run: npm ci
 
-      # 4️⃣ Install ImageMagick (necessario per VRT)
+      # 4️⃣ Install ImageMagick (necessario per npm run clean:vrt)
       - name: Install ImageMagick
         run: sudo apt-get update && sudo apt-get install -y imagemagick
 
-      # 5️⃣ Debug repo root
-      - name: Show repo root
-        run: |
-          echo "PWD=$PWD"
-          ls -la
-
-      # 6️⃣ Clean & normalize icons, generate VRT
-      - name: Normalize icons & generate VRT
+      # 5️⃣ Clean / normalize icons + VRT
+      - name: Clean / normalize icons
         run: |
           set -e
-          echo "Running normalize-icons.mjs with --clean and --vrt"
-          node script/normalize-icons.mjs --clean --vrt
-          echo "After normalization:"
+          echo "🧹 Running npm run clean:vrt..."
+          npm run clean:vrt
+          echo "✅ Normalization completed"
+          echo "📂 icon-svg content:"
           ls -la icon-svg
-          ls -la script/vrt.png || true
+          echo "📂 script content:"
+          ls -la script
 
-      # 7️⃣ Build JS
-      - name: Build JS
+      # 6️⃣ Build JS bundle
+      - name: Build icons
         run: |
           set -e
-          if [ -f custom-icons-builder.cjs ]; then
-            echo "Executing custom-icons-builder.cjs"
-            node custom-icons-builder.cjs
-            echo "After build:"
-            ls -la dist
-          else
-            echo "custom-icons-builder.cjs not found. Nothing to build."
+          if [ ! -f custom-icons-builder.cjs ]; then
+            echo "❌ custom-icons-builder.cjs not found!"
+            exit 1
           fi
+          echo "🚀 Running builder..."
+          node custom-icons-builder.cjs
+          if [ ! -f dist/custom-brand-icons.js ]; then
+            echo "❌ Build failed: dist/custom-brand-icons.js not generated"
+            exit 1
+          fi
+          echo "✅ Build completed successfully"
+          echo "📂 dist content:"
+          ls -la dist
 
-      # 8️⃣ Determine package version
-      - name: Determine package version
-        id: determine-version
-        shell: bash
-        run: |
-          set -e
-          VERSION=""
-          if [ -f package.json ]; then
-            VERSION=$(node -e "console.log(JSON.parse(require('fs').readFileSync('package.json')).version)" || true)
-          fi
-          if [ -z "$VERSION" ] && [ -f dist/custom-brand-icons.js ]; then
-            VERSION=$(grep -Eo "[0-9]+\.[0-9]+\.[0-9]+(-[A-Za-z0-9.]+)?" dist/custom-brand-icons.js | head -1 || true)
-          fi
-          if [ -n "$VERSION" ]; then
-            echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
-            echo "VERSION=$VERSION" >> $GITHUB_ENV
-          fi
-
-      # 9️⃣ Commit dist changes
+      # 7️⃣ Commit dist changes (solo se ci sono modifiche)
       - name: Commit dist changes
-        id: commit-dist
         run: |
-          set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A dist icon-svg || true
-
+          git add -f dist icon-svg
           if git diff --staged --quiet; then
-            echo "No changes detected; skipping commit"
-            echo "dist-changed=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No changes in dist or icon-svg"
             exit 0
           fi
-
           git commit -m "chore: update dist & normalized SVGs [ci skip]"
           git push origin HEAD:main
-          echo "dist-changed=true" >> $GITHUB_OUTPUT
 
-      # 🔟 Upload dist artifacts
-      - name: Upload dist folder
-        if: always()
+      # 8️⃣ Upload dist artifact
+      - name: Upload dist artifact
         uses: actions/upload-artifact@v4
         with:
           name: custom-brand-icons-dist
