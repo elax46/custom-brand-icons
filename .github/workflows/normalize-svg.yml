@@ -16,7 +16,7 @@ jobs:
 
     steps:
 
-      # 1️⃣ Checkout PR correctly (NO ref override!)
+      # 1️⃣ Checkout automatico corretto per PR
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
@@ -28,17 +28,16 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: npm
 
       # 3️⃣ Install dependencies
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
-      # 4️⃣ Install ImageMagick (if needed)
+      # 4️⃣ Install ImageMagick (se richiesto dal tuo script)
       - name: Install ImageMagick
         run: sudo apt-get update && sudo apt-get install -y imagemagick
 
-      # 5️⃣ Normalize SVG only
+      # 5️⃣ Normalize SVG icons
       - name: Normalize SVG icons
         run: |
           set -e
@@ -46,7 +45,7 @@ jobs:
           npm run clean:vrt
           echo "✅ Normalization completed"
 
-      # 6️⃣ Commit changes only if needed
+      # 6️⃣ Commit solo se ci sono modifiche
       - name: Commit normalized SVGs
         run: |
           # Evita loop se il commit è già del bot
@@ -61,7 +60,7 @@ jobs:
           git add icon-svg
 
           if git diff --staged --quiet; then
-            echo "ℹ️ No SVG changes"
+            echo "ℹ️ No SVG changes detected"
             exit 0
           fi
 
