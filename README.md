@@ -15,6 +15,8 @@
 
 #### Custom brand icons use the prefix `phu:`
 #### Append Name (of the icon) after `phu:`
+- Example: `phu:eggs` <img src="/icon-svg/eggs.svg" title="Preview" alt="Preview" width="24"/>
+- Example: `phu:chicken` <img src="/icon-svg/chicken.svg" title="Preview" alt="Preview" width="24"/>
 
 # Icon Requests
 
@@ -268,3 +270,4 @@ Thanks to the work of @SoulSolistice, a `normalize-icons.mjs` has been introduce
 ### Contributions and Pull Requests
 
 After adding your svg icon in `icon-svg`. Open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
+
