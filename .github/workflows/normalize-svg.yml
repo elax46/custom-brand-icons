@@ -12,27 +12,29 @@ jobs:
 
     permissions:
       contents: write
+      pull-requests: write
 
     steps:
 
-      # 1️⃣ Checkout PR branch (NON main)
+      # 1️⃣ Checkout PR correctly (NO ref override!)
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.head_ref }}
           persist-credentials: true
+          fetch-depth: 0
 
       # 2️⃣ Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
+          cache: npm
 
       # 3️⃣ Install dependencies
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
-      # 4️⃣ Install ImageMagick (se serve per clean:vrt)
+      # 4️⃣ Install ImageMagick (if needed)
       - name: Install ImageMagick
         run: sudo apt-get update && sudo apt-get install -y imagemagick
 
@@ -43,11 +45,16 @@ jobs:
           echo "🧹 Running normalization..."
           npm run clean:vrt
           echo "✅ Normalization completed"
-          ls -la icon-svg
 
-      # 6️⃣ Commit changes back to PR branch (solo se necessario)
+      # 6️⃣ Commit changes only if needed
       - name: Commit normalized SVGs
         run: |
+          # Evita loop se il commit è già del bot
+          if [[ "${{ github.actor }}" == "github-actions[bot]" ]]; then
+            echo "ℹ️ Triggered by bot, skipping commit to avoid loop"
+            exit 0
+          fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
@@ -58,5 +65,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "chore: normalize SVG icons [ci skip]"
+          git commit -m "chore: normalize SVG icons [skip ci]"
           git push
