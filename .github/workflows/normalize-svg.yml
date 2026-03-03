@@ -16,7 +16,7 @@ jobs:
 
     steps:
 
-      # 1️⃣ Checkout automatico corretto per PR
+      # 1️⃣ Checkout the PR branch (full fetch)
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
@@ -29,40 +29,64 @@ jobs:
         with:
           node-version: 18
 
-      # 3️⃣ Install dependencies
+      # 3️⃣ Install project dependencies
       - name: Install dependencies
         run: npm install
 
-      # 4️⃣ Install ImageMagick (se richiesto dal tuo script)
-      - name: Install ImageMagick
-        run: sudo apt-get update && sudo apt-get install -y imagemagick
-
-      # 5️⃣ Normalize SVG icons
-      - name: Normalize SVG icons
+      # 4️⃣ Get only the SVG files changed in this PR
+      - name: Get changed SVG files
+        id: changed_files
         run: |
-          set -e
-          echo "🧹 Running normalization..."
-          npm run clean:vrt
-          echo "✅ Normalization completed"
+          # Fetch the base branch to compare changes
+          git fetch origin ${{ github.base_ref }}
+          git diff --name-only origin/${{ github.base_ref }}...HEAD > changed_files.txt
 
-      # 6️⃣ Commit solo se ci sono modifiche
+          echo "All changed files in the PR:"
+          cat changed_files.txt
+
+          # Keep only SVG files inside icon-svg/
+          grep '^icon-svg/.*\.svg$' changed_files.txt > changed_svg.txt || true
+
+          if [ ! -s changed_svg.txt ]; then
+            echo "No SVG files changed."
+            echo "svg_changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "SVG files to normalize:"
+            cat changed_svg.txt
+            echo "svg_changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      # 5️⃣ Normalize only the changed SVG files
+      - name: Normalize changed SVG icons
+        if: steps.changed_files.outputs.svg_changed == 'true'
+        run: |
+          while read file; do
+            echo "🧹 Normalizing $file"
+            npm run clean:vrt -- "$file"
+          done < changed_svg.txt
+
+      # 6️⃣ Commit normalized SVGs back to the PR branch
       - name: Commit normalized SVGs
+        if: steps.changed_files.outputs.svg_changed == 'true'
         run: |
-          # Evita loop se il commit è già del bot
+          # Skip commit if the bot triggered the workflow to avoid infinite loops
           if [[ "${{ github.actor }}" == "github-actions[bot]" ]]; then
             echo "ℹ️ Triggered by bot, skipping commit to avoid loop"
             exit 0
           fi
 
+          # Configure git author for the bot
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add icon-svg
 
           if git diff --staged --quiet; then
-            echo "ℹ️ No SVG changes detected"
+            echo "ℹ️ No SVG changes detected after normalization"
             exit 0
           fi
 
           git commit -m "chore: normalize SVG icons [skip ci]"
-          git push
+
+          # Push changes back to the PR branch (works even from detached HEAD)
+          git push origin HEAD:${{ github.head_ref }}
