@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
-<g>
-	<defs>
-		<path id="SVGID_1_" d="M2.6,12c0,1.4,0.3,2.8,0.9,4.1l8.4-4.1L3.5,7.8C2.9,9.1,2.5,10.5,2.6,12 M12,2.6c-2.3,0-4.4,0.8-6.1,2.3
-			l9.8,5.3v3.7l-9.8,5.3c3.9,3.4,9.8,3.1,13.3-0.8c3.4-3.9,3.1-9.9-0.8-13.3C16.5,3.4,14.3,2.6,12,2.6L12,2.6z"/>
-	</defs>
-	<use xlink:href="#SVGID_1_"  style="overflow:visible;fill:#44739E;"/>
-	<clipPath id="SVGID_00000099645450619834674490000011177158670558435508_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-	</clipPath>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#44739e" d="M2.016 11.919c0 1.476.316 2.953.949 4.323l8.857-4.323-8.857-4.428c-.633 1.371-1.054 2.847-.949 4.428m9.911-9.911c-2.425 0-4.639.844-6.431 2.425l10.333 5.588v3.902L5.496 19.511c4.112 3.585 10.333 3.269 14.023-.844 3.585-4.112 3.269-10.438-.844-14.023-2.003-1.792-4.323-2.636-6.748-2.636"/></svg>
