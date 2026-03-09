@@ -7,7 +7,7 @@
     "svg-path-bbox": "^2.1.0",
     "svgpath": "^2.6.0",
     "svgson": "^5.3.1",
-    "svgo": "^4.0.0"
+    "svgo": "^4.0.1"
   },
   "scripts": {
     "normalize": "node script/normalize-icons.mjs",
