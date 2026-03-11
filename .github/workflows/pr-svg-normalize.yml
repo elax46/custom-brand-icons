@@ -1,0 +1,446 @@
+# .github/workflows/pr-svg-normalize.yml
+name: SVG Normalize & Preview for PRs
+
+on:
+  pull_request_target:
+    branches: [dev]
+    types: [opened, reopened, synchronize, ready_for_review]
+    paths:
+      - "icon-svg/**/*.svg"
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "PR number to process (e.g. 123)"
+        required: true
+        type: number
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+
+    steps:
+      # -- 0. Resolve PR context for both triggers --------------------------
+      - name: Resolve PR context
+        id: pr
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8.0.0
+        with:
+          script: |
+            const isPR = context.eventName === "pull_request_target";
+            const prNumber = isPR
+              ? context.payload.pull_request.number
+              : Number(context.payload.inputs?.pr_number);
+
+            if (!Number.isFinite(prNumber) || prNumber <= 0) {
+              core.setFailed("Invalid pr_number (workflow_dispatch requires inputs.pr_number)");
+              return;
+            }
+
+            const { data: pr } = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: prNumber,
+            });
+
+            core.setOutput("number", String(pr.number));
+            core.setOutput("head_repo", pr.head.repo.full_name);
+            core.setOutput("head_ref", pr.head.ref);
+            core.setOutput("head_sha", pr.head.sha);
+            core.setOutput("base_ref", pr.base.ref);
+
+      # -- 1. Checkout MAIN (trusted scripts & deps — never the PR head) -----
+      - name: Checkout main (trusted scripts)
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: main
+          path: base
+          fetch-depth: 1  # intentional: we only need HEAD:<path> existence checks
+
+      # -- 2. Install deps from main's lockfile (never from the PR tree) -----
+      - name: Install dependencies
+        run: npm ci
+        working-directory: base
+
+      # -- 3. Checkout PR branch (assets only; no code from here is run) -----
+      - name: Checkout PR branch (assets only)
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          repository: ${{ steps.pr.outputs.head_repo }}
+          ref: ${{ steps.pr.outputs.head_ref }}
+          path: pr-branch
+          fetch-depth: 1
+          submodules: false
+          # keep default persist-credentials behavior (clearer intent since we may push)
+      - run: git -C base fetch --depth=1 origin dev:refs/remotes/origin/dev
+
+      # -- 4. Guard: prevent infinite loop on our own normalize commits -------
+      - name: Guard against re-trigger loop
+        id: guard
+        run: |
+          set -euo pipefail
+          LAST_EMAIL="$(git -C pr-branch log -1 --format='%ae')"
+          echo "Last commit author email: $LAST_EMAIL"
+          if [ "$LAST_EMAIL" = "41898282+github-actions[bot]@users.noreply.github.com" ]; then
+            echo "skip=true"  >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      # -- 5. Identify changed SVGs (API) + enforce "no subfolders" ----------
+      - name: Identify changed SVGs (and enforce flat icon-svg/)
+        if: steps.guard.outputs.skip != 'true'
+        id: changed
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8.0.0
+        env:
+          PR_NUMBER: ${{ steps.pr.outputs.number }}
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo  = context.repo.repo;
+            const pr    = Number(process.env.PR_NUMBER);
+
+            const files = [];
+            for (let page = 1; ; page++) {
+              const { data } = await github.rest.pulls.listFiles({
+                owner, repo, pull_number: pr, per_page: 100, page
+              });
+              if (!data.length) break;
+              for (const f of data) files.push(f.filename);
+              if (data.length < 100) break;
+            }
+
+            const iconRoot = "icon-svg/";
+            const svgFiles = files.filter(f => f.toLowerCase().endsWith(".svg"));
+            const iconSvgs = svgFiles.filter(f => f.startsWith(iconRoot));
+
+            // Policy: no subfolders under icon-svg (only iconRoot + basename.svg)
+            const bad = iconSvgs.filter(f => f.slice(iconRoot.length).includes("/"));
+
+            core.setOutput("has_icon_svgs", String(iconSvgs.length > 0));
+            core.setOutput("has_bad_subfolders", String(bad.length > 0));
+            core.setOutput("count", String(iconSvgs.length));
+
+            const fs = require("fs");
+            const dir = process.env.RUNNER_TEMP;
+
+            fs.writeFileSync(`${dir}/changed_svgs.txt`,
+              iconSvgs.join("\n") + (iconSvgs.length ? "\n" : ""), "utf8");
+
+            fs.writeFileSync(`${dir}/bad_svgs.txt`,
+              bad.join("\n") + (bad.length ? "\n" : ""), "utf8");
+
+      # -- 6. Fail fast if subfolders exist (policy) -------------------------
+      - name: Reject subfolders under icon-svg
+        if: |
+          steps.guard.outputs.skip != 'true' &&
+          steps.changed.outputs.has_bad_subfolders == 'true'
+        run: |
+          set -euo pipefail
+          echo "Subfolders are not allowed under icon-svg."
+          echo ""
+          echo "Offending paths:"
+          cat "$RUNNER_TEMP/bad_svgs.txt"
+          exit 1
+
+      # -- 7. Guard: reject symlinks in icon-svg (prevents path escapes) ------
+      - name: Reject symlinks under icon-svg
+        if: |
+          steps.guard.outputs.skip != 'true' &&
+          steps.changed.outputs.has_icon_svgs == 'true' &&
+          steps.changed.outputs.has_bad_subfolders != 'true'
+        run: |
+          set -euo pipefail
+          ROOT="pr-branch/icon-svg"
+          if find "$ROOT" -type l -print -quit | grep -q .; then
+            echo "Symlinks are not allowed under icon-svg."
+            find "$ROOT" -type l -print
+            exit 1
+          fi
+
+      # -- 8. Stage ONLY changed icons into a temp flat dir -------------------
+      - name: Stage changed SVGs
+        if: |
+          steps.guard.outputs.skip != 'true' &&
+          steps.changed.outputs.has_icon_svgs == 'true' &&
+          steps.changed.outputs.has_bad_subfolders != 'true'
+        run: |
+          set -euo pipefail
+          STAGE="$RUNNER_TEMP/icon_stage"
+          rm -rf "$STAGE"
+          mkdir -p "$STAGE"
+          : > "$RUNNER_TEMP/sizes_before.txt"
+
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
+            base="$(basename "$file")"
+            src="pr-branch/${file}"
+            dst="${STAGE}/${base}"
+
+            if [ ! -f "$src" ]; then
+              echo "Missing file in PR checkout: $src"
+              exit 1
+            fi
+
+            # No duplicate basenames (stage is flat; subfolders are already banned)
+            if [ -e "$dst" ]; then
+              echo "Duplicate basename among changed icons (not allowed): $base"
+              exit 1
+            fi
+
+            cp -f "$src" "$dst"
+            # Capture file size
+            echo "${file}:$(stat -c '%s' "$dst")" >> "$RUNNER_TEMP/sizes_before.txt"
+          done < "$RUNNER_TEMP/changed_svgs.txt"
+
+      # -- 9. Normalize ONLY the staged icons (SVGO -> normalize -> SVGO) ----
+      - name: Normalize staged SVGs
+        if: |
+          steps.guard.outputs.skip != 'true' &&
+          steps.changed.outputs.has_icon_svgs == 'true' &&
+          steps.changed.outputs.has_bad_subfolders != 'true'
+        run: |
+          node base/script/normalize-icons.mjs \
+            "$RUNNER_TEMP/icon_stage" \
+            "$RUNNER_TEMP/icon_stage" \
+            --clean
+
+      # -- 10. Capture final size change -------------------------------------
+      - name: Capture post-normalization sizes
+        if: |
+          steps.guard.outputs.skip != 'true' &&
+          steps.changed.outputs.has_icon_svgs == 'true' &&
+          steps.changed.outputs.has_bad_subfolders != 'true'
+        run: |
+          set -euo pipefail
+
+          : > "$RUNNER_TEMP/sizes_after.txt"
+
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
+            base="$(basename "$file")"
+            echo "${file}:$(stat -c '%s' "$RUNNER_TEMP/icon_stage/${base}")" >> "$RUNNER_TEMP/sizes_after.txt"
+          done < "$RUNNER_TEMP/changed_svgs.txt"
+
+      # -- 11. Copy normalized results back to the PR tree -------------------
+      - name: Apply normalized SVGs to PR branch
+        if: |
+          steps.guard.outputs.skip != 'true' &&
+          steps.changed.outputs.has_icon_svgs == 'true' &&
+          steps.changed.outputs.has_bad_subfolders != 'true'
+        run: |
+          set -euo pipefail  # exit on error (-e), fail on unbound vars (-u), propagate pipe failures (-o pipefail)
+                             # -u in particular prevents silent empty-string substitution of unset secret variable
+          STAGE="$RUNNER_TEMP/icon_stage"
+
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
+            base="$(basename "$file")"
+            src="${STAGE}/${base}"
+            dst="pr-branch/${file}"
+
+            if [ ! -f "$src" ]; then
+              echo "Missing normalized output: $src"
+              exit 1
+            fi
+
+            case "$dst" in
+              pr-branch/icon-svg/*.svg) ;;
+              *) echo "Refusing to write outside icon-svg: $dst"; exit 1 ;;
+            esac
+
+            cp -f "$src" "$dst"
+          done < "$RUNNER_TEMP/changed_svgs.txt"
+
+      # -- 12. Commit only the changed icon paths ----------------------------
+      - name: Commit normalized icons (changed only)
+        if: |
+          steps.guard.outputs.skip != 'true' &&
+          steps.changed.outputs.has_icon_svgs == 'true' &&
+          steps.changed.outputs.has_bad_subfolders != 'true'
+        id: commit
+        run: |
+          set -euo pipefail
+          cd pr-branch
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
+            git add "$file"
+          done < "$RUNNER_TEMP/changed_svgs.txt"
+
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No normalization changes."
+          else
+            git commit -m "style: normalize SVGs [skip ci]"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      # -- 13. Push back to PR branch (forks: requires GitHub to allow it) ---
+      - name: Push normalization commit back to PR branch
+        if: |
+          steps.guard.outputs.skip != 'true' &&
+          steps.commit.outputs.changed == 'true'
+        id: push
+        env:
+          GH_TOKEN:  ${{ secrets.GITHUB_TOKEN }}
+          HEAD_REPO: ${{ steps.pr.outputs.head_repo }}
+        run: |
+          set -euo pipefail
+          echo "::add-mask::$GH_TOKEN"
+
+          cd pr-branch
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${HEAD_REPO}.git"
+
+          set +e
+          git push
+          RC=$?
+          set -e
+
+          if [ $RC -ne 0 ]; then
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "ok=true" >> "$GITHUB_OUTPUT"
+
+      # -- 14. Build report --------------------------------------------------
+      - name: Build comparison comment
+        if: |
+          steps.guard.outputs.skip != 'true' &&
+          steps.changed.outputs.has_icon_svgs == 'true'
+        env:
+          BASE_REPO: ${{ github.repository }}
+          BASE_REF:  dev
+          PR_REPO:   ${{ steps.pr.outputs.head_repo }}
+          HEAD_SHA:  ${{ steps.pr.outputs.head_sha }}
+          AFTER_SHA: ${{ steps.commit.outputs.sha || steps.pr.outputs.head_sha }}
+          PUSH_OK:   ${{ steps.push.outputs.ok || 'true' }}
+        run: |
+          set -euo pipefail
+
+          {
+            echo "### 🎨 SVG Normalization Report"
+            echo ""
+            if [ "${PUSH_OK}" != "true" ]; then
+              echo "> ⚠️ Normalization ran, but **the workflow could not push back to the PR branch**."
+              echo ">"
+              echo "> Please enable **“Allow edits by maintainers”** in the PR UI."
+              echo "> After enabling **close** and then **re-open** the PR. This will rerun the action."
+              echo ">"
+              echo "> Please also review the normalized icons as errors might occur."
+              echo ">"
+              echo "> Thank you for your contribution!"
+              echo ""
+            else
+              echo "> ✔ Normalization **successful**."
+              echo ">"
+              echo "> Please review the normalized icons as errors might occur."
+              echo ">"
+              echo "> If needed, **manually update** the PR with a fixed version."
+              echo ">"
+              echo "> Thank you for your contribution!"
+              echo ""
+            fi
+            echo "| Original (PR) | Normalized | Result |"
+            echo "| :---: | :---: | :--- |"
+          } > "$RUNNER_TEMP/report.md"
+
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
+            base="$(basename "$file")"
+
+            url_before="https://raw.githubusercontent.com/${PR_REPO}/${HEAD_SHA}/${file}"
+            url_after="https://raw.githubusercontent.com/${PR_REPO}/${AFTER_SHA}/${file}"
+
+            size_before="$(grep -m1 "^${file}:" "$RUNNER_TEMP/sizes_before.txt" 2>/dev/null | cut -d: -f2 || true)"
+            size_after="$(grep  -m1 "^${file}:" "$RUNNER_TEMP/sizes_after.txt"  2>/dev/null | cut -d: -f2 || true)"
+
+
+            if [ -n "${size_before:-}" ] && [ -n "${size_after:-}" ] &&
+               [ "$size_before" -gt 0 ] && [ "$size_after" -gt 0 ]; then
+              saved=$(( size_before - size_after ))
+              pct="$(awk -v s="$saved" -v b="$size_before" 'BEGIN { printf "%.1f", (s*100.0)/b }')"
+
+              if [ "$saved" -gt 0 ]; then
+                result="${size_before}B → ${size_after}B (−${saved}B, −${pct}%)"
+              elif [ "$saved" -lt 0 ]; then
+                inc=$(( -saved ))
+                pct_abs="$(awk -v s="$inc" -v b="$size_before" 'BEGIN { printf "%.1f", (s*100.0)/b }')"
+                result="${size_before}B → ${size_after}B (+${inc}B, +${pct_abs}%)"
+              else
+                result="${size_before}B → ${size_after}B (0B, 0.0%)"
+              fi
+            else
+              result="n/a"
+            fi
+
+            # New icon detection against BASE_REF
+            if git -C base cat-file -e "refs/remotes/origin/dev:${file}" 2>/dev/null; then
+              printf '| ![](%s) | ![](%s) | %s |\\n' "$url_before" "$url_after" "$result" >> "$RUNNER_TEMP/report.md"
+            else
+              printf '| ![](%s) | ![](%s) | 🆕 New · %s |\\n' "$url_before" "$url_after" "$result" >> "$RUNNER_TEMP/report.md"
+            fi
+          done < "$RUNNER_TEMP/changed_svgs.txt"
+
+      # -- 15. Post or update PR comment ------------------------------------
+      - name: Post comparison comment
+        if: |
+          steps.guard.outputs.skip != 'true' &&
+          steps.changed.outputs.has_icon_svgs == 'true'
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8.0.0
+        env:
+          PR_NUMBER: ${{ steps.pr.outputs.number }}
+        with:
+          script: |
+            const fs = require("fs");
+
+            const body = fs.readFileSync(process.env.RUNNER_TEMP + "/report.md", "utf8");
+            const tag  = "<!-- svg-normalization-report -->";
+            const full = `${body}\n${tag}`;
+
+            const issue_number = Number(process.env.PR_NUMBER);
+            if (!Number.isFinite(issue_number) || issue_number <= 0) {
+              core.setFailed("Invalid PR_NUMBER for commenting");
+              return;
+            }
+
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number,
+              per_page: 100,
+            });
+
+            const existing = comments.find(c => c.body?.includes(tag));
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body: full,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number,
+                body: full,
+              });
+            }
+
+      # -- 16. Fail job when push back is not possible (after notifying) ------
+      - name: Fail job when push back is not possible
+        if: |
+          steps.guard.outputs.skip != 'true' &&
+          steps.commit.outputs.changed == 'true' &&
+          steps.push.outputs.ok != 'true'
+        run: |
+          echo "Normalization commit could not be pushed back to the PR branch."
+          echo "Enable 'Allow edits by maintainers' and re-run the workflow."
+          exit 1

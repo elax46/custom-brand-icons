@@ -1,0 +1,62 @@
+name: Normalize SVG Icons (PR → dev)
+
+on:
+  pull_request:
+    branches:
+      - dev
+    types: [opened, synchronize, reopened]
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+
+      # 1️⃣ Checkout PR branch (NON main)
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          persist-credentials: true
+
+      # 2️⃣ Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      # 3️⃣ Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # 4️⃣ Install ImageMagick (se serve per clean:vrt)
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+
+      # 5️⃣ Normalize SVG only
+      - name: Normalize SVG icons
+        run: |
+          set -e
+          echo "🧹 Running normalization..."
+          npm run clean:vrt
+          echo "✅ Normalization completed"
+          ls -la icon-svg
+
+      # 6️⃣ Commit changes back to PR branch (solo se necessario)
+      - name: Commit normalized SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add icon-svg
+
+          if git diff --staged --quiet; then
+            echo "ℹ️ No SVG changes"
+            exit 0
+          fi
+
+          git commit -m "chore: normalize SVG icons [ci skip]"
+          git push

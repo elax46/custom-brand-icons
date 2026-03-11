@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="24"
-   height="24"
-   viewBox="0 0 24 24"
-   version="1.1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <path
-     style="fill:#44739e"
-     d="M 14.825,16.95 13.085,13.52 H 10.525 L 14.825,22 19.115,13.52 H 16.555 M 10.715,8.86 13.085,13.52 H 16.555 L 10.715,2 4.885,13.52 H 8.355"
-   />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#44739e" d="m14.825 16.95-1.74-3.43h-2.56l4.3 8.48 4.29-8.48h-2.56m-5.84-4.66 2.37 4.66h3.47L10.715 2l-5.83 11.52h3.47"/></svg>
