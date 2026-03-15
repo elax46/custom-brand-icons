@@ -71,7 +71,7 @@ jobs:
           repository: ${{ steps.pr.outputs.head_repo }}
           ref: ${{ steps.pr.outputs.head_ref }}
           path: pr-branch
-          fetch-depth: 1
+          fetch-depth: 0   # required: shallow clone breaks fork-PR push and fetch ref patterns
           submodules: false
           # keep default persist-credentials behavior (clearer intent since we may push)
       - run: git -C base fetch --depth=1 origin dev:refs/remotes/origin/dev
