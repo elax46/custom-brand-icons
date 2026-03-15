@@ -397,9 +397,9 @@ jobs:
 
             # New icon detection against BASE_REF
             if git -C base cat-file -e "refs/remotes/origin/dev:${file}" 2>/dev/null; then
-              printf '| ![](%s) | ![](%s) | %s |\\n' "$url_before" "$url_after" "$result" >> "$RUNNER_TEMP/report.md"
+              printf '| ![](%s) | ![](%s) | %s |\n' "$url_before" "$url_after" "$result" >> "$RUNNER_TEMP/report.md"
             else
-              printf '| ![](%s) | ![](%s) | 🆕 New · %s |\\n' "$url_before" "$url_after" "$result" >> "$RUNNER_TEMP/report.md"
+              printf '| ![](%s) | ![](%s) | 🆕 New · %s |\n' "$url_before" "$url_after" "$result" >> "$RUNNER_TEMP/report.md"
             fi
           done < "$RUNNER_TEMP/changed_svgs.txt"
 
