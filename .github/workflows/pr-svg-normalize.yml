@@ -101,20 +101,33 @@ jobs:
             const owner = context.repo.owner;
             const repo  = context.repo.repo;
             const pr    = Number(process.env.PR_NUMBER);
-
-            const files = [];
+            const BOT_EMAIL = "41898282+github-actions[bot]@users.noreply.github.com";
+            
+            // Get all commits on this PR
+            const commits = [];
             for (let page = 1; ; page++) {
-              const { data } = await github.rest.pulls.listFiles({
+              const { data } = await github.rest.pulls.listCommits({
                 owner, repo, pull_number: pr, per_page: 100, page
               });
               if (!data.length) break;
-              for (const f of data) files.push(f.filename);
+              commits.push(...data);
               if (data.length < 100) break;
             }
-
+            
+            // Collect files only from non-bot commits
+            const nonBotFiles = new Set();
+            for (const c of commits) {
+              if (c.commit.author?.email === BOT_EMAIL) continue;
+              const { data: detail } = await github.rest.repos.getCommit({
+                owner, repo, ref: c.sha
+              });
+              for (const f of (detail.files ?? [])) nonBotFiles.add(f.filename);
+            }
+            
             const iconRoot = "icon-svg/";
-            const svgFiles = files.filter(f => f.toLowerCase().endsWith(".svg"));
-            const iconSvgs = svgFiles.filter(f => f.startsWith(iconRoot));
+            const iconSvgs = [...nonBotFiles].filter(f =>
+              f.startsWith(iconRoot) && f.toLowerCase().endsWith(".svg")
+            );
 
             // Policy: no subfolders under icon-svg (only iconRoot + basename.svg)
             const bad = iconSvgs.filter(f => f.slice(iconRoot.length).includes("/"));
