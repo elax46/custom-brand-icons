@@ -1,7 +1,1 @@
-<svg viewBox="0 0 200 230" xmlns="http://www.w3.org/2000/svg">
-  <path 
-    fill="#44739e"
-    fill-rule="evenodd"
-    d="M100,10 L190,60 L190,170 L100,220 L10,170 L10,60 Z
-       M100,38 L168,78 L168,152 L100,192 L32,152 L32,78 Z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#44739e" fill-rule="evenodd" d="m12 2 8.571 4.762v10.476L12 22l-8.571-4.762V6.762Zm0 2.667 6.476 3.809v7.048L12 19.333l-6.476-3.809V8.476Z"/></svg>
