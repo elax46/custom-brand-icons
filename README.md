@@ -11,7 +11,7 @@
 
 # Custom brand icons
 
-![logo](https://res.cloudinary.com/dcongin7u/image/upload/v1707320837/cbi-logo.jpg)
+![logo](https://res.cloudinary.com/dcongin7u/image/upload/v1775920018/cbi-logo_pho7hp.png)
 
 #### Custom brand icons use the prefix `phu:`
 #### Append Name (of the icon) after `phu:`
