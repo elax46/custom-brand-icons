@@ -18,6 +18,21 @@
 - Example: `phu:eggs` <img src="/icon-svg/eggs.svg" title="Preview" alt="Preview" width="24"/>
 - Example: `phu:chicken` <img src="/icon-svg/chicken.svg" title="Preview" alt="Preview" width="24"/>
 
+---
+
+### 🇮🇹 Special Note for Italian Users
+Are you monitoring your energy costs in Home Assistant? Check out my latest project: [**Card Bolletta**](https://github.com/elax46/card-bolletta).
+
+It’s a custom card specifically designed for the Italian energy market. It helps you estimate your monthly bill in real-time, including taxes (IVA), system charges (Oneri di sistema), and excise duties (Accise).
+
+**Key features:**
+* Support for F1, F2, F3 price brackets.
+* Real-time bill estimation.
+* **New:** Ultra-compact layout for minimalist dashboards.
+* Detailed cost breakdown (Energy vs. Transport vs. Taxes).
+
+Give it a try and let me know what you think! ⭐
+
 # Icon Requests
 
 Want an icon? Open a [custom icon request](https://github.com/elax46/custom-brand-icons/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) or [contribute to the project](#developer-workflow).
