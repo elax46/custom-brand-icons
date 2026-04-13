@@ -269,5 +269,9 @@ Thanks to the work of @SoulSolistice, a `normalize-icons.mjs` has been introduce
 
 ### Contributions and Pull Requests
 
+> [!IMPORTANT]
+> **Contributions Rules:** All Pull Requests must be targeted to the `dev` branch. 
+> PRs opened against `main` will be automatically closed by our bot.
+
 After adding your svg icon in `icon-svg`. Open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
 
