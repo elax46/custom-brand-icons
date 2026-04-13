@@ -1,0 +1,62 @@
+name: "Strict Contribution Policy Enforcer"
+
+on:
+  pull_request_target:
+    types: [opened]
+
+jobs:
+  enforce-branching-rules:
+    runs-on: ubuntu-latest
+    if: |
+      github.event.pull_request.author_association != 'OWNER' &&
+      github.event.pull_request.author_association != 'MEMBER' &&
+      github.event.pull_request.author_association != 'COLLABORATOR'
+    
+    steps:
+      - name: Validate PR Branches and Close if Invalid
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const baseBranch = context.payload.pull_request.base.ref; 
+            const headBranch = context.payload.pull_request.head.ref; 
+            const creator = context.payload.sender.login;
+            
+            let violationDetected = false;
+            let errorMessage = "";
+
+            if (baseBranch !== 'dev') {
+              violationDetected = true;
+              errorMessage = `### ❌ Invalid Target Branch\nHi @${creator}, thank you for your contribution! You targeted the \`${baseBranch}\` branch, but all Pull Requests must be submitted to our **dev** branch.`;
+            } 
+            else if (headBranch === 'main' || headBranch === 'dev') {
+              violationDetected = true;
+              errorMessage = `### ❌ Invalid Source Branch\nHi @${creator}, please do not use your \`${headBranch}\` branch for contributions. You should create a **new feature branch** on your fork (e.g., \`feat/add-new-icon\`) and submit your PR from there.`;
+            }
+
+            if (violationDetected) {
+              const finalComment = `${errorMessage}\n\n**Action Taken:** This Pull Request has been automatically closed. Please update your branches and feel free to open a new PR. Thank you!`;
+              
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: finalComment
+              });
+
+              try {
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  labels: ['invalid-branching']
+                });
+              } catch (e) { console.log("Label not found."); }
+
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                state: 'closed'
+              });
+            }
