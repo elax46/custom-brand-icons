@@ -21,7 +21,11 @@ permissions:
 jobs:
   normalize:
     runs-on: ubuntu-latest
-
+    if: |
+      github.event.pull_request.author_association == 'OWNER' ||
+      github.event.pull_request.author_association == 'MEMBER' ||
+      github.event.pull_request.author_association == 'COLLABORATOR' ||
+      (github.event.pull_request.head.ref != 'main' && github.event.pull_request.head.ref != 'dev')
     steps:
       # -- 0. Resolve PR context for both triggers --------------------------
       - name: Resolve PR context
