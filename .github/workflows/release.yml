@@ -14,12 +14,25 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Fetch all tags
+        run: git fetch --tags --force
+
       - name: Generate Version Tag
         id: vars
         run: |
           YEAR_MONTH=$(date +'%Y.%m')
-          COUNT=$(git tag -l "$YEAR_MONTH.*" | wc -l)
-          VERSION="$YEAR_MONTH.$COUNT"
+          
+          # Get the last patch number for the current Year.Month
+          # It looks for tags like 2026.04.X and picks the highest X
+          LAST_PATCH=$(git tag -l "$YEAR_MONTH.*" | awk -F. '{print $3}' | sort -n | tail -1)
+          
+          if [ -z "$LAST_PATCH" ]; then
+            PATCH=0
+          else
+            PATCH=$((LAST_PATCH + 1))
+          fi
+          
+          VERSION="$YEAR_MONTH.$PATCH"
           echo "tag=$VERSION" >> $GITHUB_OUTPUT
           
           PREV_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
