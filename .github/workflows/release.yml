@@ -1,4 +1,4 @@
-name: Auto Release
+name: Auto Release Icons
 
 on:
   workflow_dispatch:
@@ -12,11 +12,14 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # Fetches all history
+          fetch-tags: true # Explicitly tell checkout to fetch tags
 
-      - name: Sync Tags
+      - name: Force Tag Sync
         run: |
-          git fetch --tags --force
+          git fetch --tags --force --prune
+          # Ensure local tracking of remote tags
+          git pull --tags || true
 
       - name: Generate Unique Version Tag
         id: vars
@@ -24,17 +27,18 @@ jobs:
           YEAR_MONTH=$(date +'%Y.%m')
           PATCH=0
           
-          # Safety check loop: increment PATCH if tag already exists
-          while git rev-parse "$YEAR_MONTH.$PATCH" >/dev/null 2>&1; do
-            echo "Tag $YEAR_MONTH.$PATCH already exists, trying next..."
+          # Use ls-remote to check tags directly on the server (most reliable way)
+          # this avoids issues with the local runner cache
+          while git ls-remote --tags origin | grep -q "refs/tags/$YEAR_MONTH.$PATCH"; do
+            echo "Tag $YEAR_MONTH.$PATCH exists on remote, skipping..."
             PATCH=$((PATCH + 1))
           done
           
           VERSION="$YEAR_MONTH.$PATCH"
           echo "tag=$VERSION" >> $GITHUB_OUTPUT
-          echo "Selected Tag: $VERSION"
+          echo "Final Version to be created: $VERSION"
           
-          # Get previous tag for icon comparison (if it exists)
+          # Get previous tag for icon comparison
           PREV_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
           echo "prev_tag=$PREV_TAG" >> $GITHUB_OUTPUT
 
