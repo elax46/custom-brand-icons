@@ -1,0 +1,78 @@
+name: Auto Release
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate Version Tag
+        id: vars
+        run: |
+          YEAR_MONTH=$(date +'%Y.%m')
+          COUNT=$(git tag -l "$YEAR_MONTH.*" | wc -l)
+          VERSION="$YEAR_MONTH.$COUNT"
+          echo "tag=$VERSION" >> $GITHUB_OUTPUT
+          
+          PREV_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+          echo "prev_tag=$PREV_TAG" >> $GITHUB_OUTPUT
+
+      - name: Identify New Icons
+        id: new_icons
+        run: |
+          touch table_rows.txt
+          if [ -z "${{ steps.vars.outputs.prev_tag }}" ]; then
+            FILES=$(ls icon-svg/*.svg 2>/dev/null || true)
+          else
+            FILES=$(git diff --name-only --diff-filter=A ${{ steps.vars.outputs.prev_tag }} HEAD | grep 'icon-svg/.*\.svg$' || true)
+          fi
+
+          if [ -n "$FILES" ]; then
+            for file in $FILES; do
+              filename=$(basename "$file")
+              name="${filename%.*}"
+              echo "|![Preview](https://raw.githubusercontent.com/${{ github.repository }}/main/icon-svg/$filename) |$name|" >> table_rows.txt
+            done
+            echo "has_new_icons=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_new_icons=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Release Notes Body
+        id: body
+        run: |
+          {
+            echo 'BODY<<EOF'
+            echo "> [!TIP]"
+            echo "> View all icons in the - [icon finder](https://elax46.github.io/custom-brand-icons/)"
+            echo ""
+            
+            if [ "${{ steps.new_icons.outputs.has_new_icons }}" = "true" ]; then
+              echo "### New Icons Added"
+              echo '<div align="center">'
+              echo ""
+              echo "| Icon | Name |"
+              echo "|------|:--------------:|"
+              cat table_rows.txt
+              echo ""
+              echo "</div>"
+              echo ""
+            fi
+            echo 'EOF'
+          } >> $GITHUB_OUTPUT
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.vars.outputs.tag }}
+          name: ${{ steps.vars.outputs.tag }}
+          body: ${{ steps.body.outputs.BODY }}
+          generate_release_notes: true
