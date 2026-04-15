@@ -17,29 +17,24 @@ jobs:
       - name: Sync Tags
         run: |
           git fetch --tags --force
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
 
-      - name: Generate Version Tag
+      - name: Generate Unique Version Tag
         id: vars
         run: |
           YEAR_MONTH=$(date +'%Y.%m')
+          PATCH=0
           
-          # Get all tags for current year.month, sort them numerically by the patch version
-          LAST_TAG=$(git tag -l "$YEAR_MONTH.*" | sort -V | tail -n 1)
+          # Safety check loop: increment PATCH if tag already exists
+          while git rev-parse "$YEAR_MONTH.$PATCH" >/dev/null 2>&1; do
+            echo "Tag $YEAR_MONTH.$PATCH already exists, trying next..."
+            PATCH=$((PATCH + 1))
+          done
           
-          if [ -z "$LAST_TAG" ]; then
-            VERSION="$YEAR_MONTH.0"
-          else
-            # Extract the last number and increment it
-            PATCH=$(echo $LAST_TAG | awk -F. '{print $3}')
-            NEXT_PATCH=$((PATCH + 1))
-            VERSION="$YEAR_MONTH.$NEXT_PATCH"
-          fi
-          
+          VERSION="$YEAR_MONTH.$PATCH"
           echo "tag=$VERSION" >> $GITHUB_OUTPUT
+          echo "Selected Tag: $VERSION"
           
-          # Reference for icon comparison
+          # Get previous tag for icon comparison (if it exists)
           PREV_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
           echo "prev_tag=$PREV_TAG" >> $GITHUB_OUTPUT
 
@@ -50,7 +45,6 @@ jobs:
           if [ -z "${{ steps.vars.outputs.prev_tag }}" ]; then
             FILES=$(ls icon-svg/*.svg 2>/dev/null || true)
           else
-            # Compare current HEAD against the previous release tag
             FILES=$(git diff --name-only --diff-filter=A ${{ steps.vars.outputs.prev_tag }} HEAD | grep 'icon-svg/.*\.svg$' || true)
           fi
 
