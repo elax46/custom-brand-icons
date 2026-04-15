@@ -93,3 +93,4 @@ jobs:
           name: ${{ steps.vars.outputs.tag }}
           body: ${{ steps.body.outputs.BODY }}
           generate_release_notes: true
+          make_latest: true
