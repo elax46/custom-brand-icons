@@ -10,12 +10,12 @@ updates:
       prefix: "chore(deps)"
     groups:
       minor-patch:
-        applies-to: "version-updates"
         update-types:
           - "minor"
           - "patch"
-  - package-ecosystem: github-actions
-    directory: /
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    target-branch: "dev"
     schedule:
-      interval: weekly
-    target-branch: dev
+      interval: "weekly"
