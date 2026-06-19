@@ -1,0 +1,61 @@
+name: Validate Attached SVG
+on:
+  issue_comment:
+    types: [created, edited]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Validate and Label
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const comment = context.payload.comment;
+            const issue_number = context.issue.number;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const invalidLabel = 'invalid-icon';
+            
+            const regex = /https:\/\/github\.com\/.*\/assets\/.*\.svg/g;
+            const matches = comment.body.match(regex);
+            
+            if (matches) {
+              for (const url of matches) {
+                const response = await fetch(url);
+                const content = await response.text();
+                
+                let isValid = true;
+                let errorMessage = "";
+                
+                if (!content.includes('<svg')) {
+                  isValid = false;
+                  errorMessage = "File is not a valid SVG (missing <svg> tag).";
+                } else if (content.includes('data:image')) {
+                  isValid = false;
+                  errorMessage = "SVG contains embedded bitmap images (not allowed).";
+                }
+
+                if (!isValid) {
+                  await github.rest.issues.addLabels({
+                    owner, repo, issue_number, labels: [invalidLabel]
+                  });
+                  await github.rest.issues.createComment({
+                    owner, repo, issue_number,
+                    body: `⚠️ **Validation Failed:** ${errorMessage} Please fix your file and upload it again.`
+                  });
+                  return;
+                }
+              }
+              
+              await github.rest.issues.removeLabel({
+                owner, repo, issue_number, name: invalidLabel
+              }).catch(() => {});
+            }
