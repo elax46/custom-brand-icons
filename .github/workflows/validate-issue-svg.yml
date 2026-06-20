@@ -1,4 +1,5 @@
-name: Validate Attached SVG
+name: Validate and Normalize Attached SVG
+
 on:
   issue_comment:
     types: [created, edited]
@@ -9,53 +10,69 @@ jobs:
     permissions:
       issues: write
     steps:
-      - uses: actions/checkout@v4
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          python-version: '3.x'
-      - name: Validate and Label
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate and Normalize
         uses: actions/github-script@v7
         with:
           script: |
-            const comment = context.payload.comment;
+            const { execSync } = require('child_process');
+            const fs = require('fs');
+            const path = require('path');
+            
+            const comment = context.payload.comment.body;
             const issue_number = context.issue.number;
             const owner = context.repo.owner;
             const repo = context.repo.repo;
             const invalidLabel = 'invalid-icon';
             
+            // Regex to find SVG URLs in the comment
             const regex = /https:\/\/github\.com\/.*\/assets\/.*\.svg/g;
-            const matches = comment.body.match(regex);
+            const matches = comment.match(regex);
             
             if (matches) {
+              const stageDir = path.join(process.env.RUNNER_TEMP, 'icon_stage');
+              if (!fs.existsSync(stageDir)) fs.mkdirSync(stageDir);
+              
               for (const url of matches) {
-                const response = await fetch(url);
-                const content = await response.text();
+                const fileName = path.basename(url.split('?')[0]);
+                const filePath = path.join(stageDir, fileName);
                 
-                let isValid = true;
-                let errorMessage = "";
+                // 1. Download the file
+                execSync(`curl -L "${url}" -o "${filePath}"`);
                 
-                if (!content.includes('<svg')) {
-                  isValid = false;
-                  errorMessage = "File is not a valid SVG (missing <svg> tag).";
-                } else if (content.includes('data:image')) {
-                  isValid = false;
-                  errorMessage = "SVG contains embedded bitmap images (not allowed).";
-                }
-
-                if (!isValid) {
+                // 2. Run your existing normalization script
+                try {
+                  execSync(`node script/normalize-icons.mjs "${stageDir}" "${stageDir}" --clean`);
+                  
+                  // Success: remove the invalid label if present
+                  await github.rest.issues.removeLabel({
+                    owner, repo, issue_number, name: invalidLabel
+                  }).catch(() => {});
+                  
+                  await github.rest.issues.createComment({
+                    owner, repo, issue_number,
+                    body: "✅ **Validation Successful:** The SVG has been normalized and is ready to be included."
+                  });
+                } catch (error) {
+                  // Failure: add the invalid label and notify
                   await github.rest.issues.addLabels({
                     owner, repo, issue_number, labels: [invalidLabel]
                   });
                   await github.rest.issues.createComment({
                     owner, repo, issue_number,
-                    body: `⚠️ **Validation Failed:** ${errorMessage} Please fix your file and upload it again.`
+                    body: `⚠️ **Validation Failed:** The icon could not be normalized. Please ensure it is a valid SVG. Error: ${error.message}`
                   });
                   return;
                 }
               }
-              
-              await github.rest.issues.removeLabel({
-                owner, repo, issue_number, name: invalidLabel
-              }).catch(() => {});
             }
