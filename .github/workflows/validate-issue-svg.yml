@@ -4,6 +4,9 @@ on:
   issue_comment:
     types: [created, edited]
 
+env:
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -35,17 +38,22 @@ jobs:
             const repo = context.repo.repo;
             const invalidLabel = 'invalid-icon';
             
-            // Regex to find SVG URLs in the comment
-            const regex = /https:\/\/github\.com\/.*\/assets\/.*\.svg/g;
-            const matches = comment.match(regex);
+            // Regex to match the new GitHub attachment format
+            const regex = /src="(https:\/\/github\.com\/user-attachments\/assets\/[a-f0-9-]+)"/g;
+            let match;
+            const matches = [];
+
+            while ((match = regex.exec(comment)) !== null) {
+              matches.push(match[1]);
+            }
             
-            if (matches) {
+            if (matches.length > 0) {
               const stageDir = path.join(process.env.RUNNER_TEMP, 'icon_stage');
               if (!fs.existsSync(stageDir)) fs.mkdirSync(stageDir);
               
               for (const url of matches) {
-                const fileName = path.basename(url.split('?')[0]);
-                const filePath = path.join(stageDir, fileName);
+                // Name it icon.svg so the normalization script processes it correctly
+                const filePath = path.join(stageDir, 'icon.svg');
                 
                 // 1. Download the file
                 execSync(`curl -L "${url}" -o "${filePath}"`);
@@ -54,7 +62,7 @@ jobs:
                 try {
                   execSync(`node script/normalize-icons.mjs "${stageDir}" "${stageDir}" --clean`);
                   
-                  // Success: remove the invalid label if present
+                  // Success: remove label and notify
                   await github.rest.issues.removeLabel({
                     owner, repo, issue_number, name: invalidLabel
                   }).catch(() => {});
@@ -64,7 +72,7 @@ jobs:
                     body: "✅ **Validation Successful:** The SVG has been normalized and is ready to be included."
                   });
                 } catch (error) {
-                  // Failure: add the invalid label and notify
+                  // Failure: add label and notify
                   await github.rest.issues.addLabels({
                     owner, repo, issue_number, labels: [invalidLabel]
                   });
