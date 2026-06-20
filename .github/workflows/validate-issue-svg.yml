@@ -33,33 +33,41 @@ jobs:
             const path = require('path');
             
             const comment = context.payload.comment;
-            const commentBody = comment.body;
             const issue_number = context.issue.number;
             const owner = context.repo.owner;
             const repo = context.repo.repo;
             const invalidLabel = 'invalid-icon';
             
-            // Extract image URLs from the current comment only
+            // Regex per catturare gli URL degli allegati di GitHub
             const regex = /src="(https:\/\/github\.com\/user-attachments\/assets\/[a-f0-9-]+)"/g;
             let match;
             const urls = [];
-            while ((match = regex.exec(commentBody)) !== null) {
+            while ((match = regex.exec(comment.body)) !== null) {
               urls.push(match[1]);
             }
             
-            if (urls.length === 0) return; // Exit if no images in this specific comment
+            if (urls.length === 0) return;
 
             const stageDir = path.join(process.env.RUNNER_TEMP, 'icon_stage');
-            if (!fs.existsSync(stageDir)) fs.mkdirSync(stageDir);
+            if (fs.existsSync(stageDir)) fs.rmSync(stageDir, { recursive: true });
+            fs.mkdirSync(stageDir, { recursive: true });
             
             for (const url of urls) {
               const filePath = path.join(stageDir, 'icon.svg');
+              
+              // Scaricamento
               execSync(`curl -L "${url}" -o "${filePath}"`);
               
               try {
-                execSync(`node script/normalize-icons.mjs "${stageDir}" "${stageDir}" --clean`);
+                // Esecuzione forzando l'output e catturando l'eventuale errore
+                const stdout = execSync(`node script/normalize-icons.mjs "${stageDir}" "${stageDir}" --clean`, { encoding: 'utf8' });
+                console.log("Script output:", stdout);
                 
-                // Check if already validated to avoid spam
+                // Verifica post-normalizzazione: lo script dovrebbe aver scritto nel file
+                const stats = fs.statSync(filePath);
+                if (stats.size === 0) throw new Error("Normalization resulted in an empty file.");
+
+                // Se tutto ok, rimuovi label e commenta (solo se non già fatto)
                 const { data: existingComments } = await github.rest.issues.listComments({ owner, repo, issue_number });
                 const hasSuccess = existingComments.some(c => c.body.includes("✅ **Validation Successful"));
                 
@@ -72,7 +80,16 @@ jobs:
                   });
                 }
               } catch (error) {
+                console.error("Normalization Error:", error.message);
+                
+                // In caso di errore (exit code != 0 o file vuoto), etichetta come non valido
                 await github.rest.issues.addLabels({ owner, repo, issue_number, labels: [invalidLabel] }).catch(() => {});
-                // Optional: avoid comment spam here too if preferred
+                
+                await github.rest.issues.createComment({ 
+                  owner, repo, issue_number, 
+                  body: `⚠️ **Validation Failed:** The icon is invalid or could not be normalized. \n\nDetails: ${error.message}` 
+                });
+                // Usciamo dal loop per evitare spam
+                return;
               }
             }
