@@ -6,11 +6,6 @@ labels: ["icon request"]
 assignees: rchiileea
 ---
 
-### Instructions
-1. Please upload your SVG file **directly in the comment below** after submitting this issue.
-2. Our automated system will validate the file structure immediately.
-3. **Important:** Ensure the SVG is clean, optimized, and does not contain embedded bitmap images.
-
 ### Icon Details
 - **Icon Name:**
 - **Description and Official Link:**
