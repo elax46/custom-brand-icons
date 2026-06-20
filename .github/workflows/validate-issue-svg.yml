@@ -32,55 +32,47 @@ jobs:
             const fs = require('fs');
             const path = require('path');
             
-            const comment = context.payload.comment.body;
+            const comment = context.payload.comment;
+            const commentBody = comment.body;
             const issue_number = context.issue.number;
             const owner = context.repo.owner;
             const repo = context.repo.repo;
             const invalidLabel = 'invalid-icon';
             
-            // Regex to match the new GitHub attachment format
+            // Extract image URLs from the current comment only
             const regex = /src="(https:\/\/github\.com\/user-attachments\/assets\/[a-f0-9-]+)"/g;
             let match;
-            const matches = [];
-
-            while ((match = regex.exec(comment)) !== null) {
-              matches.push(match[1]);
+            const urls = [];
+            while ((match = regex.exec(commentBody)) !== null) {
+              urls.push(match[1]);
             }
             
-            if (matches.length > 0) {
-              const stageDir = path.join(process.env.RUNNER_TEMP, 'icon_stage');
-              if (!fs.existsSync(stageDir)) fs.mkdirSync(stageDir);
+            if (urls.length === 0) return; // Exit if no images in this specific comment
+
+            const stageDir = path.join(process.env.RUNNER_TEMP, 'icon_stage');
+            if (!fs.existsSync(stageDir)) fs.mkdirSync(stageDir);
+            
+            for (const url of urls) {
+              const filePath = path.join(stageDir, 'icon.svg');
+              execSync(`curl -L "${url}" -o "${filePath}"`);
               
-              for (const url of matches) {
-                // Name it icon.svg so the normalization script processes it correctly
-                const filePath = path.join(stageDir, 'icon.svg');
+              try {
+                execSync(`node script/normalize-icons.mjs "${stageDir}" "${stageDir}" --clean`);
                 
-                // 1. Download the file
-                execSync(`curl -L "${url}" -o "${filePath}"`);
+                // Check if already validated to avoid spam
+                const { data: existingComments } = await github.rest.issues.listComments({ owner, repo, issue_number });
+                const hasSuccess = existingComments.some(c => c.body.includes("✅ **Validation Successful"));
                 
-                // 2. Run your existing normalization script
-                try {
-                  execSync(`node script/normalize-icons.mjs "${stageDir}" "${stageDir}" --clean`);
-                  
-                  // Success: remove label and notify
-                  await github.rest.issues.removeLabel({
-                    owner, repo, issue_number, name: invalidLabel
-                  }).catch(() => {});
-                  
-                  await github.rest.issues.createComment({
-                    owner, repo, issue_number,
-                    body: "✅ **Validation Successful:** The SVG has been normalized and is ready to be included."
+                await github.rest.issues.removeLabel({ owner, repo, issue_number, name: invalidLabel }).catch(() => {});
+                
+                if (!hasSuccess) {
+                  await github.rest.issues.createComment({ 
+                    owner, repo, issue_number, 
+                    body: "✅ **Validation Successful:** The SVG has been normalized and is ready to be included." 
                   });
-                } catch (error) {
-                  // Failure: add label and notify
-                  await github.rest.issues.addLabels({
-                    owner, repo, issue_number, labels: [invalidLabel]
-                  });
-                  await github.rest.issues.createComment({
-                    owner, repo, issue_number,
-                    body: `⚠️ **Validation Failed:** The icon could not be normalized. Please ensure it is a valid SVG. Error: ${error.message}`
-                  });
-                  return;
                 }
+              } catch (error) {
+                await github.rest.issues.addLabels({ owner, repo, issue_number, labels: [invalidLabel] }).catch(() => {});
+                // Optional: avoid comment spam here too if preferred
               }
             }
