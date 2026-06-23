@@ -57,7 +57,7 @@ jobs:
 
       # -- 1. Checkout MAIN (trusted scripts & deps — never the PR head) -----
       - name: Checkout main (trusted scripts)
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           ref: main
           path: base
@@ -70,7 +70,7 @@ jobs:
 
       # -- 3. Checkout PR branch (assets only; no code from here is run) -----
       - name: Checkout PR branch (assets only)
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           repository: ${{ steps.pr.outputs.head_repo }}
           ref: ${{ steps.pr.outputs.head_ref }}
