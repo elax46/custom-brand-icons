@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<!-- path d="..." is unique for each icon -->
-
-<svg
-   width="24"
-   height="24"
-   viewBox="0 0 24 24"
-   version="1.1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-   <path style="fill:#44739e" d="M18.78,2.98l-3.88,4.99L.74,11.63,0,7.78C5.28,3.36,9.49,1.34,16.24,0l2.54,2.98Z"/>
-  <polygon style="fill:#44739e" points="13.79 13.01 2.44 13.01 2.44 10.65 13.79 5.65 13.79 13.01"/>
-  <rect style="fill:#44739e" x="1.82" y="12.34" width="12.59" height=".68"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#44739e" d="m22 8.241-4.132 5.314-15.08 3.898-.788-4.1c5.623-4.708 10.106-6.859 17.295-8.286Z"/><path fill="#44739e" d="M16.686 18.922H4.599v-2.513l12.087-5.325Z"/><path fill="#44739e" d="M3.938 18.209h13.408v.724H3.938Z"/></svg>
