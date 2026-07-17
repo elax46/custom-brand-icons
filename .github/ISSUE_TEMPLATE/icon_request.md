@@ -1,7 +1,7 @@
 ---
-name: Custom Icon request
-about: Request a custom icon
-title: "Custom Icon request: [name icon]"
+name: Insert new icons
+about: Request a insert new icons
+title: "Insert new icons: [name icon]"
 labels: ["icon request"]
 ---
 
