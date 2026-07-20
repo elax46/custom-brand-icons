@@ -15,7 +15,7 @@ jobs:
     steps:
       # 1. Checkout the destination branch (iconfinder)
       - name: Checkout iconfinder branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: iconfinder
           fetch-depth: 0 # Fetch all history to ensure access to other branches
