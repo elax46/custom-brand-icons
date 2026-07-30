@@ -136,6 +136,7 @@ To add custom repositories please follow [this guide](https://hacs.xyz/docs/faq/
 - Example: `phu:japanpost` <img src="/icon-svg/japanpost.svg" title="Preview" alt="Preview" width="24"/>
 - Example: `phu:mondialrelay` <img src="/icon-svg/mondialrelay.svg" title="Preview" alt="Preview" width="24"/>
 - Example: `phu:jtexpress` <img src="/icon-svg/jtexpress.svg" title="Preview" alt="Preview" width="24"/>
+- Example: `phu:vinted` <img src="/icon-svg/vinted.svg" title="Preview" alt="Preview" width="24"/>
 
 Example of custom brand icons a lovelace card:
 
