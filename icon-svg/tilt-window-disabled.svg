@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="25mm"
+   height="25mm"
+   version="1.1"
+   viewBox="0 0 25 25"
+   id="svg6"
+   sodipodi:docname="roof-cover-disabled.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="8.9005833"
+     inkscape:cx="47.075566"
+     inkscape:cy="47.468799"
+     inkscape:window-width="1920"
+     inkscape:window-height="1022"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <g
+     transform="translate(-113.99 -140.8)"
+     id="g4"
+     style="fill:none;fill-opacity:1;stroke:#bdbdbd;stroke-opacity:1">
+    <path
+       d="m124.21 145.62 11.368-8e-3 -6.4434 15.664-11.788-6e-3z"
+       fill="#fff"
+       stroke="#000"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       stroke-width="1.5"
+       id="path2"
+       style="fill:none;fill-opacity:1;stroke:#bdbdbd;stroke-opacity:1" />
+  </g>
+</svg>
