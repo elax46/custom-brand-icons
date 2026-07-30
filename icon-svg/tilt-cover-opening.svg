@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="25mm"
+   height="25mm"
+   version="1.1"
+   viewBox="0 0 25 25"
+   id="svg92"
+   sodipodi:docname="roof-cover-opening.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs96" />
+  <sodipodi:namedview
+     id="namedview94"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.7062966"
+     inkscape:cx="29.004694"
+     inkscape:cy="-5.3962222"
+     inkscape:window-width="1920"
+     inkscape:window-height="1004"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g90" />
+  <g
+     transform="translate(-113.99,-140.8)"
+     stroke-linecap="round"
+     id="g90">
+    <path
+       d="m 124.73917,147.20751 11.368,-0.008 -6.4434,15.664 -11.788,-0.006 z"
+       fill="#ffffff"
+       stroke="#000000"
+       stroke-linejoin="round"
+       stroke-width="1.5"
+       id="path82"
+       style="stroke:#44739e;stroke-opacity:1" />
+    <path
+       d="m 117.91541,159.93155 1.85454,0.008"
+       fill="none"
+       stroke="#ffffff"
+       stroke-linejoin="bevel"
+       stroke-opacity="0.99346"
+       stroke-width="1.89844"
+       id="path84"
+       sodipodi:nodetypes="cc" />
+    <path
+       d="m 127.82339,158.92346 5.3491,-12.742"
+       fill="none"
+       stroke="#ffffff"
+       stroke-linejoin="bevel"
+       stroke-width="0.5"
+       id="path86"
+       style="stroke-width:2.4;stroke-dasharray:none" />
+    <path
+       d="m 122.24917,143.61 11.368,-0.008 -6.4434,15.664 -11.788,-0.006 z"
+       stroke="#000000"
+       stroke-linejoin="round"
+       stroke-width="1.5"
+       id="path88"
+       style="stroke:#44739e;stroke-opacity:1;fill:#44739e;fill-opacity:1" />
+    <path
+       d="m 123.02449,155.07381 3.62299,-8.19171"
+       fill="none"
+       stroke="#ffffff"
+       stroke-linejoin="bevel"
+       stroke-opacity="0.99346"
+       stroke-width="1.89844"
+       id="path84-6"
+       sodipodi:nodetypes="cc"
+       style="stroke-width:1;stroke-dasharray:none" />
+    <path
+       d="m 123.51653,149.14066 3.02398,-2.23245"
+       fill="none"
+       stroke="#ffffff"
+       stroke-linejoin="bevel"
+       stroke-opacity="0.99346"
+       stroke-width="1.89844"
+       id="path84-6-7"
+       sodipodi:nodetypes="cc"
+       style="stroke-width:1;stroke-dasharray:none" />
+    <path
+       d="m 127.5263,149.75026 -0.83711,-2.85958"
+       fill="none"
+       stroke="#ffffff"
+       stroke-linejoin="bevel"
+       stroke-opacity="0.99346"
+       stroke-width="1.89844"
+       id="path84-6-7-5"
+       sodipodi:nodetypes="cc"
+       style="stroke-width:1;stroke-dasharray:none" />
+  </g>
+</svg>
