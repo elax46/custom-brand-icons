@@ -116,6 +116,27 @@ To add custom repositories please follow [this guide](https://hacs.xyz/docs/faq/
 - Example: `phu:eggs` <img src="/icon-svg/eggs.svg" title="Preview" alt="Preview" width="24"/>
 - Example: `phu:chicken` <img src="/icon-svg/chicken.svg" title="Preview" alt="Preview" width="24"/>
 
+#### Parcel carrier icons
+- Example: `phu:inpost` <img src="/icon-svg/inpost.svg" title="Preview" alt="Preview" width="24"/>
+- Example: `phu:dhlexpress` <img src="/icon-svg/dhlexpress.svg" title="Preview" alt="Preview" width="24"/>
+- Example: `phu:australiapost` <img src="/icon-svg/australiapost.svg" title="Preview" alt="Preview" width="24"/>
+- Example: `phu:laposte` <img src="/icon-svg/laposte.svg" title="Preview" alt="Preview" width="24"/>
+- Example: `phu:springgds` <img src="/icon-svg/springgds.svg" title="Preview" alt="Preview" width="24"/>
+- Example: `phu:dhlpaket` <img src="/icon-svg/dhlpaket.svg" title="Preview" alt="Preview" width="24"/>
+- Example: `phu:nzpost` <img src="/icon-svg/nzpost.svg" title="Preview" alt="Preview" width="24"/>
+- Example: `phu:swisspost` <img src="/icon-svg/swisspost.svg" title="Preview" alt="Preview" width="24"/>
+- Example: `phu:pocztapolska` <img src="/icon-svg/pocztapolska.svg" title="Preview" alt="Preview" width="24"/>
+- Example: `phu:sameday` <img src="/icon-svg/sameday.svg" title="Preview" alt="Preview" width="24"/>
+- Example: `phu:sunyou` <img src="/icon-svg/sunyou.svg" title="Preview" alt="Preview" width="24"/>
+- Example: `phu:bring` <img src="/icon-svg/bring.svg" title="Preview" alt="Preview" width="24"/>
+- Example: `phu:austrianpost` <img src="/icon-svg/austrianpost.svg" title="Preview" alt="Preview" width="24"/>
+- Example: `phu:anpost` <img src="/icon-svg/anpost.svg" title="Preview" alt="Preview" width="24"/>
+- Example: `phu:omniva` <img src="/icon-svg/omniva.svg" title="Preview" alt="Preview" width="24"/>
+- Example: `phu:ctt` <img src="/icon-svg/ctt.svg" title="Preview" alt="Preview" width="24"/>
+- Example: `phu:japanpost` <img src="/icon-svg/japanpost.svg" title="Preview" alt="Preview" width="24"/>
+- Example: `phu:mondialrelay` <img src="/icon-svg/mondialrelay.svg" title="Preview" alt="Preview" width="24"/>
+- Example: `phu:jtexpress` <img src="/icon-svg/jtexpress.svg" title="Preview" alt="Preview" width="24"/>
+
 Example of custom brand icons a lovelace card:
 
 ```yaml
