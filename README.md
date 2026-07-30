@@ -126,7 +126,6 @@ To add custom repositories please follow [this guide](https://hacs.xyz/docs/faq/
 - Example: `phu:nzpost` <img src="/icon-svg/nzpost.svg" title="Preview" alt="Preview" width="24"/>
 - Example: `phu:swisspost` <img src="/icon-svg/swisspost.svg" title="Preview" alt="Preview" width="24"/>
 - Example: `phu:pocztapolska` <img src="/icon-svg/pocztapolska.svg" title="Preview" alt="Preview" width="24"/>
-- Example: `phu:sameday` <img src="/icon-svg/sameday.svg" title="Preview" alt="Preview" width="24"/>
 - Example: `phu:sunyou` <img src="/icon-svg/sunyou.svg" title="Preview" alt="Preview" width="24"/>
 - Example: `phu:bring` <img src="/icon-svg/bring.svg" title="Preview" alt="Preview" width="24"/>
 - Example: `phu:austrianpost` <img src="/icon-svg/austrianpost.svg" title="Preview" alt="Preview" width="24"/>
