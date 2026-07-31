@@ -3,7 +3,7 @@ name: Sync Icons to Iconfinder Branch
 on:
   push:
     branches:
-      - main
+      - dev
     paths:
       - 'dist/custom-brand-icons.js' # Trigger only when this specific file changes
   workflow_dispatch: # Allows manual execution from the Actions tab
@@ -20,10 +20,10 @@ jobs:
           ref: iconfinder
           fetch-depth: 0 # Fetch all history to ensure access to other branches
 
-      # 2. Extract the specific file from the source branch (main)
-      - name: Get latest file from main branch
+      # 2. Extract the specific file from the source branch (dev)
+      - name: Get latest file from dev branch
         run: |
-          git checkout origin/main -- dist/custom-brand-icons.js
+          git checkout origin/dev -- dist/custom-brand-icons.js
           
       # 3. Move and rename the file into the docs/ directory
       - name: Update file in docs folder
@@ -44,6 +44,6 @@ jobs:
           if git diff --quiet && git diff --staged --quiet; then
             echo "No changes detected. Skipping commit."
           else
-            git commit -m "Automated sync: update custom-brand-icons.js from main"
+            git commit -m "Automated sync: update custom-brand-icons.js from dev"
             git push origin iconfinder
           fi
