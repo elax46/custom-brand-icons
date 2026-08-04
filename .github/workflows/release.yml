@@ -1,8 +1,6 @@
 name: Auto Release Icons
-
 on:
   workflow_dispatch:
-
 jobs:
   build-release:
     runs-on: ubuntu-latest
@@ -14,13 +12,11 @@ jobs:
         with:
           fetch-depth: 0 # Fetches all history
           fetch-tags: true # Explicitly tell checkout to fetch tags
-
       - name: Force Tag Sync
         run: |
           git fetch --tags --force --prune
           # Ensure local tracking of remote tags
           git pull --tags || true
-
       - name: Generate Unique Version Tag
         id: vars
         run: |
@@ -41,7 +37,6 @@ jobs:
           # Get previous tag for icon comparison
           PREV_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
           echo "prev_tag=$PREV_TAG" >> $GITHUB_OUTPUT
-
       - name: Identify New Icons
         id: new_icons
         run: |
@@ -51,7 +46,6 @@ jobs:
           else
             FILES=$(git diff --name-only --diff-filter=A ${{ steps.vars.outputs.prev_tag }} HEAD | grep 'icon-svg/.*\.svg$' || true)
           fi
-
           if [ -n "$FILES" ]; then
             for file in $FILES; do
               filename=$(basename "$file")
@@ -62,7 +56,6 @@ jobs:
           else
             echo "has_new_icons=false" >> $GITHUB_OUTPUT
           fi
-
       - name: Create Release Notes Body
         id: body
         run: |
@@ -85,7 +78,13 @@ jobs:
             fi
             echo 'EOF'
           } >> $GITHUB_OUTPUT
-
+      - name: Verify build artifact exists
+        run: |
+          if [ ! -f dist/custom-brand-icons.js ]; then
+            echo "❌ dist/custom-brand-icons.js not found! Make sure the build workflow has run and committed it to main."
+            exit 1
+          fi
+          echo "✅ Found dist/custom-brand-icons.js"
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v3
         with:
@@ -94,3 +93,4 @@ jobs:
           body: ${{ steps.body.outputs.BODY }}
           generate_release_notes: true
           make_latest: true
+          files: dist/custom-brand-icons.js
