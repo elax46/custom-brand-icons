@@ -15,4 +15,4 @@ This branch is dedicated to the development of the **icon documentation and sear
 
 👉 **https://elax46.github.io/custom-brand-icons/**
 
-For the up-to-date project README (icon list, installation, contributing, etc.) please check the **[dev](https://github.com/elax46/custom-brand-icons/tree/main)** branch.
+For the up-to-date project README (icon list, installation, contributing, etc.) please check the **[main](https://github.com/elax46/custom-brand-icons/tree/main)** branch.
