@@ -1,0 +1,45 @@
+name: Insert new icon
+description: Request a new brand icon
+title: "Custom Icon request: [name icon]"
+labels: ["icon request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Read before proceeding:**
+        - Links will be ignored — paste the raw SVG code, do not upload a screenshot/JPG/PNG.
+        - Low quality product images will be ignored, if you can't be bothered to search we won't either.
+        - Off-type icons will not be accepted. Home Assistant already makes on/off state visible; it's useless to weigh down the library.
+
+  - type: input
+    id: icon-name
+    attributes:
+      label: Icon name
+      description: Use lowercase, hyphen-separated naming (e.g. proxmox-virtual-environment), not camelCase
+      placeholder: e.g. proxmox-virtual-environment
+    validations:
+      required: true
+
+  - type: input
+    id: official-link
+    attributes:
+      label: Official brand/product link
+    validations:
+      required: true
+
+  - type: textarea
+    id: svg-code
+    attributes:
+      label: SVG code (paste the raw text, do not attach a file)
+      description: Must include a viewBox, a single path, color #44739e, and no transform/translate/scale
+      render: xml
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: The SVG is optimized and follows all the rules above
+          required: true
