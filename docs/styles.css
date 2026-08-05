@@ -4,7 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 
-:root {
+:root,
+:root[data-theme="dark"] {
     --bg: #16181c;
     --bg-dot: rgba(255, 255, 255, 0.045);
     --surface: #1d2025;
@@ -35,6 +36,56 @@
     --ease: cubic-bezier(0.2, 0.7, 0.3, 1);
 }
 
+:root[data-theme="light"] {
+    --bg: #f4f5f6;
+    --bg-dot: rgba(0, 0, 0, 0.045);
+    --surface: #ffffff;
+    --surface-2: #f0f1f3;
+    --surface-3: #e6e8eb;
+    --border: #dadde1;
+    --border-soft: #e6e8eb;
+
+    --text: #1b1d20;
+    --text-muted: #63686f;
+    --text-faint: #9aa0a7;
+
+    --amber: #e0922f;
+    --amber-soft: rgba(224, 146, 47, 0.14);
+    --amber-ink: #1a1206;
+    --amber-dim: #b9772a;
+
+    --danger: #d1453a;
+}
+
+/* Toggle tema — pulsante sole/luna */
+.theme-toggle {
+    position: absolute;
+    top: 22px;
+    right: 24px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    cursor: pointer;
+    transition: all 0.15s var(--ease);
+}
+
+.theme-toggle:hover {
+    border-color: var(--amber-dim);
+    color: var(--amber);
+}
+
+.theme-toggle svg {
+    width: 14px;
+    height: 14px;
+}
+
 /* ---------------------------------------------------------------------- */
 /* Base                                                                    */
 /* ---------------------------------------------------------------------- */
@@ -44,6 +95,7 @@ html, body {
     color: var(--text) !important;
     font-family: var(--sans);
     -webkit-font-smoothing: antialiased;
+    transition: background-color 0.2s var(--ease), color 0.2s var(--ease);
 }
 
 body {
@@ -99,7 +151,7 @@ md-content {
 }
 
 /* ---------------------------------------------------------------------- */
-/* Header / card di ricerca       */
+/* Header / card di ricerca        */
 /* ---------------------------------------------------------------------- */
 
 md-card:not(.no-margin-card) {
@@ -108,6 +160,7 @@ md-card:not(.no-margin-card) {
     border-radius: var(--radius-lg) !important;
     padding: 28px 30px 24px;
     box-shadow: none !important;
+    position: relative;
 }
 
 md-card:not(.no-margin-card) .md-headline {
@@ -310,7 +363,6 @@ md-card-content > div[layout-align="start center"] > .md-button {
     transition: all 0.15s var(--ease) !important;
 }
 
-/* Delete — azione secondaria / distruttiva */
 .md-primary.md-raised {
     background: transparent !important;
     color: var(--text-muted) !important;
@@ -323,7 +375,6 @@ md-card-content > div[layout-align="start center"] > .md-button {
     color: var(--danger) !important;
 }
 
-/* Download — call to action primaria, flat */
 .md-accent.md-raised {
     background: var(--amber) !important;
     color: var(--amber-ink) !important;
@@ -341,7 +392,6 @@ md-card-content > div[layout-align="start center"] > .md-button[disabled] {
     box-shadow: none !important;
 }
 
-/* Badge contatore "selected: N" */
 md-card-content > div[layout-align="start center"] > div[style*="margin-left:16px"] {
     font-family: var(--mono);
     font-size: 0.78rem;
@@ -386,9 +436,6 @@ md-card-content > [ng-if="selectedCount()>0"] > div:hover {
     border-color: var(--amber-dim);
 }
 
-/* le icone della fila "selezionate" mantengono il loro fill originale:
-   nessuna regola forza qui il colore dell'SVG. */
-
 md-card-content > [ng-if="selectedCount()>0"] .md-icon-button {
     width: 22px !important;
     height: 22px !important;
@@ -419,7 +466,6 @@ md-content[layout="row"] {
     margin-top: 24px;
     padding: 0 !important;
 }
-
 .no-margin-card {
     width: auto !important;
     max-width: none !important;
@@ -479,7 +525,6 @@ md-content[layout="row"] {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-
 .card-media {
     width: 92px;
     height: 92px;
@@ -527,15 +572,11 @@ md-content[layout="row"] {
     border-color: var(--amber);
     opacity: 1;
 }
-
-
 .card-media svg {
     width: 64px !important;
     height: 64px !important;
     display: block;
 }
-
-/* Checkbox di selezione per singola card */
 .card-select-checkbox {
     position: absolute !important;
     right: 8px !important;
@@ -558,8 +599,6 @@ md-content[layout="row"] {
     color: var(--amber-ink) !important;
     border-color: var(--amber-ink) !important;
 }
-
-
 .selected-card {
     border: 1px solid var(--amber) !important;
     background: var(--amber-soft) !important;
@@ -604,6 +643,10 @@ md-content[layout="row"] {
 @media (max-width: 640px) {
     #outer { padding: 16px 12px 48px; }
     md-card:not(.no-margin-card) { padding: 22px 18px 20px; }
+    .theme-toggle {
+        position: static;
+        margin-bottom: 16px;
+    }
     md-content[layout="row"] {
         grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
         gap: 10px;
