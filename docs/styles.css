@@ -1,100 +1,613 @@
-.md-autocomplete-suggestions-container li {
-    border-bottom: 1px solid #ccc;
-    height: auto;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    white-space: normal;
+/* =========================================================================
+   Custom Brand Icons — Finder
+   ========================================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root {
+    --bg: #16181c;
+    --bg-dot: rgba(255, 255, 255, 0.045);
+    --surface: #1d2025;
+    --surface-2: #262a30;
+    --surface-3: #2e333a;
+    --border: #363c44;
+    --border-soft: #262a30;
+
+    --text: #edeff1;
+    --text-muted: #8b9099;
+    --text-faint: #5b6169;
+
+    --amber: #f2a94e;
+    --amber-soft: rgba(242, 169, 78, 0.14);
+    --amber-ink: #1a1206;
+    --amber-dim: #c98a3a;
+
+    --danger: #e2685f;
+
+    --radius-lg: 14px;
+    --radius-md: 8px;
+    --radius-sm: 6px;
+
+    --mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+    --sans: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --display: 'Space Grotesk', var(--sans);
+
+    --ease: cubic-bezier(0.2, 0.7, 0.3, 1);
 }
 
-.item-title,
-.item-metadata {
+/* ---------------------------------------------------------------------- */
+/* Base                                                                    */
+/* ---------------------------------------------------------------------- */
+
+html, body {
+    background: var(--bg) !important;
+    color: var(--text) !important;
+    font-family: var(--sans);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background-image: radial-gradient(circle, var(--bg-dot) 1px, transparent 1px);
+    background-size: 24px 24px;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+#outer {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 28px 20px 64px;
+}
+
+*:focus-visible {
+    outline: 2px solid var(--amber);
+    outline-offset: 2px;
+}
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 6px; }
+::-webkit-scrollbar-thumb:hover { background: var(--amber-dim); }
+
+@media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Reset generico componenti Angular Material                             */
+/* ---------------------------------------------------------------------- */
+
+md-card {
+    box-shadow: none !important;
+    background: transparent;
+    border-radius: var(--radius-lg);
+}
+
+md-content {
+    background: transparent !important;
+    color: var(--text) !important;
+}
+
+.md-toast-content {
+    background: var(--surface-3) !important;
+    color: var(--text) !important;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm) !important;
+    font-family: var(--sans);
+    font-size: 0.85rem;
+    box-shadow: none !important;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Header / card di ricerca       */
+/* ---------------------------------------------------------------------- */
+
+md-card:not(.no-margin-card) {
+    background: var(--surface) !important;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg) !important;
+    padding: 28px 30px 24px;
+    box-shadow: none !important;
+}
+
+md-card:not(.no-margin-card) .md-headline {
+    font-family: var(--display);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    font-size: clamp(1.6rem, 3.2vw, 2.35rem);
+    color: var(--text);
+    line-height: 1.15;
     display: block;
-    line-height: 2;
-}
-.item-title md-icon {
-    height: 24px;
-    width: 24px;
-}
-.no-margin-card{
-    margin:0;
-    padding:3px;
-    border-top:1px solid #e0e0e0;
-    border-radius:0;
-    position: relative; /* needed so absolute checkbox inside card aligns correctly */
-}
-.no-margin-card md-checkbox .md-icon {
-    border-color: #44739e !important;
-}
-.no-margin-card md-checkbox.md-checked .md-icon {
-    background-color: #44739e !important;
-    border-color: #44739e !important;
-}
-.no-margin-card md-checkbox.md-checked .md-icon:after {
-    color: #fff !important;
+    margin-bottom: 6px;
 }
 
-/* also ensure global selectMode checkbox uses our color */
+md-card:not(.no-margin-card) .md-subhead {
+    font-family: var(--sans);
+    font-weight: 400;
+    font-size: 0.92rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+
+md-card:not(.no-margin-card) .md-subhead span + span::before {
+    content: " / ";
+    color: var(--text-faint);
+}
+
+md-card-title-text .md-headline span:first-child {
+    color: var(--amber);
+}
+
+/* ---------------------------------------------------------------------- */
+/* Campo di ricerca                                                        */
+/* ---------------------------------------------------------------------- */
+
+md-input-container {
+    margin: 22px 0 4px;
+}
+
+md-input-container label {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    color: var(--text-faint) !important;
+    position: static !important;
+    display: block;
+    margin-bottom: 8px;
+    transform: none !important;
+}
+
+md-input-container label span + span::before {
+    content: " / ";
+    color: var(--border);
+}
+
+md-input-container:after {
+    display: none !important;
+}
+
+md-input-container input,
+md-input-container .md-input {
+    background: var(--surface-2) !important;
+    border: 1.5px solid var(--border) !important;
+    border-radius: var(--radius-md) !important;
+    padding: 13px 16px !important;
+    font-family: var(--mono);
+    font-size: 1rem;
+    color: var(--text) !important;
+    transition: border-color 0.15s var(--ease), box-shadow 0.15s var(--ease);
+    caret-color: var(--amber);
+}
+
+md-input-container input::placeholder {
+    color: var(--text-faint);
+}
+
+md-input-container.md-input-focused input,
+md-input-container input:focus {
+    border-color: var(--amber) !important;
+    box-shadow: 0 0 0 3px var(--amber-soft) !important;
+    outline: none !important;
+}
+
+.md-input-focused { color: var(--amber) !important; }
+
+.btn-xs {
+    font-family: var(--mono) !important;
+    font-size: 0.72rem !important;
+    letter-spacing: 0.02em;
+    background: transparent !important;
+    color: var(--amber) !important;
+    border: 1px dashed var(--amber-dim) !important;
+    border-radius: 999px !important;
+    box-shadow: none !important;
+    padding: 6px 14px !important;
+    text-transform: none !important;
+    min-height: auto !important;
+    margin: 10px 0 0 !important;
+}
+
+.btn-xs:hover {
+    background: var(--amber-soft) !important;
+    border-style: solid !important;
+}
+
+/* "Examples:" + chip di esempio -------------------------------------- */
+
+md-card-content > div:has(> .groupX) {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 16px;
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    color: var(--text-faint);
+}
+
+.groupX {
+    font-family: var(--mono) !important;
+    font-size: 0.78rem !important;
+    text-transform: none !important;
+    letter-spacing: normal;
+    font-weight: 500 !important;
+    min-width: 0 !important;
+    padding: 6px 16px !important;
+    margin: 0 !important;
+    background: var(--surface-2) !important;
+    color: var(--text-muted) !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 999px !important;
+    box-shadow: none !important;
+    transition: all 0.15s var(--ease) !important;
+}
+
+.groupX:hover {
+    background: var(--amber-soft) !important;
+    border-color: var(--amber-dim) !important;
+    color: var(--amber) !important;
+}
+
+.md-button.left,
+.md-button.middle,
+.md-button.right {
+    border-radius: 999px !important;
+    border: 1px solid var(--border) !important;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Toolbar: seleziona / elimina / scarica                                  */
+/* ---------------------------------------------------------------------- */
+
+md-card-content > div[layout-align="start center"] {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+    margin-top: 22px !important;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-soft);
+}
+
+md-checkbox[ng-model="selectMode"] {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-muted) !important;
+    margin: 0 !important;
+}
+
 md-checkbox[ng-model="selectMode"] .md-icon {
-    border-color: #44739e !important;
-}
-md-checkbox[ng-model="selectMode"].md-checked .md-icon {
-    background-color: #44739e !important;
-    border-color: #44739e !important;
+    border-color: var(--border) !important;
+    background: var(--surface-2);
+    border-radius: 4px !important;
 }
 
-/* position per-card checkbox correctly relative to the card */
+md-checkbox[ng-model="selectMode"].md-checked .md-icon {
+    background-color: var(--amber) !important;
+    border-color: var(--amber) !important;
+}
+
+md-checkbox[ng-model="selectMode"].md-checked .md-icon:after {
+    color: var(--amber-ink) !important;
+}
+
+md-card-content > div[layout-align="start center"] > .md-button {
+    margin: 0 !important;
+    min-height: auto !important;
+    padding: 10px 20px !important;
+    border-radius: 999px !important;
+    font-family: var(--sans) !important;
+    font-size: 0.84rem !important;
+    font-weight: 600 !important;
+    text-transform: none !important;
+    letter-spacing: 0.01em;
+    box-shadow: none !important;
+    transition: all 0.15s var(--ease) !important;
+}
+
+/* Delete — azione secondaria / distruttiva */
+.md-primary.md-raised {
+    background: transparent !important;
+    color: var(--text-muted) !important;
+    border: 1px solid var(--border) !important;
+}
+
+.md-primary.md-raised:not([disabled]):hover {
+    background: rgba(226, 104, 95, 0.1) !important;
+    border-color: var(--danger) !important;
+    color: var(--danger) !important;
+}
+
+/* Download — call to action primaria, flat */
+.md-accent.md-raised {
+    background: var(--amber) !important;
+    color: var(--amber-ink) !important;
+    border: 1px solid var(--amber) !important;
+    box-shadow: none !important;
+}
+
+.md-accent.md-raised:not([disabled]):hover {
+    background: var(--amber-dim) !important;
+    border-color: var(--amber-dim) !important;
+}
+
+md-card-content > div[layout-align="start center"] > .md-button[disabled] {
+    opacity: 0.35 !important;
+    box-shadow: none !important;
+}
+
+/* Badge contatore "selected: N" */
+md-card-content > div[layout-align="start center"] > div[style*="margin-left:16px"] {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 7px 14px;
+    margin-left: auto !important;
+}
+
+md-card-content > div[layout-align="start center"] > div[style*="margin-left:16px"] strong {
+    color: var(--amber);
+    font-weight: 700;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Chip icone selezionate                                                  */
+/* ---------------------------------------------------------------------- */
+
+md-card-content > [ng-if="selectedCount()>0"] {
+    display: flex !important;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px !important;
+    padding-top: 16px;
+    border-top: 1px dashed var(--border-soft);
+}
+
+md-card-content > [ng-if="selectedCount()>0"] > div {
+    background: var(--surface-2) !important;
+    border: 1px solid var(--border);
+    border-radius: 999px !important;
+    padding: 5px 8px 5px 12px !important;
+    font-family: var(--mono);
+    font-size: 0.76rem;
+    color: var(--text);
+    transition: border-color 0.15s var(--ease);
+}
+
+md-card-content > [ng-if="selectedCount()>0"] > div:hover {
+    border-color: var(--amber-dim);
+}
+
+/* le icone della fila "selezionate" mantengono il loro fill originale:
+   nessuna regola forza qui il colore dell'SVG. */
+
+md-card-content > [ng-if="selectedCount()>0"] .md-icon-button {
+    width: 22px !important;
+    height: 22px !important;
+    min-height: 22px !important;
+    padding: 0 !important;
+    margin: 0 0 0 2px !important;
+    color: var(--text-faint) !important;
+}
+
+md-card-content > [ng-if="selectedCount()>0"] .md-icon-button:hover {
+    background: var(--amber-soft) !important;
+    color: var(--amber) !important;
+    border-radius: 50%;
+}
+
+md-card-content > [ng-if="selectedCount()>0"] .md-icon-button .material-icons {
+    font-size: 15px !important;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Griglia icone                                                           */
+/* ---------------------------------------------------------------------- */
+
+md-content[layout="row"] {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
+    gap: 12px;
+    margin-top: 24px;
+    padding: 0 !important;
+}
+
+.no-margin-card {
+    width: auto !important;
+    max-width: none !important;
+    flex: none !important;
+}
+
+.no-margin-card {
+    margin: 0 !important;
+    padding: 18px 12px 16px !important;
+    border: 1px solid var(--border) !important;
+    border-top: 1px solid var(--border) !important;
+    border-radius: var(--radius-md) !important;
+    background: var(--surface);
+    position: relative;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: border-color 0.15s var(--ease), background 0.15s var(--ease);
+}
+
+.no-margin-card:hover {
+    border-color: var(--amber-dim) !important;
+    background: var(--surface-2);
+}
+
+.no-margin-card md-card-title {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    align-items: center !important;
+    width: 100%;
+    padding: 0 !important;
+    gap: 10px;
+}
+
+.no-margin-card .md-headline {
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--text);
+    word-break: break-word;
+    line-height: 1.3;
+}
+
+.no-margin-card .md-headline span:first-child {
+    color: var(--text-faint);
+    font-weight: 400;
+}
+
+.no-margin-card .md-subhead {
+    font-family: var(--sans);
+    font-size: 0.68rem;
+    color: var(--text-muted);
+    line-height: 1.35;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card-media {
+    width: 92px;
+    height: 92px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background: var(--surface-2);
+    border-radius: 8px;
+    position: relative;
+    margin: 0 auto;
+    transition: background 0.15s var(--ease);
+}
+
+.card-media::before,
+.card-media::after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-color: var(--border);
+    border-style: solid;
+    border-width: 0;
+    opacity: 0.7;
+    transition: border-color 0.15s var(--ease), opacity 0.15s var(--ease);
+}
+
+.card-media::before {
+    top: -1px;
+    left: -1px;
+    border-top-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 5px;
+}
+
+.card-media::after {
+    bottom: -1px;
+    right: -1px;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    border-bottom-right-radius: 5px;
+}
+
+.no-margin-card:hover .card-media::before,
+.no-margin-card:hover .card-media::after {
+    border-color: var(--amber);
+    opacity: 1;
+}
+
+
+.card-media svg {
+    width: 64px !important;
+    height: 64px !important;
+    display: block;
+}
+
+/* Checkbox di selezione per singola card */
 .card-select-checkbox {
     position: absolute !important;
     right: 8px !important;
     top: 8px !important;
     z-index: 50 !important;
+    margin: 0 !important;
 }
 
-.groupX {
-    font-size: 16px;
-    margin: 20px 0;
-    padding: 3px 15px 3px 15px;
-    color: white;
-    background-color: #44739e;
-    text-transform: none;
-    font-weight: 400;
-    min-width:100px;
+.no-margin-card md-checkbox .md-icon {
+    border-color: var(--border) !important;
+    background: var(--surface-2);
 }
 
-.md-button.left {
-    border-radius: 10px 0 0 10px;
+.no-margin-card md-checkbox.md-checked .md-icon {
+    background-color: var(--amber) !important;
+    border-color: var(--amber) !important;
 }
 
-.md-button.middle {
-    border-radius: 0;
-    border-left: 1px solid rgba(230, 230, 230, 0.96);
-    border-right: 1px solid rgba(230, 230, 230, 0.96);
+.no-margin-card md-checkbox.md-checked .md-icon:after {
+    color: var(--amber-ink) !important;
+    border-color: var(--amber-ink) !important;
 }
 
-.md-button.right {
-    border-radius: 0 10px 10px 0;
-}
-
-.md-button:not([disabled]):hover {
-    background-color: rgba(193, 193, 193, 0.96);
-    color: black;
-    transition: 0.3s;
-}
-
-.md-raised {
-    background-color: #44739e !important;
-}
-
-.md-raised:hover{
-    background-color: rgba(193, 193, 193, 0.96) !important;
-    color: black !important;
-}
-
-.md-input-focused {
-    color: #44739e !important;
-
-}
 
 .selected-card {
-    border: 2px solid #4caf50;
+    border: 1px solid var(--amber) !important;
+    background: var(--amber-soft) !important;
+}
+
+.selected-card:hover {
+    border-color: var(--amber) !important;
+}
+
+.selected-card .card-media {
+    background: var(--surface-3);
+}
+
+.selected-card .card-media::before,
+.selected-card .card-media::after {
+    border-color: var(--amber);
+    opacity: 1;
+}
+
+.selected-card::before {
+    content: "\2713";
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--amber);
+    color: var(--amber-ink);
+    font-size: 11px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 40;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Responsive                                                              */
+/* ---------------------------------------------------------------------- */
+
+@media (max-width: 640px) {
+    #outer { padding: 16px 12px 48px; }
+    md-card:not(.no-margin-card) { padding: 22px 18px 20px; }
+    md-content[layout="row"] {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 10px;
+    }
+    .card-media { width: 76px; height: 76px; }
+    .card-media svg { width: 52px !important; height: 52px !important; }
 }

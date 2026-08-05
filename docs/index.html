@@ -64,7 +64,7 @@
                 </div>
                 <div ng-if="selectedCount()>0" layout="row" layout-wrap style="margin-top:8px;">
                     <div ng-repeat="(name, val) in selectedIcons" style="display:flex;align-items:center;margin-right:12px;">
-                        <svg viewBox="0 0 32 32" width="20" height="20" style="margin-right:6px;" xmlns="http://www.w3.org/2000/svg"><path ng-attr-d="{{getIconPath(name)}}"></path></svg>
+                        <svg viewBox="0 0 24 24" width="24" height="24" style="margin-right:6px;" xmlns="http://www.w3.org/2000/svg"><path ng-attr-d="{{getIconPath(name)}}"></path></svg>
                         <span>{{name}}</span>
                         <md-button class="md-icon-button" aria-label="rimuovi" ng-click="toggleSelection(name, $event)"><md-icon class="material-icons">clear</md-icon></md-button>
                     </div>
@@ -88,7 +88,7 @@
                     <md-card-title-media>
                         <md-checkbox class="card-select-checkbox" ng-if="selectMode" aria-label="Seleziona icona" ng-checked="isSelected(icon.name)" ng-click="toggleSelection(icon.name, $event)"></md-checkbox>
                         <div class="md-media-xl card-media">
-                            <svg viewBox="0 0 32 32" width="70" fill="#44739e" xmlns="http://www.w3.org/2000/svg"><path ng-attr-d="{{icon.path}}"></path></svg>
+                            <svg viewBox="0 0 24 24" width="70" fill="#44739e" xmlns="http://www.w3.org/2000/svg"><path ng-attr-d="{{icon.path}}"></path></svg>
                         </div>
                     </md-card-title-media>
                 </md-card-title>
