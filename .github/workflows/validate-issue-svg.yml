@@ -1,11 +1,10 @@
 name: Validate and Normalize Attached SVG
 
 on:
-  issue_comment:
-    types: [created, edited]
+  issues:
+    types: [opened, edited]
   schedule:
-    - cron: '0 0 * * *' # Esegue il controllo ogni giorno a mezzanotte
-
+    - cron: '0 0 * * *'
 env:
   ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 
@@ -33,11 +32,12 @@ jobs:
             const { execSync } = require('child_process');
             const fs = require('fs');
             const path = require('path');
-            
+
             const owner = context.repo.owner;
             const repo = context.repo.repo;
             const invalidLabel = 'invalid-icon';
 
+            // ---------------- Scheduled cleanup of stale invalid issues ----------------
             if (context.eventName === 'schedule') {
               const { data: issues } = await github.rest.issues.listForRepo({ owner, repo, labels: invalidLabel, state: 'open' });
               for (const issue of issues) {
@@ -45,71 +45,70 @@ jobs:
                 const lastUpdate = new Date(issue.updated_at).getTime();
                 if ((Date.now() - lastUpdate) > threshold) {
                   await github.rest.issues.update({ owner, repo, issue_number: issue.number, state: 'closed' });
-                  await github.rest.issues.createComment({ 
-                    owner, repo, issue_number: issue.number, 
-                    body: "This issue has been closed due to inactivity." 
+                  await github.rest.issues.createComment({
+                    owner, repo, issue_number: issue.number,
+                    body: "This issue has been closed due to inactivity."
                   });
                 }
               }
               return;
             }
-            // ----------------------------------------------------
+            // -----------------------------------------------------------------------
 
-            const comment = context.payload.comment;
             const issue_number = context.issue.number;
-            
-            
-            const regex = /src="(https:\/\/github\.com\/user-attachments\/assets\/[a-f0-9-]+)"/g;
-            let match;
-            const urls = [];
-            while ((match = regex.exec(comment.body)) !== null) {
-              urls.push(match[1]);
+            const body = context.payload.issue.body || '';
+
+            // Extract the SVG pasted in the "SVG code" form field (fenced ```xml block)
+            const fencedMatch = body.match(/```(?:xml|svg)?\s*\n([\s\S]*?)```/i);
+            let svgContent = fencedMatch ? fencedMatch[1].trim() : null;
+
+            // Fallback: raw <svg>...</svg> without fences
+            if (!svgContent) {
+              const rawMatch = body.match(/<svg[\s\S]*?<\/svg>/i);
+              svgContent = rawMatch ? rawMatch[0] : null;
             }
-            
-            if (urls.length === 0) return;
+
+            if (!svgContent) {
+              await github.rest.issues.addLabels({ owner, repo, issue_number, labels: [invalidLabel] }).catch(() => {});
+              await github.rest.issues.createComment({
+                owner, repo, issue_number,
+                body: "⚠️ **Validation Failed:** No SVG code was found in the issue body. Please paste the raw SVG code in the dedicated field — do not attach an image file."
+              });
+              return;
+            }
 
             const stageDir = path.join(process.env.RUNNER_TEMP, 'icon_stage');
             if (fs.existsSync(stageDir)) fs.rmSync(stageDir, { recursive: true });
             fs.mkdirSync(stageDir, { recursive: true });
-            
-            for (const url of urls) {
-              const filePath = path.join(stageDir, 'icon.svg');
-              
-            
-              execSync(`curl -L "${url}" -o "${filePath}"`);
-              
-              try {
-               
-                const stdout = execSync(`node script/normalize-icons.mjs "${stageDir}" "${stageDir}" --clean`, { encoding: 'utf8' });
-                console.log("Script output:", stdout);
-                
-                
-                const stats = fs.statSync(filePath);
-                if (stats.size === 0) throw new Error("Normalization resulted in an empty file.");
 
-                
-                const { data: existingComments } = await github.rest.issues.listComments({ owner, repo, issue_number });
-                const hasSuccess = existingComments.some(c => c.body.includes("✅ **Validation Successful"));
-                
-                await github.rest.issues.removeLabel({ owner, repo, issue_number, name: invalidLabel }).catch(() => {});
-                
-                if (!hasSuccess) {
-                  await github.rest.issues.createComment({ 
-                    owner, repo, issue_number, 
-                    body: "✅ **Validation Successful:** The SVG has been normalized and is ready to be included." 
-                  });
-                }
-              } catch (error) {
-                console.error("Normalization Error:", error.message);
-                
-                
-                await github.rest.issues.addLabels({ owner, repo, issue_number, labels: [invalidLabel] }).catch(() => {});
-                
-                await github.rest.issues.createComment({ 
-                  owner, repo, issue_number, 
-                  body: `⚠️ **Validation Failed:** The icon is invalid or could not be normalized. \n\nDetails: ${error.message}` 
+            const filePath = path.join(stageDir, 'icon.svg');
+            fs.writeFileSync(filePath, svgContent, 'utf8');
+
+            try {
+              const stdout = execSync(`node script/normalize-icons.mjs "${stageDir}" "${stageDir}" --clean`, { encoding: 'utf8' });
+              console.log("Script output:", stdout);
+
+              const stats = fs.statSync(filePath);
+              if (stats.size === 0) throw new Error("Normalization resulted in an empty file.");
+
+              const { data: existingComments } = await github.rest.issues.listComments({ owner, repo, issue_number });
+              const hasSuccess = existingComments.some(c => c.body.includes("✅ **Validation Successful"));
+
+              await github.rest.issues.removeLabel({ owner, repo, issue_number, name: invalidLabel }).catch(() => {});
+
+              if (!hasSuccess) {
+                await github.rest.issues.createComment({
+                  owner, repo, issue_number,
+                  body: "✅ **Validation Successful:** The SVG has been normalized and is ready to be included."
                 });
-                
-                return;
               }
+            } catch (error) {
+              console.error("Normalization Error:", error.message);
+
+              await github.rest.issues.addLabels({ owner, repo, issue_number, labels: [invalidLabel] }).catch(() => {});
+
+              await github.rest.issues.createComment({
+                owner, repo, issue_number,
+                body: `⚠️ **Validation Failed:** The icon is invalid or could not be normalized.\n\nDetails: ${error.message}`
+              });
             }

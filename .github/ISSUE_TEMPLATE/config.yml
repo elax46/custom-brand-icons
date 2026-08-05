@@ -1,1 +1,5 @@
 blank_issues_enabled: false
+contact_links:
+  - name: Questions & general support
+    url: https://github.com/elax46/custom-brand-icons/discussions
+    about: For anything that isn't a new icon request, please use Discussions instead
