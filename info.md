@@ -8,7 +8,8 @@
 # Custom brand icons
 Custom brand icons for Home Assistant
 
-![logo](https://res.cloudinary.com/dcongin7u/image/upload/v1707320837/cbi-logo.jpg)
+
+![logo](https://res.cloudinary.com/dcongin7u/image/upload/v1775920018/cbi-logo_pho7hp.png)
 
 # Install
 
@@ -51,4 +52,4 @@ type: entities
 A system restart is required after this step
 
 # Icons/Brands Available
-See the full list on [Github](https://github.com/elax46/custom-brand-icons#iconsbrands-available).
+See the full list on [Icon Finder](https://elax46.github.io/custom-brand-icons/).
