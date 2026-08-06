@@ -1,0 +1,29 @@
+# This docker-compose file performs two tasks:
+# 1. Runs the `node custom-icons-builder.js` script to generate custom icons.
+# 2. Builds a local Docker image with node.js:22 ImageMagick and then normalizes and cleans up the generated files using `npm run clean:vrt`.
+#
+# To perform these tasks, run one of the following command:
+#   docker compose up build
+#   docker compose up normalize --build
+
+services:
+  build:
+    image: node:22
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    command: >
+      node custom-icons-builder.cjs
+
+  normalize:
+    build:
+      context: .
+      dockerfile_inline: |
+        FROM node:22
+        RUN apt-get update -qq && apt-get install -y -qq imagemagick && rm -rf /var/lib/apt/lists/*
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    command: >
+      sh -c "npm install &&
+             npm run clean:vrt"
