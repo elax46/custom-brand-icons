@@ -246,7 +246,7 @@ Example svg file below:
 > [!WARNING]  
 >You need to have Node.js installed to use automatic generation.
 
-Go to the local folder where the `custom-icons-builder.js` file is located and run `node custom-icons-builder.js` The script will generate a new `custom brand-icons` file with the updated icons.
+Go to the local folder where the `custom-icons-builder.js` file is located and run `node custom-icons-builder.cjs` The script will generate a new `custom brand-icons` file with the updated icons.
 
 If everything went well you will see a message like this
 
