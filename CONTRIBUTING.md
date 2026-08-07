@@ -1,3 +1,4 @@
+
 # Developer Workflow
 
 ### Make your own `svg` icon
@@ -39,7 +40,7 @@ Example svg file below:
 > [!WARNING]  
 >You need to have Node.js installed to use automatic generation.
 
-Go to the local folder where the `custom-icons-builder.js` file is located and run `node custom-icons-builder.js` The script will generate a new `custom brand-icons` file with the updated icons.
+Go to the local folder where the `custom-icons-builder.js` file is located and run `node custom-icons-builder.cjs` The script will generate a new `custom brand-icons` file with the updated icons.
 
 If everything went well you will see a message like this
 
@@ -80,6 +81,16 @@ Thanks to the work of @SoulSolistice, a `normalize-icons.mjs` has been introduce
 * Run `npm run clean:vrt` to clean the current icons (will be overwritten). Also creates `vrt.png` in the `scripts` folder as "Visual Regression Test". This needs ImageMagick installed.
 
 
+### Running locally using docker
+This repository contains a docker-compose file that performs the two tasks above:
+1. Runs the `node custom-icons-builder.cjs` script using node 22 to generate custom icons.
+2. Builds a local Docker image with node 22 and ImageMagick and then normalizes and cleans up the generated files using `npm run clean:vrt`.
+
+To perform these tasks, run one of the following commands:
+```sh
+docker compose up build
+docker compose up normalize --build
+```
 
 
 ### Contributions and Pull Requests
@@ -89,4 +100,3 @@ Thanks to the work of @SoulSolistice, a `normalize-icons.mjs` has been introduce
 > PRs opened against `main` will be automatically closed by our bot.
 
 After adding your svg icon in `icon-svg` folder . Open pull request on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**. You should create a **new feature branch** on your fork (e.g., `feat/add-new-icon`) and submit your PR from there.
-
