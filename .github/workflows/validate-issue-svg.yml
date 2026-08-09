@@ -116,7 +116,7 @@ jobs:
               return;
             }
 
-            // ---------------- Structural validation (no normalization here) ----------------
+            // ---------------- Structural validation ----------------
             const problems = [];
             if (!/viewBox/i.test(svgContent)) problems.push('Missing `viewBox` attribute.');
             if (/\b(transform|translate|scale)\s*[:(]/i.test(svgContent)) problems.push('Found `transform`/`translate`/`scale`, which is not allowed.');
@@ -135,20 +135,41 @@ jobs:
               return;
             }
 
-            // Duplicate check
+            // ---------------- Duplicate check (icon-svg folder on dev + live bundle on main) ----------------
             const targetPath = path.join('icon-svg', `${iconName}.svg`);
             if (fs.existsSync(targetPath)) {
               await github.rest.issues.createComment({
                 owner, repo, issue_number,
-                body: `⚠️ An icon named \`${iconName}\` already exists in the library. If this is a different icon, please choose a different name.`
+                body: `⚠️ An icon named \`${iconName}\` already exists in the library (icon-svg/${iconName}.svg). If this is a different icon, please choose a different name.`
               });
               return;
             }
 
             try {
+              const { data: distFile } = await github.rest.repos.getContent({
+                owner, repo,
+                path: 'dist/custom-brand-icons.js',
+                ref: 'main'
+              });
+              const distContent = Buffer.from(distFile.content, 'base64').toString('utf8');
+              const escaped = iconName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+              const keyRegex = new RegExp(`["'\`]${escaped}["'\`]\\s*:`, 'i');
+              if (keyRegex.test(distContent)) {
+                await github.rest.issues.createComment({
+                  owner, repo, issue_number,
+                  body: `⚠️ An icon named \`${iconName}\` already exists in the published icon pack (dist/custom-brand-icons.js on main), possibly as an alias. If this is a different icon, please choose a different name.`
+                });
+                return;
+              }
+            } catch (error) {
+              console.log(`Could not check dist bundle on main: ${error.message}`);
+              // Non-blocking: if the API call fails (rate limit, file missing, etc.), continue with the icon-svg check only.
+            }
+
+            // ---------------- Create branch, commit, push, open PR ----------------
+            try {
               await github.rest.issues.removeLabel({ owner, repo, issue_number, name: invalidLabel }).catch(() => {});
 
-              // ---------------- Create branch, commit, push, open PR ----------------
               const branchName = `icon-request/${iconName}-${issue_number}`;
               fs.mkdirSync('icon-svg', { recursive: true });
               fs.writeFileSync(targetPath, svgContent, 'utf8');
