@@ -36,6 +36,7 @@ jobs:
             const owner = context.repo.owner;
             const repo = context.repo.repo;
             const invalidLabel = 'invalid-icon';
+            const iconRequestLabel = 'icon request';
 
             // ---------------- Scheduled cleanup of stale invalid issues ----------------
             if (context.eventName === 'schedule') {
@@ -56,7 +57,16 @@ jobs:
             // -----------------------------------------------------------------------
 
             const issue_number = context.issue.number;
-            const body = context.payload.issue.body || '';
+            const issue = context.payload.issue;
+
+            // Only run on issues opened via the "Insert new icon" form (identified by its label)
+            const labels = (issue.labels || []).map(l => (typeof l === 'string' ? l : l.name));
+            if (!labels.includes(iconRequestLabel)) {
+              console.log(`Skipping: issue #${issue_number} does not have the "${iconRequestLabel}" label.`);
+              return;
+            }
+
+            const body = issue.body || '';
 
             // Extract the SVG pasted in the "SVG code" form field (fenced ```xml block)
             const fencedMatch = body.match(/```(?:xml|svg)?\s*\n([\s\S]*?)```/i);
