@@ -1,4 +1,4 @@
-name: Validate, Normalize and PR new icon
+name: Validate and PR new icon
 
 on:
   issues:
@@ -25,25 +25,19 @@ jobs:
         uses: actions/checkout@v7
         with:
           ref: dev
-
-      - name: Setup Node
-        uses: actions/setup-node@v7
-        with:
-          node-version: '20'
-
-      - name: Install dependencies
-        run: npm ci
+          token: ${{ secrets.GH_PAT }}
 
       - name: Configure git identity
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Validate, Normalize and open PR
+      - name: Validate and open PR
         uses: actions/github-script@v9
         env:
           ISSUE_NUMBER_INPUT: ${{ github.event.inputs.issue_number }}
         with:
+          github-token: ${{ secrets.GH_PAT }}
           script: |
             const { execSync } = require('child_process');
             const fs = require('fs');
@@ -122,6 +116,25 @@ jobs:
               return;
             }
 
+            // ---------------- Structural validation (no normalization here) ----------------
+            const problems = [];
+            if (!/viewBox/i.test(svgContent)) problems.push('Missing `viewBox` attribute.');
+            if (/\b(transform|translate|scale)\s*[:(]/i.test(svgContent)) problems.push('Found `transform`/`translate`/`scale`, which is not allowed.');
+            const pathCount = (svgContent.match(/<path\b/gi) || []).length;
+            if (pathCount === 0) problems.push('No `<path>` element found.');
+            if (pathCount > 1) problems.push(`Found ${pathCount} \`<path>\` elements, only one is allowed.`);
+            if (!/#44739e/i.test(svgContent)) problems.push('Color `#44739e` not found.');
+
+            if (problems.length) {
+              await github.rest.issues.addLabels({ owner, repo, issue_number, labels: [invalidLabel] }).catch(() => {});
+              await github.rest.issues.createComment({
+                owner, repo, issue_number,
+                body: "⚠️ **Validation Failed:** The SVG does not meet the requirements:\n\n" +
+                      problems.map(p => `- ${p}`).join('\n')
+              });
+              return;
+            }
+
             // Duplicate check
             const targetPath = path.join('icon-svg', `${iconName}.svg`);
             if (fs.existsSync(targetPath)) {
@@ -132,26 +145,13 @@ jobs:
               return;
             }
 
-            const stageDir = path.join(process.env.RUNNER_TEMP, 'icon_stage');
-            if (fs.existsSync(stageDir)) fs.rmSync(stageDir, { recursive: true });
-            fs.mkdirSync(stageDir, { recursive: true });
-
-            const stagedFile = path.join(stageDir, 'icon.svg');
-            fs.writeFileSync(stagedFile, svgContent, 'utf8');
-
             try {
-              const stdout = execSync(`node script/normalize-icons.mjs "${stageDir}" "${stageDir}" --clean`, { encoding: 'utf8' });
-              console.log("Script output:", stdout);
-
-              const stats = fs.statSync(stagedFile);
-              if (stats.size === 0) throw new Error("Normalization resulted in an empty file.");
-
               await github.rest.issues.removeLabel({ owner, repo, issue_number, name: invalidLabel }).catch(() => {});
 
               // ---------------- Create branch, commit, push, open PR ----------------
               const branchName = `icon-request/${iconName}-${issue_number}`;
               fs.mkdirSync('icon-svg', { recursive: true });
-              fs.copyFileSync(stagedFile, targetPath);
+              fs.writeFileSync(targetPath, svgContent, 'utf8');
 
               execSync(`git checkout -b ${branchName}`);
               execSync(`git add ${targetPath}`);
@@ -169,15 +169,15 @@ jobs:
               await github.rest.issues.addLabels({ owner, repo, issue_number, labels: [prOpenLabel] }).catch(() => {});
               await github.rest.issues.createComment({
                 owner, repo, issue_number,
-                body: `✅ **Validation Successful:** The SVG has been normalized and PR #${pr.number} has been opened for review: ${pr.html_url}`
+                body: `✅ **Validation Successful:** PR #${pr.number} has been opened for review: ${pr.html_url}\n\nIt will be automatically normalized once the PR is processed.`
               });
             } catch (error) {
-              console.error("Normalization Error:", error.message);
+              console.error("Error:", error.message);
 
               await github.rest.issues.addLabels({ owner, repo, issue_number, labels: [invalidLabel] }).catch(() => {});
 
               await github.rest.issues.createComment({
                 owner, repo, issue_number,
-                body: `⚠️ **Validation Failed:** The icon is invalid or could not be normalized.\n\nDetails: ${error.message}`
+                body: `⚠️ **Failed to open PR.**\n\nDetails: ${error.message}`
               });
             }
