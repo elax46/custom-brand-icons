@@ -1,8 +1,13 @@
-name: Validate and Normalize Attached SVG
+name: Validate, Normalize and PR new icon
 
 on:
   issues:
     types: [opened, edited]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: 'Issue number to process manually'
+        required: true
   schedule:
     - cron: '0 0 * * *'
 env:
@@ -13,9 +18,13 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       issues: write
+      contents: write
+      pull-requests: write
     steps:
-      - name: Checkout repository
+      - name: Checkout dev branch
         uses: actions/checkout@v7
+        with:
+          ref: dev
 
       - name: Setup Node
         uses: actions/setup-node@v7
@@ -25,8 +34,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Validate and Normalize
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Validate, Normalize and open PR
         uses: actions/github-script@v9
+        env:
+          ISSUE_NUMBER_INPUT: ${{ github.event.inputs.issue_number }}
         with:
           script: |
             const { execSync } = require('child_process');
@@ -37,6 +53,7 @@ jobs:
             const repo = context.repo.repo;
             const invalidLabel = 'invalid-icon';
             const iconRequestLabel = 'icon request';
+            const prOpenLabel = 'pr-open';
 
             // ---------------- Scheduled cleanup of stale invalid issues ----------------
             if (context.eventName === 'schedule') {
@@ -56,8 +73,15 @@ jobs:
             }
             // -----------------------------------------------------------------------
 
-            const issue_number = context.issue.number;
-            const issue = context.payload.issue;
+            let issue_number, issue;
+            if (context.eventName === 'workflow_dispatch') {
+              issue_number = parseInt(process.env.ISSUE_NUMBER_INPUT, 10);
+              const { data } = await github.rest.issues.get({ owner, repo, issue_number });
+              issue = data;
+            } else {
+              issue_number = context.issue.number;
+              issue = context.payload.issue;
+            }
 
             // Only run on issues opened via the "Insert new icon" form (identified by its label)
             const labels = (issue.labels || []).map(l => (typeof l === 'string' ? l : l.name));
@@ -66,23 +90,44 @@ jobs:
               return;
             }
 
+            // If a PR has already been opened for this issue, skip re-processing
+            if (labels.includes(prOpenLabel)) {
+              console.log(`Skipping: issue #${issue_number} already has an open PR.`);
+              return;
+            }
+
             const body = issue.body || '';
+
+            // Extract icon name from the form field
+            const nameMatch = body.match(/###\s*Icon name\s*\n+([^\n#]+)/i);
+            let iconName = nameMatch ? nameMatch[1].trim() : null;
+            if (iconName) {
+              iconName = iconName.toLowerCase().replace(/[^a-z0-9-]+/g, '-').replace(/^-+|-+$/g, '');
+            }
 
             // Extract the SVG pasted in the "SVG code" form field (fenced ```xml block)
             const fencedMatch = body.match(/```(?:xml|svg)?\s*\n([\s\S]*?)```/i);
             let svgContent = fencedMatch ? fencedMatch[1].trim() : null;
-
-            // Fallback: raw <svg>...</svg> without fences
             if (!svgContent) {
               const rawMatch = body.match(/<svg[\s\S]*?<\/svg>/i);
               svgContent = rawMatch ? rawMatch[0] : null;
             }
 
-            if (!svgContent) {
+            if (!iconName || !svgContent) {
               await github.rest.issues.addLabels({ owner, repo, issue_number, labels: [invalidLabel] }).catch(() => {});
               await github.rest.issues.createComment({
                 owner, repo, issue_number,
-                body: "⚠️ **Validation Failed:** No SVG code was found in the issue body. Please paste the raw SVG code in the dedicated field — do not attach an image file."
+                body: "⚠️ **Validation Failed:** Missing icon name or SVG code. Please fill in the form fields correctly — paste the raw SVG code, do not attach an image file."
+              });
+              return;
+            }
+
+            // Duplicate check
+            const targetPath = path.join('icon-svg', `${iconName}.svg`);
+            if (fs.existsSync(targetPath)) {
+              await github.rest.issues.createComment({
+                owner, repo, issue_number,
+                body: `⚠️ An icon named \`${iconName}\` already exists in the library. If this is a different icon, please choose a different name.`
               });
               return;
             }
@@ -91,27 +136,41 @@ jobs:
             if (fs.existsSync(stageDir)) fs.rmSync(stageDir, { recursive: true });
             fs.mkdirSync(stageDir, { recursive: true });
 
-            const filePath = path.join(stageDir, 'icon.svg');
-            fs.writeFileSync(filePath, svgContent, 'utf8');
+            const stagedFile = path.join(stageDir, 'icon.svg');
+            fs.writeFileSync(stagedFile, svgContent, 'utf8');
 
             try {
               const stdout = execSync(`node script/normalize-icons.mjs "${stageDir}" "${stageDir}" --clean`, { encoding: 'utf8' });
               console.log("Script output:", stdout);
 
-              const stats = fs.statSync(filePath);
+              const stats = fs.statSync(stagedFile);
               if (stats.size === 0) throw new Error("Normalization resulted in an empty file.");
-
-              const { data: existingComments } = await github.rest.issues.listComments({ owner, repo, issue_number });
-              const hasSuccess = existingComments.some(c => c.body.includes("✅ **Validation Successful"));
 
               await github.rest.issues.removeLabel({ owner, repo, issue_number, name: invalidLabel }).catch(() => {});
 
-              if (!hasSuccess) {
-                await github.rest.issues.createComment({
-                  owner, repo, issue_number,
-                  body: "✅ **Validation Successful:** The SVG has been normalized and is ready to be included."
-                });
-              }
+              // ---------------- Create branch, commit, push, open PR ----------------
+              const branchName = `icon-request/${iconName}-${issue_number}`;
+              fs.mkdirSync('icon-svg', { recursive: true });
+              fs.copyFileSync(stagedFile, targetPath);
+
+              execSync(`git checkout -b ${branchName}`);
+              execSync(`git add ${targetPath}`);
+              execSync(`git commit -m "Add icon: ${iconName} (closes #${issue_number})"`);
+              execSync(`git push origin ${branchName}`);
+
+              const { data: pr } = await github.rest.pulls.create({
+                owner, repo,
+                title: `Add icon: ${iconName}`,
+                head: branchName,
+                base: 'dev',
+                body: `Automatically generated from #${issue_number}.\n\nCloses #${issue_number}.`
+              });
+
+              await github.rest.issues.addLabels({ owner, repo, issue_number, labels: [prOpenLabel] }).catch(() => {});
+              await github.rest.issues.createComment({
+                owner, repo, issue_number,
+                body: `✅ **Validation Successful:** The SVG has been normalized and PR #${pr.number} has been opened for review: ${pr.html_url}`
+              });
             } catch (error) {
               console.error("Normalization Error:", error.message);
 
