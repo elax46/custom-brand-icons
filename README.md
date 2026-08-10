@@ -1,9 +1,9 @@
-
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/elax46/custom-brand-icons?style=for-the-badge)](https://github.com/elax46/custom-brand-icons/releases/latest)
 [![GitHub Downloads](https://img.shields.io/github/downloads/elax46/custom-brand-icons/total?style=for-the-badge)](https://github.com/elax46/custom-brand-icons/releases)
 [![MIT License][mit-shield]][mit-license]
 ![GitHub file size in bytes](https://img.shields.io/github/size/elax46/custom-brand-icons/dist/custom-brand-icons.js?label=plugin%20size&style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/elax46/custom-brand-icons?style=for-the-badge)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?style=for-the-badge&logo=buymeacoffee&logoColor=white)](https://www.buymeacoffee.com/elax46)
 
 [mit-license]: https://opensource.org/licenses/MIT
 [mit-shield]: https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
@@ -183,14 +183,6 @@ Some addons (including official) have had some [cache issues since 2024.1.1]([ht
 1. Go to [icon viewer](https://elax46.github.io/custom-brand-icons/)
 2. Select all the icons you want to add to your HA instance
 3. Download the js file and install it manually in Home Assistant
-
-
-# Thanks for your support
-
-Thanks, as always, to the precious contribution to [@rchiileea](https://github.com/rchiileea) for the creation of the required icons!
-Do you like these icons? Support the project with a pizza 🍕🍕
-
-[![coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/elax46)
 
 ---
 
