@@ -1,5 +1,4 @@
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/elax46/custom-brand-icons?style=for-the-badge)](https://github.com/elax46/custom-brand-icons/releases/latest)
 [![GitHub Downloads](https://img.shields.io/github/downloads/elax46/custom-brand-icons/total?style=for-the-badge)](https://github.com/elax46/custom-brand-icons/releases)
 [![MIT License][mit-shield]][mit-license]
