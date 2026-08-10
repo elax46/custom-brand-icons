@@ -64,6 +64,8 @@ jobs:
             echo "> [!TIP]"
             echo "> View all icons in the - [icon finder](https://elax46.github.io/custom-brand-icons/)"
             echo ""
+            echo "[![GitHub Downloads (specific tag)](https://img.shields.io/github/downloads/${{ github.repository }}/${{ steps.vars.outputs.tag }}/total?style=for-the-badge)](https://github.com/${{ github.repository }}/releases/tag/${{ steps.vars.outputs.tag }})"
+            echo ""
             
             if [ "${{ steps.new_icons.outputs.has_new_icons }}" = "true" ]; then
               echo "### New Icons Added"
