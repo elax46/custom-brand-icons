@@ -1,13 +1,12 @@
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/elax46/custom-brand-icons?style=for-the-badge)](https://github.com/elax46/custom-brand-icons/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/elax46/custom-brand-icons/total?style=for-the-badge)](https://github.com/elax46/custom-brand-icons/releases)
+[![MIT License][mit-shield]][mit-license]
+![GitHub file size in bytes](https://img.shields.io/github/size/elax46/custom-brand-icons/dist/custom-brand-icons.js?label=plugin%20size&style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/elax46/custom-brand-icons?style=for-the-badge)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?style=for-the-badge&logo=buymeacoffee&logoColor=white)](https://www.buymeacoffee.com/elax46)
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/elax46/custom-brand-icons)](https://github.com/elax46/custom-brand-icons/releases/latest)
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
-![GitHub file size in bytes](https://img.shields.io/github/size/elax46/custom-brand-icons/dist/custom-brand-icons.js?label=plugin%20size)
-![GitHub last commit](https://img.shields.io/github/last-commit/elax46/custom-brand-icons)
-
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+[mit-license]: https://opensource.org/licenses/MIT
+[mit-shield]: https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
 
 # Custom brand icons
 
@@ -184,24 +183,6 @@ Some addons (including official) have had some [cache issues since 2024.1.1]([ht
 1. Go to [icon viewer](https://elax46.github.io/custom-brand-icons/)
 2. Select all the icons you want to add to your HA instance
 3. Download the js file and install it manually in Home Assistant
-
-
-# Thanks for your support
-
-Thanks, as always, to the precious contribution to [@rchiileea](https://github.com/rchiileea) for the creation of the required icons!
-Do you like these icons? Support the project with a pizza 🍕🍕
-
-[![coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/elax46)
-
-## Star History
-
-<a href="https://www.star-history.com/?repos=elax46%2Fcustom-brand-icons&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=elax46/custom-brand-icons&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=elax46/custom-brand-icons&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=elax46/custom-brand-icons&type=date&legend=top-left" />
- </picture>
-</a>
 
 ---
 
