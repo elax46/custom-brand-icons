@@ -193,16 +193,6 @@ Do you like these icons? Support the project with a pizza 🍕🍕
 
 [![coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/elax46)
 
-## Star History
-
-<a href="https://www.star-history.com/?repos=elax46%2Fcustom-brand-icons&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=elax46/custom-brand-icons&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=elax46/custom-brand-icons&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=elax46/custom-brand-icons&type=date&legend=top-left" />
- </picture>
-</a>
-
 ---
 
 # Developer Workflow
