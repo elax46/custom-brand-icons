@@ -28,9 +28,13 @@ jobs:
       - name: Install ImageMagick
         timeout-minutes: 3
         run: |
-          # Bypassa il mirror azure.archive.ubuntu.com, spesso instabile sui runner GitHub
-          sudo sed -i 's|http://azure.archive.ubuntu.com|http://archive.ubuntu.com|g' /etc/apt/sources.list.d/ubuntu.sources 2>/dev/null || \
+          # I runner Ubuntu 24.04 di GitHub usano un mirror dinamico (mirror+file:/etc/apt/apt-mirrors.txt)
+          # che spesso risolve su azure.archive.ubuntu.com, mirror noto per essere instabile e causare blocchi.
+          # Lo sostituiamo col mirror canonico diretto, sia in formato deb822 (.sources) che legacy (sources.list).
+          sudo sed -i 's|mirror+file:/etc/apt/apt-mirrors.txt|http://archive.ubuntu.com/ubuntu|g' /etc/apt/sources.list.d/ubuntu.sources 2>/dev/null || true
           sudo sed -i 's|http://azure.archive.ubuntu.com|http://archive.ubuntu.com|g' /etc/apt/sources.list 2>/dev/null || true
+          echo "--- sources.d/ubuntu.sources dopo il fix ---"
+          cat /etc/apt/sources.list.d/ubuntu.sources 2>/dev/null || true
           sudo apt-get update -o Acquire::Retries=3 -o Acquire::http::Timeout=15 -o Acquire::https::Timeout=15
           sudo apt-get install -y imagemagick
       # 5️⃣ Clean / normalize icons + VRT
