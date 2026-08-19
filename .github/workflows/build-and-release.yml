@@ -1,40 +1,38 @@
 name: Build Custom Brand Icons
-
 on:
   push:
     branches:
       - main
   workflow_dispatch:
-
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
-
       # 1️⃣ Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v7
         with:
           persist-credentials: true
-
       # 2️⃣ Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v7
         with:
           node-version: 22
-
       # 3️⃣ Install dependencies
       #     Use "clean install" to rely upon package-lock.json
       - name: Install dependencies
         run: npm ci
-
       # 4️⃣ Install ImageMagick (necessario per npm run clean:vrt)
       - name: Install ImageMagick
-        run: sudo apt-get update && sudo apt-get install -y imagemagick
-
+        timeout-minutes: 3
+        run: |
+          # Bypassa il mirror azure.archive.ubuntu.com, spesso instabile sui runner GitHub
+          sudo sed -i 's|http://azure.archive.ubuntu.com|http://archive.ubuntu.com|g' /etc/apt/sources.list.d/ubuntu.sources 2>/dev/null || \
+          sudo sed -i 's|http://azure.archive.ubuntu.com|http://archive.ubuntu.com|g' /etc/apt/sources.list 2>/dev/null || true
+          sudo apt-get update -o Acquire::Retries=3 -o Acquire::http::Timeout=15 -o Acquire::https::Timeout=15
+          sudo apt-get install -y imagemagick
       # 5️⃣ Clean / normalize icons + VRT
       - name: Clean / normalize icons
         run: |
@@ -46,7 +44,6 @@ jobs:
           ls -la icon-svg
           echo "📂 script content:"
           ls -la script
-
       # 6️⃣ Build JS bundle
       - name: Build icons
         run: |
@@ -64,7 +61,6 @@ jobs:
           echo "✅ Build completed successfully"
           echo "📂 dist content:"
           ls -la dist
-
       # 7️⃣ Commit dist and normalized SVGs (solo se ci sono modifiche)
       - name: Commit dist & icon-svg changes
         run: |
@@ -78,7 +74,6 @@ jobs:
           fi
           git commit -m "chore: update dist & normalized SVGs [ci skip]"
           git push origin HEAD:main
-
       # 8️⃣ Upload dist artifact
       - name: Upload dist artifact
         uses: actions/upload-artifact@v4
