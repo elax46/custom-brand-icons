@@ -1,0 +1,33 @@
+name: Bug report
+description: Help me improve Custom brand icons
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - elax46
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug! Please fill in all required fields.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: Describe the issue...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: cache-check
+    attributes:
+      label: "Don't see the icon?"
+      description: |
+        It probably depends on the cache. Open Home Assistant from an incognito window and check that the icon loads.
+        If yes, it depends on the cache. Otherwise, double check the installation.
+      options:
+        - label: I checked in an incognito window and the icon still doesn't load
+          required: false
+        - label: I double checked the installation
+          required: false
