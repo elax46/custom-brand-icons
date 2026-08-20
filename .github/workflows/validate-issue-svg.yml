@@ -2,7 +2,7 @@ name: Validate and PR new icon
 
 on:
   issues:
-    types: [opened, edited]
+    types: [opened, edited, labeled, closed]
   workflow_dispatch:
     inputs:
       issue_number:
@@ -63,6 +63,65 @@ jobs:
                   });
                 }
               }
+              return;
+            }
+            // -----------------------------------------------------------------------
+
+            // ---------------- Close linked PR when issue is marked invalid or closed ----------------
+            if (context.eventName === 'issues' && (context.payload.action === 'labeled' || context.payload.action === 'closed')) {
+              const issue_number = context.issue.number;
+
+              let shouldClose = false;
+              let reason = '';
+
+              if (context.payload.action === 'labeled') {
+                const labelName = context.payload.label?.name;
+                if (labelName !== invalidLabel) {
+                  return; // not the label we care about
+                }
+                shouldClose = true;
+                reason = `was manually marked with the \`${invalidLabel}\` label`;
+              } else if (context.payload.action === 'closed') {
+                shouldClose = true;
+                reason = 'was closed';
+              }
+
+              if (!shouldClose) return;
+
+              // Find PR(s) linked to this issue via GitHub's own cross-reference
+              // timeline (populated automatically from "Closes #N" in the PR body —
+              // the same mechanism behind the "Linked pull requests" UI).
+              const timeline = await github.paginate(github.rest.issues.listEventsForTimeline, {
+                owner, repo, issue_number, per_page: 100
+              });
+
+              const linkedPRs = new Set();
+              for (const event of timeline) {
+                if (
+                  event.event === 'cross-referenced' &&
+                  event.source?.issue?.pull_request &&
+                  event.source.issue.repository?.full_name === `${owner}/${repo}`
+                ) {
+                  linkedPRs.add(event.source.issue.number);
+                }
+              }
+
+              if (linkedPRs.size === 0) {
+                console.log(`Nessuna PR collegata trovata per la issue #${issue_number}.`);
+                return;
+              }
+
+              for (const pr_number of linkedPRs) {
+                const { data: pr } = await github.rest.pulls.get({ owner, repo, pull_number: pr_number });
+                if (pr.state !== 'open') continue;
+
+                await github.rest.pulls.update({ owner, repo, pull_number: pr_number, state: 'closed' });
+                await github.rest.issues.createComment({
+                  owner, repo, issue_number: pr_number,
+                  body: `🔒 This PR was automatically closed because the linked issue #${issue_number} ${reason}.`
+                });
+              }
+
               return;
             }
             // -----------------------------------------------------------------------
