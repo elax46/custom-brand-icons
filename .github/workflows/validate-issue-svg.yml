@@ -80,10 +80,10 @@ jobs:
                   return; // not the label we care about
                 }
                 shouldClose = true;
-                reason = `è stata marcata manualmente con l'etichetta \`${invalidLabel}\``;
+                reason = `was manually marked with the \`${invalidLabel}\` label`;
               } else if (context.payload.action === 'closed') {
                 shouldClose = true;
-                reason = 'è stata chiusa';
+                reason = 'was closed';
               }
 
               if (!shouldClose) return;
@@ -118,7 +118,7 @@ jobs:
                 await github.rest.pulls.update({ owner, repo, pull_number: pr_number, state: 'closed' });
                 await github.rest.issues.createComment({
                   owner, repo, issue_number: pr_number,
-                  body: `🔒 Questa PR è stata chiusa automaticamente perché la issue collegata #${issue_number} ${reason}.`
+                  body: `🔒 This PR was automatically closed because the linked issue #${issue_number} ${reason}.`
                 });
               }
 
