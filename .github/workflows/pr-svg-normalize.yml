@@ -214,7 +214,41 @@ jobs:
             echo "${file}:$(stat -c '%s' "$dst")" >> "$RUNNER_TEMP/sizes_before.txt"
           done < "$RUNNER_TEMP/changed_svgs.txt"
 
-      # -- 9. Normalize ONLY the staged icons (SVGO -> normalize -> SVGO) ----
+      # -- 9. Guard: enforce viewBox="0 0 24 24" on submitted icons -----------
+      - name: Reject icons without viewBox "0 0 24 24"
+        if: |
+          steps.guard.outputs.skip != 'true' &&
+          steps.changed.outputs.has_icon_svgs == 'true' &&
+          steps.changed.outputs.has_bad_subfolders != 'true'
+        run: |
+          set -euo pipefail
+          STAGE="$RUNNER_TEMP/icon_stage"
+          bad=0
+
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
+            base="$(basename "$file")"
+            src="${STAGE}/${base}"
+
+            # Extract the value of the first viewBox="..." attribute found
+            vb="$(grep -oP 'viewBox\s*=\s*"\K[^"]*' "$src" | head -n1 || true)"
+
+            # Normalize whitespace/commas so "0 0 24 24", "0,0,24,24", "0  0 24  24" all match
+            norm_vb="$(printf '%s' "$vb" | tr -s '[:space:],' ' ' | sed 's/^ *//; s/ *$//')"
+
+            if [ "$norm_vb" != "0 0 24 24" ]; then
+              echo "::error file=${file}::viewBox non valido (trovato: '${vb:-assente}', atteso: '0 0 24 24')"
+              bad=1
+            fi
+          done < "$RUNNER_TEMP/changed_svgs.txt"
+
+          if [ "$bad" -ne 0 ]; then
+            echo ""
+            echo "Uno o più SVG non hanno viewBox=\"0 0 24 24\". Correggi le icone e aggiorna la PR."
+            exit 1
+          fi
+
+      # -- 10. Normalize ONLY the staged icons (SVGO -> normalize -> SVGO) ---
       - name: Normalize staged SVGs
         if: |
           steps.guard.outputs.skip != 'true' &&
@@ -226,7 +260,7 @@ jobs:
             "$RUNNER_TEMP/icon_stage" \
             --clean
 
-      # -- 10. Capture final size change -------------------------------------
+      # -- 11. Capture final size change --------------------------------------
       - name: Capture post-normalization sizes
         if: |
           steps.guard.outputs.skip != 'true' &&
@@ -243,7 +277,7 @@ jobs:
             echo "${file}:$(stat -c '%s' "$RUNNER_TEMP/icon_stage/${base}")" >> "$RUNNER_TEMP/sizes_after.txt"
           done < "$RUNNER_TEMP/changed_svgs.txt"
 
-      # -- 11. Copy normalized results back to the PR tree -------------------
+      # -- 12. Copy normalized results back to the PR tree --------------------
       - name: Apply normalized SVGs to PR branch
         if: |
           steps.guard.outputs.skip != 'true' &&
@@ -273,7 +307,7 @@ jobs:
             cp -f "$src" "$dst"
           done < "$RUNNER_TEMP/changed_svgs.txt"
 
-      # -- 12. Commit only the changed icon paths ----------------------------
+      # -- 13. Commit only the changed icon paths ------------------------------
       - name: Commit normalized icons (changed only)
         if: |
           steps.guard.outputs.skip != 'true' &&
@@ -301,7 +335,7 @@ jobs:
 
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
-      # -- 13. Push back to PR branch (forks: requires GitHub to allow it) ---
+      # -- 14. Push back to PR branch (forks: requires GitHub to allow it) ----
       - name: Push normalization commit back to PR branch
         if: |
           steps.guard.outputs.skip != 'true' &&
@@ -328,7 +362,7 @@ jobs:
           fi
           echo "ok=true" >> "$GITHUB_OUTPUT"
 
-      # -- 14. Build report --------------------------------------------------
+      # -- 15. Build report -----------------------------------------------------
       - name: Build comparison comment
         if: |
           steps.guard.outputs.skip != 'true' &&
@@ -409,7 +443,7 @@ jobs:
             fi
           done < "$RUNNER_TEMP/changed_svgs.txt"
 
-      # -- 15. Post or update PR comment ------------------------------------
+      # -- 16. Post or update PR comment ---------------------------------------
       - name: Post comparison comment
         if: |
           steps.guard.outputs.skip != 'true' &&
@@ -455,7 +489,7 @@ jobs:
               });
             }
 
-      # -- 16. Fail job when push back is not possible (after notifying) ------
+      # -- 17. Fail job when push back is not possible (after notifying) ------
       - name: Fail job when push back is not possible
         if: |
           steps.guard.outputs.skip != 'true' &&
