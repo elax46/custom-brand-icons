@@ -1,0 +1,54 @@
+name: Close issues not created from the template
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const body = issue.body || '';
+            const { owner, repo } = context.repo;
+
+            // Do not touch issues opened by the owner or collaborators
+            if (['OWNER', 'MEMBER', 'COLLABORATOR'].includes(issue.author_association)) return;
+
+            // The issue form generates these headings in the body
+            const valid = body.includes('### Icon name') && body.includes('### SVG code');
+            if (valid) return;
+
+            const formUrl = `https://github.com/${owner}/${repo}/issues/new?template=icon_request.yml`;
+            const discussionsUrl = `https://github.com/${owner}/${repo}/discussions`;
+
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: issue.number,
+              body: [
+                'Hi, and thanks for your interest in the project!',
+                '',
+                'This issue was not created with the icon request form, so it has been closed automatically.',
+                '',
+                `To request a new icon, please use the template here: ${formUrl}`,
+                '',
+                'Remember to paste the **raw SVG code** (links and images are not enough) and to read the rules at the top of the form.',
+                '',
+                `For anything else, please use [Discussions](${discussionsUrl}).`
+              ].join('\n')
+            });
+
+            await github.rest.issues.update({
+              owner,
+              repo,
+              issue_number: issue.number,
+              state: 'closed',
+              state_reason: 'not_planned'
+            });
