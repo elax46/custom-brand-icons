@@ -16,6 +16,8 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  issues: write     # comment on / relabel the source issue when normalization fails
+  actions: read     # read which step failed (listJobsForWorkflowRun)
 
 jobs:
   normalize:
@@ -158,6 +160,11 @@ jobs:
           steps.changed.outputs.has_bad_subfolders == 'true'
         run: |
           set -euo pipefail
+          {
+            echo "The submission contains \`.svg\` files inside subfolders of \`icon-svg/\`, which is not allowed. Icons must be placed directly in \`icon-svg/\`:"
+            echo ""
+            sed 's/^/- `/; s/$/`/' "$RUNNER_TEMP/bad_svgs.txt"
+          } > "$RUNNER_TEMP/failure_reason.md"
           echo "Subfolders are not allowed under icon-svg."
           echo ""
           echo "Offending paths:"
@@ -174,6 +181,11 @@ jobs:
           set -euo pipefail
           ROOT="pr-branch/icon-svg"
           if find "$ROOT" -type l -print -quit | grep -q .; then
+            {
+              echo "The submission contains symbolic links under \`icon-svg/\`, which are not allowed:"
+              echo ""
+              find "$ROOT" -type l -print | sed 's#^pr-branch/#- `#; s#$#`#'
+            } > "$RUNNER_TEMP/failure_reason.md"
             echo "Symlinks are not allowed under icon-svg."
             find "$ROOT" -type l -print
             exit 1
@@ -199,12 +211,14 @@ jobs:
             dst="${STAGE}/${base}"
 
             if [ ! -f "$src" ]; then
+              echo "The SVG file \`${file}\` could not be found in the PR branch." > "$RUNNER_TEMP/failure_reason.md"
               echo "Missing file in PR checkout: $src"
               exit 1
             fi
 
             # No duplicate basenames (stage is flat; subfolders are already banned)
             if [ -e "$dst" ]; then
+              echo "Duplicate file name among the changed icons (not allowed): \`${base}\`." > "$RUNNER_TEMP/failure_reason.md"
               echo "Duplicate basename among changed icons (not allowed): $base"
               exit 1
             fi
@@ -224,6 +238,7 @@ jobs:
           set -euo pipefail
           STAGE="$RUNNER_TEMP/icon_stage"
           bad=0
+          : > "$RUNNER_TEMP/viewbox_bad.txt"
 
           while IFS= read -r file; do
             [ -z "$file" ] && continue
@@ -238,11 +253,17 @@ jobs:
 
             if [ "$norm_vb" != "0 0 24 24" ]; then
               echo "::error file=${file}::viewBox non valido (trovato: '${vb:-assente}', atteso: '0 0 24 24')"
+              echo "- \`${base}\`: found \`${vb:-missing}\`" >> "$RUNNER_TEMP/viewbox_bad.txt"
               bad=1
             fi
           done < "$RUNNER_TEMP/changed_svgs.txt"
 
           if [ "$bad" -ne 0 ]; then
+            {
+              echo "The SVG must have \`viewBox=\"0 0 24 24\"\`, but:"
+              echo ""
+              cat "$RUNNER_TEMP/viewbox_bad.txt"
+            } > "$RUNNER_TEMP/failure_reason.md"
             echo ""
             echo "Uno o più SVG non hanno viewBox=\"0 0 24 24\". Correggi le icone e aggiorna la PR."
             exit 1
@@ -255,10 +276,26 @@ jobs:
           steps.changed.outputs.has_icon_svgs == 'true' &&
           steps.changed.outputs.has_bad_subfolders != 'true'
         run: |
+          set +e
           node base/script/normalize-icons.mjs \
             "$RUNNER_TEMP/icon_stage" \
             "$RUNNER_TEMP/icon_stage" \
-            --clean
+            --clean > "$RUNNER_TEMP/normalize.log" 2>&1
+          RC=$?
+          set -e
+
+          cat "$RUNNER_TEMP/normalize.log"
+
+          if [ "$RC" -ne 0 ]; then
+            {
+              echo "The normalization script (SVGO) could not process the SVG. Last lines of its output:"
+              echo ""
+              echo '```'
+              tail -n 15 "$RUNNER_TEMP/normalize.log" | cut -c1-300
+              echo '```'
+            } > "$RUNNER_TEMP/failure_reason.md"
+            exit "$RC"
+          fi
 
       # -- 11. Capture final size change --------------------------------------
       - name: Capture post-normalization sizes
@@ -295,13 +332,16 @@ jobs:
             dst="pr-branch/${file}"
 
             if [ ! -f "$src" ]; then
+              echo "The normalization script did not produce an output for \`${base}\`." > "$RUNNER_TEMP/failure_reason.md"
               echo "Missing normalized output: $src"
               exit 1
             fi
 
             case "$dst" in
               pr-branch/icon-svg/*.svg) ;;
-              *) echo "Refusing to write outside icon-svg: $dst"; exit 1 ;;
+              *)
+                echo "Unexpected output path for \`${file}\`: it must be a \`.svg\` file inside \`icon-svg/\`." > "$RUNNER_TEMP/failure_reason.md"
+                echo "Refusing to write outside icon-svg: $dst"; exit 1 ;;
             esac
 
             cp -f "$src" "$dst"
@@ -496,6 +536,93 @@ jobs:
           steps.commit.outputs.changed == 'true' &&
           steps.push.outputs.ok != 'true'
         run: |
+          echo "The normalization commit could not be pushed back to the PR branch. This is most likely a repository permission/configuration problem rather than an issue with the icon: a maintainer needs to check the workflow run." > "$RUNNER_TEMP/failure_reason.md"
           echo "Normalization commit could not be pushed back to the PR branch."
           echo "Enable 'Allow edits by maintainers' and re-run the workflow."
           exit 1
+
+      # -- 18. On ANY failure: flag the source issue as invalid and explain why --
+      # Only for PRs opened automatically by validate-issue-svg.yml (same repo,
+      # branch "icon-request/<name>-<issue>"). The label is added with GH_PAT on
+      # purpose: events caused by GITHUB_TOKEN do not trigger other workflows, so
+      # with the default token validate-issue-svg.yml would never see the "labeled"
+      # event and the PR would not be closed / the branch not deleted.
+      - name: Flag source issue as invalid-icon
+        if: |
+          failure() &&
+          steps.pr.outputs.head_ref != '' &&
+          steps.pr.outputs.head_repo == github.repository &&
+          startsWith(steps.pr.outputs.head_ref, 'icon-request/')
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        env:
+          PR_NUMBER: ${{ steps.pr.outputs.number }}
+          HEAD_REF:  ${{ steps.pr.outputs.head_ref }}
+          GH_PAT:    ${{ secrets.GH_PAT }}
+        with:
+          script: |
+            const fs = require("fs");
+            const owner = context.repo.owner;
+            const repo  = context.repo.repo;
+            const invalidLabel = "invalid-icon";
+            const prOpenLabel  = "pr-open";
+            const prNumber = Number(process.env.PR_NUMBER);
+
+            // 1. Find the source issue: branch "icon-request/<name>-<issue>", fallback "Closes #N" in the PR body
+            let issueNumber = Number((process.env.HEAD_REF.match(/-(\d+)$/) || [])[1]);
+            if (!issueNumber) {
+              const { data: pr } = await github.rest.pulls.get({ owner, repo, pull_number: prNumber });
+              issueNumber = Number(((pr.body || "").match(/Closes #(\d+)/i) || [])[1]);
+            }
+            if (!issueNumber) {
+              core.warning(`Could not determine the source issue of PR #${prNumber}.`);
+              return;
+            }
+
+            const { data: issue } = await github.rest.issues.get({ owner, repo, issue_number: issueNumber });
+            if (issue.pull_request || issue.state !== "open") {
+              core.info(`Issue #${issueNumber} is not an open issue, nothing to flag.`);
+              return;
+            }
+
+            // 2. Reason written by the failing step (if any) + name of the failed step(s)
+            let reason = "";
+            const reasonFile = `${process.env.RUNNER_TEMP}/failure_reason.md`;
+            if (fs.existsSync(reasonFile)) {
+              reason = fs.readFileSync(reasonFile, "utf8").trim().slice(0, 3000);
+            }
+
+            let failedSteps = [];
+            try {
+              const { data } = await github.rest.actions.listJobsForWorkflowRun({
+                owner, repo, run_id: context.runId, per_page: 100
+              });
+              failedSteps = data.jobs
+                .flatMap(j => j.steps || [])
+                .filter(s => s.conclusion === "failure")
+                .map(s => s.name);
+            } catch (e) {
+              core.warning(`Could not read failed steps: ${e.message}`);
+            }
+
+            if (!reason) {
+              reason = "The workflow failed unexpectedly. Check the workflow run for details; if the icon looks correct, a maintainer may need to re-run it.";
+            }
+
+            const runUrl = `${context.serverUrl}/${owner}/${repo}/actions/runs/${context.runId}`;
+            const where  = failedSteps.length ? ` at step **${failedSteps.join(", ")}**` : "";
+
+            // 3. Comment first (so the reason is visible before the PR gets closed)
+            await github.rest.issues.createComment({
+              owner, repo, issue_number: issueNumber,
+              body:
+                `⚠️ **Normalization Failed:** the automatic normalization of PR #${prNumber} failed${where}.\n\n` +
+                `${reason}\n\n` +
+                `Please fix the icon by **editing this issue**: a new PR will be opened automatically.\n\n` +
+                `[View workflow run](${runUrl})`
+            });
+
+            await github.rest.issues.removeLabel({ owner, repo, issue_number: issueNumber, name: prOpenLabel }).catch(() => {});
+
+            // 4. Add the label with the PAT -> triggers validate-issue-svg.yml, which closes the PR and deletes the branch
+            const pat = getOctokit(process.env.GH_PAT);
+            await pat.rest.issues.addLabels({ owner, repo, issue_number: issueNumber, labels: [invalidLabel] });

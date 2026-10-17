@@ -13,6 +13,12 @@ on:
 env:
   ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 
+# One run at a time per issue: avoids races between "close PR + delete branch"
+# (invalid-icon label) and "create branch + PR" (issue edited by the user).
+concurrency:
+  group: validate-icon-${{ github.event.issue.number || github.event.inputs.issue_number || 'schedule' }}
+  cancel-in-progress: false
+
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -48,6 +54,7 @@ jobs:
             const invalidLabel = 'invalid-icon';
             const iconRequestLabel = 'icon request';
             const prOpenLabel = 'pr-open';
+            const branchPrefix = 'icon-request/';
 
             // ---------------- Scheduled cleanup of stale invalid issues ----------------
             if (context.eventName === 'schedule') {
@@ -88,6 +95,10 @@ jobs:
 
               if (!shouldClose) return;
 
+              // The PR (if any) is going away: the "pr-open" label no longer applies.
+              // Otherwise a later edit of the issue would be skipped as "already has an open PR".
+              await github.rest.issues.removeLabel({ owner, repo, issue_number, name: prOpenLabel }).catch(() => {});
+
               // Find PR(s) linked to this issue via GitHub's own cross-reference
               // timeline (populated automatically from "Closes #N" in the PR body —
               // the same mechanism behind the "Linked pull requests" UI).
@@ -113,13 +124,30 @@ jobs:
 
               for (const pr_number of linkedPRs) {
                 const { data: pr } = await github.rest.pulls.get({ owner, repo, pull_number: pr_number });
-                if (pr.state !== 'open') continue;
+                if (pr.merged) continue; // merged PRs are left alone
 
-                await github.rest.pulls.update({ owner, repo, pull_number: pr_number, state: 'closed' });
-                await github.rest.issues.createComment({
-                  owner, repo, issue_number: pr_number,
-                  body: `🔒 This PR was automatically closed because the linked issue #${issue_number} ${reason}.`
-                });
+                if (pr.state === 'open') {
+                  await github.rest.pulls.update({ owner, repo, pull_number: pr_number, state: 'closed' });
+                  await github.rest.issues.createComment({
+                    owner, repo, issue_number: pr_number,
+                    body: `🔒 This PR was automatically closed because the linked issue #${issue_number} ${reason}.`
+                  });
+                }
+
+                // Delete the auto-created branch, otherwise the next attempt (issue edited by the user)
+                // fails because the branch already exists. Also cleans up leftovers of PRs closed earlier.
+                const sameRepo = pr.head.repo?.full_name === `${owner}/${repo}`;
+                if (sameRepo && pr.head.ref.startsWith(branchPrefix)) {
+                  try {
+                    await github.rest.git.deleteRef({ owner, repo, ref: `heads/${pr.head.ref}` });
+                    console.log(`Deleted branch ${pr.head.ref}.`);
+                  } catch (error) {
+                    // 404/422 = branch already gone
+                    if (error.status !== 404 && error.status !== 422) {
+                      console.log(`Could not delete branch ${pr.head.ref}: ${error.message}`);
+                    }
+                  }
+                }
               }
 
               return;
@@ -227,9 +255,34 @@ jobs:
 
             // ---------------- Create branch, commit, push, open PR ----------------
             try {
+              const branchName = `${branchPrefix}${iconName}-${issue_number}`;
+
+              // A branch with this name may be left over from a previous attempt
+              // (PR closed as invalid, PR creation failed after the push, ...).
+              let branchExists = false;
+              try {
+                await github.rest.git.getRef({ owner, repo, ref: `heads/${branchName}` });
+                branchExists = true;
+              } catch (error) {
+                if (error.status !== 404) throw error;
+              }
+
+              if (branchExists) {
+                const { data: openPRs } = await github.rest.pulls.list({
+                  owner, repo, state: 'open', head: `${owner}:${branchName}`
+                });
+                if (openPRs.length > 0) {
+                  console.log(`PR #${openPRs[0].number} is already open for ${branchName}, nothing to do.`);
+                  await github.rest.issues.addLabels({ owner, repo, issue_number, labels: [prOpenLabel] }).catch(() => {});
+                  return;
+                }
+                // Stale branch without an open PR: remove it so it can be recreated from dev
+                await github.rest.git.deleteRef({ owner, repo, ref: `heads/${branchName}` });
+                console.log(`Deleted stale branch ${branchName}.`);
+              }
+
               await github.rest.issues.removeLabel({ owner, repo, issue_number, name: invalidLabel }).catch(() => {});
 
-              const branchName = `icon-request/${iconName}-${issue_number}`;
               fs.mkdirSync('icon-svg', { recursive: true });
               fs.writeFileSync(targetPath, svgContent, 'utf8');
 
