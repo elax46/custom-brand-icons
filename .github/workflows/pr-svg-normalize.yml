@@ -583,6 +583,11 @@ jobs:
               core.info(`Issue #${issueNumber} is not an open issue, nothing to flag.`);
               return;
             }
+            const issueLabels = (issue.labels || []).map(l => (typeof l === "string" ? l : l.name));
+            if (!issueLabels.includes("icon request")) {
+              core.info(`Issue #${issueNumber} is not an icon request, nothing to flag.`);
+              return;
+            }
 
             // 2. Reason written by the failing step (if any) + name of the failed step(s)
             let reason = "";

@@ -22,6 +22,12 @@ concurrency:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    # Issue events (opened/edited/labeled/closed) are ignored entirely when the issue has the "bug" label.
+    # schedule / workflow_dispatch always run. Any other non-icon issue is still skipped by the
+    # "icon request" label checks inside the script.
+    if: |
+      github.event_name != 'issues' ||
+      !contains(github.event.issue.labels.*.name, 'bug')
     permissions:
       issues: write
       contents: write
@@ -58,8 +64,12 @@ jobs:
 
             // ---------------- Scheduled cleanup of stale invalid issues ----------------
             if (context.eventName === 'schedule') {
-              const { data: issues } = await github.rest.issues.listForRepo({ owner, repo, labels: invalidLabel, state: 'open' });
+              // Both labels are required (AND): never touch bug reports or other issue types
+              const issues = await github.paginate(github.rest.issues.listForRepo, {
+                owner, repo, labels: `${invalidLabel},${iconRequestLabel}`, state: 'open', per_page: 100
+              });
               for (const issue of issues) {
+                if (issue.pull_request) continue;
                 const threshold = 7 * 24 * 60 * 60 * 1000;
                 const lastUpdate = new Date(issue.updated_at).getTime();
                 if ((Date.now() - lastUpdate) > threshold) {
@@ -77,6 +87,13 @@ jobs:
             // ---------------- Close linked PR when issue is marked invalid or closed ----------------
             if (context.eventName === 'issues' && (context.payload.action === 'labeled' || context.payload.action === 'closed')) {
               const issue_number = context.issue.number;
+
+              // Only icon requests: a bug report (or any other issue) must never close PRs or delete branches
+              const issueLabels = (context.payload.issue.labels || []).map(l => (typeof l === 'string' ? l : l.name));
+              if (!issueLabels.includes(iconRequestLabel)) {
+                console.log(`Skipping: issue #${issue_number} is not an icon request.`);
+                return;
+              }
 
               let shouldClose = false;
               let reason = '';
@@ -125,6 +142,14 @@ jobs:
               for (const pr_number of linkedPRs) {
                 const { data: pr } = await github.rest.pulls.get({ owner, repo, pull_number: pr_number });
                 if (pr.merged) continue; // merged PRs are left alone
+
+                // Only touch PRs created by this automation (same repo, branch "icon-request/*"):
+                // any other PR that merely references the issue is not ours to close.
+                const isBotPR = pr.head.repo?.full_name === `${owner}/${repo}` && pr.head.ref.startsWith(branchPrefix);
+                if (!isBotPR) {
+                  console.log(`Skipping PR #${pr_number}: not created by the icon-request automation.`);
+                  continue;
+                }
 
                 if (pr.state === 'open') {
                   await github.rest.pulls.update({ owner, repo, pull_number: pr_number, state: 'closed' });
