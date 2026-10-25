@@ -21,13 +21,22 @@ jobs:
             // Do not touch issues opened by the owner or collaborators
             if (['OWNER', 'MEMBER', 'COLLABORATOR'].includes(issue.author_association)) return;
 
-            // The issue form generates these headings in the body
+            // Do not touch bug reports. Detected by label (applied by the bug form) OR by the
+            // heading the bug form generates in the body, in case the label is not yet
+            // present in the payload when the issue is opened.
+            const labels = (issue.labels || []).map(l => (typeof l === 'string' ? l : l.name));
+            const isBugReport = labels.includes('bug') || body.includes('### Describe the bug');
+            if (isBugReport) {
+              console.log(`Skipping: issue #${issue.number} is a bug report.`);
+              return;
+            }
+
+            // The icon request form generates these headings in the body
             const valid = body.includes('### Icon name') && body.includes('### SVG code');
             if (valid) return;
 
             const formUrl = `https://github.com/${owner}/${repo}/issues/new?template=icon_request.yml`;
             const discussionsUrl = `https://github.com/${owner}/${repo}/discussions`;
-
             await github.rest.issues.createComment({
               owner,
               repo,
@@ -44,7 +53,6 @@ jobs:
                 `For anything else, please use [Discussions](${discussionsUrl}).`
               ].join('\n')
             });
-
             await github.rest.issues.update({
               owner,
               repo,
