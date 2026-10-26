@@ -35,6 +35,20 @@ jobs:
             const valid = body.includes('### Icon name') && body.includes('### SVG code');
             if (valid) return;
 
+            // Free-form issues (proposals, questions, discussions...) are legitimate and must stay open.
+            // Close ONLY issues that look like an icon request opened without the form, judging by the
+            // TITLE (conservative on purpose: a false negative costs nothing, a false positive closes
+            // a legitimate issue). To disable auto-closing completely, replace this check with `return;`.
+            const title = issue.title || '';
+            const looksLikeIconRequest =
+              /\bicon[\s-]*request\b/i.test(title) ||
+              /\b(request(ing)?|add|adding|new|missing|need|needs|please add)\b[^\n]{0,40}\bicons?\b/i.test(title) ||
+              /\bicons?\b[^\n]{0,40}\b(request|missing|needed)\b/i.test(title);
+            if (!looksLikeIconRequest) {
+              console.log(`Skipping: issue #${issue.number} does not look like an icon request.`);
+              return;
+            }
+
             const formUrl = `https://github.com/${owner}/${repo}/issues/new?template=icon_request.yml`;
             const discussionsUrl = `https://github.com/${owner}/${repo}/discussions`;
             await github.rest.issues.createComment({
