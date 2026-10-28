@@ -57,11 +57,9 @@ jobs:
             exit 1
           fi
           echo "🚀 Running builder..."
-          node custom-icons-builder.cjs
-          if [ ! -f dist/custom-brand-icons.js ]; then
-            echo "❌ Build failed: dist/custom-brand-icons.js not generated"
-            exit 1
-          fi
+          npm run build
+          # Catch an incomplete dist/ before it is committed to main
+          npm run verify-dist
           echo "✅ Build completed successfully"
           echo "📂 dist content:"
           ls -la dist
