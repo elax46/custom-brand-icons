@@ -162,7 +162,7 @@ type: entities
 
 - To make an icon in svg format you can use different programs starting from illustrator, inkview, or [Inkscape](https://inkscape.org/).
 - Verify `svg` icons are set properly by using text editor of your choice ([Notepad++](https://notepad-plus-plus.org/), Notepad, or Visual Studio Code).
-- Rules on Icon size and contraints are [HERE](https://github.com/elax46/custom-brand-icons/discussions/1021), 
+- Rules on Icon size and contraints are [HERE](https://github.com/elax46/custom-brand-icons/discussions/1021)
 - The `svg` code must contain **viewbox**. No transform, translate, or scale.
 - Make sure to add color: **#44739e**. Every custom brand icon uses this color.
 - all icons must have a nomenclature NOT in camelcase but of the type `part1name-part2name`
