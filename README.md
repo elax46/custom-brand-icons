@@ -17,27 +17,10 @@
 - Example: `phu:eggs` <img src="/icon-svg/eggs.svg" title="Preview" alt="Preview" width="24"/>
 - Example: `phu:chicken` <img src="/icon-svg/chicken.svg" title="Preview" alt="Preview" width="24"/>
 
----
-
-### 🇮🇹 Special Note for Italian Users
-Are you monitoring your energy costs in Home Assistant? Check out my latest project: [**Card Bolletta**](https://github.com/elax46/card-bolletta).
-
-It’s a custom card specifically designed for the Italian energy market. It helps you estimate your monthly bill in real-time, including taxes (IVA), system charges (Oneri di sistema), and excise duties (Accise).
-
-**Key features:**
-* Support for F1, F2, F3 price brackets.
-* Real-time bill estimation.
-* **New:** Ultra-compact layout for minimalist dashboards.
-* Detailed cost breakdown (Energy vs. Transport vs. Taxes).
-
-Give it a try and let me know what you think! ⭐
 
 # Icon Requests
 
-Want an icon? Open a [custom icon request](https://github.com/elax46/custom-brand-icons/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) or [contribute to the project](#developer-workflow).
--  Provide a **svg file and jpg logo of your request (we also are not mind readers and dont know every icon globaly so if no name is present please add it or it will be ignored** and a image along with your request.
--  links to SVG's or Images will be ignored, you must upload the files into your request and they must be visible in post. `IGNORING THIS SIMPLE REQUEST WILL RESULT IN YOUR REQUEST BEING IGNORED AND CLOSED`  (if you can not be bothered to spend a few minutes doing this, why should we spend time looking for it and making it).
--  For those who [made their own icons](#developer-workflow), open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
+Want an icon? [contribute to the project](#developer-workflow).
 
 ### Make sure to [install](#installation-methods) `custom-brand-icons.js` into `configuration.yaml` or `ui-lovelace.yaml`
 
@@ -59,12 +42,12 @@ To view all available icons, you can go to the following address. The icon viewe
 
 # Installation Methods
 
-#### HACS
+#### Marketplace
 
-We recommend installing Custom brand icons card via [Home Assistant Community Store](https://hacs.xyz)
+We recommend installing Custom brand icons card via [Marketplace](https://hacs.xyz)
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=elax46&repository=custom-brand-icons&category=frontend)
 
-After installing through HACS:
+After installing through Marketplace:
 1. Add the following lines to your `configuration.yaml`
 
     ```yaml
@@ -142,28 +125,12 @@ type: entities
 
 # Don't see the icon?
 
-### Cache issue HomeAssistant 2024.1.1
-
-Some addons (including official) have had some [cache issues since 2024.1.1]([https://](https://github.com/elax46/custom-brand-icons/issues/560)), here are a few work arounds to try
-
-1. first go to settings, dashboard and 3 dots click resorces, add resource
-
-    ```yaml
-    /hacsfiles/custom-brand-icons/custom-brand-icons.js?hacstag=366862031202420
-    ```
-
-2. Add this second resource too
-    ```yaml
-    /local/community/custom-brand-icons/custom-brand-icons.js
-    ```
-
-
 #### Hard Reload (browser cache issue)
 - Reload browser by holding CTRL and pressing F5.
 - For Mac, hold ⌘ CMD and ⇧ SHIFT, then press R.
 
 #### Redownload Integration
-1. From left sidebar, select on *HACS*.
+1. From settings, select on *Marketplace*.
 2. Select on *Integrations*.
 3. From the top header bar (Integrations, Frontend), select *Frontend*.
 4. Search *custom-brand-icons* on the search bar.
@@ -197,7 +164,7 @@ Some addons (including official) have had some [cache issues since 2024.1.1]([ht
 
 - To make an icon in svg format you can use different programs starting from illustrator, inkview, or [Inkscape](https://inkscape.org/).
 - Verify `svg` icons are set properly by using text editor of your choice ([Notepad++](https://notepad-plus-plus.org/), Notepad, or Visual Studio Code).
-- Rules on Icon size and contraints are ([HERE](https://github.com/elax46/custom-brand-icons/discussions/1021), 
+- Rules on Icon size and contraints are ([HERE])(https://github.com/elax46/custom-brand-icons/discussions/1021), 
 - The `svg` code must contain **viewbox**. No transform, translate, or scale.
 - Make sure to add color: **#44739e**. Every custom brand icon uses this color.
 - all icons must have a nomenclature NOT in camelcase but of the type `part1name-part2name`
@@ -225,6 +192,11 @@ Example svg file below:
     \>
   </svg>
 ```
+
+### How to integrate icons?
+
+- You can open a [PR](#contributions-and-pull-requests) towards the dev branch
+- Using the template [issue](https://github.com/elax46/custom-brand-icons/issues/new?template=icon_request.yml)
 
 
 ###  ( optional ) if you want to generate the icon package locally
