@@ -22,8 +22,6 @@
 
 Want an icon? [contribute to the project](#developer-workflow).
 
-### Make sure to [install](#installation-methods) `custom-brand-icons.js` into `configuration.yaml` or `ui-lovelace.yaml`
-
 ![2FA](https://res.cloudinary.com/dcongin7u/image/upload/v1620853194/example_pwvozi.jpg)
 
 ## Iconify
