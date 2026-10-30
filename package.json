@@ -10,9 +10,11 @@
     "svgo": "^4.1.0"
   },
   "scripts": {
+    "build": "node custom-icons-builder.cjs",
     "normalize": "node script/normalize-icons.mjs",
     "clean": "node script/normalize-icons.mjs --clean",
     "vrt": "node script/normalize-icons.mjs --vrt",
-    "clean:vrt": "node script/normalize-icons.mjs --clean --vrt"
+    "clean:vrt": "node script/normalize-icons.mjs --clean --vrt",
+    "verify-dist": "node script/verify-dist.mjs"
   }
 }

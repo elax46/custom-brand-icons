@@ -1,7 +1,7 @@
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/elax46/custom-brand-icons?style=for-the-badge)](https://github.com/elax46/custom-brand-icons/releases/latest)
 [![GitHub Downloads](https://img.shields.io/github/downloads/elax46/custom-brand-icons/total?style=for-the-badge)](https://github.com/elax46/custom-brand-icons/releases)
 [![MIT License][mit-shield]][mit-license]
-![GitHub file size in bytes](https://img.shields.io/github/size/elax46/custom-brand-icons/dist/custom-brand-icons.js?label=plugin%20size&style=for-the-badge)
+![GitHub file size in bytes](https://img.shields.io/github/size/elax46/custom-brand-icons/dist/custom-brand-icons.js?label=entry%20size&style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/elax46/custom-brand-icons?style=for-the-badge)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?style=for-the-badge&logo=buymeacoffee&logoColor=white)](https://www.buymeacoffee.com/elax46)
 
