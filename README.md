@@ -1,7 +1,7 @@
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/elax46/custom-brand-icons?style=for-the-badge)](https://github.com/elax46/custom-brand-icons/releases/latest)
 [![GitHub Downloads](https://img.shields.io/github/downloads/elax46/custom-brand-icons/total?style=for-the-badge)](https://github.com/elax46/custom-brand-icons/releases)
 [![MIT License][mit-shield]][mit-license]
-![GitHub file size in bytes](https://img.shields.io/github/size/elax46/custom-brand-icons/dist/custom-brand-icons.js?label=plugin%20size&style=for-the-badge)
+![GitHub file size in bytes](https://img.shields.io/github/size/elax46/custom-brand-icons/dist/custom-brand-icons.js?label=entry%20size&style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/elax46/custom-brand-icons?style=for-the-badge)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?style=for-the-badge&logo=buymeacoffee&logoColor=white)](https://www.buymeacoffee.com/elax46)
 
@@ -17,29 +17,10 @@
 - Example: `phu:eggs` <img src="/icon-svg/eggs.svg" title="Preview" alt="Preview" width="24"/>
 - Example: `phu:chicken` <img src="/icon-svg/chicken.svg" title="Preview" alt="Preview" width="24"/>
 
----
-
-### 🇮🇹 Special Note for Italian Users
-Are you monitoring your energy costs in Home Assistant? Check out my latest project: [**Card Bolletta**](https://github.com/elax46/card-bolletta).
-
-It’s a custom card specifically designed for the Italian energy market. It helps you estimate your monthly bill in real-time, including taxes (IVA), system charges (Oneri di sistema), and excise duties (Accise).
-
-**Key features:**
-* Support for F1, F2, F3 price brackets.
-* Real-time bill estimation.
-* **New:** Ultra-compact layout for minimalist dashboards.
-* Detailed cost breakdown (Energy vs. Transport vs. Taxes).
-
-Give it a try and let me know what you think! ⭐
 
 # Icon Requests
 
-Want an icon? Open a [custom icon request](https://github.com/elax46/custom-brand-icons/issues/new?assignees=elax46&labels=icon-request&template=insertion-of-new-icons.md&title=Custom+Icon+request) or [contribute to the project](#developer-workflow).
--  Provide a **svg file and jpg logo of your request (we also are not mind readers and dont know every icon globaly so if no name is present please add it or it will be ignored** and a image along with your request.
--  links to SVG's or Images will be ignored, you must upload the files into your request and they must be visible in post. `IGNORING THIS SIMPLE REQUEST WILL RESULT IN YOUR REQUEST BEING IGNORED AND CLOSED`  (if you can not be bothered to spend a few minutes doing this, why should we spend time looking for it and making it).
--  For those who [made their own icons](#developer-workflow), open pull requests on the **[dev branch](https://github.com/elax46/custom-brand-icons/pulls)**.
-
-### Make sure to [install](#installation-methods) `custom-brand-icons.js` into `configuration.yaml` or `ui-lovelace.yaml`
+Want an icon? [contribute to the project](#developer-workflow).
 
 ![2FA](https://res.cloudinary.com/dcongin7u/image/upload/v1620853194/example_pwvozi.jpg)
 
@@ -59,12 +40,12 @@ To view all available icons, you can go to the following address. The icon viewe
 
 # Installation Methods
 
-#### HACS
+#### Marketplace
 
-We recommend installing Custom brand icons card via [Home Assistant Community Store](https://hacs.xyz)
+We recommend installing Custom brand icons card via [Marketplace](https://hacs.xyz)
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=elax46&repository=custom-brand-icons&category=frontend)
 
-After installing through HACS:
+After installing through Marketplace:
 1. Add the following lines to your `configuration.yaml`
 
     ```yaml
@@ -85,15 +66,20 @@ After installing through HACS:
 
 To add custom repositories please follow [this guide](https://hacs.xyz/docs/faq/custom_repositories/). Set URL to `` and category to `Lovelace`.
 
-1. Download `custom-brand-icons.js` file from the [latest release](/releases/latest).
-2. Copy the `custom-brand-icons.js` file into `<config>/www/` the directory where your `configuration.yaml` resides.
+> [!IMPORTANT]
+> The pack is now split across several files. If you are upgrading a manual
+> installation, replacing only `custom-brand-icons.js` will leave you with no
+> icons at all — download the chunks too.
+
+1. Download **all** the files attached to the [latest release](/releases/latest) — `custom-brand-icons.js` plus every `cbi-*.js` chunk.
+2. Copy them **all into the same directory**, `<config>/www/custom-brand-icons/`, creating it if needed. The entry file loads the chunks from alongside itself, so they must stay together.
 
 3. Add the following to the `frontend` section of your `configuration.yaml`
 
     ```yaml
     frontend:
       extra_module_url:
-        - /local/custom-brand-icons.js
+        - /local/custom-brand-icons/custom-brand-icons.js
     ```
 
 4. (Optional) YAML mode users. Add the following to your lovelace configuration using the Raw Config editor under Configure UI or ui-lovelace.yaml.
@@ -101,7 +87,7 @@ To add custom repositories please follow [this guide](https://hacs.xyz/docs/faq/
     ```yaml
     resources:
       - type: js
-        url: /local/custom-brand-icons.js
+        url: /local/custom-brand-icons/custom-brand-icons.js
     ```
 
 5. Restart Home Assistant.
@@ -137,28 +123,12 @@ type: entities
 
 # Don't see the icon?
 
-### Cache issue HomeAssistant 2024.1.1
-
-Some addons (including official) have had some [cache issues since 2024.1.1]([https://](https://github.com/elax46/custom-brand-icons/issues/560)), here are a few work arounds to try
-
-1. first go to settings, dashboard and 3 dots click resorces, add resource
-
-    ```yaml
-    /hacsfiles/custom-brand-icons/custom-brand-icons.js?hacstag=366862031202420
-    ```
-
-2. Add this second resource too
-    ```yaml
-    /local/community/custom-brand-icons/custom-brand-icons.js
-    ```
-
-
 #### Hard Reload (browser cache issue)
 - Reload browser by holding CTRL and pressing F5.
 - For Mac, hold ⌘ CMD and ⇧ SHIFT, then press R.
 
 #### Redownload Integration
-1. From left sidebar, select on *HACS*.
+1. From settings, select on *Marketplace*.
 2. Select on *Integrations*.
 3. From the top header bar (Integrations, Frontend), select *Frontend*.
 4. Search *custom-brand-icons* on the search bar.
@@ -192,7 +162,7 @@ Some addons (including official) have had some [cache issues since 2024.1.1]([ht
 
 - To make an icon in svg format you can use different programs starting from illustrator, inkview, or [Inkscape](https://inkscape.org/).
 - Verify `svg` icons are set properly by using text editor of your choice ([Notepad++](https://notepad-plus-plus.org/), Notepad, or Visual Studio Code).
-- Rules on Icon size and contraints are ([HERE](https://github.com/elax46/custom-brand-icons/discussions/1021), 
+- Rules on Icon size and contraints are [HERE](https://github.com/elax46/custom-brand-icons/discussions/1021)
 - The `svg` code must contain **viewbox**. No transform, translate, or scale.
 - Make sure to add color: **#44739e**. Every custom brand icon uses this color.
 - all icons must have a nomenclature NOT in camelcase but of the type `part1name-part2name`
@@ -221,6 +191,11 @@ Example svg file below:
   </svg>
 ```
 
+### How to integrate icons?
+
+- You can open a [PR](#contributions-and-pull-requests) towards the dev branch
+- Using the template [issue](https://github.com/elax46/custom-brand-icons/issues/new?template=icon_request.yml)
+
 
 ###  ( optional ) if you want to generate the icon package locally
 
@@ -233,9 +208,17 @@ If everything went well you will see a message like this
 
 ```js
 ✅ Build completed
-📁 Generated file: dist/custom-brand-icons.js
+📁 Generated: dist/custom-brand-icons.js + XX chunks
 🔢 Total icons: XXXX
+📦 Chunks: XX (budget XXX.X KB each)
+📐 Chunk size: min XX.X KB · median XXX.X KB · max XXX.X KB
+🪶 Entry size: XX.X KB
+🧱 Chunk total: X.XX MB
 ```
+
+The icon data lives in the `cbi-*.js` chunks, which the entry loads on demand: a page fetches only the chunks holding the icons it renders, so a dashboard using a handful of icons downloads a fraction of the set, while one using hundreds ends up fetching most of it. Keep the whole `dist/` directory together.
+
+The [icon finder](https://elax46.github.io/custom-brand-icons/) page loads the pack as a classic script and reads the whole icon set synchronously, which the chunked entry cannot provide. `script/build-finder-bundle.mjs` reassembles the old single-file form out of the chunks in `dist/`, so the finder serves exactly the icon data the release ships; CI runs it when publishing that page, and the result is never a release asset.
 
 (Optional) In case you want to create your own prefix you can edit the last line of the `custom-brand-icons.js`
 
