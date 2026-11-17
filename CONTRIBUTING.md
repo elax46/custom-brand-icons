@@ -34,6 +34,43 @@ Example svg file below:
   </svg>
 ```
 
+### Important: SVG Paths with Transparent Cutouts
+
+When creating or editing SVG icons containing holes, transparent areas, or inner cutouts, please follow these guidelines to ensure that icons render correctly after the repository's optimization and normalization processes.
+
+#### 1. Avoid relying exclusively on `fill-rule="evenodd"`
+
+Some SVG optimization or normalization processes may remove, modify, or fail to preserve the `fill-rule="evenodd"` attribute. This can cause transparent areas inside an icon to become filled, changing its original appearance.
+
+#### 2. Use opposite path directions for transparent cutouts
+
+When an icon contains multiple subpaths within a single `<path>` element, make sure that the subpath representing the transparent cutout has the opposite direction (winding direction) from the surrounding filled shape.
+
+This allows the transparent area to be correctly represented using the default `fill-rule="nonzero"`, without relying on `fill-rule="evenodd"`.
+
+#### 3. Use the correct Inkscape operations
+
+When working with multiple shapes in Inkscape, pay attention to the difference between these operations:
+
+- **Path → Combine:** Combines multiple paths into a single `<path>` element while preserving their individual subpaths. Use this when you need to keep separate inner and outer contours.
+- **Path → Union:** Merges shapes into a single geometric object. This can remove internal boundaries and cause areas intended to remain transparent to become filled.
+
+If necessary, use the following procedure:
+
+1. Select the combined path and choose **Path → Break Apart** to separate the individual subpaths.
+2. Select the subpath representing the transparent cutout.
+3. Choose **Path → Reverse** to reverse its direction.
+4. Select all the shapes again.
+5. Choose **Path → Combine** to combine them into a single path.
+
+#### 4. Verify the final SVG after optimization
+
+Always check that your icon renders correctly after the complete repository processing pipeline, not just in Inkscape or your browser.
+
+In particular, verify that all transparent cutouts remain visible after SVG optimization and normalization.
+
+**Recommended practice:** Before submitting an icon containing holes or transparent inner areas, ensure that it renders correctly without relying on `fill-rule="evenodd"` and that transparency is preserved after the repository's complete processing pipeline.
+
 
 ###  ( optional ) if you want to generate the icon package locally
 
